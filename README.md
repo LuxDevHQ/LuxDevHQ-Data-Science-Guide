@@ -1,4 +1,4 @@
-### **LUX DEV HQ AI & Data Science Course Outline**
+### **LUXDEVHQ AI & Data Science Course Outline**
 
 **Mode of Delivery:**  Physical and Online (Live Sessions & Hands-on Projects)
 
