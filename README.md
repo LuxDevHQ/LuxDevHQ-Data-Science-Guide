@@ -82,90 +82,282 @@
 
 ---
 
-## **Weeks 5-10: Machine Learning Foundations**
 
-### **Week 5: Introduction to Machine Learning**
-- Understanding Supervised, Unsupervised, and Reinforcement Learning.
-- Setting Up the ML Environment (Python, Jupyter, Libraries).
-- Feature Engineering & Data Preprocessing Basics.
-- Mini-Project: Data Preparation for ML.
 
-### **Week 6: Data Preprocessing & Feature Engineering**
-- Handling Missing Data & Outliers.
-- Feature Scaling: Normalization & Standardization.
-- Feature Encoding: One-Hot & Label Encoding.
-- Train-Test Split & Cross-Validation.
-- Hands-on Project: Preparing Data for ML Models.
-
-### **Week 7: Supervised Learning – Regression**
-- Linear & Multiple Regression.
-- Polynomial & Ridge Regression.
-- Model Performance Metrics: MSE, R-Squared.
-- Hands-on Project: House Price Prediction.
-
-### **Week 8: Supervised Learning – Classification**
-- Logistic Regression, Decision Trees & Random Forest.
-- Support Vector Machines (SVM).
-- Performance Metrics: Confusion Matrix, Precision, Recall, F1 Score.
-- Hands-on Project: Spam Email Detection.
-
-### **Week 9: Unsupervised Learning – Clustering & Dimensionality Reduction**
-- K-Means & Hierarchical Clustering.
-- Principal Component Analysis (PCA).
-- Anomaly Detection Techniques.
-- Hands-on Project: Customer Segmentation.
-
-### **Week 10: Deep Learning & Neural Networks**
-- Introduction to Neural Networks & Perceptron Model.
-- Deep Learning vs Traditional ML.
-- Activation Functions & Backpropagation.
-- Introduction to TensorFlow & Keras.
-- Hands-on Project: Handwritten Digit Recognition.
+# 3-Week Machine Learning & Deep Learning Course Plan
 
 ---
 
-## **Weeks 11-12: Large Language Models (LLMs) & Advanced NLP**
-
-### **Week 11: Natural Language Processing (NLP)**
-- Text Preprocessing: Tokenization, Lemmatization, Stopword Removal.
-- Sentiment Analysis with NLP.
-- Hands-on Project: Sentiment Analysis of Social Media Data.
-
-### **Week 12: Large Language Models (LLMs) & Advanced NLP**
-- Introduction to Large Language Models: GPT, BERT, T5.
-- Fine-Tuning LLMs for Custom Applications.
-- Transformer-Based Models.
-- Hands-on Project: Building a Chatbot with LLMs.
+## Week 1: Supervised Learning
 
 ---
 
-## **Weeks 13-16: Advanced AI & Model Deployment**
-
-### **Week 13: AI for Decision Making & Responsible AI**
-- Explainable AI (XAI): SHAP & LIME.
-- Bias & Fairness in AI.
-- AI Security: Adversarial Attacks & Model Robustness.
-- AI in Business: AI Product Development & AI Startups.
-- Case Studies of AI Applications.
-- Hands-on Project: Responsible AI Implementation.
-
-### **Week 14: Model Deployment & AI in Production**
-- Saving & Exporting ML Models.
-- Deploying Models using Flask & FastAPI.
-- Cloud ML Deployment (AWS Sagemaker, Google Vertex AI).
-- Scaling AI Applications with Docker & Kubernetes.
-- Edge AI: Running AI Models on Edge Devices.
-- Hands-on Project: Deploying an AI Model.
-
-### **Week 15: Generative AI & Advanced AI Topics**
-- Diffusion Models: Understanding Stable Diffusion, DALL·E.
-- Reinforcement Learning (RL): Using OpenAI Gym.
-- Multimodal AI: Combining NLP, Vision, and Tabular Data.
-- Hands-on Project: AI for Creative Applications (e.g., Image Generation, AI Music).
-
-### **Week 16: AI in the Future & Capstone Project**
-- Trends in AI & Future Developments.
-- AI for Social Good: Climate Change, Healthcare, Disaster Response.
-- Final Capstone Project: Build an End-to-End AI Application.
+### Day 1: Introduction to Machine Learning & Supervised Learning
+**Topic:** What is Machine Learning? Overview of Supervised Learning  
+**Summary:**
+- Introduction to ML and real-world applications
+- Types of ML: Supervised vs. Unsupervised vs. Reinforcement
+- Concept of datasets: features, labels, training vs. testing data
+- Supervised learning definition and flow
+- Use cases of classification and regression
 
 ---
+
+### Day 2: Regression Algorithms
+**Topic:** Linear Regression, Ridge, Lasso  
+**Summary:**
+- Understanding continuous outputs
+- Linear regression: line of best fit, cost function, gradient descent
+- Ridge regression
+- Lasso regression
+- Evaluation metrics: MSE, RMSE, R² score
+- Hands-on example (e.g., predicting house prices)
+
+---
+
+### Day 3: Classification Algorithms
+**Topic:** Logistic Regression, K-Nearest Neighbors (KNN)  
+**Summary:**
+- Understanding classification problems
+- Logistic regression intuition and sigmoid function
+- Decision boundaries
+- KNN: how it works, choosing K
+- Evaluation: accuracy, confusion matrix, precision, recall, F1 score
+
+---
+
+###  Day 4: Decision Trees and Ensemble Models
+**Topic:** Decision Trees, Random Forests, Gradient Boosting  
+**Summary:**
+- Decision Trees: how they split data, overfitting
+- Random Forest: ensemble of trees, bagging
+- Gradient Boosting & XGBoost: boosting techniques
+- Bias-variance tradeoff
+
+---
+
+## Week 2: Unsupervised Learning + Model Evaluation
+
+---
+
+### Day 1: Clustering
+**Topic:** K-Means and Hierarchical Clustering  
+**Summary:**
+- What is clustering? Applications
+- K-means: centroids, choosing K, inertia
+- Elbow method for optimal clusters
+- Hierarchical clustering: dendrograms
+- Hands-on with customer segmentation
+
+---
+
+### Day 2: Dimensionality Reduction
+**Topic:** PCA and t-SNE  
+**Summary:**
+- Curse of dimensionality
+- Principal Component Analysis (PCA): reducing dimensions while preserving variance
+- t-SNE for visualizing high-dimensional data
+- Use cases: visualization and speed-up training
+
+---
+
+### Day 3: Model Evaluation & Validation Techniques
+**Topic:** Cross-validation and Performance Metrics  
+**Summary:**
+- Why train/test split isn’t enough
+- K-fold cross-validation
+- Evaluation metrics recap (for both classification and regression)
+- ROC, AUC, Precision-Recall curves
+- Avoiding overfitting/underfitting
+
+---
+
+### Day 4: Feature Engineering & Data Preprocessing
+**Topic:** Cleaning, Encoding, Scaling, Feature Selection  
+**Summary:**
+- Handling missing data
+- Encoding categorical variables (Label Encoding, One-Hot)
+- Feature scaling (Normalization, Standardization)
+- Feature selection techniques (correlation, chi-square, recursive elimination)
+
+---
+
+## Week 3: Hyperparameter Tuning + Real-World Applications
+
+---
+
+### Day 1: Hyperparameter Tuning
+**Topic:** Grid Search, Random Search, and Bayes Optimization  
+**Summary:**
+- Difference between parameters and hyperparameters
+- Grid Search and Randomized Search using sklearn
+- Bayesian optimization with optuna or hyperopt
+- Hands-on with hyperparameter tuning in Random Forest / XGBoost
+
+---
+
+### Day 2: Model Pipelines and Deployment Basics
+**Topic:** Building End-to-End Pipelines  
+**Summary:**
+- Using Pipeline and ColumnTransformer from sklearn
+- Combining preprocessing and model steps
+- Saving/loading models with joblib or pickle
+- Introduction to deployment (streamlit / flask APIs)
+
+---
+
+### Day 3: Capstone Project Work Session
+**Topic:** Work on Individual or Group ML Projects  
+**Summary:**
+- Students select a dataset
+- Apply full ML pipeline: EDA, preprocessing, modeling, evaluation
+- Option to use classification or regression
+- Instructor guides students through challenges
+
+---
+
+### Day 4: Capstone Project Presentations + Review
+**Topic:** Final Presentations and Course Recap  
+**Summary:**
+- Each student/team presents their project
+- Q&A and peer feedback
+- Recap of everything covered
+- Tips for further learning: books, courses, Kaggle, real-world practice
+
+---
+
+#  Week 1: Foundations of Deep Learning & ANN Basics
+
+---
+
+### Day 1: Introduction to Deep Learning
+**Topic:** What is Deep Learning? Understanding Neural Networks  
+**Summary:**
+- Difference between machine learning and deep learning
+- Structure of a biological vs. artificial neuron
+- Anatomy of a neural network (layers, nodes, weights, biases)
+- Activation functions (ReLU, sigmoid, tanh)
+- Forward pass intuition
+
+---
+
+### Day 2: Building a Neural Network from Scratch
+**Topic:** Feedforward Neural Networks  
+**Summary:**
+- Forward propagation in multi-layer networks
+- Loss functions (MSE, Cross-Entropy)
+- Backpropagation and gradient descent (basic idea, not full math)
+- Training loop overview
+- Implementing a simple NN
+
+---
+
+### Day 3: Deep Learning with TensorFlow/Keras
+**Topic:** Implementing Neural Networks with Keras  
+**Summary:**
+- Introduction to TensorFlow and Keras
+- Building a neural network model using Keras
+- Compiling and fitting a model
+- Understanding epochs, batch size, learning rate
+- Evaluating models and making predictions
+
+---
+
+### Day 4: Improving Model Performance
+**Topic:** Regularization and Optimization  
+**Summary:**
+- Overfitting and underfitting in deep networks
+- Regularization techniques: Dropout, L1/L2 penalties
+- Optimizers: SGD, Adam, RMSprop
+- Hands-on: tuning models using callbacks, early stopping, etc.
+
+---
+
+## Week 2: Deep Diving into ANNs
+
+---
+
+### Day 1: Model Design – MLPs, Sequential vs Functional API
+**Topic:** Multi-layer Perceptrons (MLPs) and Keras APIs  
+**Summary:**
+- MLP architecture and the role of depth in networks
+- Using Sequential API for simple stack-like models
+- Using Functional API for complex models (multiple inputs/outputs, shared layers, skip connections)
+- Hands-on: Building models with both APIs for the same task
+- Comparison of readability, flexibility, and real-world use cases
+
+---
+
+### Day 2: Handling Different Data Types
+**Topic:** Image, Tabular, and Text Data with ANNs  
+**Summary:**
+- Preprocessing images for ANN (flattening, normalization)
+- Handling categorical and numerical tabular data
+- Introduction to tokenizing and embedding text
+- Practical: building ANN for tabular and basic image data
+
+---
+
+### Day 3: Model Evaluation and Visualization
+**Topic:** Evaluating Deep Learning Models  
+**Summary:**
+- Accuracy, confusion matrix, precision, recall, F1 score
+- ROC curves and AUC
+- Visualizing training history: loss vs. accuracy curves
+- Model interpretability basics (Grad-CAM preview, attention maps)
+
+---
+
+### Day 4: Capstone 1 – ANN Mini Project
+**Topic:** Project using ANN on real dataset  
+**Summary:**
+- Students use datasets (e.g., MNIST, tabular UCI data, sentiment classification)
+- Build, tune, and evaluate ANN models
+- Start-to-finish pipeline implementation
+- Prepare short presentations
+
+---
+
+# Week 3: CNNs for Image Data
+
+---
+
+### Day 1: Introduction to CNNs
+**Topic:** Convolutional Neural Networks Basics  
+**Summary:**
+- Limitations of ANNs with image data
+- Convolutions, filters/kernels, stride, padding
+- Max pooling and feature maps
+- Architecture overview of CNNs (Conv → Pool → FC)
+- CNN vs ANN in performance and structure
+
+---
+
+### Day 2: Building CNNs in Keras
+**Topic:** Hands-on with CNN for Image Classification  
+**Summary:**
+- Creating CNN layers with Conv2D, MaxPooling2D, Flatten, Dense
+- Training a CNN on MNIST or CIFAR-10
+- Data augmentation with ImageDataGenerator
+- Improving accuracy using dropout and regularization
+
+---
+
+### Day 3: Transfer Learning
+**Topic:** Pre-trained Models (VGG, ResNet, MobileNet)  
+**Summary:**
+- What is transfer learning and why it's useful
+- Feature extraction vs. fine-tuning
+- Loading pre-trained models with Keras
+- Customizing top layers for new tasks
+- Hands-on: image classification with MobileNetV2 or VGG16
+
+---
+
+###  Day 4: Capstone 2 – CNN Project + Course Wrap-up
+**Topic:** Final Project + Deep Learning Recap  
+**Summary:**
+- Students implement an image classifier using CNN or transfer learning
+- Full pipeline: preprocessing, training, evaluation
+- Project presentations and peer feedback
+- Recap of ANN vs CNN, deployment tips, future learning paths (e.g., RNNs, Transformers)
