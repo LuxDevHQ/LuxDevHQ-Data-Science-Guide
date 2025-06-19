@@ -1,87 +1,249 @@
-### **LUXDEVHQ AI & Data Science Course Outline**
+# Data Science and Analytics Curriculum (Excel, Power BI, SQL, Python)
+ 
 
 **Mode of Delivery:**  Physical and Online (Live Sessions & Hands-on Projects)
 
 ---
-
-## **Weeks 1-2: Data Analytics & Python Fundamentals**
-
-### **Week 1: Introduction to Data Analytics & Python Basics**
-
-#### **Introduction to Data Analytics**
-- Understanding Data Analytics: Descriptive, Diagnostic, Predictive, and Prescriptive Analytics.
-- Structured vs. Unstructured Data.
-- Overview of Data Analytics Tools (Python, SQL, Power BI).
-
-#### **Python Basics**
-- Variables, Data Types, and Operators.
-- Control Structures (Loops and Conditional Statements).
-- Functions and Modules.
-- Lists, Tuples, Dictionaries, and Sets.
-- File Handling and Exception Handling.
-
-#### **Development Environment**
-- Introduction to Jupyter Notebook & Google Colab.
-
-#### **Hands-on Mini-Project:**
-- Simple Data Analysis with Python.
-
+ 
+## Week 1: Microsoft Excel for Data Analysis
+ 
+### **Day 1: Excel Basics & Navigation**
+- What is Excel and why it's important
+- Excel interface: ribbons, sheets, cells, rows, columns
+- Data types: text, numbers, dates
+- Entering and editing data
+- Basic formatting: font, color, alignment, number formatting
+- Saving and organizing files
+- Keyboard shortcuts
+ 
+### **Day 2: Working with Formulas and Functions**
+- Cell references: relative, absolute, mixed
+- Arithmetic operations: +, -, *, /
+- Basic functions:
+  - SUM(), AVERAGE(), MIN(), MAX(), COUNT(), COUNTA()
+- Logical functions:
+  - IF(), AND(), OR(), NOT()
+- Text functions:
+  - CONCATENATE(), LEFT(), RIGHT(), LEN(), TRIM(), UPPER(), LOWER(), PROPER()
+- Date & Time functions:
+  - TODAY(), NOW(), DATEDIF(), YEAR(), MONTH(), DAY()
+ 
+### **Day 3: Data Cleaning & Sorting/Filtering**
+- Remove duplicates
+- Find & Replace
+- Text to Columns
+- Error checking: ISERROR(), IFERROR()
+- Sorting data (A-Z, Z-A, custom sort)
+- Filtering data (AutoFilter, Custom Filter)
+- Freeze panes, hide/unhide rows/columns
+ 
+### **Day 4: Data Analysis with Pivot Tables, Charts, and Dashboards**
+- Introduction to PivotTables
+  - Creating PivotTables
+  - Rows, Columns, Values, Filters
+  - Summarize by count, average, percentage
+- PivotCharts
+  - Column, Bar, Line, Pie Charts
+- Slicers for interactive filtering
+- Dashboard creation
+  - Combining PivotTables, Charts, and Slicers
+  - Best practices for layout and design
+ 
 ---
-
-### **Week 2: Data Manipulation & Visualization**
-
-#### **Data Manipulation**
-- Data Cleaning & Transformation with Pandas.
-- Numerical Computation with NumPy.
-
-#### **Data Visualization**
-- Introduction to Matplotlib & Seaborn.
-- Creating Different Types of Graphs (Line, Bar, Scatter, Histogram, etc.).
-
-#### **Exploratory Data Analysis (EDA)**
-- Identifying Patterns & Outliers in Data.
-- Summary Statistics & Data Distribution.
-
-#### **Hands-on Mini-Project:**
-- Analyzing Real-World Datasets.
-
+ 
+## Week 2: Power BI for Data Visualization
 ---
-
-## **Weeks 3-4: SQL & Statistics for Data Science**
-
-### **Week 3: Statistics for Machine Learning**
-
-#### **Descriptive Statistics**
-- Mean, Median, Mode.
-- Variance and Standard Deviation.
-
-#### **Probability Distributions**
-- Normal, Binomial, and Poisson Distributions.
-
-#### **Inferential Statistics**
-- Hypothesis Testing & Confidence Intervals.
-- Correlation & Covariance.
-
-#### **Hands-on Mini-Project:**
-- Data Insights with Statistics.
-
+ 
+## **Day 1: Introduction to Power BI and Power Query Editor (Data Transformation)**
+ 
+### Overview & Setup
+- What is Power BI? (Comparison with Excel & Tableau)
+- Power BI Components: Desktop, Service, Mobile
+- Installing Power BI Desktop
+- Power BI Desktop Interface Overview
+ 
+### Getting Data
+- Importing Data from Excel, CSV, Web
+- Understanding Data Types and Field Formatting
+ 
+### Power Query Editor
+- Opening Power Query Editor
+- Removing Rows, Columns, and Duplicates
+- Changing Data Types, Renaming Columns
+- Splitting & Merging Columns
+- Using “Replace Values”
+- Applied Steps, Reordering, and Removing Steps
+ 
+### Combining Queries
+- **Merge Queries** (SQL-style joins)
+- **Append Queries** (Union of datasets)
+ 
 ---
-
-### **Week 4: SQL for Data Science**
-
-#### **SQL Basics**
-- Introduction to Databases & SQL.
-- Writing Basic SQL Queries (SELECT, WHERE, GROUP BY, ORDER BY).
-
-#### **Advanced SQL**
-- Joins & Subqueries.
-- Data Cleaning & Manipulation using SQL.
-
-#### **Hands-on Project:**
-- Working with a Large Dataset in SQL.
-
+ 
+## **Day 2: DAX Basics – Measures, Calculated Columns & Aggregations**
+ 
+### Introduction to DAX
+- What is DAX (Data Analysis Expressions)?
+- Syntax Rules: =, (), [], Table & Column references
+ 
+### Calculated Columns vs Measures
+- When to use each
+- Creating new fields using Calculated Columns
+- Building Measures for aggregations
+ 
+### Common DAX Functions
+- **Aggregation**: SUM(), AVERAGE(), COUNT(), COUNTROWS(), DISTINCTCOUNT()
+- **Logical**: IF(), SWITCH(), AND(), OR()
+- **Date**: TODAY(), NOW(), YEAR(), MONTH(), DATEDIFF()
+- **Text**: CONCATENATE(), LEFT(), RIGHT(), LEN()
+ 
+### Practical Use Cases
+- Total Revenue, Profit Margin, % Growth
+- IF(Sales > 50000, “High”, “Low”)
+- Number of Orders per Customer
+ 
 ---
-
+ 
+## **Day 3: Data Modeling, Relationships & Joins**
+ 
+### Data Modeling Concepts
+- What is a Data Model?
+- Star Schema vs Snowflake Schema
+- Importance of Fact and Dimension tables
+ 
+### Relationships in Power BI
+- One-to-Many and Many-to-One relationships
+- Creating & Managing Relationships in Model View
+- Active vs Inactive Relationships
+ 
+### Data Joins
+- Relationship-based vs Merge Query joins
+- Cardinality (One-to-One, One-to-Many)
+- Cross filter direction
+ 
+### Modeling Best Practices
+- Hiding unnecessary columns
+- Using Lookup Tables
+- Creating Role-Playing Dimensions (e.g. Order Date vs Delivery Date)
+ 
+---
+ 
+## **Day 4: Visualizations, Charts & Dashboards**
+ 
+### Basic Visuals
+- Bar Chart, Column Chart, Line Chart
+- Pie & Donut Charts
+- Card, KPI
+- Table & Matrix
+ 
+### Advanced Visuals
+- Tree Map, Funnel, Gauge
+- Maps: Filled Map, Shape Map, ArcGIS Map
+- Custom Visuals (via AppSource)
+ 
+### Interactivity
+- Visual-Level, Page-Level, Report-Level Filters
+- Slicers (Text, Date, Dropdowns)
+- Drill-down & Drill-through
+- Tooltips, Bookmarks, Buttons
+ 
+### Dashboard Building
+- Designing a complete report page
+- Adding Titles, Backgrounds, Logos, Images
+- Aligning and Formatting Visuals
+- Creating Navigation Buttons
+ 
+### Publishing & Sharing
+- Publishing to Power BI Service
+- Sharing Reports & Dashboards
+- Setting Scheduled Refresh
+ 
+---
+ 
+ 
+## Week 3: SQL for Data Analysis
+ 
+### **Day 1   Introduction to SQL, Table creation and manipulation and SQL KEY words  **
+- What is SQL, relational databases, and DBMS
+- CREATE, DROP, ALTER TABLE
+- INSERT, UPDATE, DELETE data
+- SELECT and FROM
+- ORDER BY ASC/DESC
+- LIMIT and OFFSET
+- GROUP BY and HAVING
+ 
+### **Day 2  Aggregations and operators**
+- Comparison Operators : =, <>, >, <, BETWEEN, IN, LIKE
+- Aggregates: COUNT(), SUM(), AVG(), MIN(), MAX()
+- String Functions: CONCAT(), LENGTH(), SUBSTRING(), UPPER(), LOWER(), REPLACE()
+- Date Functions: NOW(), CURRENT_DATE, EXTRACT(), AGE()
+- Math Functions: ROUND(), CEIL(), FLOOR(), MOD(), POWER(), ABS()
+- Window functions:
+  - ROW_NUMBER(), RANK(), DENSE_RANK()
+  - SUM(), AVG() OVER(PARTITION BY...)
+  - LEAD(), LAG()
+- CASE WHEN THEN ELSE END
+ 
+### **Day 3: SQL Joins and Relationships**
+- Primary and foreign keys
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN
+- CROSS JOIN
+- Self Join and aliasing
+- Combining joins with aggregations and filters
+- Practice: build reports using joins from multiple tables
+ 
+ 
+### **Day 4: Advanced SQL (CTEs, Subqueries, Stored Procedures)**
+- Subqueries: scalar, correlated, IN/EXISTS
+- Common Table Expressions (CTEs)
+- Stored Procedures and parameters (Intro)
+ 
+ 
+---
+ 
+##  Week 4: Python for Data Analysis
+ 
+### **Day 1: Python Basics**
+- What is Python and its use in data
+- Setting up Python (Jupyter, Colab, VSCode)
+- Variables and data types (int, float, string, bool)
+- Lists, Tuples, Dictionaries, Sets
+- Operators and expressions
+- Conditional statements: if, elif, else
+- Loops: for, while
+- Functions and basic I/O
+ 
+### **Day 2: Working with Data using Pandas**
+- Importing data: CSV, Excel
+- DataFrames and Series
+- Inspecting data: head(), tail(), info(), describe()
+- Indexing and selection: loc[], iloc[], slicing
+- Filtering data
+- Sorting, renaming columns
+- Adding, deleting columns
+ 
+### **Day 3: Data Cleaning and Analysis**
+- Handling missing data: isnull(), fillna(), dropna()
+- Duplicates: duplicated(), drop_duplicates()
+- Changing data types
+- GroupBy and Aggregations
+- Merging and joining DataFrames
+- Pivot tables with pandas
+- Basic visualizations: matplotlib, seaborn
+ 
+### **Day 4: Projects and Automation with Python**
+- Real-world mini project (sales data, HR data, etc.)
+- Creating summary reports
+- Exporting cleaned data to Excel/CSV
+- Automating tasks with loops and functions
+- Intro to working with APIs
+- Final recap and practice challenges
+ 
+---
+ 
 
 
 # 3-Week Machine Learning & Deep Learning Course Plan
