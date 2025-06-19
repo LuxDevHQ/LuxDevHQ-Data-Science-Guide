@@ -1,171 +1,525 @@
-### **LUXDEVHQ AI & Data Science Course Outline**
+# Data Science and Analytics Curriculum (Excel, Power BI, SQL, Python)
+ 
 
 **Mode of Delivery:**  Physical and Online (Live Sessions & Hands-on Projects)
 
 ---
+ 
+## Week 1: Microsoft Excel for Data Analysis
+ 
+### **Day 1: Excel Basics & Navigation**
+- What is Excel and why it's important
+- Excel interface: ribbons, sheets, cells, rows, columns
+- Data types: text, numbers, dates
+- Entering and editing data
+- Basic formatting: font, color, alignment, number formatting
+- Saving and organizing files
+- Keyboard shortcuts
+ 
+### **Day 2: Working with Formulas and Functions**
+- Cell references: relative, absolute, mixed
+- Arithmetic operations: +, -, *, /
+- Basic functions:
+  - SUM(), AVERAGE(), MIN(), MAX(), COUNT(), COUNTA()
+- Logical functions:
+  - IF(), AND(), OR(), NOT()
+- Text functions:
+  - CONCATENATE(), LEFT(), RIGHT(), LEN(), TRIM(), UPPER(), LOWER(), PROPER()
+- Date & Time functions:
+  - TODAY(), NOW(), DATEDIF(), YEAR(), MONTH(), DAY()
+ 
+### **Day 3: Data Cleaning & Sorting/Filtering**
+- Remove duplicates
+- Find & Replace
+- Text to Columns
+- Error checking: ISERROR(), IFERROR()
+- Sorting data (A-Z, Z-A, custom sort)
+- Filtering data (AutoFilter, Custom Filter)
+- Freeze panes, hide/unhide rows/columns
+ 
+### **Day 4: Data Analysis with Pivot Tables, Charts, and Dashboards**
+- Introduction to PivotTables
+  - Creating PivotTables
+  - Rows, Columns, Values, Filters
+  - Summarize by count, average, percentage
+- PivotCharts
+  - Column, Bar, Line, Pie Charts
+- Slicers for interactive filtering
+- Dashboard creation
+  - Combining PivotTables, Charts, and Slicers
+  - Best practices for layout and design
+ 
+---
+ 
+## Week 2: Power BI for Data Visualization
+---
+ 
+## **Day 1: Introduction to Power BI and Power Query Editor (Data Transformation)**
+ 
+### Overview & Setup
+- What is Power BI? (Comparison with Excel & Tableau)
+- Power BI Components: Desktop, Service, Mobile
+- Installing Power BI Desktop
+- Power BI Desktop Interface Overview
+ 
+### Getting Data
+- Importing Data from Excel, CSV, Web
+- Understanding Data Types and Field Formatting
+ 
+### Power Query Editor
+- Opening Power Query Editor
+- Removing Rows, Columns, and Duplicates
+- Changing Data Types, Renaming Columns
+- Splitting & Merging Columns
+- Using “Replace Values”
+- Applied Steps, Reordering, and Removing Steps
+ 
+### Combining Queries
+- **Merge Queries** (SQL-style joins)
+- **Append Queries** (Union of datasets)
+ 
+---
+ 
+## **Day 2: DAX Basics – Measures, Calculated Columns & Aggregations**
+ 
+### Introduction to DAX
+- What is DAX (Data Analysis Expressions)?
+- Syntax Rules: =, (), [], Table & Column references
+ 
+### Calculated Columns vs Measures
+- When to use each
+- Creating new fields using Calculated Columns
+- Building Measures for aggregations
+ 
+### Common DAX Functions
+- **Aggregation**: SUM(), AVERAGE(), COUNT(), COUNTROWS(), DISTINCTCOUNT()
+- **Logical**: IF(), SWITCH(), AND(), OR()
+- **Date**: TODAY(), NOW(), YEAR(), MONTH(), DATEDIFF()
+- **Text**: CONCATENATE(), LEFT(), RIGHT(), LEN()
+ 
+### Practical Use Cases
+- Total Revenue, Profit Margin, % Growth
+- IF(Sales > 50000, “High”, “Low”)
+- Number of Orders per Customer
+ 
+---
+ 
+## **Day 3: Data Modeling, Relationships & Joins**
+ 
+### Data Modeling Concepts
+- What is a Data Model?
+- Star Schema vs Snowflake Schema
+- Importance of Fact and Dimension tables
+ 
+### Relationships in Power BI
+- One-to-Many and Many-to-One relationships
+- Creating & Managing Relationships in Model View
+- Active vs Inactive Relationships
+ 
+### Data Joins
+- Relationship-based vs Merge Query joins
+- Cardinality (One-to-One, One-to-Many)
+- Cross filter direction
+ 
+### Modeling Best Practices
+- Hiding unnecessary columns
+- Using Lookup Tables
+- Creating Role-Playing Dimensions (e.g. Order Date vs Delivery Date)
+ 
+---
+ 
+## **Day 4: Visualizations, Charts & Dashboards**
+ 
+### Basic Visuals
+- Bar Chart, Column Chart, Line Chart
+- Pie & Donut Charts
+- Card, KPI
+- Table & Matrix
+ 
+### Advanced Visuals
+- Tree Map, Funnel, Gauge
+- Maps: Filled Map, Shape Map, ArcGIS Map
+- Custom Visuals (via AppSource)
+ 
+### Interactivity
+- Visual-Level, Page-Level, Report-Level Filters
+- Slicers (Text, Date, Dropdowns)
+- Drill-down & Drill-through
+- Tooltips, Bookmarks, Buttons
+ 
+### Dashboard Building
+- Designing a complete report page
+- Adding Titles, Backgrounds, Logos, Images
+- Aligning and Formatting Visuals
+- Creating Navigation Buttons
+ 
+### Publishing & Sharing
+- Publishing to Power BI Service
+- Sharing Reports & Dashboards
+- Setting Scheduled Refresh
+ 
+---
+ 
+ 
+## Week 3: SQL for Data Analysis
+ 
+### **Day 1   Introduction to SQL, Table creation and manipulation and SQL KEY words  **
+- What is SQL, relational databases, and DBMS
+- CREATE, DROP, ALTER TABLE
+- INSERT, UPDATE, DELETE data
+- SELECT and FROM
+- ORDER BY ASC/DESC
+- LIMIT and OFFSET
+- GROUP BY and HAVING
+ 
+### **Day 2  Aggregations and operators**
+- Comparison Operators : =, <>, >, <, BETWEEN, IN, LIKE
+- Aggregates: COUNT(), SUM(), AVG(), MIN(), MAX()
+- String Functions: CONCAT(), LENGTH(), SUBSTRING(), UPPER(), LOWER(), REPLACE()
+- Date Functions: NOW(), CURRENT_DATE, EXTRACT(), AGE()
+- Math Functions: ROUND(), CEIL(), FLOOR(), MOD(), POWER(), ABS()
+- Window functions:
+  - ROW_NUMBER(), RANK(), DENSE_RANK()
+  - SUM(), AVG() OVER(PARTITION BY...)
+  - LEAD(), LAG()
+- CASE WHEN THEN ELSE END
+ 
+### **Day 3: SQL Joins and Relationships**
+- Primary and foreign keys
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN
+- CROSS JOIN
+- Self Join and aliasing
+- Combining joins with aggregations and filters
+- Practice: build reports using joins from multiple tables
+ 
+ 
+### **Day 4: Advanced SQL (CTEs, Subqueries, Stored Procedures)**
+- Subqueries: scalar, correlated, IN/EXISTS
+- Common Table Expressions (CTEs)
+- Stored Procedures and parameters (Intro)
+ 
+ 
+---
+ 
+##  Week 4: Python for Data Analysis
+ 
+### **Day 1: Python Basics**
+- What is Python and its use in data
+- Setting up Python (Jupyter, Colab, VSCode)
+- Variables and data types (int, float, string, bool)
+- Lists, Tuples, Dictionaries, Sets
+- Operators and expressions
+- Conditional statements: if, elif, else
+- Loops: for, while
+- Functions and basic I/O
+ 
+### **Day 2: Working with Data using Pandas**
+- Importing data: CSV, Excel
+- DataFrames and Series
+- Inspecting data: head(), tail(), info(), describe()
+- Indexing and selection: loc[], iloc[], slicing
+- Filtering data
+- Sorting, renaming columns
+- Adding, deleting columns
+ 
+### **Day 3: Data Cleaning and Analysis**
+- Handling missing data: isnull(), fillna(), dropna()
+- Duplicates: duplicated(), drop_duplicates()
+- Changing data types
+- GroupBy and Aggregations
+- Merging and joining DataFrames
+- Pivot tables with pandas
+- Basic visualizations: matplotlib, seaborn
+ 
+### **Day 4: Projects and Automation with Python**
+- Real-world mini project (sales data, HR data, etc.)
+- Creating summary reports
+- Exporting cleaned data to Excel/CSV
+- Automating tasks with loops and functions
+- Intro to working with APIs
+- Final recap and practice challenges
+ 
+---
+ 
 
-## **Weeks 1-2: Data Analytics & Python Fundamentals**
 
-### **Week 1: Introduction to Data Analytics & Python Basics**
-
-#### **Introduction to Data Analytics**
-- Understanding Data Analytics: Descriptive, Diagnostic, Predictive, and Prescriptive Analytics.
-- Structured vs. Unstructured Data.
-- Overview of Data Analytics Tools (Python, SQL, Power BI).
-
-#### **Python Basics**
-- Variables, Data Types, and Operators.
-- Control Structures (Loops and Conditional Statements).
-- Functions and Modules.
-- Lists, Tuples, Dictionaries, and Sets.
-- File Handling and Exception Handling.
-
-#### **Development Environment**
-- Introduction to Jupyter Notebook & Google Colab.
-
-#### **Hands-on Mini-Project:**
-- Simple Data Analysis with Python.
+# 3-Week Machine Learning & Deep Learning Course Plan
 
 ---
 
-### **Week 2: Data Manipulation & Visualization**
-
-#### **Data Manipulation**
-- Data Cleaning & Transformation with Pandas.
-- Numerical Computation with NumPy.
-
-#### **Data Visualization**
-- Introduction to Matplotlib & Seaborn.
-- Creating Different Types of Graphs (Line, Bar, Scatter, Histogram, etc.).
-
-#### **Exploratory Data Analysis (EDA)**
-- Identifying Patterns & Outliers in Data.
-- Summary Statistics & Data Distribution.
-
-#### **Hands-on Mini-Project:**
-- Analyzing Real-World Datasets.
+## Week 1: Supervised Learning
 
 ---
 
-## **Weeks 3-4: SQL & Statistics for Data Science**
-
-### **Week 3: Statistics for Machine Learning**
-
-#### **Descriptive Statistics**
-- Mean, Median, Mode.
-- Variance and Standard Deviation.
-
-#### **Probability Distributions**
-- Normal, Binomial, and Poisson Distributions.
-
-#### **Inferential Statistics**
-- Hypothesis Testing & Confidence Intervals.
-- Correlation & Covariance.
-
-#### **Hands-on Mini-Project:**
-- Data Insights with Statistics.
+### Day 1: Introduction to Machine Learning & Supervised Learning
+**Topic:** What is Machine Learning? Overview of Supervised Learning  
+**Summary:**
+- Introduction to ML and real-world applications
+- Types of ML: Supervised vs. Unsupervised vs. Reinforcement
+- Concept of datasets: features, labels, training vs. testing data
+- Supervised learning definition and flow
+- Use cases of classification and regression
 
 ---
 
-### **Week 4: SQL for Data Science**
-
-#### **SQL Basics**
-- Introduction to Databases & SQL.
-- Writing Basic SQL Queries (SELECT, WHERE, GROUP BY, ORDER BY).
-
-#### **Advanced SQL**
-- Joins & Subqueries.
-- Data Cleaning & Manipulation using SQL.
-
-#### **Hands-on Project:**
-- Working with a Large Dataset in SQL.
+### Day 2: Regression Algorithms
+**Topic:** Linear Regression, Ridge, Lasso  
+**Summary:**
+- Understanding continuous outputs
+- Linear regression: line of best fit, cost function, gradient descent
+- Ridge regression
+- Lasso regression
+- Evaluation metrics: MSE, RMSE, R² score
+- Hands-on example (e.g., predicting house prices)
 
 ---
 
-## **Weeks 5-10: Machine Learning Foundations**
-
-### **Week 5: Introduction to Machine Learning**
-- Understanding Supervised, Unsupervised, and Reinforcement Learning.
-- Setting Up the ML Environment (Python, Jupyter, Libraries).
-- Feature Engineering & Data Preprocessing Basics.
-- Mini-Project: Data Preparation for ML.
-
-### **Week 6: Data Preprocessing & Feature Engineering**
-- Handling Missing Data & Outliers.
-- Feature Scaling: Normalization & Standardization.
-- Feature Encoding: One-Hot & Label Encoding.
-- Train-Test Split & Cross-Validation.
-- Hands-on Project: Preparing Data for ML Models.
-
-### **Week 7: Supervised Learning – Regression**
-- Linear & Multiple Regression.
-- Polynomial & Ridge Regression.
-- Model Performance Metrics: MSE, R-Squared.
-- Hands-on Project: House Price Prediction.
-
-### **Week 8: Supervised Learning – Classification**
-- Logistic Regression, Decision Trees & Random Forest.
-- Support Vector Machines (SVM).
-- Performance Metrics: Confusion Matrix, Precision, Recall, F1 Score.
-- Hands-on Project: Spam Email Detection.
-
-### **Week 9: Unsupervised Learning – Clustering & Dimensionality Reduction**
-- K-Means & Hierarchical Clustering.
-- Principal Component Analysis (PCA).
-- Anomaly Detection Techniques.
-- Hands-on Project: Customer Segmentation.
-
-### **Week 10: Deep Learning & Neural Networks**
-- Introduction to Neural Networks & Perceptron Model.
-- Deep Learning vs Traditional ML.
-- Activation Functions & Backpropagation.
-- Introduction to TensorFlow & Keras.
-- Hands-on Project: Handwritten Digit Recognition.
+### Day 3: Classification Algorithms
+**Topic:** Logistic Regression, K-Nearest Neighbors (KNN)  
+**Summary:**
+- Understanding classification problems
+- Logistic regression intuition and sigmoid function
+- Decision boundaries
+- KNN: how it works, choosing K
+- Evaluation: accuracy, confusion matrix, precision, recall, F1 score
 
 ---
 
-## **Weeks 11-12: Large Language Models (LLMs) & Advanced NLP**
-
-### **Week 11: Natural Language Processing (NLP)**
-- Text Preprocessing: Tokenization, Lemmatization, Stopword Removal.
-- Sentiment Analysis with NLP.
-- Hands-on Project: Sentiment Analysis of Social Media Data.
-
-### **Week 12: Large Language Models (LLMs) & Advanced NLP**
-- Introduction to Large Language Models: GPT, BERT, T5.
-- Fine-Tuning LLMs for Custom Applications.
-- Transformer-Based Models.
-- Hands-on Project: Building a Chatbot with LLMs.
+###  Day 4: Decision Trees and Ensemble Models
+**Topic:** Decision Trees, Random Forests, Gradient Boosting  
+**Summary:**
+- Decision Trees: how they split data, overfitting
+- Random Forest: ensemble of trees, bagging
+- Gradient Boosting & XGBoost: boosting techniques
+- Bias-variance tradeoff
 
 ---
 
-## **Weeks 13-16: Advanced AI & Model Deployment**
-
-### **Week 13: AI for Decision Making & Responsible AI**
-- Explainable AI (XAI): SHAP & LIME.
-- Bias & Fairness in AI.
-- AI Security: Adversarial Attacks & Model Robustness.
-- AI in Business: AI Product Development & AI Startups.
-- Case Studies of AI Applications.
-- Hands-on Project: Responsible AI Implementation.
-
-### **Week 14: Model Deployment & AI in Production**
-- Saving & Exporting ML Models.
-- Deploying Models using Flask & FastAPI.
-- Cloud ML Deployment (AWS Sagemaker, Google Vertex AI).
-- Scaling AI Applications with Docker & Kubernetes.
-- Edge AI: Running AI Models on Edge Devices.
-- Hands-on Project: Deploying an AI Model.
-
-### **Week 15: Generative AI & Advanced AI Topics**
-- Diffusion Models: Understanding Stable Diffusion, DALL·E.
-- Reinforcement Learning (RL): Using OpenAI Gym.
-- Multimodal AI: Combining NLP, Vision, and Tabular Data.
-- Hands-on Project: AI for Creative Applications (e.g., Image Generation, AI Music).
-
-### **Week 16: AI in the Future & Capstone Project**
-- Trends in AI & Future Developments.
-- AI for Social Good: Climate Change, Healthcare, Disaster Response.
-- Final Capstone Project: Build an End-to-End AI Application.
+## Week 2: Unsupervised Learning + Model Evaluation
 
 ---
+
+### Day 1: Clustering
+**Topic:** K-Means and Hierarchical Clustering  
+**Summary:**
+- What is clustering? Applications
+- K-means: centroids, choosing K, inertia
+- Elbow method for optimal clusters
+- Hierarchical clustering: dendrograms
+- Hands-on with customer segmentation
+
+---
+
+### Day 2: Dimensionality Reduction
+**Topic:** PCA and t-SNE  
+**Summary:**
+- Curse of dimensionality
+- Principal Component Analysis (PCA): reducing dimensions while preserving variance
+- t-SNE for visualizing high-dimensional data
+- Use cases: visualization and speed-up training
+
+---
+
+### Day 3: Model Evaluation & Validation Techniques
+**Topic:** Cross-validation and Performance Metrics  
+**Summary:**
+- Why train/test split isn’t enough
+- K-fold cross-validation
+- Evaluation metrics recap (for both classification and regression)
+- ROC, AUC, Precision-Recall curves
+- Avoiding overfitting/underfitting
+
+---
+
+### Day 4: Feature Engineering & Data Preprocessing
+**Topic:** Cleaning, Encoding, Scaling, Feature Selection  
+**Summary:**
+- Handling missing data
+- Encoding categorical variables (Label Encoding, One-Hot)
+- Feature scaling (Normalization, Standardization)
+- Feature selection techniques (correlation, chi-square, recursive elimination)
+
+---
+
+## Week 3: Hyperparameter Tuning + Real-World Applications
+
+---
+
+### Day 1: Hyperparameter Tuning
+**Topic:** Grid Search, Random Search, and Bayes Optimization  
+**Summary:**
+- Difference between parameters and hyperparameters
+- Grid Search and Randomized Search using sklearn
+- Bayesian optimization with optuna or hyperopt
+- Hands-on with hyperparameter tuning in Random Forest / XGBoost
+
+---
+
+### Day 2: Model Pipelines and Deployment Basics
+**Topic:** Building End-to-End Pipelines  
+**Summary:**
+- Using Pipeline and ColumnTransformer from sklearn
+- Combining preprocessing and model steps
+- Saving/loading models with joblib or pickle
+- Introduction to deployment (streamlit / flask APIs)
+
+---
+
+### Day 3: Capstone Project Work Session
+**Topic:** Work on Individual or Group ML Projects  
+**Summary:**
+- Students select a dataset
+- Apply full ML pipeline: EDA, preprocessing, modeling, evaluation
+- Option to use classification or regression
+- Instructor guides students through challenges
+
+---
+
+### Day 4: Capstone Project Presentations + Review
+**Topic:** Final Presentations and Course Recap  
+**Summary:**
+- Each student/team presents their project
+- Q&A and peer feedback
+- Recap of everything covered
+- Tips for further learning: books, courses, Kaggle, real-world practice
+
+---
+
+#  Week 1: Foundations of Deep Learning & ANN Basics
+
+---
+
+### Day 1: Introduction to Deep Learning
+**Topic:** What is Deep Learning? Understanding Neural Networks  
+**Summary:**
+- Difference between machine learning and deep learning
+- Structure of a biological vs. artificial neuron
+- Anatomy of a neural network (layers, nodes, weights, biases)
+- Activation functions (ReLU, sigmoid, tanh)
+- Forward pass intuition
+
+---
+
+### Day 2: Building a Neural Network from Scratch
+**Topic:** Feedforward Neural Networks  
+**Summary:**
+- Forward propagation in multi-layer networks
+- Loss functions (MSE, Cross-Entropy)
+- Backpropagation and gradient descent (basic idea, not full math)
+- Training loop overview
+- Implementing a simple NN
+
+---
+
+### Day 3: Deep Learning with TensorFlow/Keras
+**Topic:** Implementing Neural Networks with Keras  
+**Summary:**
+- Introduction to TensorFlow and Keras
+- Building a neural network model using Keras
+- Compiling and fitting a model
+- Understanding epochs, batch size, learning rate
+- Evaluating models and making predictions
+
+---
+
+### Day 4: Improving Model Performance
+**Topic:** Regularization and Optimization  
+**Summary:**
+- Overfitting and underfitting in deep networks
+- Regularization techniques: Dropout, L1/L2 penalties
+- Optimizers: SGD, Adam, RMSprop
+- Hands-on: tuning models using callbacks, early stopping, etc.
+
+---
+
+## Week 2: Deep Diving into ANNs
+
+---
+
+### Day 1: Model Design – MLPs, Sequential vs Functional API
+**Topic:** Multi-layer Perceptrons (MLPs) and Keras APIs  
+**Summary:**
+- MLP architecture and the role of depth in networks
+- Using Sequential API for simple stack-like models
+- Using Functional API for complex models (multiple inputs/outputs, shared layers, skip connections)
+- Hands-on: Building models with both APIs for the same task
+- Comparison of readability, flexibility, and real-world use cases
+
+---
+
+### Day 2: Handling Different Data Types
+**Topic:** Image, Tabular, and Text Data with ANNs  
+**Summary:**
+- Preprocessing images for ANN (flattening, normalization)
+- Handling categorical and numerical tabular data
+- Introduction to tokenizing and embedding text
+- Practical: building ANN for tabular and basic image data
+
+---
+
+### Day 3: Model Evaluation and Visualization
+**Topic:** Evaluating Deep Learning Models  
+**Summary:**
+- Accuracy, confusion matrix, precision, recall, F1 score
+- ROC curves and AUC
+- Visualizing training history: loss vs. accuracy curves
+- Model interpretability basics (Grad-CAM preview, attention maps)
+
+---
+
+### Day 4: Capstone 1 – ANN Mini Project
+**Topic:** Project using ANN on real dataset  
+**Summary:**
+- Students use datasets (e.g., MNIST, tabular UCI data, sentiment classification)
+- Build, tune, and evaluate ANN models
+- Start-to-finish pipeline implementation
+- Prepare short presentations
+
+---
+
+# Week 3: CNNs for Image Data
+
+---
+
+### Day 1: Introduction to CNNs
+**Topic:** Convolutional Neural Networks Basics  
+**Summary:**
+- Limitations of ANNs with image data
+- Convolutions, filters/kernels, stride, padding
+- Max pooling and feature maps
+- Architecture overview of CNNs (Conv → Pool → FC)
+- CNN vs ANN in performance and structure
+
+---
+
+### Day 2: Building CNNs in Keras
+**Topic:** Hands-on with CNN for Image Classification  
+**Summary:**
+- Creating CNN layers with Conv2D, MaxPooling2D, Flatten, Dense
+- Training a CNN on MNIST or CIFAR-10
+- Data augmentation with ImageDataGenerator
+- Improving accuracy using dropout and regularization
+
+---
+
+### Day 3: Transfer Learning
+**Topic:** Pre-trained Models (VGG, ResNet, MobileNet)  
+**Summary:**
+- What is transfer learning and why it's useful
+- Feature extraction vs. fine-tuning
+- Loading pre-trained models with Keras
+- Customizing top layers for new tasks
+- Hands-on: image classification with MobileNetV2 or VGG16
+
+---
+
+###  Day 4: Capstone 2 – CNN Project + Course Wrap-up
+**Topic:** Final Project + Deep Learning Recap  
+**Summary:**
+- Students implement an image classifier using CNN or transfer learning
+- Full pipeline: preprocessing, training, evaluation
+- Project presentations and peer feedback
+- Recap of ANN vs CNN, deployment tips, future learning paths (e.g., RNNs, Transformers)
