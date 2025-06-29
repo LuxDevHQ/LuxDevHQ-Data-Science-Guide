@@ -310,7 +310,7 @@
 - What is clustering? Applications
 - K-means: centroids, choosing K, inertia
 - Elbow method for optimal clusters
-**Topic** [Hierarchical clustering](https://github.com/LuxDevHQ/Herarchial_clustering.git)
+  **Topic** [Hierarchical clustering](https://github.com/LuxDevHQ/Herarchial_clustering.git)
 - dendrograms
 - Hands-on with customer segmentation
 
