@@ -254,7 +254,7 @@
 
 ---
 
-### Day 1: Introduction to Machine Learning & Supervised Learning
+### [Day 1: Introduction to Machine Learning & Supervised Learning](https://github.com/LuxDevHQ/Introduction_to_ML_basic_concepts.git)
 **Topic:** What is Machine Learning? Overview of Supervised Learning  
 **Summary:**
 - Introduction to ML and real-world applications
@@ -265,36 +265,38 @@
 
 ---
 
-### Day 2: Regression Algorithms
-**Topic:** Linear Regression, Ridge, Lasso  
+### Day 2: [Regression Algorithms](https://github.com/LuxDevHQ/Introduction-to-linear-regression.git)
+**Topic:** [Linear Regression](https://github.com/LuxDevHQ/simple-linear-regression.git)
 **Summary:**
 - Understanding continuous outputs
+ **Topic:** [Multiple Linear Regression](https://github.com/LuxDevHQ/multiple-linear-regression.git)
 - Linear regression: line of best fit, cost function, gradient descent
-- Ridge regression
-- Lasso regression
 - Evaluation metrics: MSE, RMSE, R² score
 - Hands-on example (e.g., predicting house prices)
+**Topic** [Lasso And Ridge Regression](https://github.com/LuxDevHQ/Lasso_and_rRdge_regression.git)
 
 ---
 
-### Day 3: Classification Algorithms
-**Topic:** Logistic Regression, K-Nearest Neighbors (KNN)  
+### Day 3: [Classification Algorithms](https://github.com/LuxDevHQ/Introduction_to_classification.git)
+**Topic:**[Logistic Regression](https://github.com/LuxDevHQ/logistic_regression_notes.git)
 **Summary:**
 - Understanding classification problems
 - Logistic regression intuition and sigmoid function
 - Decision boundaries
+**Topic** [K-Nearest Neighbors (KNN)](https://github.com/LuxDevHQ/knn_notes.git)  
 - KNN: how it works, choosing K
 - Evaluation: accuracy, confusion matrix, precision, recall, F1 score
 
 ---
 
-###  Day 4: Decision Trees and Ensemble Models
-**Topic:** Decision Trees, Random Forests, Gradient Boosting  
+###  [Day 4: Introduction To Ensemble Models](https://github.com/LuxDevHQ/Introduction_to_Ensemble_Methods.git)
+**Topic:** [Deep Dive Into Ensemble Models](https://github.com/LuxDevHQ/Deep_dive_into_ensemble_methods.git) 
 **Summary:**
 - Decision Trees: how they split data, overfitting
 - Random Forest: ensemble of trees, bagging
 - Gradient Boosting & XGBoost: boosting techniques
 - Bias-variance tradeoff
+  Get decision trees notes [here](https://github.com/LuxDevHQ/Decision_trees_notes.git)
 
 ---
 
@@ -302,18 +304,19 @@
 
 ---
 
-### Day 1: Clustering
-**Topic:** K-Means and Hierarchical Clustering  
+### [Day 1: Introduction to Unservised learning](https://github.com/LuxDevHQ/Introduction_to_Unsupervised_Learning.git)
+**Topic:** [Clustering and K-Means](https://github.com/LuxDevHQ/Clustering_and_KMeans_In_Unsupervised_learning.git)
 **Summary:**
 - What is clustering? Applications
 - K-means: centroids, choosing K, inertia
 - Elbow method for optimal clusters
-- Hierarchical clustering: dendrograms
+**Topic** [Hierarchical clustering](https://github.com/LuxDevHQ/Herarchial_clustering.git)
+- dendrograms
 - Hands-on with customer segmentation
 
 ---
 
-### Day 2: Dimensionality Reduction
+### [Day 2: Dimensionality Reduction](https://github.com/LuxDevHQ/PCA.git)
 **Topic:** PCA and t-SNE  
 **Summary:**
 - Curse of dimensionality
@@ -323,7 +326,7 @@
 
 ---
 
-### Day 3: Model Evaluation & Validation Techniques
+### [Day 3: Model Evaluation & Validation Techniques](https://github.com/LuxDevHQ/Model_evaluation_and_validation_summary.git)
 **Topic:** Cross-validation and Performance Metrics  
 **Summary:**
 - Why train/test split isn’t enough
@@ -334,7 +337,7 @@
 
 ---
 
-### Day 4: Feature Engineering & Data Preprocessing
+### [Day 4: Feature Engineering & Data Preprocessing](https://github.com/LuxDevHQ/Feature_Engineering.git)
 **Topic:** Cleaning, Encoding, Scaling, Feature Selection  
 **Summary:**
 - Handling missing data
@@ -348,17 +351,18 @@
 
 ---
 
-### Day 1: Hyperparameter Tuning
+### [Day 1: Hyperparameter Tuning_Introduction](https://github.com/LuxDevHQ/Hyperparameter_tuning_introduction.git)
 **Topic:** Grid Search, Random Search, and Bayes Optimization  
 **Summary:**
 - Difference between parameters and hyperparameters
 - Grid Search and Randomized Search using sklearn
 - Bayesian optimization with optuna or hyperopt
 - Hands-on with hyperparameter tuning in Random Forest / XGBoost
+- [Deep dive into hyper-parameter tuning](https://github.com/LuxDevHQ/Deep_dive_into_hyperparameter_tuning.git)
 
 ---
 
-### Day 2: Model Pipelines and Deployment Basics
+### [Day 2: Model Pipelines and Deployment Basics](https://github.com/LuxDevHQ/Model_pipelining_and_deployment.git)
 **Topic:** Building End-to-End Pipelines  
 **Summary:**
 - Using Pipeline and ColumnTransformer from sklearn
@@ -392,7 +396,7 @@
 
 ---
 
-### Day 1: Introduction to Deep Learning
+### [Day 1: Introduction to Deep Learning](https://github.com/LuxDevHQ/Introduction_to_deep_learning.git)
 **Topic:** What is Deep Learning? Understanding Neural Networks  
 **Summary:**
 - Difference between machine learning and deep learning
@@ -403,7 +407,7 @@
 
 ---
 
-### Day 2: Building a Neural Network from Scratch
+### [Day 2: Building a Neural Network from Scratch](https://github.com/LuxDevHQ/Building_Neural_networls_and_Application_of_Deepl_Learning.git)
 **Topic:** Feedforward Neural Networks  
 **Summary:**
 - Forward propagation in multi-layer networks
@@ -414,7 +418,7 @@
 
 ---
 
-### Day 3: Deep Learning with TensorFlow/Keras
+### [Day 3: Deep Learning with TensorFlow/Keras](https://github.com/LuxDevHQ/Deep_learning_with_tensorflow_keras.git)
 **Topic:** Implementing Neural Networks with Keras  
 **Summary:**
 - Introduction to TensorFlow and Keras
@@ -425,7 +429,7 @@
 
 ---
 
-### Day 4: Improving Model Performance
+### [Day 4: Improving Model Performance](https://github.com/LuxDevHQ/Improving-_model_performance.git)
 **Topic:** Regularization and Optimization  
 **Summary:**
 - Overfitting and underfitting in deep networks
@@ -439,7 +443,7 @@
 
 ---
 
-### Day 1: Model Design – MLPs, Sequential vs Functional API
+### [Day 1: Model Design – MLPs, Sequential vs Functional API](https://github.com/LuxDevHQ/Functional_and_Sequential_API.git)
 **Topic:** Multi-layer Perceptrons (MLPs) and Keras APIs  
 **Summary:**
 - MLP architecture and the role of depth in networks
@@ -450,7 +454,7 @@
 
 ---
 
-### Day 2: Handling Different Data Types
+### [Day 2: Handling Different Data Types](https://github.com/LuxDevHQ/Hanling_Different_Datatypes.git)
 **Topic:** Image, Tabular, and Text Data with ANNs  
 **Summary:**
 - Preprocessing images for ANN (flattening, normalization)
@@ -460,7 +464,7 @@
 
 ---
 
-### Day 3: Model Evaluation and Visualization
+### [Day 3: Model Evaluation and Visualization](https://github.com/LuxDevHQ/Model_Evaluation_and_Vizualisation.git)
 **Topic:** Evaluating Deep Learning Models  
 **Summary:**
 - Accuracy, confusion matrix, precision, recall, F1 score
@@ -484,7 +488,7 @@
 
 ---
 
-### Day 1: Introduction to CNNs
+### [Day 1: Introduction to CNNs](https://github.com/LuxDevHQ/Introduction_to_CNN.git)
 **Topic:** Convolutional Neural Networks Basics  
 **Summary:**
 - Limitations of ANNs with image data
@@ -495,7 +499,7 @@
 
 ---
 
-### Day 2: Building CNNs in Keras
+### [Day 2: Building CNNs in Keras](https://github.com/LuxDevHQ/Building_cnns.git)
 **Topic:** Hands-on with CNN for Image Classification  
 **Summary:**
 - Creating CNN layers with Conv2D, MaxPooling2D, Flatten, Dense
@@ -505,14 +509,14 @@
 
 ---
 
-### Day 3: Transfer Learning
+### [Day 3: Transfer Learning](https://github.com/LuxDevHQ/Transfer_Learning.git)
 **Topic:** Pre-trained Models (VGG, ResNet, MobileNet)  
 **Summary:**
-- What is transfer learning and why it's useful
-- Feature extraction vs. fine-tuning
-- Loading pre-trained models with Keras
-- Customizing top layers for new tasks
-- Hands-on: image classification with MobileNetV2 or VGG16
+- What is transfer learning and why it's useful  
+- Feature extraction vs. fine-tuning  
+- Loading pre-trained models with Keras  
+- Customizing top layers for new tasks  
+- Hands-on: image classification with MobileNetV2 or VGG16  
 
 ---
 
