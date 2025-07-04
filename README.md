@@ -714,7 +714,7 @@ We split this data:
 
 ---
 
-# Introduction to Linear Regression
+## Introduction to Linear Regression
 
 ## 1. What is Linear Regression?
 
