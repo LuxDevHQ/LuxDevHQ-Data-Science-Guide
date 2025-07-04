@@ -254,9 +254,7 @@
 
 ---
 
-### [Day 1: Introduction to Machine Learning & Supervised Learning](#Introduction_to_ML_basic_concepts)
-## Week 1: Supervised Learning
-
+### [Day 1: Introduction to Machine Learning & Supervised Learning](#introduction-to-ml-basic-concepts)
 **Topic:** What is Machine Learning? Overview of Supervised Learning  
 **Summary:**
 - Introduction to ML and real-world applications
@@ -267,17 +265,17 @@
 
 ---
 
-### Day 2: [Regression Algorithms](#Introduction to Linear Regressio)
-**Topic:** [Linear Regression](https://github.com/LuxDevHQ/simple-linear-regression.git)
+### [Day 2: Regression Algorithms](#introduction-to-linear-regression)
+**Topic:** [Linear Regression](https://github.com/LuxDevHQ/simple-linear-regression.git)  
+**Topic:** [Multiple Linear Regression](https://github.com/LuxDevHQ/multiple-linear-regression.git)  
+**Topic:** [Lasso and Ridge Regression](https://github.com/LuxDevHQ/Lasso_and_rRdge_regression.git)  
 **Summary:**
-- Understanding continuous outputs
- **Topic:** [Multiple Linear Regression](https://github.com/LuxDevHQ/multiple-linear-regression.git)
 - Linear regression: line of best fit, cost function, gradient descent
 - Evaluation metrics: MSE, RMSE, R² score
 - Hands-on example (e.g., predicting house prices)
-**Topic** [Lasso And Ridge Regression](https://github.com/LuxDevHQ/Lasso_and_rRdge_regression.git)
 
 ---
+
 
 ### Day 3: [Classification Algorithms](https://github.com/LuxDevHQ/Introduction_to_classification.git)
 **Topic:**[Logistic Regression](https://github.com/LuxDevHQ/logistic_regression_notes.git)
