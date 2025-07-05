@@ -266,12 +266,12 @@
 ---
 
 ### [Day 2: Regression Algorithms](#introduction-to-linear-regression)
-**Topic:** [Linear Regression](#simple-linear-regression---beginner-notes)  
-**Topic:** [Multiple Linear Regression](#multiple-linear-regression---beginner-notes)  
-**Topic:** [Lasso and Ridge Regression](#lasso--ridge-regression---beginner-notes)  
+**Topic:** [Linear Regression](#simple-linear-regression--beginner-notes)  
+**Topic:** [Multiple Linear Regression](#multiple-linear-regression--beginner-notes)  
+**Topic:** [Lasso and Ridge Regression](#lasso--ridge-regression--beginner-notes)  
 **Summary:**
-- Linear regression: line of best fit, cost function, gradient descent
-- Evaluation metrics: MSE, RMSE, R² score
+- Linear regression: line of best fit, cost function, gradient descent  
+- Evaluation metrics: MSE, RMSE, R² score  
 - Hands-on example (e.g., predicting house prices)
 
 ---
