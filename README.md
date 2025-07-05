@@ -277,81 +277,83 @@
 ---
 
 
-### [Day 3: Classification Algorithms](#Introduction-to-Classification)
+### [Day 3: Classification Algorithms](#introduction-to-classification)
 
-**Topic:** [Logistic Regression](#Logistic-Regression-Beginner-Friendly-Notes-with-Analogies-&-Python-Example)  
+**Topic:** [Logistic Regression](#logistic-regression-beginner-friendly-notes-with-analogies--python-example)  
 **Summary:**
 - Understanding classification problems  
 - Logistic regression intuition and sigmoid function  
 - Decision boundaries  
 
-**Topic:** [K-Nearest Neighbors (KNN)](#K-Nearest-Neighbors-(KNN)-Beginner-Friendly-Notes-with-Analogies-&-Python-Example)  
+**Topic:** [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn-beginner-friendly-notes-with-analogies--python-example)  
 **Summary:**
 - How KNN works and choosing the right K  
 - Evaluation techniques: accuracy, confusion matrix, precision, recall, F1 score  
 
+
 ---
 
-### [Day 4: Introduction to Ensemble Models](#Ensemble-Learning-Techniques-Beginner-Friendly-Notes)
+### [Day 4: Introduction to Ensemble Models](#ensemble-learning-techniques-beginner-friendly-notes)
 
-**Topic:** [Deep Dive into Ensemble Models](#Deep-Dive-into-Ensemble-Methods)  
+**Topic:** [Deep Dive into Ensemble Models](#deep-dive-into-ensemble-methods)  
 **Summary:**
 - Decision Trees: how they split data, overfitting  
 - Random Forest: ensemble of trees, bagging  
 - Gradient Boosting & XGBoost: boosting techniques  
 - Bias-variance tradeoff  
-- Get additional notes on Decision Trees [here](#Decision-Trees-Beginner-Friendly-Notes-with-Analogies-&-Python-Example)
+- Get additional notes on Decision Trees [here](#decision-trees-beginner-friendly-notes-with-analogies--python-example)
 
 ---
 ## Week 2: Unsupervised Learning + Model Evaluation
 
 ---
+### [Day 1: Introduction to Unsupervised Learning](#introduction-to-unsupervised-learning)
 
-### [Day 1: Introduction to Unsupervised Learning](#Introduction-to-Unsupervised-Learning)
-
-**Topic:** [Clustering and K-Means](#Clustering-and-K-Means-in-Unsupervised-Learning)  
+**Topic:** [Clustering and K-Means](#clustering-and-k-means-in-unsupervised-learning)  
 **Summary:**
 - What is clustering? Applications  
 - K-Means: centroids, choosing K, inertia  
 - Elbow method for finding optimal number of clusters  
 
-**Topic:** [Hierarchical Clustering](#Hierarchical-Clustering-in-Unsupervised-Learning)  
+**Topic:** [Hierarchical Clustering](#hierarchical-clustering-in-unsupervised-learning)  
 **Summary:**
 - Understanding dendrograms  
 - Agglomerative vs Divisive clustering  
 - Hands-on project: Customer segmentation using hierarchical clustering  
 
-
 ---
 
-### [Day 2: Dimensionality Reduction](#Dimensionality-Reduction)
+### [Day 2: Dimensionality Reduction](#dimensionality-reduction)
+
 **Topic:** PCA and t-SNE  
 **Summary:**
-- Curse of dimensionality
-- Principal Component Analysis (PCA): reducing dimensions while preserving variance
-- t-SNE for visualizing high-dimensional data
-- Use cases: visualization and speed-up training
+- Curse of dimensionality  
+- Principal Component Analysis (PCA): reducing dimensions while preserving variance  
+- t-SNE for visualizing high-dimensional data  
+- Use cases: visualization and speed-up training  
 
 ---
 
-### [Day 3: Model Evaluation & Validation Techniques](#Model-Evaluation-&-Validation-Techniques)
+### [Day 3: Model Evaluation & Validation Techniques](#model-evaluation--validation-techniques)
+
 **Topic:** Cross-validation and Performance Metrics  
 **Summary:**
-- Why train/test split isn’t enough
-- K-fold cross-validation
-- Evaluation metrics recap (for both classification and regression)
-- ROC, AUC, Precision-Recall curves
-- Avoiding overfitting/underfitting
+- Why train/test split isn’t enough  
+- K-fold cross-validation  
+- Evaluation metrics recap (for both classification and regression)  
+- ROC, AUC, Precision-Recall curves  
+- Avoiding overfitting/underfitting  
 
 ---
 
-### [Day 4: Feature Engineering & Data Preprocessing](#Feature-Engineering-&-Data-Preprocessing)
+### [Day 4: Feature Engineering & Data Preprocessing](#feature-engineering--data-preprocessing)
+
 **Topic:** Cleaning, Encoding, Scaling, Feature Selection  
 **Summary:**
-- Handling missing data
-- Encoding categorical variables (Label Encoding, One-Hot)
-- Feature scaling (Normalization, Standardization)
-- Feature selection techniques (correlation, chi-square, recursive elimination)
+- Handling missing data  
+- Encoding categorical variables (Label Encoding, One-Hot)  
+- Feature scaling (Normalization, Standardization)  
+- Feature selection techniques (correlation, chi-square, recursive elimination)  
 
 ---
 
@@ -359,7 +361,7 @@
 
 ---
 
-### [Day 1: Hyperparameter Tuning – Introduction](#Hyperparameter-Tuning)
+### [Day 1: Hyperparameter Tuning – Introduction](#hyperparameter-tuning--introduction)
 
 **Topic:** Grid Search, Random Search, and Bayesian Optimization  
 **Summary:**
@@ -367,18 +369,18 @@
 - Grid Search and Randomized Search using `sklearn`  
 - Bayesian optimization using `Optuna` or `Hyperopt`  
 - Hands-on with hyperparameter tuning in Random Forest and XGBoost  
-- For deeper insights, see: [Deep Dive into Hyperparameter Tuning](#Hyperparameter-Tuning-Deep-Dive)  
-
+- For deeper insights, see: [Deep Dive into Hyperparameter Tuning](#hyperparameter-tuning-deep-dive)  
 
 ---
 
-### [Day 2: Model Pipelines and Deployment Basics](#Model-Pipelines-and-Deployment-Basics)
+### [Day 2: Model Pipelines and Deployment Basics](#model-pipelines-and-deployment-basics)
+
 **Topic:** Building End-to-End Pipelines  
 **Summary:**
-- Using Pipeline and ColumnTransformer from sklearn
-- Combining preprocessing and model steps
-- Saving/loading models with joblib or pickle
-- Introduction to deployment (streamlit / flask APIs)
+- Using Pipeline and ColumnTransformer from sklearn  
+- Combining preprocessing and model steps  
+- Saving/loading models with joblib or pickle  
+- Introduction to deployment (streamlit / flask APIs)  
 
 ---
 
