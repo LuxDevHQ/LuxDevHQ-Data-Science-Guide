@@ -277,15 +277,15 @@
 ---
 
 
-### [Day 3: Classification Algorithms](#introduction-to-classification)
+### [Day 3: Classification Algorithms](#day-3-classification-algorithms)
 
-**Topic:** [Logistic Regression](#logistic-regression-beginner-friendly-notes-with-analogies--python-example)  
+**Topic:** [Logistic Regression](#logistic-regression--beginner-friendly-notes-with-analogies--python-example)  
 **Summary:**
 - Understanding classification problems  
 - Logistic regression intuition and sigmoid function  
 - Decision boundaries  
 
-**Topic:** [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn-beginner-friendly-notes-with-analogies--python-example)  
+**Topic:** [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn--beginner-friendly-notes-with-analogies--python-example)  
 **Summary:**
 - How KNN works and choosing the right K  
 - Evaluation techniques: accuracy, confusion matrix, precision, recall, F1 score  
@@ -293,7 +293,7 @@
 
 ---
 
-### [Day 4: Introduction to Ensemble Models](#ensemble-learning-techniques-beginner-friendly-notes)
+### [Day 4: Introduction to Ensemble Models](#ensemble-learning-techniques--beginner-friendly-notes)
 
 **Topic:** [Deep Dive into Ensemble Models](#deep-dive-into-ensemble-methods)  
 **Summary:**
@@ -301,12 +301,14 @@
 - Random Forest: ensemble of trees, bagging  
 - Gradient Boosting & XGBoost: boosting techniques  
 - Bias-variance tradeoff  
-- Get additional notes on Decision Trees [here](#decision-trees-beginner-friendly-notes-with-analogies--python-example)
+- Get additional notes on Decision Trees [here](#decision-trees--beginner-friendly-notes-with-analogies--python-example)
 
 ---
+
 ## Week 2: Unsupervised Learning + Model Evaluation
 
 ---
+
 ### [Day 1: Introduction to Unsupervised Learning](#introduction-to-unsupervised-learning)
 
 **Topic:** [Clustering and K-Means](#clustering-and-k-means-in-unsupervised-learning)  
@@ -344,6 +346,7 @@
 - ROC, AUC, Precision-Recall curves  
 - Avoiding overfitting/underfitting  
 
+
 ---
 
 ### [Day 4: Feature Engineering & Data Preprocessing](#feature-engineering--data-preprocessing)
@@ -354,6 +357,7 @@
 - Encoding categorical variables (Label Encoding, One-Hot)  
 - Feature scaling (Normalization, Standardization)  
 - Feature selection techniques (correlation, chi-square, recursive elimination)  
+
 
 ---
 
@@ -369,7 +373,7 @@
 - Grid Search and Randomized Search using `sklearn`  
 - Bayesian optimization using `Optuna` or `Hyperopt`  
 - Hands-on with hyperparameter tuning in Random Forest and XGBoost  
-- For deeper insights, see: [Deep Dive into Hyperparameter Tuning](#hyperparameter-tuning-deep-dive)  
+- For deeper insights, see: [Deep Dive into Hyperparameter Tuning](#hyperparameter-tuning--deep-dive)
 
 ---
 
