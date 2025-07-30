@@ -1,5 +1,4 @@
 # Data Science and Analytics Curriculum (Excel, Power BI, SQL, Python)
- 
 
 **Mode of Delivery:**  Physical and Online (Live Sessions & Hands-on Projects)
 
