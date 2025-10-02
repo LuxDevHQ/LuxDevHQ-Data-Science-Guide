@@ -1,0 +1,501 @@
+Farmer Name,County,Crop Type,Crop Variety,Season,Planted Area (Acres),Yield (Kg),Market Price (KES/Kg),Revenue (KES),Cost of Production (KES),Profit (KES),Planting Date,Harvest Date,Soil Type,Irrigation Method,Fertilizer Used,Pest Control,Weather Impact,Farmer Contact,Notes
+Farmer 1,Kiambu,Potatoes,Organic,Long Rains,15.14,1654.76,100.19,2510066.72,8977.19,2501089.53,2023-08-01,2023-11-02,Peaty,Drip,None,Organic,Mild,0731810617,High yield
+Farmer 2,Meru,Coffee,Local,Short Rains,13.54,1957.61,168.63,4469713.42,47882.55,4421830.87,2023-02-25,2023-09-07,Silty,Sprinkler,Error,Organic,Mild,0773993471,
+Farmer 3,Nakuru,Sorghum,Error,Long Rains,19.33,4679.65,102.63,9283667.03,69370.32,9214296.71,2023-07-08,2023-12-28,Peaty,None,CAN,None,None,0778642041,Delayed harvest
+Farmer 4,Eldoret,Potatoes,Organic,Short Rains,1.56,420.18,125.2,82066.2,43454.15,38612.05,2023-03-22,2024-01-08,,None,UREA,Chemical,Mild,0758586340,
+Farmer 5,Machakos,Tomatoes,Hybrid,Short Rains,13.93,Error,199.42,,69673.69,,2023-03-01,2023-10-24,Clay,None,UREA,None,Severe,0770291817,
+Farmer 6,Kericho,Cassava,Organic,Short Rains,4.88,1294.28,169.12,1068176.53,54319.48,1013857.05,2023-08-31,2023-10-13,Loam,Drip,None,Organic,Mild,0757130035,Delayed harvest
+Farmer 7,Mombasa,N/A,Organic,Short Rains,6.67,3205.36,139.8,2988889.22,44731.25,2944157.97,2023-08-06,2023-11-20,Loam,None,Manure,None,Severe,0715354599,Pest issues
+Farmer 8,Error,Maize,Organic,Long Rains,15.63,747.58,183.67,2146124.33,80654.18,2065470.15,2023-11-23,2023-05-26,Silty,Error,None,Organic,Mild,0733978249,
+Farmer 9,Nairobi,Cassava,Hybrid,Short Rains,11.03,4757.72,27.42,1438937.21,21508.58,1417428.63,2023-03-31,2023-04-14,Sandy,Sprinkler,DAP,Organic,Mild,0730863865,High yield
+Farmer 10,Meru,Cassava,Organic,Error,1.93,718.34,53.41,74047.42,31939.83,42107.59,2023-10-15,2024-03-09,Sandy,None,DAP,None,None,0729175900,High yield
+Farmer 11,Kiambu,Tomatoes,Local,Long Rains,13.03,4861.87,20.0,1267003.32,N/A,,2023-01-29,N/A,Loam,Flood,DAP,Chemical,Mild,0788320463,Pest issues
+Farmer 12,Error,,Hybrid,Dry Season,3.85,923.85,157.48,560128.41,45441.62,514686.79,2023-02-04,2024-02-18,Sandy,Flood,CAN,Organic,N/A,0765259205,
+Farmer 13,Meru,Potatoes,Organic,Long Rains,4.17,1883.1,134.75,1058128.01,33519.18,1024608.83,2023-12-10,2023-10-03,N/A,Sprinkler,Manure,Organic,Mild,0784093639,
+Farmer 14,Meru,N/A,Organic,Long Rains,7.6,2258.93,193.59,3323527.57,,,2023-07-11,2023-05-12,Clay,Drip,CAN,Organic,N/A,0731831063,High yield
+Farmer 15,Nairobi,Maize,Hybrid,Dry Season,1.72,2625.34,113.38,511977.0,55055.36,456921.64,2023-09-03,2023-06-09,N/A,,,Chemical,Severe,0784158663,Pest issues
+Farmer 16,Error,Sorghum,Hybrid,Long Rains,9.07,1673.94,92.64,1406519.38,78349.89,1328169.49,2023-01-17,2024-03-13,Sandy,Drip,None,Chemical,None,0713999315,High yield
+Farmer 17,Meru,Rice,Hybrid,Long Rains,3.87,1522.78,178.01,1049041.16,87918.06,961123.1,2023-03-08,2023-04-29,Peaty,Sprinkler,UREA,None,None,0715334035,Pest issues
+Farmer 18,Kericho,Wheat,Hybrid,Dry Season,12.3,2141.28,37.3,982397.85,24932.05,957465.8,2023-10-23,2023-07-07,Silty,None,CAN,Organic,Severe,0776238574,Pest issues
+Farmer 19,N/A,Cassava,Hybrid,Long Rains,6.13,4700.85,38.3,1103660.86,71165.24,1032495.62,2023-12-19,2024-01-31,Peaty,Drip,UREA,None,Mild,0771510041,
+Farmer 20,Kiambu,Cassava,Hybrid,Short Rains,1.71,3411.76,64.91,378692.05,15501.14,363190.91,2023-09-03,2024-01-01,Peaty,Sprinkler,None,Organic,Severe,0758586340,High yield
+Farmer 21,Eldoret,Tea,Error,Short Rains,18.2,2147.64,113.23,4425826.45,67765.71,4358060.74,2023-07-27,2023-12-20,Silty,Sprinkler,Manure,Organic,N/A,0738270233,Pest issues
+Farmer 22,Nyeri,Error,Hybrid,,13.88,3833.11,117.19,6234925.99,14062.49,6220863.5,2023-06-07,2023-10-20,Clay,Drip,N/A,None,None,0723009833,N/A
+Farmer 23,Mombasa,Beans,Local,Long Rains,7.83,4894.6,187.89,7200831.27,73420.23,7127411.04,2023-06-14,2023-06-13,Peaty,Flood,None,None,Severe,0732097220,Pest issues
+Farmer 24,Kisumu,Sorghum,Local,Long Rains,9.53,1096.35,154.72,1616547.9,70673.09,1545874.81,2023-09-20,2023-11-25,Error,Flood,CAN,Organic,None,0783197857,
+Farmer 25,Kisumu,Coffee,Local,Short Rains,3.78,3244.87,187.44,2299065.68,28199.33,2270866.35,2023-11-14,2023-09-29,Silty,N/A,UREA,Organic,None,0713326769,
+Farmer 26,N/A,Cassava,,Short Rains,1.33,978.84,66.86,87042.17,N/A,,2023-08-19,2023-09-30,Silty,None,Error,Organic,None,0766792612,Delayed harvest
+Farmer 27,Nakuru,Wheat,N/A,Long Rains,2.49,930.96,62.43,144718.38,33624.63,111093.75,2023-12-22,2023-09-08,Silty,Flood,Manure,Organic,Mild,0760119651,
+Farmer 28,Meru,Tomatoes,Error,Dry Season,13.62,2763.86,41.6,1565980.97,39722.28,1526258.69,2023-03-19,2023-04-13,Sandy,Drip,UREA,Chemical,None,0742329237,High yield
+Farmer 29,Eldoret,Rice,Error,Long Rains,3.7,3320.81,137.43,1688602.0,81560.09,1607041.91,2023-07-11,2023-12-18,Peaty,None,Manure,None,None,0796728778,Delayed harvest
+Farmer 30,Eldoret,Sorghum,Local,Long Rains,8.6,1412.66,29.46,357905.89,61415.92,296489.97,2023-04-16,2023-05-01,Peaty,Sprinkler,CAN,Chemical,Severe,0711250299,Delayed harvest
+Farmer 31,Kisumu,Rice,Hybrid,Short Rains,14.37,2491.42,104.0,3723377.36,5548.35,3717829.01,2023-06-04,2023-08-19,N/A,Flood,UREA,Error,Severe,0717901903,
+Farmer 32,N/A,Error,Organic,Short Rains,19.77,4385.04,51.28,4445578.11,66182.13,4379395.98,2023-07-20,2023-04-28,Loam,Drip,None,,Mild,0734073380,High yield
+Farmer 33,Mombasa,Wheat,,,12.76,2973.54,21.0,796789.78,70448.46,726341.32,2023-08-08,2023-05-03,Peaty,None,CAN,Error,None,0749349722,
+Farmer 34,Meru,,Local,Short Rains,6.74,4908.93,194.65,6440226.53,24066.78,6416159.75,2023-09-29,2023-11-01,Clay,Sprinkler,DAP,,Severe,0713176186,
+Farmer 35,Meru,Beans,Error,Error,1.96,691.61,17.66,23939.11,45767.92,-21828.81,2023-07-25,2024-02-17,Clay,Flood,DAP,,Severe,0723556182,Pest issues
+Farmer 36,Eldoret,Error,Organic,Short Rains,12.53,4006.27,123.45,6197012.61,97424.01,6099588.6,2023-07-18,2023-06-28,Peaty,Flood,DAP,Chemical,Severe,0791363974,High yield
+Farmer 37,Mombasa,Wheat,Error,Dry Season,12.48,2038.42,194.06,4936785.8,19026.09,4917759.71,2023-10-17,2023-12-11,Clay,Flood,DAP,None,Mild,0789978790,
+Farmer 38,Kiambu,Maize,Organic,Short Rains,17.75,556.21,195.14,1926564.04,30160.4,1896403.64,2023-02-19,,Clay,Drip,Manure,None,Severe,0714308421,High yield
+Farmer 39,Eldoret,N/A,Hybrid,Dry Season,19.43,2898.98,194.71,10967465.49,56080.06,10911385.43,2023-01-07,2024-02-14,Silty,Sprinkler,None,Organic,Severe,0795511909,
+Farmer 40,Kisumu,Cassava,Local,N/A,17.64,3511.3,124.95,7739319.53,3865.87,7735453.66,2023-05-21,2023-11-24,Clay,Sprinkler,None,Chemical,Mild,0799514287,
+Farmer 41,Kisumu,Error,Hybrid,Dry Season,10.51,2386.82,170.22,4270050.1,80737.55,4189312.55,2023-06-13,2023-04-14,Sandy,None,DAP,None,Mild,0782340307,High yield
+Farmer 42,Nakuru,Tea,Organic,Short Rains,18.04,4727.07,110.67,9437532.86,78115.18,9359417.68,2023-02-15,2023-11-09,Silty,None,DAP,None,None,0737326368,Delayed harvest
+Farmer 43,,Coffee,Local,Short Rains,6.17,Error,42.11,,1921.15,,2023-11-07,2023-11-01,Clay,Drip,DAP,None,Mild,0758884978,High yield
+Farmer 44,Nairobi,Coffee,Local,Short Rains,1.96,4944.46,60.98,590965.81,39185.83,551779.98,2023-10-30,2024-01-17,Loam,Flood,UREA,Chemical,Mild,0755667651,Pest issues
+Farmer 45,Error,Potatoes,Hybrid,Dry Season,3.4,4259.34,114.59,1659464.42,60816.12,1598648.3,2023-01-28,2023-11-19,Peaty,Flood,DAP,Error,Mild,0789795010,Pest issues
+Farmer 46,Nakuru,Maize,Local,Dry Season,14.98,N/A,83.61,,80674.89,,2023-12-26,2023-09-08,Peaty,Sprinkler,CAN,None,Severe,0735511941,
+Farmer 47,Nakuru,Sorghum,Organic,Dry Season,17.61,258.3,161.78,735882.7,71245.0,664637.7,2023-11-05,2023-07-09,Loam,Drip,UREA,Organic,Mild,0789978790,
+Farmer 48,Nairobi,Tea,N/A,Dry Season,6.7,2761.09,184.54,3413861.38,29000.07,3384861.31,2023-10-03,2024-02-15,Error,Sprinkler,Manure,Organic,Severe,0724366125,
+Farmer 49,Mombasa,Error,Hybrid,,13.63,1520.2,84.29,1746516.28,57699.14,1688817.14,2023-11-27,2023-06-12,Loam,Flood,UREA,None,Severe,0738688676,
+Farmer 50,Machakos,Cassava,Local,Dry Season,13.36,3240.11,102.52,4437872.39,81451.6,4356420.79,2023-04-25,2024-01-27,Sandy,Drip,None,,Severe,0737326368,High yield
+Farmer 51,Nyeri,Tea,Local,Short Rains,Error,3548.31,182.38,,66449.85,,2023-10-30,2023-10-28,,Sprinkler,None,Error,None,0717507864,High yield
+Farmer 52,Nyeri,Rice,Hybrid,Long Rains,13.36,3067.0,181.38,7432067.27,74398.01,7357669.26,2023-03-10,2023-07-29,Clay,None,DAP,Organic,None,0780823176,Pest issues
+Farmer 53,Kiambu,Potatoes,Organic,Long Rains,3.99,3705.33,N/A,,49942.47,,2023-01-18,2023-12-18,Loam,Drip,DAP,Organic,Mild,0768800797,Delayed harvest
+Farmer 54,Kiambu,Tomatoes,Organic,Long Rains,8.38,4833.67,82.71,3350264.05,48178.99,3302085.06,2023-12-16,2023-07-07,Loam,Sprinkler,UREA,Organic,Mild,0793016315,
+Farmer 55,Eldoret,Tomatoes,Local,Long Rains,18.36,,61.19,,58013.38,,2023-04-11,2023-06-16,Clay,None,None,Chemical,Mild,0713326769,High yield
+Farmer 56,,N/A,Organic,Error,19.28,1840.03,134.07,4756237.61,36953.32,4719284.29,2023-12-25,2023-07-17,Clay,N/A,DAP,None,None,0789864260,High yield
+Farmer 57,Machakos,Cassava,Hybrid,Short Rains,17.28,2231.39,99.15,3823067.26,19668.53,3803398.73,2023-04-23,2023-11-03,Peaty,Flood,None,Chemical,None,0768353204,High yield
+Farmer 58,Kericho,Cassava,Hybrid,Dry Season,0.79,4233.38,16.37,54747.34,93685.31,-38937.97,2023-01-27,2023-07-21,Loam,Flood,N/A,Chemical,None,0749823450,High yield
+Farmer 59,Mombasa,Wheat,Local,Error,3.5,3477.32,110.92,1349965.17,24639.87,1325325.3,2023-04-08,2023-12-11,Loam,Flood,CAN,None,None,0761019678,
+Farmer 60,Eldoret,Maize,Local,Dry Season,12.67,4127.93,28.45,1487959.84,66095.66,1421864.18,2023-06-30,2024-01-07,Sandy,None,Manure,Chemical,Severe,0780823176,Pest issues
+Farmer 61,Eldoret,Beans,,Dry Season,18.9,1898.71,118.12,4238809.32,87108.86,4151700.46,2023-11-21,2023-10-13,Error,Error,CAN,Organic,Severe,0760119651,
+Farmer 62,Kiambu,Rice,Hybrid,Short Rains,4.36,3906.18,156.24,2660914.82,Error,,2023-06-06,2023-04-12,Peaty,Flood,None,Organic,Severe,Error,
+Farmer 63,,,Organic,Long Rains,17.35,Error,140.02,,9691.71,,2023-12-18,2023-08-02,Silty,Flood,UREA,Organic,Severe,0754585178,
+Farmer 64,Kisumu,Tea,Organic,Long Rains,16.87,,,,95515.21,,2023-08-07,2023-04-22,Silty,None,None,None,Severe,0743528453,High yield
+Farmer 65,Nairobi,Coffee,Local,Short Rains,11.38,2553.22,43.99,1278157.76,,,2023-10-17,2023-06-16,Loam,Drip,CAN,Chemical,None,0747308985,
+Farmer 66,Kericho,N/A,Organic,Dry Season,9.78,3301.06,116.81,3771136.89,43305.06,3727831.83,2023-02-25,2024-02-17,Clay,Flood,CAN,None,Mild,0734941004,
+Farmer 67,Eldoret,Tea,Hybrid,Short Rains,0.53,3239.03,100.16,171943.26,56929.32,115013.94,2023-03-18,2023-04-16,Silty,Sprinkler,Manure,Organic,Mild,0791734598,Pest issues
+Farmer 68,Eldoret,Sorghum,Local,Long Rains,3.5,1703.96,26.54,158280.84,16592.11,141688.73,2023-04-16,2024-01-07,Loam,Flood,UREA,Error,Severe,0761019678,Error
+Farmer 69,N/A,N/A,Organic,Dry Season,18.49,1196.59,44.84,992082.72,30909.69,961173.03,2023-11-14,2023-06-21,Silty,,None,Chemical,Mild,0739436733,
+Farmer 70,Nyeri,Wheat,Local,Short Rains,19.14,831.16,139.12,2213176.94,4087.29,2209089.65,2023-06-12,2023-10-25,Peaty,Sprinkler,UREA,Chemical,None,0731367172,Delayed harvest
+Farmer 71,Error,Error,Organic,Short Rains,12.29,N/A,98.34,,31937.47,,2023-08-29,2023-09-17,Sandy,Drip,None,None,Mild,0798447167,
+Farmer 72,N/A,Potatoes,N/A,Error,5.51,513.57,153.02,433011.51,17592.44,415419.07,2023-08-18,2023-09-09,Clay,Error,Manure,None,Mild,0725015458,
+Farmer 73,Machakos,Potatoes,Organic,Dry Season,19.87,4296.56,135.49,11567139.97,7176.35,11559963.62,2023-04-02,2023-05-26,Silty,Drip,CAN,Organic,Error,0799788677,N/A
+Farmer 74,Nairobi,Beans,Organic,Long Rains,15.81,3270.66,84.12,4349772.4,54514.65,4295257.75,2023-01-09,,Clay,Sprinkler,None,None,Severe,0735487660,
+Farmer 75,,Maize,Organic,Error,16.44,2188.44,,,92687.56,,2023-04-16,2023-08-17,Silty,Sprinkler,DAP,None,None,0754769200,High yield
+Farmer 76,,Tomatoes,Organic,Dry Season,10.4,364.74,32.05,121575.14,58924.13,62651.01,2023-04-10,2023-08-17,Loam,Error,,Chemical,None,0785345555,
+Farmer 77,Nyeri,Potatoes,Hybrid,Error,11.8,4577.4,149.04,8050145.21,17018.48,8033126.73,2023-02-06,2024-03-19,Clay,Flood,None,Organic,None,0775579548,
+Farmer 78,Nakuru,Wheat,Local,Long Rains,11.43,1926.79,163.67,3604538.73,9643.57,3594895.16,2023-12-16,2023-06-07,Silty,Drip,DAP,,Severe,0712823170,Pest issues
+Farmer 79,Meru,Cassava,Organic,Long Rains,15.51,4533.08,70.22,4937032.73,96990.95,4840041.78,2023-10-17,2023-11-13,Clay,Drip,None,Organic,None,0781971316,
+Farmer 80,Nyeri,Rice,Hybrid,Long Rains,10.48,4889.87,168.75,8647735.1,75855.29,8571879.81,2023-05-29,2023-04-22,Sandy,Flood,Manure,Organic,Mild,0743491314,
+Farmer 81,Kericho,Cassava,Organic,Short Rains,9.87,1666.44,46.82,770084.25,36889.75,733194.5,2023-03-21,2023-07-06,Peaty,Drip,DAP,Organic,Mild,0782160068,High yield
+Farmer 82,Nyeri,Sorghum,Local,,2.03,3797.3,40.51,312272.1,57453.3,254818.8,2023-09-16,2023-11-30,Peaty,Drip,CAN,Chemical,None,0745431319,
+Farmer 83,Meru,Sorghum,Organic,Short Rains,2.76,3393.27,195.29,1828973.89,40623.32,1788350.57,2023-03-17,2023-05-26,Silty,Sprinkler,Error,,None,0738427073,Pest issues
+Farmer 84,Nyeri,Wheat,Organic,Long Rains,11.16,3918.97,100.42,4391939.52,5466.73,4386472.79,2023-08-08,2023-09-30,Clay,Sprinkler,CAN,None,N/A,0760929647,N/A
+Farmer 85,Error,Potatoes,Local,Dry Season,2.41,1399.26,52.92,178457.7,65502.14,112955.56,2023-09-22,2024-01-21,Silty,None,DAP,Chemical,None,0785563727,High yield
+Farmer 86,Kiambu,Beans,Local,Long Rains,3.42,768.51,170.12,447127.11,93224.01,353903.1,2023-07-19,2023-07-30,Loam,Sprinkler,CAN,Chemical,None,0745575298,
+Farmer 87,Kisumu,Coffee,Hybrid,Dry Season,16.08,698.06,173.29,1945146.42,82203.89,1862942.53,2023-08-04,2024-01-06,Silty,Drip,UREA,None,Mild,0724282218,
+Farmer 88,Machakos,Tea,Organic,Long Rains,8.17,4873.23,42.32,1684940.71,78430.07,1606510.64,2023-07-29,2023-04-15,Sandy,None,CAN,None,None,0731367172,High yield
+Farmer 89,Kisumu,Potatoes,Hybrid,Short Rains,18.82,1761.97,104.85,3476854.88,52180.3,3424674.58,2023-01-19,2023-06-23,Silty,None,N/A,None,Mild,0797775215,
+Farmer 90,Machakos,Tea,Organic,Long Rains,15.45,853.5,135.02,1780451.36,95238.12,1685213.24,2023-04-17,2023-10-24,Loam,None,CAN,None,Severe,0773791320,High yield
+Farmer 91,Kisumu,Potatoes,Hybrid,Long Rains,3.52,1318.4,18.57,86179.06,5480.61,80698.45,2023-04-06,2023-05-11,Peaty,Drip,DAP,,Error,0738609087,
+Farmer 92,Kericho,Potatoes,Organic,Dry Season,19.43,670.65,11.5,149853.39,73970.75,75882.64,2023-08-05,2024-01-09,Error,None,None,Chemical,Mild,N/A,High yield
+Farmer 93,Machakos,Potatoes,Local,Dry Season,16.1,4720.97,13.44,1021542.37,49150.16,972392.21,2023-08-13,2023-05-27,Peaty,Drip,DAP,Organic,None,0795225343,High yield
+Farmer 94,Eldoret,Wheat,Local,Short Rains,9.74,1218.09,189.31,2246011.06,30276.72,2215734.34,2023-06-10,2023-04-05,Peaty,Sprinkler,Manure,None,Severe,0727778019,High yield
+Farmer 95,Kericho,Error,Organic,Short Rains,6.59,3659.9,76.56,1846530.81,71720.75,1774810.06,2023-08-06,2023-11-30,Clay,None,None,Chemical,Severe,0779008866,High yield
+Farmer 96,Kisumu,Tea,Local,Short Rains,10.51,692.25,22.84,166173.5,76433.17,89740.33,2023-11-16,2023-10-27,Silty,Drip,Manure,None,,0784593961,Pest issues
+Farmer 97,Kiambu,Wheat,Organic,Short Rains,4.51,320.42,112.94,163208.94,21053.39,142155.55,2023-09-18,2023-10-15,Sandy,N/A,DAP,Chemical,None,0768526649,
+Farmer 98,Meru,Tea,Local,Dry Season,1.31,1821.95,199.78,476825.81,34821.35,442004.46,2023-12-21,2023-04-02,Clay,Sprinkler,Manure,None,Error,0722517517,Error
+Farmer 99,Kiambu,Beans,Local,Dry Season,0.68,1183.62,135.37,108954.11,97011.26,11942.85,N/A,2024-02-27,N/A,None,None,Chemical,None,0745264581,N/A
+Farmer 100,Nakuru,,Organic,Dry Season,Error,2646.41,171.06,,41699.69,,N/A,2023-11-06,Peaty,Drip,CAN,Organic,Severe,0752091325,Delayed harvest
+Farmer 101,Mombasa,Rice,Local,Long Rains,7.48,139.6,100.39,104828.04,45975.91,58852.13,2023-06-19,2023-10-10,Loam,Drip,DAP,None,Mild,0787701200,Pest issues
+Farmer 102,,Rice,Local,Long Rains,3.93,4066.49,81.86,1308229.68,6272.64,1301957.04,2023-07-18,2024-02-25,Sandy,None,CAN,Chemical,Mild,0749823450,
+Farmer 103,Machakos,Coffee,Hybrid,Long Rains,Error,2187.9,62.52,,N/A,,2023-06-27,2023-10-24,Peaty,Drip,None,Organic,None,0747816686,Delayed harvest
+Farmer 104,Meru,Cassava,Hybrid,Short Rains,1.09,2734.26,22.1,65865.59,67813.67,-1948.08,2023-12-04,2023-11-19,Error,N/A,Manure,Organic,Mild,0738898923,Delayed harvest
+Farmer 105,Machakos,Cassava,Organic,Dry Season,12.29,3712.72,127.37,5811807.61,63180.24,5748627.37,2023-09-16,2023-09-14,Loam,Drip,DAP,None,Mild,0770597444,High yield
+Farmer 106,N/A,Tea,Organic,Long Rains,0.85,3733.09,146.12,463657.24,10047.26,453609.98,2023-01-23,2023-05-26,Sandy,Sprinkler,None,Chemical,None,0731682744,High yield
+Farmer 107,Nairobi,Cassava,Organic,Dry Season,15.47,1727.03,13.35,356674.01,4752.76,351921.25,2023-08-16,2023-09-16,Sandy,Drip,Manure,Chemical,None,0790388981,Delayed harvest
+Farmer 108,Machakos,Coffee,Local,Short Rains,1.86,3636.2,125.78,850691.9,16127.07,834564.83,2023-09-04,2023-06-09,Loam,Sprinkler,Error,Chemical,Mild,0782269803,High yield
+Farmer 109,Nyeri,,Hybrid,Dry Season,14.33,3191.67,40.67,1860108.79,17416.54,1842692.25,2023-10-21,2023-09-24,Sandy,None,DAP,Chemical,,0740885476,Pest issues
+Farmer 110,Mombasa,Tea,Hybrid,Dry Season,8.47,N/A,124.57,,32207.16,,2023-01-02,2024-03-23,Loam,,CAN,Organic,Severe,0745810056,High yield
+Farmer 111,Nairobi,Sorghum,N/A,Dry Season,9.16,726.52,197.57,1314813.18,89853.58,1224959.6,2023-12-21,2023-07-24,Peaty,N/A,Manure,None,Mild,0745264581,Pest issues
+Farmer 112,,Potatoes,Organic,Dry Season,19.1,2549.18,167.27,8144265.57,38294.15,8105971.42,2023-07-20,2024-03-03,Loam,None,Manure,Chemical,Severe,0796028436,Delayed harvest
+Farmer 113,Meru,Tea,Organic,Short Rains,17.07,3429.28,55.76,3264068.26,66193.37,3197874.89,,2023-12-07,Peaty,None,DAP,Organic,Severe,0745351479,
+Farmer 114,Meru,Maize,Organic,Dry Season,11.9,2917.9,135.24,4695939.87,99682.92,4596256.95,2023-11-05,2024-01-28,Loam,None,N/A,None,Mild,0752101056,High yield
+Farmer 115,Mombasa,Wheat,Local,Dry Season,13.13,479.87,33.47,210884.2,35172.12,175712.08,2023-07-26,2023-06-05,Peaty,Sprinkler,None,Organic,Severe,0748250360,
+Farmer 116,Eldoret,Sorghum,Organic,Long Rains,4.96,4814.62,12.64,301849.71,96500.09,205349.62,2023-03-31,2023-06-08,Clay,None,DAP,None,Severe,0713326769,Pest issues
+Farmer 117,Kericho,Potatoes,Local,Dry Season,18.74,4574.23,30.65,2627350.8,14234.35,2613116.45,2023-09-08,2024-03-15,Sandy,None,Manure,Organic,None,0743374088,Error
+Farmer 118,Nakuru,Potatoes,Local,Long Rains,3.47,3094.39,68.22,732514.52,Error,,2023-04-19,2023-08-22,Clay,Flood,CAN,Organic,,0722388090,Pest issues
+Farmer 119,Nakuru,Potatoes,Local,Long Rains,7.99,1039.36,95.21,790670.15,51835.28,738834.87,2023-07-19,2023-08-18,Clay,Sprinkler,DAP,None,Severe,0718526544,Delayed harvest
+Farmer 120,Kericho,Tea,Organic,Short Rains,2.77,N/A,112.1,,58584.72,,2023-09-03,2023-07-02,Loam,None,UREA,Organic,None,0723419256,
+Farmer 121,Kisumu,Beans,Organic,Short Rains,12.26,4109.45,20.62,1038873.89,68757.33,970116.56,2023-02-26,2023-08-23,Peaty,Flood,DAP,None,Mild,0773993471,High yield
+Farmer 122,Kericho,Rice,Hybrid,Long Rains,3.4,724.93,130.95,322760.58,58209.77,264550.81,2023-01-31,2023-10-02,Loam,Sprinkler,None,Chemical,None,0758966946,Delayed harvest
+Farmer 123,Nairobi,Beans,Organic,Dry Season,17.47,,168.21,,10101.72,,2023-08-28,2024-02-29,Silty,Flood,UREA,Organic,Error,0775579548,N/A
+Farmer 124,Kiambu,Error,N/A,Short Rains,N/A,1723.46,82.6,,65767.79,,2023-07-04,2023-11-07,Error,None,None,Organic,Mild,0723756669,Pest issues
+Farmer 125,Kiambu,Cassava,Local,Long Rains,18.52,2260.06,127.92,5354259.33,85529.09,5268730.24,2023-07-23,2023-07-12,Clay,None,Manure,Chemical,,0738119557,Pest issues
+Farmer 126,Nyeri,Maize,Local,Long Rains,3.26,4518.04,179.82,2648534.69,33049.52,2615485.17,2023-12-12,2023-12-23,Silty,Sprinkler,None,,None,0775181648,
+Farmer 127,Nakuru,Coffee,Organic,Long Rains,8.5,1928.3,29.7,486799.33,23065.06,463734.27,2023-06-29,2023-11-24,Silty,N/A,None,None,Mild,0713356886,High yield
+Farmer 128,,Sorghum,Organic,Dry Season,12.52,2243.27,113.3,3182114.39,24732.47,3157381.92,2023-12-04,2023-05-13,Clay,Drip,None,Organic,None,0764038913,Delayed harvest
+Farmer 129,Eldoret,Beans,Error,Error,6.33,3108.62,62.0,1220009.01,47237.33,1172771.68,2023-10-28,2023-07-15,Silty,None,CAN,None,Mild,0748285503,
+Farmer 130,Nairobi,Rice,Local,Dry Season,8.87,1661.09,116.58,1717674.37,29218.65,1688455.72,2023-08-25,2023-10-24,Error,Drip,DAP,,Mild,0711540956,Pest issues
+Farmer 131,Meru,Cassava,Local,Long Rains,4.87,,33.99,,45231.19,,2023-06-01,2023-09-28,Loam,Sprinkler,DAP,Organic,Severe,0767684996,High yield
+Farmer 132,Machakos,Tomatoes,Local,Long Rains,13.28,1461.41,77.34,1500977.97,42836.25,1458141.72,2023-04-23,2023-04-19,Loam,,None,Chemical,None,0715614174,Pest issues
+Farmer 133,Mombasa,Sorghum,Organic,Dry Season,3.82,3010.63,175.91,2023071.71,2342.54,2020729.17,2023-11-02,2023-08-17,Clay,None,UREA,Organic,Severe,0740728046,
+Farmer 134,Kisumu,Rice,Organic,Long Rains,6.96,4643.44,64.77,2093259.04,14634.16,2078624.88,2023-04-11,2023-05-12,Clay,Flood,Manure,Organic,Mild,0795899313,Pest issues
+Farmer 135,Mombasa,Coffee,Local,Long Rains,15.76,2110.27,137.32,4566968.68,33799.45,4533169.23,2023-01-28,2023-12-21,Silty,Sprinkler,CAN,Organic,Severe,0719335534,Delayed harvest
+Farmer 136,Kiambu,Coffee,Local,Error,13.79,816.61,192.23,2164712.01,,,2023-09-15,2024-03-27,Peaty,Error,None,None,None,0777834855,High yield
+Farmer 137,Error,Cassava,Hybrid,Dry Season,10.75,4594.61,170.89,8440608.71,23324.16,8417284.55,2023-04-09,2023-04-13,Clay,Sprinkler,CAN,None,None,0793370583,
+Farmer 138,Machakos,Cassava,Local,Dry Season,2.47,4843.76,142.53,1705241.35,49861.96,1655379.39,2023-12-26,2023-04-19,Clay,Drip,Manure,Chemical,None,Error,Pest issues
+Farmer 139,Kericho,Coffee,,,14.06,149.24,146.77,307969.6,66100.7,241868.9,2023-06-04,2024-01-08,Loam,Flood,None,Organic,Mild,0741568532,
+Farmer 140,Mombasa,Tomatoes,Organic,Short Rains,9.35,1199.8,19.93,223577.33,39422.95,184154.38,2023-10-21,2023-12-22,Silty,Sprinkler,DAP,None,None,0722388090,Pest issues
+Farmer 141,Nairobi,Sorghum,Local,Dry Season,1.22,4700.29,134.64,772073.4,72113.61,699959.79,2023-02-09,2023-09-14,Silty,N/A,UREA,Error,Mild,0798588154,High yield
+Farmer 142,Kericho,Tea,Local,Dry Season,Error,3836.8,93.79,,8889.32,,2023-08-18,2023-07-27,Loam,Sprinkler,Manure,None,Mild,0758718453,
+Farmer 143,Meru,Potatoes,Hybrid,Long Rains,5.64,4141.11,18.6,434419.0,59366.26,375052.74,2023-10-29,2023-05-20,Silty,None,Manure,Organic,None,0728024248,Delayed harvest
+Farmer 144,Kericho,Potatoes,Local,Short Rains,5.02,226.31,33.97,38592.51,51198.96,-12606.45,2023-02-07,2023-09-09,Clay,Flood,None,None,Error,0716323852,High yield
+Farmer 145,Machakos,Rice,Local,Dry Season,10.19,982.32,113.25,1133614.47,70777.06,1062837.41,2023-01-15,2023-12-16,Silty,N/A,CAN,Chemical,Mild,0781016525,Delayed harvest
+Farmer 146,Nairobi,Beans,Hybrid,Dry Season,15.72,2038.08,16.85,539850.71,87785.54,452065.17,2023-08-01,Error,Peaty,Drip,Manure,None,Mild,0784252420,N/A
+Farmer 147,Kiambu,Potatoes,Local,Short Rains,11.44,804.48,36.85,339139.81,27546.34,311593.47,2023-11-30,2023-11-23,Peaty,Drip,Manure,Chemical,None,0747816686,Delayed harvest
+Farmer 148,Kiambu,N/A,Organic,Long Rains,6.79,2663.93,11.06,200054.22,23376.92,176677.3,2023-06-06,2023-10-24,Peaty,Sprinkler,,Organic,Mild,0741244663,
+Farmer 149,Kisumu,Potatoes,Organic,Dry Season,18.23,3892.21,41.56,2948889.31,35469.87,2913419.44,2023-04-02,2023-04-06,Sandy,Drip,CAN,N/A,Severe,0731130263,Pest issues
+Farmer 150,Kisumu,Error,Local,Dry Season,,2272.55,137.68,,67294.48,,2023-12-19,2023-06-28,Clay,Flood,Manure,None,N/A,0781969657,
+Farmer 151,Nyeri,Maize,Hybrid,Long Rains,13.78,1396.27,190.44,3664179.98,79635.21,3584544.77,2023-03-01,2024-02-18,Loam,Flood,Manure,Organic,None,0745810056,Delayed harvest
+Farmer 152,Nakuru,Wheat,Local,Long Rains,9.73,3424.92,41.16,1371635.25,80347.47,1291287.78,2023-08-12,2023-08-04,Peaty,Flood,,Chemical,Mild,0796098221,High yield
+Farmer 153,Machakos,Wheat,Local,Short Rains,Error,N/A,192.12,,2210.22,,Error,2023-10-23,Clay,Flood,DAP,Chemical,Mild,0764543049,Pest issues
+Farmer 154,Mombasa,Tomatoes,Organic,,14.69,3407.48,150.35,7525901.74,Error,,2023-11-23,2023-05-22,Clay,Flood,DAP,None,Severe,0722981052,High yield
+Farmer 155,Machakos,Rice,Organic,Short Rains,11.68,3423.22,97.52,3899162.6,35290.27,3863872.33,2023-10-15,2023-05-13,Peaty,Flood,Manure,Organic,Severe,0720570592,High yield
+Farmer 156,Nairobi,Rice,Local,Long Rains,19.85,3465.54,166.97,11486028.09,3875.06,11482153.03,2023-11-03,2023-10-27,Sandy,Sprinkler,Manure,Chemical,Error,0744999379,
+Farmer 157,Mombasa,Coffee,Organic,Long Rains,9.5,3768.18,32.99,1180966.45,11258.68,1169707.77,2023-02-27,2023-10-05,Sandy,Sprinkler,UREA,Chemical,None,0731172421,Delayed harvest
+Farmer 158,Nakuru,Cassava,Local,Dry Season,1.01,3505.9,194.76,689637.17,17742.97,671894.2,2023-03-18,2023-06-01,Sandy,Drip,None,None,Severe,Error,Pest issues
+Farmer 159,Kericho,Tomatoes,Organic,Short Rains,4.06,398.24,23.88,38610.48,N/A,,2023-09-10,2023-09-16,Peaty,Flood,None,Chemical,Severe,0779008866,Delayed harvest
+Farmer 160,Nakuru,Tomatoes,Hybrid,Long Rains,5.02,1686.45,61.18,517948.6,32219.32,485729.28,2023-05-21,Error,Sandy,Flood,N/A,Chemical,Severe,0728740864,High yield
+Farmer 161,Kiambu,,Local,Dry Season,18.22,758.0,135.53,1871772.3,97172.43,1774599.87,2023-01-12,2024-02-23,Silty,Drip,DAP,None,Severe,0741227216,Pest issues
+Farmer 162,Eldoret,Sorghum,Organic,,18.49,990.2,172.56,3159366.18,46317.58,3113048.6,2023-01-21,2024-01-02,Clay,Flood,UREA,Organic,Mild,0781969657,Pest issues
+Farmer 163,N/A,Beans,Error,Short Rains,4.51,4018.98,82.21,1490105.56,Error,,2023-12-22,2023-04-20,,Flood,Manure,Chemical,Severe,0724366125,Delayed harvest
+Farmer 164,Kiambu,Maize,Local,Long Rains,1.41,4846.78,134.71,920602.72,72009.54,848593.18,2023-04-26,2024-03-03,Silty,Flood,UREA,Chemical,Severe,0741774346,N/A
+Farmer 165,Machakos,Maize,Hybrid,Short Rains,9.32,3750.31,53.15,1857746.06,19078.63,1838667.43,2023-12-15,2023-04-09,Sandy,Sprinkler,None,None,None,0716789850,Delayed harvest
+Farmer 166,Mombasa,Potatoes,Organic,Dry Season,8.32,1626.87,86.27,1167712.62,31804.9,1135907.72,2023-03-05,2024-02-07,Clay,Flood,DAP,Chemical,Mild,0760929647,High yield
+Farmer 167,Machakos,Wheat,Organic,Long Rains,16.93,2970.34,169.11,8504179.36,65061.76,8439117.6,N/A,2024-02-16,Silty,Drip,UREA,N/A,N/A,0750181935,Pest issues
+Farmer 168,Nakuru,Coffee,Hybrid,Dry Season,5.63,3725.31,74.03,1552667.86,69867.97,1482799.89,2023-03-16,2023-12-29,Loam,Drip,CAN,Organic,None,0785329037,Delayed harvest
+Farmer 169,Kericho,,Hybrid,Short Rains,3.33,4454.16,34.47,511271.2,71127.04,440144.16,2023-08-13,2023-11-10,,N/A,DAP,Chemical,None,0721496211,Pest issues
+Farmer 170,Nairobi,Cassava,Hybrid,Short Rains,13.41,3796.88,143.18,7290175.9,34986.24,7255189.66,2023-02-18,2023-04-11,Clay,Drip,DAP,None,N/A,0722575562,
+Farmer 171,Kiambu,Coffee,Local,Short Rains,17.0,289.99,186.44,919117.51,84516.54,834600.97,2023-09-24,2024-03-01,Peaty,None,UREA,Organic,None,0726090908,High yield
+Farmer 172,Eldoret,,Local,Long Rains,6.1,4144.43,145.67,3682686.62,1469.14,3681217.48,2023-07-10,2023-10-23,,Flood,Manure,None,Severe,0768326160,Pest issues
+Farmer 173,Nairobi,Beans,Hybrid,Long Rains,0.7,1704.15,N/A,,24933.43,,2023-06-12,,Sandy,Flood,CAN,None,N/A,0731227574,Delayed harvest
+Farmer 174,Machakos,Cassava,N/A,,2.67,1200.14,118.58,379974.65,16160.65,363814.0,2023-07-08,2023-11-08,Loam,N/A,None,Chemical,Severe,0756397338,High yield
+Farmer 175,Eldoret,Beans,Local,Long Rains,14.72,2316.37,61.93,2111625.13,49181.81,2062443.32,2023-11-18,2024-03-12,,,DAP,Organic,Mild,0796977837,Pest issues
+Farmer 176,Nakuru,Sorghum,Local,Dry Season,17.67,3480.82,197.68,12158523.75,7820.11,12150703.64,2023-09-11,Error,Loam,Flood,CAN,Organic,None,0778387461,Pest issues
+Farmer 177,Kisumu,Rice,Organic,Short Rains,0.71,3942.19,137.64,385248.15,80891.64,304356.51,2023-06-19,2023-05-25,Clay,Sprinkler,DAP,None,None,0723419256,
+Farmer 178,Kisumu,Tomatoes,Hybrid,Long Rains,3.93,3805.8,64.23,960674.88,67729.47,892945.41,2023-11-07,2023-05-04,Sandy,None,CAN,Chemical,Severe,0787736262,Pest issues
+Farmer 179,Eldoret,Beans,Local,Short Rains,19.02,2414.21,21.35,980355.15,31750.58,948604.57,2023-03-08,2023-09-22,Loam,None,N/A,Organic,Mild,0747463522,Pest issues
+Farmer 180,Eldoret,Tomatoes,Local,Short Rains,15.74,2367.18,127.92,4766224.14,73608.57,4692615.57,2023-07-12,2023-04-06,Loam,Drip,Error,Organic,None,0738427073,
+Farmer 181,Nakuru,Rice,Hybrid,Long Rains,N/A,1700.39,186.12,,40203.03,,2023-01-29,2024-01-11,Error,Sprinkler,DAP,Organic,None,0731682744,High yield
+Farmer 182,N/A,Beans,Hybrid,Short Rains,10.96,1478.94,48.87,792142.74,36732.89,755409.85,,2023-07-15,Silty,None,None,Chemical,Severe,0727566185,Delayed harvest
+Farmer 183,,Maize,Hybrid,Short Rains,6.42,1557.6,187.09,1870861.09,,,2023-05-24,2023-12-02,Sandy,N/A,UREA,Chemical,Severe,Error,High yield
+Farmer 184,Eldoret,Maize,Hybrid,Long Rains,11.04,523.58,130.21,752655.88,Error,,2023-03-26,2024-03-16,Sandy,Flood,CAN,Chemical,Mild,0786149359,
+Farmer 185,Eldoret,Coffee,Organic,Long Rains,,682.87,103.35,,77208.95,,2023-10-06,2023-08-04,Clay,Flood,Manure,N/A,Severe,0728740864,
+Farmer 186,,Maize,Local,,8.07,2190.98,44.71,790526.84,43567.37,746959.47,2023-05-23,2024-03-25,Clay,Error,Manure,Organic,None,0781691040,Delayed harvest
+Farmer 187,Eldoret,Tomatoes,Local,Dry Season,3.37,4026.0,173.15,2349233.4,Error,,2023-07-11,2024-02-05,Loam,Sprinkler,None,None,Severe,0788406989,High yield
+Farmer 188,Kisumu,Beans,,Short Rains,16.81,3338.94,21.96,1232561.69,31328.42,1201233.27,2023-12-19,2024-03-17,Peaty,Sprinkler,None,Organic,Mild,0763100814,Pest issues
+Farmer 189,Eldoret,Beans,Local,Long Rains,0.56,1401.94,62.7,49224.92,34422.98,14801.94,2023-07-01,2023-06-17,Error,Sprinkler,Manure,None,,0724366125,Pest issues
+Farmer 190,Kiambu,N/A,Local,Short Rains,9.2,2752.2,94.02,2380608.96,3403.32,2377205.64,2023-01-12,2023-09-24,Clay,None,DAP,Chemical,Mild,0761642594,Delayed harvest
+Farmer 191,Nyeri,Potatoes,Hybrid,Long Rains,1.48,1222.53,156.84,283777.58,13289.59,270487.99,2023-01-30,2023-06-25,,Sprinkler,CAN,Chemical,Mild,0787490893,Delayed harvest
+Farmer 192,Nairobi,N/A,Local,Long Rains,10.74,3039.01,50.96,1663281.78,90462.7,1572819.08,2023-11-24,2023-08-30,Sandy,None,Manure,N/A,Severe,0785329037,High yield
+Farmer 193,N/A,Tomatoes,Hybrid,Dry Season,7.27,2785.15,,,95402.41,,2023-09-05,2023-07-22,Loam,None,Manure,Chemical,Mild,0787388337,
+Farmer 194,Nakuru,Sorghum,Organic,Dry Season,8.96,2999.29,142.5,3829493.47,49694.22,3779799.25,2023-08-09,2023-08-25,Loam,Flood,DAP,Organic,None,0717901903,
+Farmer 195,Mombasa,Maize,Hybrid,Long Rains,,1042.02,63.9,,30071.67,,2023-12-27,2023-05-11,,None,DAP,Chemical,Severe,0765177213,
+Farmer 196,Meru,Rice,Hybrid,Dry Season,17.13,3326.18,89.0,5070994.24,21895.11,5049099.13,2023-07-20,2024-01-28,Peaty,Drip,None,None,Mild,N/A,Error
+Farmer 197,Kiambu,Beans,Organic,Long Rains,17.88,4797.32,104.36,8951591.88,65037.46,8886554.42,2023-08-07,2023-06-23,Sandy,Drip,,Organic,None,0784045292,Pest issues
+Farmer 198,Kiambu,Sorghum,Organic,Short Rains,12.48,4956.46,152.07,9406536.33,4601.57,9401934.76,2023-01-04,2023-11-24,,Drip,Manure,None,Mild,0759555330,Error
+Farmer 199,Kericho,Beans,Hybrid,N/A,19.99,773.38,153.42,2371852.67,10943.14,2360909.53,2023-01-27,2023-05-19,Peaty,N/A,N/A,Organic,Severe,0713176186,
+Farmer 200,Mombasa,Potatoes,Hybrid,Short Rains,14.89,2003.36,33.68,1004675.42,71395.75,933279.67,2023-10-22,,Clay,Flood,UREA,None,Mild,0712823170,
+Farmer 201,Eldoret,Tea,Local,Dry Season,15.74,789.42,100.6,1250002.36,26226.31,1223776.05,Error,2023-05-25,Sandy,Sprinkler,None,None,Severe,0786460539,
+Farmer 202,,Tomatoes,Local,,14.79,3160.63,53.95,2521931.47,59162.46,2462769.01,2023-11-10,2023-08-07,Peaty,Sprinkler,Error,Organic,Severe,0745059710,Delayed harvest
+Farmer 203,Nakuru,Tomatoes,Organic,Long Rains,11.35,1124.45,,,81447.36,,2023-09-29,2024-01-28,Peaty,None,None,None,Mild,0778159587,High yield
+Farmer 204,Kericho,Maize,Local,Dry Season,11.42,4305.69,59.34,2917805.94,63751.59,2854054.35,,2024-03-06,Clay,,None,Error,None,0739920292,Pest issues
+Farmer 205,Error,Potatoes,,Long Rains,16.35,Error,147.54,,78728.85,,2023-04-17,2024-02-03,Peaty,Flood,DAP,None,Severe,0747295260,
+Farmer 206,Kisumu,Tomatoes,Organic,Dry Season,10.56,793.35,40.13,336200.15,94599.83,241600.32,2023-07-08,2024-03-15,Loam,Drip,Manure,Chemical,Mild,0744188276,
+Farmer 207,Nairobi,Wheat,Organic,Dry Season,9.58,1123.79,96.4,1037833.55,8607.22,1029226.33,2023-06-17,2023-05-19,Peaty,Drip,,Organic,None,0775579548,
+Farmer 208,Nyeri,Maize,Local,Dry Season,14.63,1505.5,46.99,1034976.6,34183.94,1000792.66,2023-06-22,2023-10-20,Clay,Drip,UREA,Organic,None,0747338124,Delayed harvest
+Farmer 209,Kisumu,Wheat,Hybrid,Dry Season,10.43,,55.11,,5701.64,,2023-02-03,2023-08-25,Clay,None,None,Chemical,Severe,0756397338,
+Farmer 210,Kisumu,Rice,Organic,Dry Season,15.34,2552.15,36.85,1442676.8,61066.38,1381610.42,2023-11-29,2023-12-23,Peaty,Flood,CAN,None,None,0771070189,Pest issues
+Farmer 211,,Sorghum,Hybrid,Long Rains,11.67,4626.75,152.94,8257868.74,7197.89,8250670.85,2023-07-12,2024-02-08,Clay,Drip,CAN,N/A,Severe,0731367172,High yield
+Farmer 212,Mombasa,N/A,Local,Long Rains,9.09,4147.43,138.18,5209405.17,40729.92,5168675.25,,2023-11-03,Peaty,Flood,Manure,Chemical,None,0722448136,
+Farmer 213,Kericho,Tea,Local,N/A,16.44,2548.33,149.56,6265748.18,99595.59,6166152.59,2023-01-12,2024-03-25,Silty,Drip,DAP,Chemical,Mild,0783227889,
+Farmer 214,Nairobi,Tea,,Dry Season,2.55,Error,111.51,,65188.69,,2023-11-09,2024-02-17,,None,None,Organic,Mild,0713704481,
+Farmer 215,Kisumu,Tomatoes,Organic,Dry Season,11.07,3773.85,153.56,6415202.33,85395.68,6329806.65,2023-10-31,2023-06-11,Peaty,Sprinkler,UREA,None,Mild,0758024342,Delayed harvest
+Farmer 216,Nyeri,Sorghum,Local,Error,14.59,2571.96,52.6,1973809.55,52632.72,1921176.83,2023-01-20,2023-10-04,Sandy,N/A,CAN,Organic,Severe,0719121552,High yield
+Farmer 217,Meru,N/A,Local,Error,17.01,3813.05,191.55,12423929.26,98332.24,12325597.02,2023-06-12,2024-02-09,Peaty,Drip,Manure,Organic,None,0736687537,Pest issues
+Farmer 218,Machakos,Coffee,,Short Rains,7.13,4819.17,65.61,2254404.35,53056.94,2201347.41,2023-11-16,2023-10-11,Clay,None,UREA,None,None,0743704923,
+Farmer 219,Eldoret,Tea,Local,Long Rains,6.85,601.02,42.78,176124.7,41782.09,134342.61,2023-03-27,2023-10-04,Loam,Sprinkler,CAN,Organic,Severe,0784252420,Delayed harvest
+Farmer 220,Kisumu,Maize,Local,Dry Season,15.61,3568.8,15.33,854018.48,55866.79,798151.69,2023-12-27,2024-03-07,Loam,None,DAP,Chemical,None,0788339168,
+Farmer 221,Nyeri,Cassava,,Dry Season,15.69,3303.4,85.59,4436159.31,40866.93,4395292.38,2023-09-28,2023-08-06,Peaty,Sprinkler,Error,Chemical,Severe,,Pest issues
+Farmer 222,Kiambu,Rice,Hybrid,Dry Season,3.01,4660.43,28.46,399233.87,54424.29,344809.58,2023-07-05,2023-12-02,Silty,Sprinkler,DAP,None,Mild,0718181586,
+Farmer 223,Kericho,Wheat,Local,Short Rains,2.93,2312.22,57.74,391177.22,9908.09,381269.13,,2024-03-09,Clay,Drip,DAP,None,,0736687537,
+Farmer 224,Eldoret,Sorghum,,Long Rains,11.52,4037.9,184.7,8591617.5,70248.25,8521369.25,2023-09-06,2023-06-03,Clay,Error,UREA,None,Error,0756843172,Pest issues
+Farmer 225,Nakuru,Wheat,Hybrid,Error,1.24,1972.88,167.87,410672.33,58703.53,351968.8,2023-01-27,2024-01-02,Clay,,DAP,None,None,0763481198,
+Farmer 226,Nyeri,Potatoes,Organic,Short Rains,2.13,2614.41,81.02,451175.53,9427.68,441747.85,2023-08-05,2023-12-15,Silty,None,DAP,None,Severe,0747393469,
+Farmer 227,Nakuru,Cassava,Organic,Long Rains,2.59,990.45,83.33,213763.57,N/A,,2023-05-13,2023-06-17,Peaty,Drip,None,Organic,None,0735808537,Delayed harvest
+Farmer 228,Nyeri,Tea,Hybrid,Short Rains,5.04,2528.4,156.76,1997614.0,40669.76,1956944.24,2023-02-23,2023-09-15,Silty,Flood,None,None,None,0749823450,
+Farmer 229,Kericho,Beans,Organic,Short Rains,2.92,1212.64,163.43,578690.73,30572.62,548118.11,2023-10-13,2023-11-07,Clay,None,DAP,Chemical,Mild,0741944441,
+Farmer 230,Kericho,Coffee,Organic,Short Rains,5.23,885.29,177.46,821651.64,91161.17,730490.47,2023-09-22,2023-12-03,Peaty,Drip,None,Chemical,None,0784252722,High yield
+Farmer 231,Mombasa,Beans,Error,Short Rains,Error,4745.14,18.96,,73366.25,,2023-02-13,2023-10-21,Loam,Sprinkler,DAP,None,Severe,0723718431,Pest issues
+Farmer 232,Meru,,Local,Short Rains,19.59,4329.79,59.76,5068878.23,78643.54,4990234.69,2023-11-02,2023-12-31,Peaty,Flood,Manure,None,Severe,0747135391,
+Farmer 233,N/A,Tea,Hybrid,Long Rains,16.3,605.7,184.79,1824415.04,91094.03,1733321.01,2023-10-13,2024-03-12,Silty,Drip,UREA,Organic,Severe,0717869910,Pest issues
+Farmer 234,Kiambu,Maize,Local,Dry Season,N/A,N/A,27.49,,81976.55,,2023-04-10,2024-01-06,Peaty,None,None,Organic,Severe,0732097220,
+Farmer 235,Meru,Cassava,Hybrid,Long Rains,17.99,3829.16,23.84,1642256.27,19302.94,1622953.33,2023-04-01,2024-02-03,Sandy,Drip,CAN,Chemical,None,0717869910,Pest issues
+Farmer 236,Nairobi,Tomatoes,Organic,Long Rains,11.7,,198.8,,92495.4,,2023-08-26,2023-05-26,Clay,None,,Organic,Mild,0766775103,
+Farmer 237,,Potatoes,Hybrid,N/A,16.31,2124.7,100.09,3468504.55,68775.63,3399728.92,2023-09-26,2023-08-02,Loam,Drip,CAN,Chemical,N/A,0782772208,Pest issues
+Farmer 238,Meru,Tomatoes,Hybrid,Short Rains,7.96,881.33,179.0,1255754.24,Error,,2023-04-30,2023-08-16,Clay,Drip,UREA,Chemical,Severe,0715957459,Delayed harvest
+Farmer 239,Nairobi,,Organic,Long Rains,5.56,4238.17,196.69,4634847.45,7376.54,4627470.91,2023-11-12,2024-01-05,Loam,Flood,CAN,Organic,N/A,0730776478,
+Farmer 240,Kisumu,Tomatoes,Error,Long Rains,9.84,,130.25,,33771.97,,2023-01-24,2023-04-03,Peaty,None,UREA,,N/A,0784045292,
+Farmer 241,Nakuru,Cassava,Organic,Dry Season,17.28,N/A,169.95,,1423.32,,2023-07-10,2024-01-07,Error,None,Manure,None,Error,0748250360,Pest issues
+Farmer 242,Eldoret,Potatoes,Hybrid,Long Rains,18.22,896.32,148.92,2432005.13,70408.98,2361596.15,2023-03-09,2023-11-11,Loam,Drip,UREA,,Mild,0766306997,High yield
+Farmer 243,Nairobi,Potatoes,Local,Long Rains,11.9,3947.28,102.5,4814694.78,40006.12,4774688.66,2023-07-21,2023-05-01,Sandy,Flood,DAP,Chemical,None,0781286543,Delayed harvest
+Farmer 244,Nakuru,Error,Hybrid,Short Rains,13.48,4933.01,118.47,7877896.6,96603.68,7781292.92,2023-04-14,2023-04-18,Loam,Error,None,Organic,Severe,0765259205,High yield
+Farmer 245,Nyeri,Cassava,Local,Dry Season,18.08,487.49,188.58,1662110.02,40310.41,1621799.61,2023-07-17,2023-08-25,Error,Sprinkler,UREA,Organic,Mild,0745551614,
+Farmer 246,Kisumu,Cassava,Organic,Short Rains,7.68,4538.63,41.08,1431912.35,41267.03,1390645.32,2023-08-13,2023-05-03,N/A,Drip,,None,None,0752339391,Delayed harvest
+Farmer 247,Nairobi,Coffee,Organic,Short Rains,4.37,1013.79,179.79,796516.86,69427.8,727089.06,2023-08-24,,Silty,Drip,UREA,Organic,None,,
+Farmer 248,Meru,Tomatoes,Organic,Dry Season,8.98,3485.17,39.31,1230278.25,90121.6,1140156.65,2023-05-06,2024-02-26,Clay,None,UREA,Error,Severe,0795132217,
+Farmer 249,Nairobi,Wheat,Local,Dry Season,N/A,523.74,71.0,,2797.86,,2023-04-14,2023-11-07,Peaty,None,None,Chemical,None,0739920292,
+Farmer 250,Mombasa,Beans,Hybrid,Long Rains,11.12,3186.83,198.71,7041795.48,76489.01,6965306.47,2023-02-15,2023-07-13,Sandy,Drip,CAN,N/A,Mild,0722660194,
+Farmer 251,Kericho,Potatoes,Local,Short Rains,11.53,3141.75,63.52,2300972.46,61586.68,2239385.78,2023-08-19,2024-01-20,Silty,Sprinkler,DAP,None,Severe,0711049999,
+Farmer 252,Meru,Tomatoes,Local,,1.35,149.79,67.83,13716.35,21199.98,-7483.63,2023-08-09,2023-05-11,Peaty,Drip,CAN,Organic,Mild,0782340307,Delayed harvest
+Farmer 253,Meru,Coffee,Hybrid,Long Rains,8.43,3929.01,153.12,5071572.39,83636.8,4987935.59,2023-05-24,2023-09-21,Sandy,Sprinkler,UREA,Organic,None,,High yield
+Farmer 254,Kiambu,Maize,Hybrid,Long Rains,3.27,4527.21,97.11,1437614.18,17177.25,1420436.93,2023-05-13,2024-01-05,Clay,None,Manure,Chemical,Severe,0773993471,Delayed harvest
+Farmer 255,Nairobi,Tomatoes,Local,Dry Season,15.75,2584.95,196.07,7982590.56,63298.67,7919291.89,2023-06-12,2023-05-27,Loam,None,CAN,None,None,N/A,
+Farmer 256,Kisumu,Rice,Organic,Short Rains,18.14,3036.18,49.75,2740046.18,17879.14,2722167.04,2023-02-12,2024-02-04,Sandy,Sprinkler,CAN,Chemical,Mild,0796977837,Pest issues
+Farmer 257,Nyeri,Beans,Organic,Short Rains,Error,1103.34,42.85,,54294.31,,2023-06-06,2024-03-10,N/A,None,None,Chemical,Severe,0793131979,High yield
+Farmer 258,Kiambu,Tea,Organic,Dry Season,18.64,851.78,142.68,2265355.93,74012.55,2191343.38,Error,,Peaty,Drip,None,Chemical,Severe,0715917225,
+Farmer 259,N/A,Beans,Local,Short Rains,17.91,4075.49,52.87,3859088.41,85065.72,3774022.69,2023-09-04,2023-05-19,Silty,Flood,UREA,Error,Severe,0724716857,
+Farmer 260,Nyeri,Beans,Organic,Long Rains,17.14,2715.95,179.31,8347128.49,42882.08,8304246.41,2023-10-15,Error,Silty,Flood,None,Chemical,Error,0717634247,Pest issues
+Farmer 261,Eldoret,Cassava,Organic,Long Rains,0.69,2043.87,181.33,255724.31,55555.46,200168.85,N/A,2023-04-07,,N/A,Manure,None,None,N/A,
+Farmer 262,Nyeri,Cassava,Organic,Long Rains,,1548.57,136.4,,,,2023-11-22,2023-08-29,Clay,Flood,Manure,Chemical,Mild,0745264581,Pest issues
+Farmer 263,Machakos,Sorghum,,Long Rains,7.28,3248.44,68.0,1608107.74,45414.04,1562693.7,2023-06-07,2023-07-27,Loam,Sprinkler,None,None,Mild,0749823450,
+Farmer 264,Kericho,Potatoes,Local,Dry Season,13.92,2762.19,186.05,7153563.86,86484.22,7067079.64,2023-07-23,2023-05-04,Loam,None,None,Chemical,Mild,0747393469,
+Farmer 265,Nyeri,Maize,Organic,Long Rains,18.66,4514.63,108.48,9138680.18,84020.57,9054659.61,2023-11-08,2023-11-18,Silty,N/A,None,Chemical,None,0784045292,High yield
+Farmer 266,Mombasa,Beans,Hybrid,Error,1.08,4590.53,185.68,920559.18,54307.64,866251.54,2023-05-04,2023-05-11,Error,None,CAN,Organic,None,0782160068,
+Farmer 267,Meru,Maize,Hybrid,Long Rains,18.16,3131.54,130.25,7407156.82,49129.75,7358027.07,2023-11-29,2023-04-03,Loam,Drip,CAN,None,None,,High yield
+Farmer 268,Nakuru,Coffee,Organic,Long Rains,2.93,2168.88,,,76760.82,,2023-08-21,2023-12-08,Sandy,Drip,Manure,None,None,0723796726,Pest issues
+Farmer 269,Nairobi,Coffee,Organic,Dry Season,11.19,2611.99,134.49,3930896.33,2948.35,3927947.98,2023-05-03,2024-02-24,Error,Flood,Error,Organic,Severe,0722575562,
+Farmer 270,Kisumu,Potatoes,Hybrid,Short Rains,2.44,1974.6,158.02,761344.15,3573.69,757770.46,2023-04-08,2023-04-18,Loam,Drip,Manure,None,None,0764038913,
+Farmer 271,N/A,Rice,Hybrid,Short Rains,16.77,4521.72,Error,,Error,,2023-06-26,2023-10-01,Sandy,Drip,DAP,Organic,Severe,0757469942,High yield
+Farmer 272,Kisumu,Rice,Organic,Long Rains,19.98,2604.74,86.7,4512102.54,50912.8,4461189.74,2023-05-21,2023-06-15,Clay,Sprinkler,Manure,None,None,0710076758,
+Farmer 273,Nairobi,,Local,Long Rains,10.66,2522.91,189.56,5098068.46,48522.86,5049545.6,2023-03-02,2023-08-04,Clay,Drip,None,Chemical,Mild,0795125977,Pest issues
+Farmer 274,Nairobi,Rice,Organic,N/A,11.71,3561.07,36.18,1508710.69,41747.0,1466963.69,N/A,2024-02-12,Error,Flood,DAP,Organic,Severe,0717774584,Pest issues
+Farmer 275,Kisumu,Maize,Error,Short Rains,1.55,4531.8,164.83,1157813.72,63767.3,1094046.42,2023-06-08,2023-06-16,Sandy,None,N/A,Organic,None,0741244663,Delayed harvest
+Farmer 276,Nairobi,Beans,Local,Dry Season,1.99,882.25,164.22,288317.36,55220.69,233096.67,2023-12-04,2023-08-23,Clay,Drip,None,Organic,None,0773481353,High yield
+Farmer 277,Machakos,Potatoes,Organic,Dry Season,14.62,1466.93,19.68,422067.45,21060.94,401006.51,2023-09-01,2023-08-02,Silty,None,None,None,Severe,0736786211,Pest issues
+Farmer 278,Nyeri,Maize,Local,Error,9.6,2834.75,179.81,4893277.42,63740.58,4829536.84,2023-05-27,2024-03-10,Peaty,Flood,None,,Severe,0738317637,Delayed harvest
+Farmer 279,Kisumu,Tea,Hybrid,Short Rains,8.0,3767.98,83.8,2526053.79,N/A,,2023-08-06,2023-05-09,Sandy,Drip,CAN,Chemical,Mild,0782909480,High yield
+Farmer 280,Kisumu,Coffee,Organic,Short Rains,3.53,4334.71,Error,,74076.43,,2023-01-19,2023-11-13,Silty,None,Manure,None,Severe,0765177213,
+Farmer 281,Eldoret,Coffee,Hybrid,Long Rains,6.98,2819.5,173.34,3411350.27,67510.37,3343839.9,2023-04-30,2024-03-21,Sandy,Flood,,None,Mild,0788979095,Pest issues
+Farmer 282,Eldoret,Rice,Local,Dry Season,14.89,1372.39,29.62,605281.36,55696.23,549585.13,2023-01-05,2023-07-01,Loam,Drip,N/A,Chemical,None,0775181648,
+Farmer 283,Nairobi,Wheat,Hybrid,Short Rains,13.86,1284.16,76.46,1360870.07,39374.05,1321496.02,2023-08-09,2023-11-18,Sandy,None,None,Chemical,Severe,0764193837,
+Farmer 284,Eldoret,Tomatoes,Local,Short Rains,7.59,3015.61,42.93,982602.44,89848.75,892753.69,2023-10-14,2023-07-16,Loam,Sprinkler,UREA,Organic,None,Error,Error
+Farmer 285,Meru,Coffee,Local,Short Rains,12.22,2981.19,24.44,890352.67,25935.58,864417.09,2023-04-28,Error,Peaty,Flood,CAN,,None,0788320463,Pest issues
+Farmer 286,,Tea,Organic,Short Rains,17.1,851.29,54.55,794087.57,43895.81,750191.76,2023-07-03,2023-12-28,Peaty,Flood,Manure,Organic,Error,0765177213,
+Farmer 287,Nakuru,Coffee,Organic,Dry Season,0.67,1569.39,64.62,67947.37,41581.02,26366.35,,2023-04-26,Clay,Sprinkler,UREA,Organic,Mild,0781971316,
+Farmer 288,Nairobi,Beans,Organic,Long Rains,9.0,1834.54,87.97,1452460.35,46516.9,1405943.45,2023-01-17,2024-03-20,Sandy,Sprinkler,DAP,Chemical,Mild,0758718453,
+Farmer 289,Kiambu,Cassava,Organic,Long Rains,5.7,2004.73,98.85,1129555.09,,,2023-04-23,2023-05-10,Silty,N/A,Manure,Chemical,Severe,0720117988,Delayed harvest
+Farmer 290,Kisumu,Wheat,Local,Long Rains,13.75,4423.11,116.8,7103514.66,N/A,,2023-03-03,2023-06-09,Loam,None,CAN,None,Error,0785863473,Pest issues
+Farmer 291,Nakuru,Maize,Hybrid,Short Rains,10.32,4234.83,113.56,4962963.28,81823.71,4881139.57,2023-12-26,2023-07-14,Loam,None,DAP,Chemical,None,0731227574,Delayed harvest
+Farmer 292,Nyeri,Coffee,Hybrid,Short Rains,19.8,1902.54,135.15,5091139.96,64874.78,5026265.18,2023-05-10,2024-01-23,Loam,Drip,UREA,Organic,None,0791756179,Pest issues
+Farmer 293,,Tomatoes,Hybrid,Short Rains,9.36,2387.94,87.17,1948346.99,46172.66,1902174.33,2023-11-01,2024-02-28,Sandy,None,DAP,None,Severe,0757683626,Pest issues
+Farmer 294,Nyeri,,Hybrid,Long Rains,11.25,1538.86,143.32,2481180.92,45725.17,2435455.75,2023-07-15,2023-11-24,Peaty,None,DAP,None,Mild,0733763566,Delayed harvest
+Farmer 295,Nairobi,Tea,Local,Long Rains,7.22,4761.61,80.71,2774714.9,,,2023-01-26,2024-03-03,Silty,Drip,CAN,None,None,0799038526,
+Farmer 296,Kiambu,Error,Local,Dry Season,8.98,2473.95,189.06,4200170.38,1275.04,4198895.34,2023-06-20,2023-06-18,Sandy,Drip,CAN,Organic,Mild,0723718431,High yield
+Farmer 297,Nakuru,Wheat,N/A,Short Rains,3.36,2626.62,95.23,840446.96,77961.82,762485.14,2023-12-22,2024-03-02,Peaty,Drip,Manure,Chemical,,0721496211,Pest issues
+Farmer 298,Kiambu,Wheat,Local,Dry Season,16.11,3588.03,155.76,9003420.72,32847.9,8970572.82,2023-04-16,2023-07-31,Silty,Drip,None,Chemical,None,0781979055,High yield
+Farmer 299,Meru,Potatoes,Hybrid,Short Rains,12.19,1780.26,13.44,291666.4,30330.32,261336.08,2023-02-07,2024-01-19,Loam,None,Manure,Chemical,Mild,0781182864,
+Farmer 300,Nairobi,Maize,Local,Error,6.37,4203.36,21.15,566299.78,16649.88,549649.9,Error,2023-04-23,Silty,None,CAN,Chemical,Severe,0797226012,
+Farmer 301,Kericho,Sorghum,Hybrid,Short Rains,11.19,1643.0,68.82,1265267.4,7717.3,1257550.1,2023-06-27,2024-01-18,,Flood,,Chemical,Mild,0780823176,Pest issues
+Farmer 302,Nakuru,Cassava,Local,Short Rains,8.98,Error,156.68,,60743.53,,2023-07-27,2023-04-21,Peaty,Flood,UREA,Chemical,Severe,0718526544,High yield
+Farmer 303,Nyeri,Tea,Organic,Dry Season,2.33,1140.85,180.37,479456.02,83401.49,396054.53,2023-08-28,2023-07-14,Silty,Drip,Manure,None,Mild,Error,Delayed harvest
+Farmer 304,Nairobi,Sorghum,Organic,Short Rains,18.01,Error,88.21,,57502.56,,2023-11-03,2023-08-10,Peaty,Flood,DAP,None,Severe,0715614174,High yield
+Farmer 305,Mombasa,Coffee,Local,Short Rains,16.21,773.61,151.84,1904106.72,65244.22,1838862.5,2023-07-16,2023-07-12,Sandy,Flood,Manure,None,Mild,0738270233,
+Farmer 306,Eldoret,Potatoes,Local,Dry Season,19.44,3453.48,193.55,12994105.29,29825.84,12964279.45,2023-05-14,2023-12-19,Silty,Drip,UREA,Chemical,Mild,,High yield
+Farmer 307,Kiambu,Coffee,Hybrid,Long Rains,16.29,3076.27,125.78,6303142.49,30616.36,6272526.13,2023-06-22,2024-02-16,Clay,None,Error,Chemical,None,0782269803,
+Farmer 308,Mombasa,Rice,Hybrid,Long Rains,4.93,3647.15,40.24,723533.29,72534.59,650998.7,2023-04-04,2023-07-19,Clay,Drip,None,Organic,Mild,0745594951,
+Farmer 309,Nairobi,Tea,Local,Short Rains,3.84,3225.04,N/A,,56224.81,,2023-10-09,2023-08-13,Silty,Drip,DAP,Chemical,,0771510041,
+Farmer 310,Nyeri,N/A,Organic,Dry Season,N/A,3604.82,Error,,32302.1,,2023-08-15,2023-05-22,Loam,Flood,DAP,Chemical,None,0798231132,High yield
+Farmer 311,Machakos,Rice,Local,Dry Season,19.04,3904.58,177.67,13208556.91,N/A,,2023-03-10,2023-12-02,Silty,Sprinkler,CAN,Chemical,Severe,0773993471,Delayed harvest
+Farmer 312,Machakos,Beans,Organic,Short Rains,6.43,2386.16,60.87,933928.95,16994.63,916934.32,2023-02-20,2023-09-01,Silty,Drip,CAN,Organic,Mild,0728024248,
+Farmer 313,Mombasa,Rice,Hybrid,Short Rains,7.28,4950.74,160.75,5793652.99,49333.99,5744319.0,2023-07-26,2023-08-29,,Flood,N/A,Chemical,Mild,0714835614,
+Farmer 314,Kisumu,Tea,Hybrid,Long Rains,13.04,4305.74,139.84,7851575.45,24109.09,7827466.36,2023-02-28,2024-01-27,Peaty,Flood,UREA,Organic,Severe,0722201654,High yield
+Farmer 315,Meru,Tomatoes,Organic,,10.95,3191.22,37.13,1297465.48,18741.38,1278724.1,2023-03-12,2023-05-19,,N/A,DAP,Chemical,Severe,0721668732,High yield
+Farmer 316,Machakos,Tomatoes,Hybrid,Long Rains,2.36,4266.65,168.16,1693252.48,27494.65,1665757.83,2023-11-22,2024-02-15,Loam,Flood,Manure,Chemical,None,0739476249,High yield
+Farmer 317,Nakuru,Wheat,Local,Long Rains,6.35,3626.43,198.08,4561352.67,46308.99,4515043.68,2023-12-04,2024-01-06,Silty,Drip,DAP,None,Severe,0721003626,
+Farmer 318,Meru,Wheat,Local,Dry Season,18.95,4167.48,64.24,5073273.44,83994.53,4989278.91,2023-10-27,2024-01-27,Sandy,N/A,CAN,None,Error,0766267415,High yield
+Farmer 319,Nyeri,Potatoes,Organic,Error,12.2,3830.95,23.52,1099268.12,22434.5,1076833.62,2023-12-02,2023-06-22,Clay,None,DAP,None,Severe,0761343880,
+Farmer 320,Mombasa,Coffee,Organic,Long Rains,9.97,4611.83,68.79,3162960.42,90955.26,3072005.16,2023-09-19,2023-10-12,Silty,Drip,DAP,Error,Severe,0799889098,
+Farmer 321,Kericho,Tea,Local,Short Rains,13.44,1880.09,120.91,3055203.4,99050.48,2956152.92,2023-04-05,2023-05-15,Silty,Flood,DAP,Organic,Severe,N/A,Pest issues
+Farmer 322,Machakos,N/A,Local,Long Rains,14.16,137.77,N/A,,23589.13,,2023-08-15,2023-06-24,Peaty,Drip,Manure,None,Severe,0796728778,
+Farmer 323,Eldoret,Maize,Organic,,6.35,3243.64,153.64,3164540.59,93185.14,3071355.45,2023-06-26,2023-10-08,Sandy,Drip,CAN,None,N/A,0740728046,
+Farmer 324,Nakuru,Tomatoes,Organic,Long Rains,1.45,1052.81,N/A,,51716.09,,2023-07-23,2023-09-15,Sandy,Drip,Manure,Chemical,N/A,0782374753,Delayed harvest
+Farmer 325,Mombasa,Sorghum,Local,Short Rains,8.98,2268.85,78.24,1594083.12,5463.24,1588619.88,Error,2023-08-03,Peaty,None,,Error,Error,0758718453,High yield
+Farmer 326,Nakuru,Rice,Hybrid,Long Rains,9.27,3289.36,126.71,3863687.85,65162.16,3798525.69,2023-01-29,2023-05-08,Peaty,,DAP,None,Mild,Error,High yield
+Farmer 327,Machakos,Coffee,Hybrid,Dry Season,2.12,3757.64,49.65,395521.67,71646.96,323874.71,2023-05-21,2023-04-16,Sandy,None,UREA,Organic,Mild,0757683626,Pest issues
+Farmer 328,Nakuru,Coffee,Local,Long Rains,10.47,206.23,150.54,325050.2,26482.66,298567.54,2023-04-11,2023-12-09,Clay,Flood,None,Organic,Severe,0737415205,
+Farmer 329,Nyeri,Wheat,Organic,Short Rains,5.76,3187.69,178.74,3281862.01,75521.07,3206340.94,2023-07-15,N/A,Sandy,Flood,None,None,Mild,0750603163,
+Farmer 330,Mombasa,Sorghum,Hybrid,Short Rains,7.8,3695.37,140.55,4051197.18,93208.29,3957988.89,2023-01-19,2024-02-06,N/A,Drip,None,None,None,0749349722,
+Farmer 331,Kisumu,Tomatoes,Hybrid,Error,9.67,2741.68,86.03,2280831.28,34179.96,2246651.32,2023-09-21,2023-06-20,Silty,None,None,Organic,None,0759555330,
+Farmer 332,Mombasa,Sorghum,Local,Short Rains,18.86,2333.81,47.7,2099546.82,30225.12,2069321.7,2023-12-31,2023-06-01,Peaty,Drip,None,Chemical,Mild,0785329037,High yield
+Farmer 333,Machakos,Rice,Error,Short Rains,16.57,2443.38,Error,,84624.85,,2023-09-14,2023-10-01,Clay,Drip,Manure,Organic,Mild,0713176186,High yield
+Farmer 334,Kisumu,Coffee,Hybrid,Short Rains,6.99,4518.04,13.32,420660.25,20616.6,400043.65,2023-02-15,2023-04-30,Peaty,Error,DAP,None,None,0750056581,
+Farmer 335,Mombasa,Coffee,Local,Error,18.51,1809.07,67.59,2263311.01,94740.89,2168570.12,2023-10-27,2023-09-05,Silty,None,CAN,None,Mild,0782160068,
+Farmer 336,Kisumu,Tea,Organic,Short Rains,14.71,154.85,179.48,408827.35,62626.2,346201.15,2023-07-09,2023-12-29,,Flood,Manure,Chemical,Severe,0784593961,Delayed harvest
+Farmer 337,Nakuru,Sorghum,Organic,Short Rains,6.51,,194.12,,N/A,,2023-01-11,2023-08-12,Silty,None,None,Organic,Severe,0714265799,Pest issues
+Farmer 338,Kiambu,Rice,Organic,Long Rains,14.55,2789.97,172.67,7009376.94,1452.97,7007923.97,2023-03-23,2024-02-28,Peaty,Flood,Manure,None,Severe,,Pest issues
+Farmer 339,Nairobi,Maize,Organic,Long Rains,4.32,2992.42,35.2,455039.35,77406.09,377633.26,2023-02-21,2023-08-01,Peaty,,UREA,Chemical,Mild,0766792612,Pest issues
+Farmer 340,Nairobi,Cassava,Hybrid,Dry Season,6.2,4626.65,47.96,1375743.63,Error,,2023-08-06,2023-05-13,Silty,Sprinkler,None,Organic,Mild,0795758349,Pest issues
+Farmer 341,Nyeri,Tea,Organic,Long Rains,15.74,846.04,N/A,,9423.01,,2023-10-27,2023-05-31,Clay,None,None,None,Severe,0754058573,Pest issues
+Farmer 342,Eldoret,Tea,Local,Dry Season,4.96,1530.89,34.88,264851.32,35275.79,229575.53,Error,2023-08-18,Error,Flood,Manure,Chemical,Severe,0738119557,High yield
+Farmer 343,Kiambu,,Organic,Short Rains,6.61,2795.85,150.27,2777075.03,59658.59,2717416.44,2023-08-11,2024-01-13,Clay,Flood,UREA,None,None,0717849494,
+Farmer 344,Kericho,Sorghum,Local,Long Rains,16.31,2134.84,170.75,5945385.3,73024.6,5872360.7,2023-02-19,2023-06-29,Clay,Flood,DAP,None,None,0784346088,
+Farmer 345,Kisumu,Tomatoes,Local,Long Rains,15.7,3481.47,27.9,1524988.3,45188.65,1479799.65,2023-09-27,2023-12-23,Peaty,Flood,Manure,Organic,None,0720709497,
+Farmer 346,Nakuru,Sorghum,Hybrid,Dry Season,19.9,3791.14,122.1,9211674.06,94828.19,9116845.87,2023-04-24,2024-03-19,Clay,Sprinkler,Error,Chemical,None,0783140807,
+Farmer 347,Machakos,Tea,Organic,Dry Season,19.37,3197.38,22.69,1405265.46,57573.38,1347692.08,2023-06-10,2023-04-27,Clay,None,None,Chemical,Severe,Error,Pest issues
+Farmer 348,Nyeri,Tea,Organic,Error,17.39,3146.33,127.18,6958612.84,79299.36,6879313.48,2023-05-19,2024-03-08,Error,Flood,Error,Chemical,None,0728024248,
+Farmer 349,Kisumu,Maize,Organic,Long Rains,16.86,1665.67,123.99,3482035.5,57299.43,3424736.07,2023-06-06,2024-02-29,Loam,None,UREA,Organic,None,0777187530,
+Farmer 350,Machakos,Cassava,Organic,Long Rains,1.23,3819.68,174.47,819696.07,Error,,2023-06-24,2024-01-07,Silty,Flood,None,None,Mild,0782772208,
+Farmer 351,Nairobi,Wheat,Organic,N/A,16.07,1759.66,126.03,3563843.09,41487.11,3522355.98,2023-01-24,2024-03-30,Sandy,None,Error,Organic,Mild,0735511941,
+Farmer 352,Machakos,Cassava,Hybrid,Long Rains,11.67,1949.13,133.22,3030268.36,59918.21,2970350.15,2023-05-06,2024-01-01,,Flood,Manure,Error,None,0785345555,High yield
+Farmer 353,Nakuru,Beans,Local,Long Rains,18.08,3105.05,158.96,8923903.76,31504.41,8892399.35,2023-05-23,2023-10-27,Sandy,Sprinkler,CAN,Chemical,Mild,0710965138,Pest issues
+Farmer 354,Machakos,Tea,Local,Dry Season,1.22,3791.98,139.74,646467.37,67450.25,579017.12,2023-12-29,2023-10-08,Sandy,Flood,Error,Chemical,Severe,0763606628,
+Farmer 355,Mombasa,Rice,Local,Long Rains,1.81,2310.23,176.01,735988.68,70268.45,665720.23,2023-02-09,2023-07-06,N/A,Sprinkler,Manure,None,Mild,0741568532,
+Farmer 356,Mombasa,Cassava,Local,Dry Season,19.96,1179.66,155.43,3659756.89,69224.6,3590532.29,2023-06-10,2023-07-08,Clay,None,,Error,None,0725521714,Delayed harvest
+Farmer 357,,Rice,N/A,Dry Season,6.41,2092.39,162.7,2182168.18,53117.19,2129050.99,2023-08-02,2023-06-04,Clay,None,Manure,Chemical,Severe,0761700055,
+Farmer 358,Kericho,Wheat,Hybrid,Short Rains,3.21,2369.1,132.08,1004443.44,18176.75,986266.69,2023-07-24,2024-02-05,Clay,Drip,DAP,None,Mild,0768526649,Delayed harvest
+Farmer 359,N/A,Sorghum,Hybrid,Dry Season,10.1,3661.89,25.13,929435.29,73255.41,856179.88,2023-10-16,2023-10-03,Silty,Sprinkler,DAP,Chemical,Severe,0745594951,Delayed harvest
+Farmer 360,Kisumu,Tomatoes,Organic,Long Rains,15.52,1302.8,13.51,273164.85,48019.44,225145.41,2023-12-30,2024-02-16,Peaty,None,Manure,Organic,None,0731227574,High yield
+Farmer 361,Mombasa,Sorghum,Organic,Dry Season,1.9,4781.53,149.92,1362009.26,65835.78,1296173.48,2023-05-21,,Sandy,Drip,CAN,Chemical,Mild,0783863413,High yield
+Farmer 362,Nakuru,Rice,Hybrid,Dry Season,N/A,3514.14,171.46,,91504.4,,2023-09-20,2023-10-20,Error,Drip,CAN,Error,None,0747295260,Pest issues
+Farmer 363,Mombasa,Rice,Local,Short Rains,11.06,4499.66,10.51,523043.18,86000.98,437042.2,2023-06-20,2023-11-23,Loam,Flood,DAP,None,Severe,0795899313,Pest issues
+Farmer 364,Meru,Rice,Local,Dry Season,9.62,2481.32,182.73,4361819.63,71915.41,4289904.22,2023-12-22,2023-08-27,Sandy,Flood,None,Chemical,Mild,0743273328,N/A
+Farmer 365,Error,Wheat,N/A,Dry Season,10.03,1258.12,90.6,1143276.29,45991.0,1097285.29,2023-01-25,2023-09-06,Sandy,Sprinkler,UREA,None,Severe,0716818112,
+Farmer 366,Kericho,Maize,Organic,,16.95,434.72,29.7,218844.57,57193.27,161651.3,2023-05-16,2023-08-18,Sandy,Sprinkler,CAN,Organic,None,0719832887,Pest issues
+Farmer 367,N/A,Coffee,Hybrid,Short Rains,13.96,4701.59,99.06,6501723.5,15293.74,6486429.76,2023-02-03,2023-07-04,Silty,Flood,None,Organic,None,0788183110,
+Farmer 368,Mombasa,Rice,Local,Long Rains,15.8,262.63,23.14,96020.68,92305.07,3715.61,2023-01-13,2023-12-18,Sandy,Sprinkler,None,Chemical,Severe,0718883684,
+Farmer 369,Nairobi,Cassava,Local,Long Rains,18.41,4665.49,103.66,8903530.61,76315.85,8827214.76,2023-05-13,2024-01-11,Silty,None,DAP,Organic,Severe,0787925434,High yield
+Farmer 370,Machakos,Cassava,Hybrid,Short Rains,5.65,2250.07,188.47,2395999.41,45507.92,2350491.49,2023-10-17,2023-06-17,Peaty,Flood,DAP,None,Error,0785563727,Pest issues
+Farmer 371,Nairobi,Beans,Organic,Dry Season,9.09,2535.31,Error,,23951.0,,2023-01-12,2024-03-28,Silty,Flood,DAP,Chemical,None,0722517517,Pest issues
+Farmer 372,Nyeri,Tea,Hybrid,Short Rains,5.29,1623.99,154.43,1326693.78,25661.54,1301032.24,2023-08-01,2024-01-29,Loam,None,Manure,None,Severe,0725015458,Pest issues
+Farmer 373,Kisumu,Wheat,Organic,Long Rains,11.07,880.13,22.7,221166.99,28301.72,192865.27,2023-10-05,2023-07-06,Peaty,None,UREA,Organic,Severe,0794705205,
+Farmer 374,Nakuru,Potatoes,Hybrid,Short Rains,1.36,732.72,47.56,47393.5,60552.65,-13159.15,2023-02-26,2023-09-06,Sandy,None,None,Chemical,Severe,0725480907,
+Farmer 375,Nyeri,Cassava,Hybrid,Dry Season,7.18,2527.5,168.63,3060204.49,57194.79,3003009.7,2023-05-14,2023-04-17,Peaty,Drip,CAN,None,None,0799949389,
+Farmer 376,Kiambu,Tea,Local,Short Rains,17.64,3223.12,101.45,5768024.64,15181.7,5752842.94,2023-08-21,2024-02-25,Loam,None,CAN,None,Severe,0739476249,
+Farmer 377,Eldoret,Maize,Local,Long Rains,4.33,3976.8,53.7,924689.51,57435.63,867253.88,2023-03-09,2023-04-15,Clay,Flood,Manure,Error,Mild,0727778019,Delayed harvest
+Farmer 378,Kericho,Beans,Hybrid,Short Rains,16.35,4873.12,33.04,2632478.92,8368.91,2624110.01,2023-01-01,2023-05-08,Sandy,Flood,Manure,Chemical,Mild,0773440831,Pest issues
+Farmer 379,Machakos,Beans,Error,Error,3.4,2662.71,135.56,1227253.69,2191.12,1225062.57,2023-11-20,2023-07-17,Sandy,Error,DAP,Organic,N/A,0725521714,
+Farmer 380,Nyeri,Rice,Local,Short Rains,18.9,4476.76,49.81,4214462.15,38474.29,4175987.86,2023-05-25,2024-03-10,Clay,Drip,CAN,Chemical,None,0751273847,
+Farmer 381,Nairobi,Potatoes,Hybrid,Long Rains,8.33,3597.96,69.68,2088379.75,13834.29,2074545.46,2023-02-22,2023-05-11,Peaty,Drip,DAP,None,Severe,0728728463,High yield
+Farmer 382,Nairobi,Wheat,Hybrid,Long Rains,6.86,1584.36,,,N/A,,2023-02-17,2024-01-16,Clay,Sprinkler,Manure,None,Mild,0755377076,Delayed harvest
+Farmer 383,Nairobi,Wheat,Hybrid,Dry Season,18.91,3749.72,105.63,7489928.09,60364.71,7429563.38,2023-11-18,2023-12-25,Peaty,Sprinkler,UREA,None,None,0740158366,
+Farmer 384,N/A,,Local,Short Rains,8.23,4757.86,81.93,3208148.4,75595.86,3132552.54,2023-01-19,2023-05-23,Clay,None,DAP,Organic,None,0770897765,Pest issues
+Farmer 385,Nyeri,Rice,Hybrid,Dry Season,14.18,2969.77,126.55,5329189.9,92980.35,5236209.55,2023-03-20,2024-03-03,Peaty,Drip,DAP,Organic,None,0713176186,
+Farmer 386,Nairobi,Sorghum,Organic,Short Rains,3.16,4699.49,85.07,1263322.54,36849.47,1226473.07,2023-01-29,2023-09-15,Silty,Error,None,Chemical,Severe,0734627347,
+Farmer 387,Nairobi,Error,Hybrid,Short Rains,19.44,3413.72,197.69,13119245.48,,,2023-03-01,2023-11-10,Silty,Flood,None,Chemical,Mild,0799514287,Delayed harvest
+Farmer 388,Kiambu,Coffee,Local,Dry Season,3.91,1364.88,Error,,50468.53,,2023-09-29,2024-02-07,N/A,Sprinkler,Error,Chemical,Mild,0788961459,High yield
+Farmer 389,Nairobi,Coffee,Local,,9.63,1796.66,38.2,660930.13,85166.07,575764.06,2023-03-27,2024-02-21,Peaty,Sprinkler,DAP,None,Severe,0746231783,Delayed harvest
+Farmer 390,Nakuru,Rice,Hybrid,Long Rains,5.44,1125.77,42.85,262421.49,74836.4,187585.09,2023-06-19,2024-01-20,Silty,Sprinkler,None,Error,Mild,0782340307,High yield
+Farmer 391,Meru,Rice,,Long Rains,8.12,589.28,87.51,418731.29,55714.77,363016.52,2023-11-22,2023-09-27,Clay,Flood,Manure,Chemical,Severe,0727232410,
+Farmer 392,N/A,Sorghum,Organic,Short Rains,2.11,4007.9,141.51,1196703.23,98272.89,1098430.34,2023-08-28,2023-06-13,Sandy,Drip,N/A,Error,Mild,0784593961,
+Farmer 393,Kiambu,Tea,Hybrid,Dry Season,12.89,3763.74,183.35,8895153.49,94395.1,8800758.39,2023-10-07,2023-08-11,Peaty,Sprinkler,Error,,Mild,0719196777,
+Farmer 394,Kericho,Sorghum,Organic,Long Rains,18.16,4606.06,158.74,13277973.91,51230.93,13226742.98,2023-12-22,2023-11-13,Clay,None,Manure,Error,None,0713999315,
+Farmer 395,Meru,Potatoes,Hybrid,Dry Season,6.01,1721.97,126.35,1307601.17,98213.78,1209387.39,2023-05-16,2023-10-02,Silty,Drip,DAP,Organic,Severe,0715334035,
+Farmer 396,Nakuru,Error,Hybrid,Short Rains,8.03,717.74,,,40630.43,,2023-10-16,2023-09-20,Silty,Drip,Manure,Error,N/A,0795899313,
+Farmer 397,Machakos,Potatoes,N/A,Short Rains,17.18,,69.96,,45045.54,,2023-03-27,2024-01-21,Sandy,None,None,None,Mild,0764543049,
+Farmer 398,Kericho,Rice,Local,Long Rains,0.57,4614.27,N/A,,72006.3,,2023-08-30,2024-01-21,Clay,Sprinkler,UREA,Chemical,Severe,0745575298,Pest issues
+Farmer 399,N/A,Wheat,Hybrid,Dry Season,9.69,1207.84,123.45,1444855.05,55971.47,1388883.58,2023-11-13,2023-05-12,Error,None,None,Chemical,Mild,0744999379,Pest issues
+Farmer 400,Nyeri,Potatoes,Local,Long Rains,15.39,2347.07,158.84,5737524.34,46322.7,5691201.64,2023-02-10,2024-01-27,Peaty,N/A,UREA,Organic,Mild,0790388981,Error
+Farmer 401,Kisumu,Rice,Hybrid,Long Rains,10.6,4495.63,141.7,6752526.17,55118.24,6697407.93,2023-10-08,2024-02-07,Clay,Flood,CAN,None,Mild,0770897765,Delayed harvest
+Farmer 402,Kiambu,Tomatoes,Organic,Short Rains,7.21,4966.44,193.63,6933509.31,69434.33,6864074.98,2023-05-23,2023-12-27,Sandy,Sprinkler,CAN,Organic,Mild,0726240908,Delayed harvest
+Farmer 403,Machakos,Maize,Local,N/A,6.66,3777.23,89.49,2251241.92,35324.97,2215916.95,2023-01-15,2024-01-08,Loam,Drip,None,Chemical,None,0791734598,
+Farmer 404,Nyeri,Potatoes,Local,Dry Season,16.87,3754.38,136.05,8616915.94,46814.07,8570101.87,2023-12-07,2023-07-23,Sandy,Flood,CAN,Organic,Severe,0720099059,High yield
+Farmer 405,Nairobi,N/A,Organic,Dry Season,9.66,3840.18,172.22,6388697.02,46563.24,6342133.78,2023-05-16,2023-11-07,Loam,Sprinkler,DAP,Organic,Severe,0782556484,High yield
+Farmer 406,Error,Tea,Organic,Long Rains,11.86,3634.57,157.26,6778849.59,32558.24,6746291.35,2023-11-14,2024-03-22,Sandy,None,CAN,Chemical,None,0731682744,Delayed harvest
+Farmer 407,Kisumu,Wheat,Local,Long Rains,3.3,3182.85,66.13,694590.17,19666.73,674923.44,2023-05-27,Error,Loam,None,DAP,Organic,Severe,0763826716,Pest issues
+Farmer 408,Mombasa,Potatoes,Organic,,0.66,2417.66,155.76,248539.32,86070.47,162468.85,2023-01-26,2024-02-25,Clay,None,CAN,Organic,None,0743308443,
+Farmer 409,Machakos,Beans,Organic,Short Rains,6.36,516.87,178.6,587110.57,48000.18,539110.39,2023-04-17,2023-04-14,Silty,Drip,Error,Organic,Severe,0767887757,
+Farmer 410,Nyeri,Coffee,N/A,Short Rains,18.32,4346.57,103.27,8223303.6,15071.92,8208231.68,2023-03-14,2024-01-07,Sandy,Drip,DAP,Chemical,None,0772092888,Delayed harvest
+Farmer 411,Meru,Coffee,Local,Dry Season,1.13,4724.28,17.09,91233.88,54362.48,36871.4,2023-09-22,2023-10-22,Clay,Flood,CAN,Chemical,None,0743374088,High yield
+Farmer 412,Kericho,Coffee,Hybrid,Short Rains,,774.57,140.53,,58962.22,,,2023-10-28,Sandy,Drip,None,None,Severe,0788183110,
+Farmer 413,Mombasa,Potatoes,Organic,Dry Season,6.92,3521.0,97.58,2377567.93,95599.42,2281968.51,2023-02-22,2024-03-30,Sandy,Drip,UREA,N/A,Severe,0796028436,Pest issues
+Farmer 414,Machakos,Sorghum,Organic,Short Rains,13.34,4429.3,23.87,1410403.4,38800.64,1371602.76,2023-06-04,2023-12-07,Peaty,Flood,UREA,None,Mild,0723796726,High yield
+Farmer 415,Nairobi,Tomatoes,Organic,Short Rains,8.42,2208.85,97.28,1809263.73,52498.53,1756765.2,2023-10-24,2023-04-19,Clay,Sprinkler,CAN,None,Mild,0778139880,High yield
+Farmer 416,Mombasa,Sorghum,N/A,Dry Season,3.62,1735.84,33.75,212076.25,73511.64,138564.61,2023-11-28,2023-11-25,Silty,Sprinkler,None,None,None,0785283645,Delayed harvest
+Farmer 417,Kisumu,Coffee,Local,Short Rains,7.42,2536.73,120.97,2276962.25,63593.32,2213368.93,2023-04-23,2024-01-29,Sandy,Drip,Manure,Chemical,Severe,0710435578,Pest issues
+Farmer 418,Mombasa,N/A,Organic,Long Rains,12.77,2338.39,27.97,835218.89,87818.14,747400.75,2023-04-25,2023-12-10,Clay,None,None,None,Severe,Error,Pest issues
+Farmer 419,Eldoret,Tea,Local,Long Rains,6.14,3960.59,151.15,3675669.12,21283.89,3654385.23,2023-10-25,2024-02-03,Error,None,DAP,Organic,Severe,0750056581,High yield
+Farmer 420,Meru,Coffee,Organic,Long Rains,16.41,1815.34,151.4,4510165.03,9966.52,4500198.51,2023-08-16,2023-08-14,Peaty,Flood,None,,None,0783140807,
+Farmer 421,Kisumu,Potatoes,Hybrid,Short Rains,13.88,2193.12,149.58,4553290.83,72975.43,4480315.4,N/A,2023-12-23,Loam,Sprinkler,Manure,None,None,0734627347,
+Farmer 422,Nairobi,Sorghum,Local,Dry Season,17.19,2934.15,93.22,4701833.95,21196.74,4680637.21,Error,2023-11-03,Error,Sprinkler,,Chemical,None,N/A,
+Farmer 423,Machakos,Wheat,Local,Dry Season,14.47,2502.89,176.21,6381765.55,20371.04,6361394.51,2023-12-06,2023-11-07,Peaty,Drip,None,None,Mild,0766306997,Pest issues
+Farmer 424,,,Hybrid,Short Rains,Error,3894.66,167.44,,55091.82,,2023-11-13,2023-08-27,Silty,None,UREA,Organic,Severe,0727758595,High yield
+Farmer 425,Nyeri,Coffee,N/A,Long Rains,7.82,2233.39,101.79,1777773.53,89787.75,1687985.78,2023-04-14,2023-09-22,Silty,Drip,None,Chemical,None,0758537831,
+Farmer 426,Mombasa,N/A,Hybrid,Short Rains,2.82,517.47,162.07,236503.14,10180.22,226322.92,2023-09-22,2023-05-26,Clay,None,CAN,Chemical,Mild,0719196777,High yield
+Farmer 427,Nakuru,Cassava,Local,Long Rains,10.69,,57.84,,54493.23,,2023-04-21,2023-10-17,Peaty,Flood,UREA,Organic,None,0710435578,
+Farmer 428,Kericho,Wheat,N/A,N/A,18.67,573.75,150.39,1610964.52,63062.99,1547901.53,2023-10-30,2024-02-05,Silty,Sprinkler,Manure,None,None,0781691040,Delayed harvest
+Farmer 429,Nakuru,Maize,Local,N/A,8.23,1183.78,120.4,1172998.13,26897.32,1146100.81,2023-07-04,2023-11-07,Clay,None,Manure,N/A,None,0797971488,Pest issues
+Farmer 430,Nakuru,Rice,Organic,Error,17.52,1943.7,150.24,5116216.47,69245.4,5046971.07,2023-10-14,2023-07-16,Sandy,N/A,DAP,Organic,Severe,Error,Pest issues
+Farmer 431,Eldoret,Coffee,Organic,N/A,1.15,162.55,162.14,30309.24,66486.57,-36177.33,,2023-11-21,Sandy,Sprinkler,Error,None,None,0757130035,High yield
+Farmer 432,Nakuru,Cassava,Hybrid,Long Rains,9.6,2158.49,75.89,1572554.94,20875.69,1551679.25,2023-05-16,2023-12-22,Silty,Flood,CAN,None,N/A,0714835614,Pest issues
+Farmer 433,Kericho,Maize,Hybrid,Long Rains,13.74,135.73,80.66,150425.27,47997.14,102428.13,2023-01-24,2023-06-12,Peaty,None,Manure,Chemical,Mild,0794705205,High yield
+Farmer 434,Nairobi,Tea,Hybrid,Dry Season,Error,4886.09,71.07,,77084.87,,2023-08-29,2023-11-27,,Drip,None,None,None,0766775103,Delayed harvest
+Farmer 435,Kericho,Potatoes,Local,Short Rains,19.34,2530.19,163.05,7978668.25,1979.2,7976689.05,2023-12-06,2023-08-10,Clay,Flood,None,Chemical,None,0752169044,Pest issues
+Farmer 436,Nyeri,Coffee,Organic,Error,17.81,4801.03,62.28,5325335.12,17171.89,5308163.23,2023-09-30,2023-04-20,Silty,Sprinkler,DAP,Organic,None,0747463522,Pest issues
+Farmer 437,Kericho,Coffee,Local,Long Rains,17.76,776.61,182.0,2510252.04,Error,,2023-09-20,2024-01-25,Sandy,Sprinkler,CAN,Chemical,N/A,N/A,Pest issues
+Farmer 438,Nakuru,Coffee,Local,Short Rains,15.63,1513.44,72.88,1723981.3,43210.78,1680770.52,2023-01-16,2023-11-17,Sandy,Drip,DAP,Organic,Severe,0781498611,
+Farmer 439,Nakuru,Coffee,Local,Dry Season,6.02,3526.84,165.87,3521681.64,47891.29,3473790.35,2023-11-12,2023-08-03,Silty,Error,None,None,Severe,,N/A
+Farmer 440,Meru,Wheat,N/A,Short Rains,1.45,3217.78,63.83,297816.8,54824.08,242992.72,2023-11-28,2024-03-16,Silty,None,Manure,None,None,0738688676,Pest issues
+Farmer 441,Nyeri,Beans,Organic,N/A,6.56,2822.04,108.68,2011947.46,56458.31,1955489.15,2023-07-31,2023-09-02,Peaty,None,DAP,Chemical,Mild,0796098221,High yield
+Farmer 442,Nakuru,Cassava,Organic,Short Rains,13.21,911.48,80.05,963854.1,41475.94,922378.16,2023-04-06,2023-12-13,Silty,None,UREA,Chemical,Severe,0710475894,Delayed harvest
+Farmer 443,Kiambu,,Organic,Dry Season,3.45,1735.39,50.96,305102.39,2073.11,303029.28,2023-08-17,2023-06-19,,,UREA,Organic,Mild,0765337219,
+Farmer 444,Kiambu,Sorghum,Hybrid,Short Rains,17.94,137.75,109.28,270056.56,53442.79,216613.77,2023-01-29,2024-01-23,Loam,Sprinkler,N/A,None,Severe,0775579548,Pest issues
+Farmer 445,Nyeri,Error,,Dry Season,12.33,1266.77,198.26,3096677.28,86398.23,3010279.05,2023-11-25,2024-01-02,Peaty,None,CAN,Error,Error,0719832887,Delayed harvest
+Farmer 446,Error,,Organic,Dry Season,Error,831.29,Error,,66502.17,,2023-02-03,2023-11-10,Clay,Drip,UREA,Organic,None,0764543049,
+Farmer 447,N/A,,Local,Dry Season,1.47,2374.31,,,93441.34,,N/A,2023-11-04,Sandy,None,UREA,Organic,Severe,0784437458,
+Farmer 448,Kericho,Potatoes,Organic,Dry Season,7.0,2886.13,51.18,1033984.93,24306.75,1009678.18,2023-10-13,2024-01-28,Peaty,Flood,UREA,Organic,None,0756164955,High yield
+Farmer 449,Nakuru,Maize,Organic,Dry Season,16.96,1313.41,149.28,3325276.73,Error,,2023-06-16,Error,Loam,Flood,DAP,Error,N/A,0797705310,
+Farmer 450,Nyeri,Rice,Hybrid,Short Rains,19.21,1602.76,64.4,1982812.86,18609.0,1964203.86,2023-01-03,2023-05-13,Loam,Sprinkler,Manure,None,Mild,0739587039,
+Farmer 451,Machakos,Tomatoes,Hybrid,Error,7.47,303.87,108.4,246058.12,61649.8,184408.32,2023-10-27,2024-02-24,Sandy,Flood,CAN,Organic,None,0715957459,High yield
+Farmer 452,Nyeri,Wheat,Hybrid,Short Rains,1.34,2015.92,183.5,495694.57,14602.01,481092.56,2023-05-01,2024-01-04,Clay,Sprinkler,CAN,Chemical,None,0710475894,Delayed harvest
+Farmer 453,Kericho,Tomatoes,Hybrid,Long Rains,18.71,3533.92,13.55,895921.17,7408.42,888512.75,2023-04-17,2023-12-05,Silty,Sprinkler,CAN,Organic,None,0760929647,
+Farmer 454,Kisumu,Tea,Local,Long Rains,13.18,3050.22,181.45,7294634.68,50952.31,7243682.37,2023-07-03,2023-08-10,Sandy,Sprinkler,CAN,Chemical,None,0784252420,
+Farmer 455,Kiambu,Coffee,Local,Dry Season,4.97,797.58,98.56,390689.14,65730.27,324958.87,2023-03-03,2023-06-22,Sandy,None,Manure,Organic,N/A,0761700055,
+Farmer 456,Meru,Tea,Hybrid,Dry Season,16.7,554.13,46.4,429384.25,85549.6,343834.65,N/A,2023-04-24,Sandy,Drip,Error,Organic,Mild,0744188276,
+Farmer 457,Nairobi,Tea,Hybrid,Dry Season,14.36,2245.98,112.04,3613544.64,32589.43,3580955.21,2023-10-03,2024-03-17,Error,Flood,DAP,None,Mild,0730005727,Pest issues
+Farmer 458,Nyeri,Tomatoes,Hybrid,Dry Season,6.46,4492.39,188.02,5456498.22,46147.22,5410351.0,2023-02-24,2023-04-17,Silty,Drip,DAP,None,None,0754769200,High yield
+Farmer 459,Eldoret,Cassava,Hybrid,Long Rains,11.26,1573.03,159.31,2821749.35,48805.58,2772943.77,2023-02-21,2023-11-13,Peaty,Sprinkler,None,Chemical,Error,0733966966,Delayed harvest
+Farmer 460,Error,Rice,Hybrid,N/A,2.39,1968.53,49.9,234768.86,73963.53,160805.33,2023-11-28,2023-11-11,Loam,Flood,None,Organic,Mild,0738195995,Pest issues
+Farmer 461,Nyeri,Potatoes,Organic,Dry Season,10.83,1054.78,N/A,,59005.02,,2023-07-03,2024-03-26,Silty,Flood,CAN,Chemical,None,N/A,
+Farmer 462,,Tomatoes,Hybrid,Dry Season,7.62,784.6,52.29,312623.71,11311.13,301312.58,2023-04-29,2024-03-20,Sandy,Flood,UREA,None,Severe,0794705205,High yield
+Farmer 463,Kericho,Rice,Local,Dry Season,7.4,1220.05,29.45,265885.5,23909.22,241976.28,Error,2024-02-20,Sandy,Sprinkler,Manure,Chemical,Severe,0727778019,Delayed harvest
+Farmer 464,Eldoret,Tea,Organic,Dry Season,7.22,1975.02,100.52,1433379.46,21749.66,1411629.8,2023-09-22,2023-06-21,Silty,Flood,DAP,Chemical,None,,Delayed harvest
+Farmer 465,Error,Wheat,Hybrid,Long Rains,16.31,1068.73,Error,,42896.49,,2023-01-23,2023-11-11,Loam,Flood,UREA,None,Mild,0757130035,Delayed harvest
+Farmer 466,,Rice,Local,Dry Season,5.56,3392.88,94.84,1789100.91,46315.29,1742785.62,2023-03-23,2023-07-18,Clay,Flood,None,Organic,Mild,0724549543,
+Farmer 467,Nairobi,Cassava,Hybrid,Short Rains,15.83,879.27,173.88,2420208.61,77783.72,2342424.89,2023-04-16,N/A,,None,UREA,None,Severe,0772820592,
+Farmer 468,Eldoret,Cassava,Hybrid,Short Rains,0.99,3220.96,11.18,35650.23,13071.97,22578.26,2023-11-06,2023-11-27,Loam,Sprinkler,,None,Severe,0769476001,Delayed harvest
+Farmer 469,Nyeri,Maize,Hybrid,Short Rains,5.54,134.63,136.8,102032.31,56651.74,45380.57,2023-07-06,2024-01-19,Peaty,Sprinkler,None,Organic,Mild,0759684848,High yield
+Farmer 470,Error,Maize,Organic,Dry Season,17.29,894.91,14.08,217859.75,35297.77,182561.98,2023-10-07,2023-12-13,Clay,Flood,Manure,None,None,0777005685,
+Farmer 471,Nyeri,Tomatoes,Local,Error,18.92,3000.36,109.79,6232428.2,81857.72,6150570.48,2023-04-07,2024-03-04,Clay,Drip,CAN,None,N/A,0799038526,Delayed harvest
+Farmer 472,Kericho,Tea,Hybrid,Long Rains,3.06,547.58,66.53,111477.32,78985.75,32491.57,N/A,2024-01-11,Sandy,Sprinkler,UREA,Chemical,Severe,0754349361,Pest issues
+Farmer 473,Kiambu,Cassava,Hybrid,Long Rains,9.63,4178.12,172.39,6936162.61,86590.45,6849572.16,2023-10-18,2023-10-03,Clay,Sprinkler,Error,Error,None,Error,Pest issues
+Farmer 474,Nairobi,N/A,Hybrid,Short Rains,8.15,1663.79,152.62,2069510.18,88586.17,1980924.01,2023-12-03,2023-11-23,Loam,None,UREA,Chemical,Mild,0736445607,High yield
+Farmer 475,Meru,Wheat,Organic,Short Rains,16.94,1868.56,69.81,2209724.3,59199.47,2150524.83,2023-03-15,2023-09-05,Loam,None,,Chemical,Severe,0748840994,
+Farmer 476,Mombasa,Coffee,Hybrid,Long Rains,8.93,4068.95,186.56,6778792.58,73148.88,6705643.7,2023-09-02,2023-10-11,Loam,Sprinkler,UREA,None,Severe,0788961459,
+Farmer 477,Eldoret,Rice,Hybrid,Dry Season,6.32,2614.69,187.68,3101382.12,23725.24,3077656.88,2023-03-04,2023-07-07,Silty,Sprinkler,UREA,Chemical,None,0778159587,
+Farmer 478,Error,Tea,Hybrid,,0.62,1526.34,44.76,42357.77,65959.67,-23601.9,2023-06-08,2023-08-10,Peaty,None,DAP,None,Mild,0719335534,
+Farmer 479,Meru,Tea,Organic,Short Rains,1.54,654.95,31.22,31489.21,29723.21,1766.0,2023-08-10,2023-11-26,Peaty,Sprinkler,DAP,Organic,Severe,0790048665,High yield
+Farmer 480,Nairobi,Maize,Local,Error,13.64,2558.82,Error,,89684.01,,2023-03-02,2024-01-06,Loam,,,,Mild,0741774346,
+Farmer 481,Error,Sorghum,N/A,N/A,2.23,374.45,56.83,47454.39,82273.66,-34819.27,2023-01-20,2023-05-19,Sandy,None,Manure,Organic,None,0732097220,Error
+Farmer 482,Machakos,Tomatoes,Local,Short Rains,11.97,3572.89,56.11,2399684.05,35333.53,2364350.52,2023-08-02,2023-10-25,Loam,Flood,UREA,Chemical,Mild,0747338124,High yield
+Farmer 483,Machakos,Maize,Organic,Short Rains,13.94,1488.23,41.67,864482.74,16980.58,847502.16,2023-03-30,2024-03-04,Loam,None,Manure,Chemical,Severe,0739854548,
+Farmer 484,Nakuru,Maize,N/A,Long Rains,18.0,1329.87,188.56,4513685.17,81393.02,4432292.15,2023-12-25,2023-10-15,Silty,N/A,CAN,Organic,None,0731831063,Delayed harvest
+Farmer 485,,N/A,Hybrid,Long Rains,18.6,3062.1,186.97,10648887.57,74246.89,10574640.68,2023-06-15,2024-03-23,Silty,Sprinkler,DAP,Chemical,Mild,0773993471,Delayed harvest
+Farmer 486,Kisumu,N/A,Hybrid,Error,4.76,173.88,25.56,21155.21,3310.6,17844.61,2023-07-11,2023-06-20,Loam,None,None,Chemical,Mild,0745059710,Pest issues
+Farmer 487,Machakos,Rice,Organic,Long Rains,14.68,3782.42,20.02,1111629.03,94193.14,1017435.89,2023-04-24,2024-01-04,Loam,None,UREA,None,None,0711049999,Delayed harvest
+Farmer 488,,Tea,,Long Rains,10.17,4776.8,Error,,90941.99,,2023-08-23,2023-11-19,Silty,None,CAN,Chemical,None,0735921441,
+Farmer 489,Kericho,Wheat,Hybrid,Dry Season,14.77,239.61,66.42,235063.02,95959.19,139103.83,2023-06-17,2023-06-26,Clay,Flood,UREA,Organic,Severe,0789978790,
+Farmer 490,Kiambu,Potatoes,Local,Long Rains,1.81,4377.81,Error,,95352.47,,2023-01-30,2023-09-06,Silty,Drip,Manure,None,None,0793016315,Delayed harvest
+Farmer 491,Nairobi,Potatoes,Organic,Long Rains,13.5,1839.78,,,41325.89,,2023-08-01,2023-07-05,Sandy,Sprinkler,None,None,None,0717901903,High yield
+Farmer 492,Kericho,Beans,Organic,Long Rains,19.81,1802.97,87.02,3108079.04,79023.56,3029055.48,2023-07-11,2023-08-27,Peaty,Drip,N/A,None,Error,0777005685,
+Farmer 493,Meru,Cassava,Organic,Short Rains,15.18,4231.04,105.48,6774683.71,48535.98,6726147.73,2023-12-17,2023-04-26,Peaty,Drip,Manure,Chemical,None,0758537831,Delayed harvest
+Farmer 494,Nakuru,Cassava,Local,Short Rains,8.35,4286.15,93.93,3361693.88,17485.82,3344208.06,2023-10-16,2023-04-13,Loam,Flood,CAN,None,Severe,0787337818,High yield
+Farmer 495,Kiambu,Coffee,Organic,Long Rains,12.09,,120.04,,1070.99,,Error,2023-10-20,Silty,None,DAP,Chemical,Mild,0713176186,High yield
+Farmer 496,Eldoret,Potatoes,Hybrid,Dry Season,10.06,2023.1,50.35,1024742.64,27940.08,996802.56,2023-11-08,2023-04-07,,Drip,DAP,None,Mild,0779008866,Delayed harvest
+Farmer 497,Eldoret,Beans,Hybrid,Dry Season,19.4,3223.27,95.21,5953618.21,68258.75,5885359.46,2023-09-26,2023-09-11,Clay,Flood,,Chemical,Severe,0768353204,Delayed harvest
+Farmer 498,,Beans,Organic,Dry Season,0.67,2133.31,155.02,221572.83,2280.99,219291.84,2023-11-26,2024-01-31,Loam,Flood,Manure,N/A,Mild,0718526544,
+Farmer 499,Kericho,Cassava,Hybrid,Dry Season,6.36,4112.78,Error,,54915.02,,2023-11-17,2023-09-24,Loam,Sprinkler,None,Chemical,Mild,0725014631,Pest issues
+Farmer 500,Meru,Tea,Organic,Dry Season,10.74,Error,174.88,,N/A,,2023-05-04,2023-08-07,Clay,Flood,CAN,None,Mild,0716789850,Delayed harvest
