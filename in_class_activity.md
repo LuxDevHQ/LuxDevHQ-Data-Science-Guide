@@ -18,7 +18,7 @@ Build a working RAG system that answers questions from Kenyan policy documents u
 
 **Minimum requirements:**
 
-- 3 PDFs
+- At least 1 PDF
 - At least 50 total pages
 
 ---
