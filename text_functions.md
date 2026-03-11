@@ -1,6 +1,3 @@
-Here's the markdown version:
-
-```markdown
 # Practice Questions: DAX Text Functions
 ## Kenya Crops Dataset
 
