@@ -1,6 +1,6 @@
 # LuxDevHQ Data Science and Analytics Curriculum (6 MONTHS PROGRAM)
 
-**Mode of Delivery:**  Physical and Online (Live Sessions & Hands-on Projects)
+**Mode of Delivery:**  Physical and Online (Live Sessions and Hands-on Projects)
 
 > Please note that this program is scheduled to take place over a period of 6 months, but depending on the students' pace, it can run for up to 9 months.
 
