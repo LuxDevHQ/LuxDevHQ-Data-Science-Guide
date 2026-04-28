@@ -1,4 +1,4 @@
-# Data Science and Analytics Curriculum (Excel, Power BI, SQL, Python)
+# LuxDevHQ Data Science and Analytics Curriculum (6 MONTHS PROGRAM)
 
 **Mode of Delivery:**  Physical and Online (Live Sessions & Hands-on Projects)
 
