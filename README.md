@@ -7,7 +7,7 @@
 > Regardless of how long the program takes, the fees remain unchanged. The fees will not be affected. At some point, students may request an additional week or two for projects or for certain concepts to be explained more thoroughly.
 ---
  
-## Month 1; Week 1: Microsoft Excel for Data Analysis
+## Month 1 - Week 1: Microsoft Excel for Data Analysis
  
 ### **Day 1: Excel Basics & Navigation**
 - What is Excel and why it's important
@@ -53,7 +53,7 @@
  
 ---
  
-## Week 2: Power BI for Data Visualization
+## Month 1 - Week 2: Power BI for Data Visualization
 ---
  
 ## **Day 1: Introduction to Power BI and Power Query Editor (Data Transformation)**
@@ -163,7 +163,7 @@
 ---
  
  
-## Week 3: SQL for Data Analysis
+##  Month 1 - Week 3: SQL for Data Analysis
  
 ### **Day 1   Introduction to SQL, Table creation and manipulation and SQL KEY words.**
 - What is SQL, relational databases, and DBMS
@@ -206,7 +206,7 @@
  
 ---
  
-##  Week 4: Python for Data Analysis
+##  Month 1 - Week 4: Python for Data Analysis
  
 ### **Day 1: Python Basics**
 - What is Python and its use in data
