@@ -162,7 +162,7 @@
  
 ## Week 3: SQL for Data Analysis
  
-### **Day 1   Introduction to SQL, Table creation and manipulation and SQL KEY words  **
+### **Day 1   Introduction to SQL, Table creation and manipulation and SQL KEY words.**
 - What is SQL, relational databases, and DBMS
 - CREATE, DROP, ALTER TABLE
 - INSERT, UPDATE, DELETE data
