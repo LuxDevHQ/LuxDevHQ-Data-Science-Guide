@@ -430,7 +430,7 @@
 
 ---
 
-## Month 2 – Week 5: Model Evaluation & Feature Engineering
+## Month 3 – Week 1: Model Evaluation & Feature Engineering
 
 ---
 
@@ -467,7 +467,7 @@
 
 ---
 
-## Month 2 – Week 6: Hyperparameter Tuning, Pipelines & Capstone
+## Month 3 – Week 2: Hyperparameter Tuning, Pipelines & Capstone
 
 ---
 
@@ -497,8 +497,17 @@
 - Introduction to deployment: Streamlit / Flask APIs overview
 
 ---
-
-### **Day 4: Capstone Project Work Session & Presentations** 
+### Day 4: Real-World Deployment with Flask**](#real-world-deployment-with-flask)
+**Topic:** Serving a Trained ML Model as a REST API
+- What is an API? The client-server model explained with analogy
+- Setting up a Flask application from scratch
+- Creating a `/predict` endpoint that accepts JSON and returns a prediction
+- Loading a saved `joblib` model inside Flask
+- Sending test requests with Postman and `curl`
+- Handling errors and edge cases in production
+- Deploying to the cloud: pushing to Render (free tier)
+  
+### ** Capstone Project Work Session & Presentations** 
 **Topic:** Full ML Pipeline – Project & Recap
 - Students select a dataset and frame a problem
 - Apply the full ML pipeline: EDA → preprocessing → modelling → evaluation → tuning
