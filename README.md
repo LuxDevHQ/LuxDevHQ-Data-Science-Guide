@@ -245,170 +245,267 @@
 - Final recap and practice challenges
  
 ---
- 
-
-
-# 3-Week Machine Learning & Deep Learning Course Plan
 
 ---
 
-## Week 1: Supervised Learning
+## Statistics Foundations (Pre-ML, 2 Days)
 
 ---
 
-### [Day 1: Introduction to Machine Learning & Supervised Learning](#introduction-to-ml-basic-concepts)
-**Topic:** What is Machine Learning? Overview of Supervised Learning  
-**Summary:**
+### **Statistics Day 1: Descriptive Statistics & Data Distributions** 
+- Types of data: numerical (continuous, discrete) and categorical (nominal, ordinal)
+- Measures of central tendency: mean, median, mode — and when to use each
+- Measures of spread: range, variance, standard deviation (sd), IQR
+- Understanding outliers and their effect on statistics
+- What is a distribution? Normal distribution (bell curve) and the 68-95-99.7 rule
+- Skewness: right-skewed vs left-skewed distributions
+- Visualising distributions in Python: histograms and box plots
+
+---
+
+### **Statistics Day 2: Probability, Correlation & Hypothesis Testing**
+- Basic probability: P(event) = favourable outcomes / total outcomes
+- Conditional probability: P(A | B) and real-world examples
+- Pearson correlation coefficient: strength and direction (−1 to +1)
+- Correlation vs causation — the ice cream and drowning example
+- Creating and reading a correlation heatmap in Python
+- Hypothesis testing: H0 (null) vs H1 (alternative hypothesis)
+- The p-value: what it means and the alpha = 0.05 threshold
+- Running a basic t-test in Python using `scipy.stats`
+- Connecting statistics to ML: where each concept shows up in algorithms
+
+---
+
+
+# 6-Week Machine Learning & Deep Learning Course Plan
+
+---
+
+## Month 2 – Week 1: Introduction to Machine Learning & Regression
+
+---
+
+### [**Day 1: What is Machine Learning?**](#introduction-to-ml-basic-concepts) 
+**Topic:** Introduction to ML & Types of Learning
 - Introduction to ML and real-world applications
 - Types of ML: Supervised vs. Unsupervised vs. Reinforcement
 - Concept of datasets: features, labels, training vs. testing data
-- Supervised learning definition and flow
+
+---
+
+### [**Day 2: Supervised Learning Flow & Use Cases**](#introduction-to-ml-basic-concepts) 
+**Topic:** Supervised Learning in Practice
+- Supervised learning definition and end-to-end workflow
 - Use cases of classification and regression
+- Hands-on: exploring a real dataset (e.g., Iris or Titanic) and identifying features and labels
 
 ---
 
-### [Day 2: Regression Algorithms](#introduction-to-linear-regression)
-**Topic:** [Linear Regression](#simple-linear-regression--beginner-notes)  
-**Topic:** [Multiple Linear Regression](#multiple-linear-regression--beginner-notes)  
-**Topic:** [Lasso and Ridge Regression](#lasso--ridge-regression--beginner-notes)  
-**Summary:**
-- Linear regression: line of best fit, cost function, gradient descent  
-- Evaluation metrics: MSE, RMSE, R² score  
-- Hands-on example (e.g., predicting house prices)
+### [**Day 3: Linear Regression**](#simple-linear-regression--beginner-notes) 
+**Topic:** Simple & Multiple Linear Regression
+- Linear regression: line of best fit, cost function, gradient descent intuition
+- Evaluation metrics: MSE, RMSE, R2 score
+- Hands-on: simple linear regression example (e.g., study hours vs exam score)
 
 ---
 
-
-### [Day 3: Classification Algorithms](#day-3-classification-algorithms)
-
-**Topic:** [Logistic Regression](#logistic-regression--beginner-friendly-notes-with-analogies--python-example)  
-**Summary:**
-- Understanding classification problems  
-- Logistic regression intuition and sigmoid function  
-- Decision boundaries  
-
-**Topic:** [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn--beginner-friendly-notes-with-analogies--python-example)  
-**Summary:**
-- How KNN works and choosing the right K  
-- Evaluation techniques: accuracy, confusion matrix, precision, recall, F1 score  
-
+### [**Day 4: Multiple Linear Regression & Regularization**](#lasso--ridge-regression--beginner-notes) 
+**Topic:** Multiple Linear Regression, Lasso & Ridge
+- Multiple linear regression: multiple features and feature interpretation
+- Lasso regression: L1 penalty and feature sparsity
+- Ridge regression: L2 penalty and coefficient shrinkage
+- Hands-on: predicting house prices with Linear, Lasso, and Ridge
 
 ---
 
-### [Day 4: Introduction to Ensemble Models](#ensemble-learning-techniques--beginner-friendly-notes)
-
-**Topic:** [Deep Dive into Ensemble Models](#deep-dive-into-ensemble-methods)  
-**Summary:**
-- Decision Trees: how they split data, overfitting  
-- Random Forest: ensemble of trees, bagging  
-- Gradient Boosting & XGBoost: boosting techniques  
-- Bias-variance tradeoff  
-- Get additional notes on Decision Trees [here](#decision-trees--beginner-friendly-notes-with-analogies--python-example)
+## Month 2 – Week 2: Classification Algorithms
 
 ---
 
-## Week 2: Unsupervised Learning + Model Evaluation
+### [**Day 1: Logistic Regression**](#logistic-regression--beginner-friendly-notes-with-analogies--python-example) 
+**Topic:** Binary Classification & Logistic Regression
+- Understanding classification problems vs regression problems
+- Logistic regression intuition and the sigmoid function
+- Decision boundaries and how the model draws the line
+- Hands-on: binary classification with logistic regression
 
 ---
 
-### [Day 1: Introduction to Unsupervised Learning](#introduction-to-unsupervised-learning)
-
-**Topic:** [Clustering and K-Means](#clustering-and-k-means-in-unsupervised-learning)  
-**Summary:**
-- What is clustering? Applications  
-- K-Means: centroids, choosing K, inertia  
-- Elbow method for finding optimal number of clusters  
-
-**Topic:** [Hierarchical Clustering](#hierarchical-clustering-in-unsupervised-learning)  
-**Summary:**
-- Understanding dendrograms  
-- Agglomerative vs Divisive clustering  
-- Hands-on project: Customer segmentation using hierarchical clustering  
+### [**Day 2: K-Nearest Neighbors (KNN)**](#k-nearest-neighbors-knn--beginner-friendly-notes-with-analogies--python-example) 
+**Topic:** KNN & Classification Evaluation Metrics
+- How KNN works: distance, voting, and the role of K
+- Choosing the right K: underfitting vs overfitting
+- Evaluation techniques: accuracy, confusion matrix, precision, recall, F1 score
+- Hands-on: KNN classification with sklearn
 
 ---
 
-### [Day 2: Dimensionality Reduction](#dimensionality-reduction)
-
-**Topic:** PCA and t-SNE  
-**Summary:**
-- Curse of dimensionality  
-- Principal Component Analysis (PCA): reducing dimensions while preserving variance  
-- t-SNE for visualizing high-dimensional data  
-- Use cases: visualization and speed-up training  
+### [**Day 3: Decision Trees – Fundamentals**](#decision-trees--beginner-friendly-notes-with-analogies--python-example) 
+**Topic:** Decision Tree Structure & Splitting
+- How decision trees split data: Gini impurity vs entropy
+- Growing a tree: recursive splits and stopping criteria
+- Overfitting in trees: why deep trees memorise instead of learn
+- Hands-on: building and visualising a decision tree
 
 ---
 
-### [Day 3: Model Evaluation & Validation Techniques](#model-evaluation--validation-techniques)
-
-**Topic:** Cross-validation and Performance Metrics  
-**Summary:**
-- Why train/test split isn’t enough  
-- K-fold cross-validation  
-- Evaluation metrics recap (for both classification and regression)  
-- ROC, AUC, Precision-Recall curves  
-- Avoiding overfitting/underfitting  
-
+### **Day 4: Decision Trees – Tuning & Evaluation** 
+**Topic:** Controlling Decision Tree Complexity
+- Controlling overfitting: `max_depth`, `min_samples_split`, `min_samples_leaf`
+- Feature importance: which features does the tree rely on most?
+- Hands-on: comparing decision trees at different depths on a real dataset
 
 ---
 
-### [Day 4: Feature Engineering & Data Preprocessing](#feature-engineering--data-preprocessing)
-
-**Topic:** Cleaning, Encoding, Scaling, Feature Selection  
-**Summary:**
-- Handling missing data  
-- Encoding categorical variables (Label Encoding, One-Hot)  
-- Feature scaling (Normalization, Standardization)  
-- Feature selection techniques (correlation, chi-square, recursive elimination)  
-
+## Month 2 – Week 3: Ensemble Methods
 
 ---
 
-## Week 3: Hyperparameter Tuning + Real-World Applications
+### [**Day 1: Random Forest – Introduction**](#ensemble-learning-techniques--beginner-friendly-notes) 
+**Topic:** Ensemble Learning & Bagging
+- Why one model isn't always enough: the wisdom of the crowd
+- Bagging (Bootstrap Aggregating) explained with analogy
+- Random Forest: how it builds and aggregates decision trees
 
 ---
 
-### [Day 1: Hyperparameter Tuning – Introduction](#hyperparameter-tuning--introduction)
+### [**Day 2: Random Forest – Advanced Topics**](#deep-dive-into-ensemble-methods) 
+**Topic:** Random Forest in Practice
+- Feature importance in Random Forest
+- Bias-variance tradeoff: diagnosing underfitting and overfitting
+- Hands-on: Random Forest classifier/regressor on a real dataset
 
-**Topic:** Grid Search, Random Search, and Bayesian Optimization  
-**Summary:**
-- Difference between parameters and hyperparameters  
-- Grid Search and Randomized Search using `sklearn`  
-- Bayesian optimization using `Optuna` or `Hyperopt`  
-- Hands-on with hyperparameter tuning in Random Forest and XGBoost  
+---
+
+### **Day 3: Gradient Boosting** 
+**Topic:** Boosting Concept & Gradient Boosting Algorithm
+- Boosting vs bagging: the key conceptual difference
+- Gradient Boosting intuition: correcting errors sequentially
+- Key hyperparameters: `n_estimators`, `learning_rate`, `max_depth`
+
+---
+
+### **Day 4: XGBoost & Ensemble Comparison** 
+**Topic:** XGBoost & Choosing the Right Ensemble
+- XGBoost: how it builds on and improves Gradient Boosting
+- Hands-on: train and compare XGBoost vs Random Forest vs Decision Tree
+- When to choose which ensemble method
+
+---
+
+## Month 2 – Week 4: Unsupervised Learning & Dimensionality Reduction
+
+---
+
+### [**Day 1: Introduction to Unsupervised Learning & K-Means**](#clustering-and-k-means-in-unsupervised-learning) 
+**Topic:** Clustering & K-Means Algorithm
+- What is unsupervised learning? Real-world applications
+- K-Means: centroids, the algorithm step-by-step, choosing K
+- Inertia and the Elbow Method for finding the optimal number of clusters
+
+---
+
+### [**Day 2: Hierarchical Clustering**](#hierarchical-clustering-in-unsupervised-learning) 
+**Topic:** Hierarchical Clustering & Customer Segmentation
+- Understanding and reading dendrograms
+- Agglomerative vs Divisive clustering approaches
+- Hands-on project: customer segmentation using hierarchical clustering
+
+---
+
+### [**Day 3: Dimensionality Reduction – PCA**](#dimensionality-reduction) 
+**Topic:** Principal Component Analysis
+- Curse of dimensionality: why too many features cause problems
+- PCA: reducing dimensions while preserving variance
+- Explained variance ratio: how many components to keep
+- Use cases: speeding up training and removing noise
+
+---
+
+### **Day 4: t-SNE & Visualisation** 
+**Topic:** t-SNE for High-Dimensional Visualisation
+- t-SNE: how it maps high-dimensional data to 2D/3D
+- PCA vs t-SNE: interpreting and choosing between them
+- Hands-on: visualising clusters with PCA and t-SNE on the digits dataset
+
+---
+
+## Month 2 – Week 5: Model Evaluation & Feature Engineering
+
+---
+
+### [**Day 1: Model Evaluation & Cross-Validation**](#model-evaluation--validation-techniques) 
+**Topic:** Cross-Validation & Core Evaluation Metrics
+- Why a single train/test split isn't reliable enough
+- K-fold cross-validation: how it works and why it matters
+- Evaluation metrics recap: classification (accuracy, F1) and regression (MSE, R2)
+
+---
+
+### **Day 2: Advanced Evaluation – ROC, AUC & Curves** 
+**Topic:** ROC Curves, AUC & Diagnosing Fit Issues
+- ROC curves and AUC score: interpreting the trade-off
+- Precision-Recall curves and when to prefer them over ROC
+- Diagnosing and fixing overfitting and underfitting
+
+---
+
+### [**Day 3: Feature Engineering & Data Preprocessing**](#feature-engineering--data-preprocessing) 
+**Topic:** Cleaning, Encoding & Scaling
+- Handling missing data: deletion vs imputation strategies
+- Encoding categorical variables: Label Encoding vs One-Hot Encoding
+- Feature scaling: Normalisation (Min-Max) vs Standardisation (Z-score)
+
+---
+
+### **Day 4: Feature Selection Techniques** 
+**Topic:** Selecting the Most Useful Features
+- Correlation-based feature selection: dropping redundant features
+- Chi-square test for categorical feature relevance
+- Recursive Feature Elimination (RFE) with sklearn
+- Hands-on: selecting the best features and measuring the impact on model performance
+
+---
+
+## Month 2 – Week 6: Hyperparameter Tuning, Pipelines & Capstone
+
+---
+
+### [**Day 1: Hyperparameter Tuning – Grid & Random Search**](#hyperparameter-tuning--introduction) 
+**Topic:** Grid Search & Randomised Search
+- Difference between model parameters and hyperparameters
+- Grid Search: exhaustive search over a defined parameter grid
+- Randomised Search: efficient sampling from a parameter space
+- Hands-on: tuning a Random Forest with `GridSearchCV` and `RandomizedSearchCV`
+
+---
+
+### **Day 2: Advanced Tuning & Bayesian Optimisation** 
+**Topic:** Bayesian Optimisation with Optuna
+- Why random/grid search can be inefficient on large search spaces
+- Bayesian optimisation: using past results to pick the next trial
+- Hands-on: tuning XGBoost with `Optuna` or `Hyperopt`
 - For deeper insights, see: [Deep Dive into Hyperparameter Tuning](#hyperparameter-tuning--deep-dive)
 
 ---
 
-### [Day 2: Model Pipelines and Deployment Basics](#model-pipelines-and-deployment-basics)
-
-**Topic:** Building End-to-End Pipelines  
-**Summary:**
-- Using Pipeline and ColumnTransformer from sklearn  
-- Combining preprocessing and model steps  
-- Saving/loading models with joblib or pickle  
-- Introduction to deployment (streamlit / flask APIs)  
+### [**Day 3: Model Pipelines & Deployment Basics**](#model-pipelines-and-deployment-basics) 
+**Topic:** Building End-to-End Pipelines & Model Saving
+- Using `Pipeline` and `ColumnTransformer` from sklearn
+- Combining preprocessing and model steps into a single reusable object
+- Saving and loading models with `joblib` or `pickle`
+- Introduction to deployment: Streamlit / Flask APIs overview
 
 ---
 
-### Day 3: Capstone Project Work Session
-**Topic:** Work on Individual or Group ML Projects  
-**Summary:**
-- Students select a dataset
-- Apply full ML pipeline: EDA, preprocessing, modeling, evaluation
-- Option to use classification or regression
-- Instructor guides students through challenges
+### **Day 4: Capstone Project Work Session & Presentations** 
+**Topic:** Full ML Pipeline – Project & Recap
+- Students select a dataset and frame a problem
+- Apply the full ML pipeline: EDA → preprocessing → modelling → evaluation → tuning
+- Each student/team presents findings, approach, and results
+- Q&A, peer feedback, and recap of everything covered in Month 2
+- Tips for further learning: books, Kaggle, courses, real-world practice
 
----
-
-### Day 4: Capstone Project Presentations + Review
-**Topic:** Final Presentations and Course Recap  
-**Summary:**
-- Each student/team presents their project
-- Q&A and peer feedback
-- Recap of everything covered
-- Tips for further learning: books, courses, Kaggle, real-world practice
-
----
 
 #  Week 1: Foundations of Deep Learning & ANN Basics
 
