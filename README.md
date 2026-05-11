@@ -1,4 +1,4 @@
-## **LuxDevHQ Data Science and Analytics Curriculum (6 MONTHS PROGRAM)**
+## **LuxDevHQ Data Science and Analytics Curriculum.**
 
 Please note that this program is scheduled to run for 6 months. However, depending on the students’ pace, it may extend for up to 9 months, Mode of Delivery, Physical and online live instructor-led classes with hands-on projects.
 
