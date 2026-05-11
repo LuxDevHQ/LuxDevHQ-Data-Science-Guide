@@ -1,15 +1,14 @@
-## LuxDevHQ Data Science and Analytics Curriculum (6 MONTHS PROGRAM)
+## **LuxDevHQ Data Science and Analytics Curriculum (6 MONTHS PROGRAM)**
 
-**Mode of Delivery:**  Physical and Online (Live Sessions and Hands-on Projects)
+Please note that this program is scheduled to run for 6 months. However, depending on the students’ pace, it may extend for up to 9 months, Mode of Delivery, Physical and online live instructor-led classes with hands-on projects.
 
-> Please note that this program is scheduled to take place over a period of 6 months, but depending on the students' pace, it can run for up to 9 months.
+**For any inquiries, please reach out via call or WhatsApp: 0798166628 / 0796448232.**
 
 > Regardless of how long the program takes, the fees remain unchanged. The fees will not be affected. At some point, students may request an additional week or two for projects or for certain concepts to be explained more thoroughly.
---- 
 
-> A curated, unified guide that merges the curriculum and project material currently available in this repository into one learner-friendly reference. It is structured as a progressive pathway: spreadsheet analytics → BI → SQL → Python → statistics → machine learning → deep learning → NLP/RAG → deployment → capstone delivery.
+- Note that this guide is  structured as a progressive pathway: spreadsheet analytics → BI → SQL → Python → statistics → machine learning → deep learning → NLP/RAG → deployment → capstone delivery.
 
-## Table of Contents
+### **Table of Contents.**
 
 1. [Purpose of This Guide](#purpose-of-this-guide)
 2. [Who This Guide Is For](#who-this-guide-is-for)
