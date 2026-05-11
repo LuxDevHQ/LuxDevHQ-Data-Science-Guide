@@ -105,7 +105,7 @@ The goal is to help learners move from tool literacy to practical data science e
  
 ### **Month 1 - Week 1: Microsoft Excel for Data Analysis.**
  
-#### **Day 1: Excel Basics & Navigation**
+#### **Week 1 - Day 1: Excel Basics & Navigation**
 - What is Excel and why it's important
 - Excel interface: ribbons, sheets, cells, rows, columns
 - Data types: text, numbers, dates
@@ -114,7 +114,7 @@ The goal is to help learners move from tool literacy to practical data science e
 - Saving and organizing files
 - Keyboard shortcuts
  
-#### **Day 2: Working with Formulas and Functions**
+#### **Week 1 - Day 2: Working with Formulas and Functions**
 - Cell references: relative, absolute, mixed
 - Arithmetic operations: +, -, *, /
 - Basic functions:
@@ -126,7 +126,7 @@ The goal is to help learners move from tool literacy to practical data science e
 - Date & Time functions:
   - TODAY(), NOW(), DATEDIF(), YEAR(), MONTH(), DAY()
  
-#### **Day 3: Data Cleaning & Sorting/Filtering**
+#### **Week 1 - Day 3: Data Cleaning & Sorting/Filtering**
 - Remove duplicates
 - Find & Replace
 - Text to Columns
@@ -135,7 +135,7 @@ The goal is to help learners move from tool literacy to practical data science e
 - Filtering data (AutoFilter, Custom Filter)
 - Freeze panes, hide/unhide rows/columns
  
-#### **Day 4: Data Analysis with Pivot Tables, Charts, and Dashboards**
+#### **Week 1 - Day 4: Data Analysis with Pivot Tables, Charts, and Dashboards**
 - Introduction to PivotTables
   - Creating PivotTables
   - Rows, Columns, Values, Filters
