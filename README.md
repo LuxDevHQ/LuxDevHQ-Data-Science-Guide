@@ -51,7 +51,7 @@ The goal is to help learners move from tool literacy to practical data science e
 - This program is designed for beginners who need a structured path into data analytics, data science, and AI engineering; instructors who need a single facilitation document for a 6-month to 9-month program; and learners who prefer project-based practice instead of theory only.
 
 
-## How to Use the Guide
+### **How to Use the Guide.**
 
 1. **Start with the roadmap.** Use the curated learning path to understand the recommended order.
 2. **Teach in layers.** Introduce concepts, demonstrate them, then assign practice questions or mini-projects.
@@ -59,20 +59,20 @@ The goal is to help learners move from tool literacy to practical data science e
 4. **Build portfolio artifacts every month.** Do not wait until the final capstone to create deliverables.
 5. **Use capstones as integration points.** The RAG activity, adaptive learning system, and car import advisory project should connect analytics, modeling, APIs, and communication.
 
-## Curated Learning Path
+### **Curated Learning Path.**
 
 | Phase | Recommended Timing | Focus | Primary Deliverables |
 |---|---:|---|---|
-| 1 | Month 1, Week 1 | Excel foundations, formulas, cleaning, PivotTables, dashboards | Cleaned workbook + pivot dashboard |
-| 2 | Month 1, Week 2 | Power BI, Power Query, DAX, modeling, dashboards | Interactive Power BI report using Kenya Crops data |
-| 3 | Month 1, Week 3 | SQL querying, joins, aggregations, CTEs, window functions | SQL analysis notebook or query pack |
-| 4 | Month 1, Week 4 | Python, pandas, EDA, automation | Python EDA notebook + reusable cleaning script |
+| 1 | Month 1 | Excel foundations, formulas, cleaning, PivotTables, dashboards | Cleaned workbook + pivot dashboard |
+| 2 | Month 1 | Power BI, Power Query, DAX, modeling, dashboards | Interactive Power BI report using Kenya Crops data |
+| 3 | Month 2 | SQL querying, joins, aggregations, CTEs, window functions | SQL analysis notebook or query pack |
+| 4 | Month 2 | Python, pandas, EDA, automation | Python EDA notebook + reusable cleaning script |
 | 5 | Pre-ML bridge | Statistics, distributions, probability, hypothesis testing | Statistics interpretation memo |
-| 6 | Month 2 | Supervised ML: regression, classification, trees, ensembles | Baseline ML model with evaluation report |
-| 7 | Month 3 | Unsupervised learning, evaluation, feature engineering, pipelines | Reproducible sklearn pipeline |
-| 8 | Months 3-4 | Deep learning foundations, ANN/CNN, transfer learning | Keras model notebook + model card |
-| 9 | Month 5 | NLP, embeddings, semantic search, RAG | ChromaDB RAG prototype |
-| 10 | Month 6 | Deployment, APIs, databases, final capstone | Deployed API or app + final presentation |
+| 6 | Month 3 | Supervised ML: regression, classification, trees, ensembles | Baseline ML model with evaluation report |
+| 7 | Month 4 | Unsupervised learning, evaluation, feature engineering, pipelines | Reproducible sklearn pipeline |
+| 8 | Months 5 | Deep learning foundations, ANN/CNN, transfer learning | Keras model notebook + model card |
+| 9 | Month 6 | NLP, embeddings, semantic search, RAG | ChromaDB RAG prototype |
+| 10 | Month 7 | Deployment, APIs, databases, final capstone | Deployed API or app + final presentation |
 
 ## Integrated Skill Map
 
