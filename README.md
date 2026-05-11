@@ -347,7 +347,7 @@ The goal is to help learners move from tool literacy to practical data science e
 
 ---
 
-#### **Statistics Day 1: Descriptive Statistics & Data Distributions** 
+#### **Statistics Day 1 and 2: Descriptive Statistics & Data Distributions** 
 - Types of data: numerical (continuous, discrete) and categorical (nominal, ordinal)
 - Measures of central tendency: mean, median, mode — and when to use each
 - Measures of spread: range, variance, standard deviation (sd), IQR
@@ -358,7 +358,7 @@ The goal is to help learners move from tool literacy to practical data science e
 
 ---
 
-#### **Statistics Day 2: Probability, Correlation & Hypothesis Testing**
+#### **Statistics Day 3 and 4: Probability, Correlation & Hypothesis Testing**
 - Basic probability: P(event) = favourable outcomes / total outcomes
 - Conditional probability: P(A | B) and real-world examples
 - Pearson correlation coefficient: strength and direction (−1 to +1)
