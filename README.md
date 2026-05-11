@@ -30,24 +30,26 @@ Please note that this program is scheduled to run for 6 months. However, dependi
 
 ---
 
-## Purpose of This Guide
+### Purpose of This Guide
 
-This guide consolidates the repository's curriculum, practice activities, datasets, and capstone briefs into one coherent learning document. The original materials were valuable but distributed across multiple Markdown files. This merged guide keeps the source content intact while adding a clearer pathway, prerequisite logic, assessment approach, and portfolio sequencing.
+This guide consolidates the repository's curriculum, practice activities, datasets, and capstone briefs into one coherent learning document. 
 
 The goal is to help learners move from tool literacy to practical data science execution:
 
 - **Analyze data** with Excel, Power BI, SQL, and Python.
+
 - **Explain data** with statistics, visualization, dashboards, and business storytelling.
+  
 - **Model data** with supervised learning, unsupervised learning, deep learning, and evaluation methods.
+  
 - **Build AI products** with retrieval-augmented generation, APIs, databases, and deployment workflows.
+  
 - **Graduate with a portfolio** of dashboards, notebooks, model pipelines, RAG systems, and capstone products.
 
-## Who This Guide Is For
+### **Who This Guide Is For:**
 
-- Beginners who need a structured path into data analytics, data science, and AI engineering.
-- Instructors who need a single facilitation document for a 6-month to 9-month program.
-- Cohorts preparing for portfolio reviews, internship readiness, or junior data roles.
-- Learners who prefer project-based practice instead of only theory.
+- This program is designed for beginners who need a structured path into data analytics, data science, and AI engineering; instructors who need a single facilitation document for a 6-month to 9-month program; and learners who prefer project-based practice instead of theory only.
+
 
 ## How to Use the Guide
 
