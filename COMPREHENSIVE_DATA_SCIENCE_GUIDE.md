@@ -1,7 +1,133 @@
-# LuxDevHQ Data Science and Analytics Curriculum (6 MONTHS PROGRAM)
+# LuxDevHQ Complete Data Science, Analytics, AI, and Capstone Guide
 
-> **New consolidated guide:** Start with [`COMPREHENSIVE_DATA_SCIENCE_GUIDE.md`](COMPREHENSIVE_DATA_SCIENCE_GUIDE.md) for the curated table of contents, integrated learning path, assessment strategy, capstone sequence, and merged source content from this repository.
+> A curated, unified guide that merges the curriculum and project material currently available in this repository into one learner-friendly reference. It is structured as a progressive pathway: spreadsheet analytics → BI → SQL → Python → statistics → machine learning → deep learning → NLP/RAG → deployment → capstone delivery.
 
+## Table of Contents
+
+1. [Purpose of This Guide](#purpose-of-this-guide)
+2. [Who This Guide Is For](#who-this-guide-is-for)
+3. [How to Use the Guide](#how-to-use-the-guide)
+4. [Curated Learning Path](#curated-learning-path)
+5. [Integrated Skill Map](#integrated-skill-map)
+6. [Recommended Assessment Strategy](#recommended-assessment-strategy)
+7. [Capstone Portfolio Sequence](#capstone-portfolio-sequence)
+8. [Dataset Inventory](#dataset-inventory)
+9. [Facilitator Notes](#facilitator-notes)
+10. [Merged Source Content](#merged-source-content)
+    - [Core Curriculum](#core-curriculum)
+    - [Power BI DAX Practice Bank](#power-bi-dax-practice-bank)
+    - [DAX Text Functions Drill](#dax-text-functions-drill)
+    - [RAG In-Class Activity](#rag-in-class-activity)
+    - [Adaptive Learning Capstone](#adaptive-learning-capstone)
+    - [Japan Car Import Advisory Capstone](#japan-car-import-advisory-capstone)
+11. [Appendix: Curation Checklist](#appendix-curation-checklist)
+
+---
+
+## Purpose of This Guide
+
+This guide consolidates the repository's curriculum, practice activities, datasets, and capstone briefs into one coherent learning document. The original materials were valuable but distributed across multiple Markdown files. This merged guide keeps the source content intact while adding a clearer pathway, prerequisite logic, assessment approach, and portfolio sequencing.
+
+The goal is to help learners move from tool literacy to practical data science execution:
+
+- **Analyze data** with Excel, Power BI, SQL, and Python.
+- **Explain data** with statistics, visualization, dashboards, and business storytelling.
+- **Model data** with supervised learning, unsupervised learning, deep learning, and evaluation methods.
+- **Build AI products** with retrieval-augmented generation, APIs, databases, and deployment workflows.
+- **Graduate with a portfolio** of dashboards, notebooks, model pipelines, RAG systems, and capstone products.
+
+## Who This Guide Is For
+
+- Beginners who need a structured path into data analytics, data science, and AI engineering.
+- Instructors who need a single facilitation document for a 6-month to 9-month program.
+- Cohorts preparing for portfolio reviews, internship readiness, or junior data roles.
+- Learners who prefer project-based practice instead of only theory.
+
+## How to Use the Guide
+
+1. **Start with the roadmap.** Use the curated learning path to understand the recommended order.
+2. **Teach in layers.** Introduce concepts, demonstrate them, then assign practice questions or mini-projects.
+3. **Use the Kenya Crops dataset repeatedly.** It supports Excel cleaning, Power BI DAX, SQL-style thinking, and Python EDA.
+4. **Build portfolio artifacts every month.** Do not wait until the final capstone to create deliverables.
+5. **Use capstones as integration points.** The RAG activity, adaptive learning system, and car import advisory project should connect analytics, modeling, APIs, and communication.
+
+## Curated Learning Path
+
+| Phase | Recommended Timing | Focus | Primary Deliverables |
+|---|---:|---|---|
+| 1 | Month 1, Week 1 | Excel foundations, formulas, cleaning, PivotTables, dashboards | Cleaned workbook + pivot dashboard |
+| 2 | Month 1, Week 2 | Power BI, Power Query, DAX, modeling, dashboards | Interactive Power BI report using Kenya Crops data |
+| 3 | Month 1, Week 3 | SQL querying, joins, aggregations, CTEs, window functions | SQL analysis notebook or query pack |
+| 4 | Month 1, Week 4 | Python, pandas, EDA, automation | Python EDA notebook + reusable cleaning script |
+| 5 | Pre-ML bridge | Statistics, distributions, probability, hypothesis testing | Statistics interpretation memo |
+| 6 | Month 2 | Supervised ML: regression, classification, trees, ensembles | Baseline ML model with evaluation report |
+| 7 | Month 3 | Unsupervised learning, evaluation, feature engineering, pipelines | Reproducible sklearn pipeline |
+| 8 | Months 3-4 | Deep learning foundations, ANN/CNN, transfer learning | Keras model notebook + model card |
+| 9 | Month 5 | NLP, embeddings, semantic search, RAG | ChromaDB RAG prototype |
+| 10 | Month 6 | Deployment, APIs, databases, final capstone | Deployed API or app + final presentation |
+
+## Integrated Skill Map
+
+| Skill Area | Learner Should Be Able To | Evidence |
+|---|---|---|
+| Spreadsheet analytics | Clean, transform, summarize, and visualize tabular data | Excel workbook and dashboard |
+| BI and dashboarding | Build data models, measures, slicers, and executive dashboards | Power BI report and DAX measures |
+| SQL analytics | Query relational data and communicate findings | Query file with joins, CTEs, and windows |
+| Python analytics | Load, clean, visualize, and automate analysis | Notebook and Python scripts |
+| Statistics | Choose metrics, interpret distributions, compare groups, avoid misleading claims | Written analysis memo |
+| Machine learning | Train, validate, tune, and explain models | Model pipeline and evaluation report |
+| Deep learning | Build neural networks for structured, image, or text data | Keras/TensorFlow notebook |
+| NLP and RAG | Chunk documents, create embeddings, retrieve context, and evaluate retrieval quality | RAG prototype with retrieval logs |
+| Product engineering | Connect AI/ML to APIs, databases, and user workflows | FastAPI service or deployed app |
+| Storytelling | Convert analysis into decisions and next steps | Slide deck and demo video |
+
+## Recommended Assessment Strategy
+
+| Assessment Type | Weight | What to Evaluate |
+|---|---:|---|
+| Weekly labs | 20% | Correct use of tools, reproducibility, and data-cleaning discipline |
+| Quizzes and practice banks | 15% | Concept retention, formulas, DAX, SQL, and ML vocabulary |
+| Mini-projects | 25% | End-to-end analysis, visual clarity, model reasoning, and communication |
+| Peer review | 10% | Code readability, dashboard usability, and explanation quality |
+| Final capstone | 30% | Business framing, technical implementation, evaluation, deployment readiness, and presentation |
+
+## Capstone Portfolio Sequence
+
+1. **Analytics Capstone:** Power BI dashboard using the Kenya Crops dataset.
+2. **Machine Learning Capstone:** Prediction or classification pipeline with feature engineering and model comparison.
+3. **RAG Capstone:** Policy document assistant using PDF extraction, chunking, embeddings, ChromaDB, retrieval, and answer evaluation.
+4. **AI Product Capstone:** Adaptive learning platform using FastAPI, PostgreSQL, Groq-powered feedback, and SQL analytics.
+5. **Industry Capstone:** Japan car import advisory platform with prediction, business recommendations, explainability, and deployment.
+
+## Dataset Inventory
+
+| Dataset/File | Use Case | Notes |
+|---|---|---|
+| `Kenya_Crops_Dataset.csv` | Excel, Power BI, DAX, SQL-style analysis, and Python cleaning | Includes farmer, crop, revenue, cost, profit, dates, soil, irrigation, and data-quality issues such as blanks or `Error` values. |
+
+## Facilitator Notes
+
+- Keep every session anchored in a problem statement, not just a tool feature.
+- Ask learners to maintain a portfolio repository from week one.
+- Require a short reflection after each project: what changed in the data, why the method was chosen, what could go wrong, and what decision the result supports.
+- Normalize iteration: a first notebook, dashboard, or model is a draft, not the final product.
+- Encourage learners to compare multiple approaches before selecting a final method.
+
+---
+
+## Merged Source Content
+
+The sections below preserve and reorganize the repository's existing Markdown content under one unified guide. Each source file is identified before its content so future maintainers can trace where a lesson, exercise, or project brief came from.
+
+
+
+## Core Curriculum
+
+**Source file:** `README.md`  
+**Role in guide:** The complete six-month learning path covering Excel, Power BI, SQL, Python, statistics, machine learning, deep learning, NLP, deployment, and production-minded project work.
+
+
+## LuxDevHQ Data Science and Analytics Curriculum (6 MONTHS PROGRAM)
 
 **Mode of Delivery:**  Physical and Online (Live Sessions and Hands-on Projects)
 
@@ -10,9 +136,9 @@
 > Regardless of how long the program takes, the fees remain unchanged. The fees will not be affected. At some point, students may request an additional week or two for projects or for certain concepts to be explained more thoroughly.
 ---
  
-## Month 1 - Week 1: Microsoft Excel for Data Analysis
+### Month 1 - Week 1: Microsoft Excel for Data Analysis
  
-### **Day 1: Excel Basics & Navigation**
+#### **Day 1: Excel Basics & Navigation**
 - What is Excel and why it's important
 - Excel interface: ribbons, sheets, cells, rows, columns
 - Data types: text, numbers, dates
@@ -21,7 +147,7 @@
 - Saving and organizing files
 - Keyboard shortcuts
  
-### **Day 2: Working with Formulas and Functions**
+#### **Day 2: Working with Formulas and Functions**
 - Cell references: relative, absolute, mixed
 - Arithmetic operations: +, -, *, /
 - Basic functions:
@@ -33,7 +159,7 @@
 - Date & Time functions:
   - TODAY(), NOW(), DATEDIF(), YEAR(), MONTH(), DAY()
  
-### **Day 3: Data Cleaning & Sorting/Filtering**
+#### **Day 3: Data Cleaning & Sorting/Filtering**
 - Remove duplicates
 - Find & Replace
 - Text to Columns
@@ -42,7 +168,7 @@
 - Filtering data (AutoFilter, Custom Filter)
 - Freeze panes, hide/unhide rows/columns
  
-### **Day 4: Data Analysis with Pivot Tables, Charts, and Dashboards**
+#### **Day 4: Data Analysis with Pivot Tables, Charts, and Dashboards**
 - Introduction to PivotTables
   - Creating PivotTables
   - Rows, Columns, Values, Filters
@@ -56,22 +182,22 @@
  
 ---
  
-## Month 1 - Week 2: Power BI for Data Visualization
+### Month 1 - Week 2: Power BI for Data Visualization
 ---
  
-## **Day 1: Introduction to Power BI and Power Query Editor (Data Transformation)**
+### **Day 1: Introduction to Power BI and Power Query Editor (Data Transformation)**
  
-### Overview & Setup
+#### Overview & Setup
 - What is Power BI? (Comparison with Excel & Tableau)
 - Power BI Components: Desktop, Service, Mobile
 - Installing Power BI Desktop
 - Power BI Desktop Interface Overview
  
-### Getting Data
+#### Getting Data
 - Importing Data from Excel, CSV, Web
 - Understanding Data Types and Field Formatting
  
-### Power Query Editor
+#### Power Query Editor
 - Opening Power Query Editor
 - Removing Rows, Columns, and Duplicates
 - Changing Data Types, Renaming Columns
@@ -79,86 +205,86 @@
 - Using “Replace Values”
 - Applied Steps, Reordering, and Removing Steps
  
-### Combining Queries
+#### Combining Queries
 - **Merge Queries** (SQL-style joins)
 - **Append Queries** (Union of datasets)
  
 ---
  
-## **Day 2: DAX Basics – Measures, Calculated Columns & Aggregations**
+### **Day 2: DAX Basics – Measures, Calculated Columns & Aggregations**
  
-### Introduction to DAX
+#### Introduction to DAX
 - What is DAX (Data Analysis Expressions)?
 - Syntax Rules: =, (), [], Table & Column references
  
-### Calculated Columns vs Measures
+#### Calculated Columns vs Measures
 - When to use each
 - Creating new fields using Calculated Columns
 - Building Measures for aggregations
  
-### Common DAX Functions
+#### Common DAX Functions
 - **Aggregation**: SUM(), AVERAGE(), COUNT(), COUNTROWS(), DISTINCTCOUNT()
 - **Logical**: IF(), SWITCH(), AND(), OR()
 - **Date**: TODAY(), NOW(), YEAR(), MONTH(), DATEDIFF()
 - **Text**: CONCATENATE(), LEFT(), RIGHT(), LEN()
  
-### Practical Use Cases
+#### Practical Use Cases
 - Total Revenue, Profit Margin, % Growth
 - IF(Sales > 50000, “High”, “Low”)
 - Number of Orders per Customer
  
 ---
  
-## **Day 3: Data Modeling, Relationships & Joins**
+### **Day 3: Data Modeling, Relationships & Joins**
  
-### Data Modeling Concepts
+#### Data Modeling Concepts
 - What is a Data Model?
 - Star Schema vs Snowflake Schema
 - Importance of Fact and Dimension tables
  
-### Relationships in Power BI
+#### Relationships in Power BI
 - One-to-Many and Many-to-One relationships
 - Creating & Managing Relationships in Model View
 - Active vs Inactive Relationships
  
-### Data Joins
+#### Data Joins
 - Relationship-based vs Merge Query joins
 - Cardinality (One-to-One, One-to-Many)
 - Cross filter direction
  
-### Modeling Best Practices
+#### Modeling Best Practices
 - Hiding unnecessary columns
 - Using Lookup Tables
 - Creating Role-Playing Dimensions (e.g. Order Date vs Delivery Date)
  
 ---
  
-## **Day 4: Visualizations, Charts & Dashboards**
+### **Day 4: Visualizations, Charts & Dashboards**
  
-### Basic Visuals
+#### Basic Visuals
 - Bar Chart, Column Chart, Line Chart
 - Pie & Donut Charts
 - Card, KPI
 - Table & Matrix
  
-### Advanced Visuals
+#### Advanced Visuals
 - Tree Map, Funnel, Gauge
 - Maps: Filled Map, Shape Map, ArcGIS Map
 - Custom Visuals (via AppSource)
  
-### Interactivity
+#### Interactivity
 - Visual-Level, Page-Level, Report-Level Filters
 - Slicers (Text, Date, Dropdowns)
 - Drill-down & Drill-through
 - Tooltips, Bookmarks, Buttons
  
-### Dashboard Building
+#### Dashboard Building
 - Designing a complete report page
 - Adding Titles, Backgrounds, Logos, Images
 - Aligning and Formatting Visuals
 - Creating Navigation Buttons
  
-### Publishing & Sharing
+#### Publishing & Sharing
 - Publishing to Power BI Service
 - Sharing Reports & Dashboards
 - Setting Scheduled Refresh
@@ -166,9 +292,9 @@
 ---
  
  
-##  Month 1 - Week 3: SQL for Data Analysis
+###  Month 1 - Week 3: SQL for Data Analysis
  
-### **Day 1   Introduction to SQL, Table creation and manipulation and SQL KEY words.**
+#### **Day 1   Introduction to SQL, Table creation and manipulation and SQL KEY words.**
 - What is SQL, relational databases, and DBMS
 - CREATE, DROP, ALTER TABLE
 - INSERT, UPDATE, DELETE data
@@ -177,7 +303,7 @@
 - LIMIT and OFFSET
 - GROUP BY and HAVING
  
-### **Day 2  Aggregations and operators**
+#### **Day 2  Aggregations and operators**
 - Comparison Operators : =, <>, >, <, BETWEEN, IN, LIKE
 - Aggregates: COUNT(), SUM(), AVG(), MIN(), MAX()
 - String Functions: CONCAT(), LENGTH(), SUBSTRING(), UPPER(), LOWER(), REPLACE()
@@ -189,7 +315,7 @@
   - LEAD(), LAG()
 - CASE WHEN THEN ELSE END
  
-### **Day 3: SQL Joins and Relationships**
+#### **Day 3: SQL Joins and Relationships**
 - Primary and foreign keys
 - INNER JOIN
 - LEFT JOIN
@@ -201,7 +327,7 @@
 - Practice: build reports using joins from multiple tables
  
  
-### **Day 4: Advanced SQL (CTEs, Subqueries, Stored Procedures)**
+#### **Day 4: Advanced SQL (CTEs, Subqueries, Stored Procedures)**
 - Subqueries: scalar, correlated, IN/EXISTS
 - Common Table Expressions (CTEs)
 - Stored Procedures and parameters (Intro)
@@ -209,9 +335,9 @@
  
 ---
  
-##  Month 1 - Week 4: Python for Data Analysis
+###  Month 1 - Week 4: Python for Data Analysis
  
-### **Day 1: Python Basics**
+#### **Day 1: Python Basics**
 - What is Python and its use in data
 - Setting up Python (Jupyter, Colab, VSCode)
 - Variables and data types (int, float, string, bool)
@@ -221,7 +347,7 @@
 - Loops: for, while
 - Functions and basic I/O
  
-### **Day 2: Working with Data using Pandas**
+#### **Day 2: Working with Data using Pandas**
 - Importing data: CSV, Excel
 - DataFrames and Series
 - Inspecting data: head(), tail(), info(), describe()
@@ -230,7 +356,7 @@
 - Sorting, renaming columns
 - Adding, deleting columns
  
-### **Day 3: Data Cleaning and Analysis**
+#### **Day 3: Data Cleaning and Analysis**
 - Handling missing data: isnull(), fillna(), dropna()
 - Duplicates: duplicated(), drop_duplicates()
 - Changing data types
@@ -239,7 +365,7 @@
 - Pivot tables with pandas
 - Basic visualizations: matplotlib, seaborn
  
-### **Day 4: Projects and Automation with Python**
+#### **Day 4: Projects and Automation with Python**
 - Real-world mini project (sales data, HR data, etc.)
 - Creating summary reports
 - Exporting cleaned data to Excel/CSV
@@ -251,11 +377,11 @@
 
 ---
 
-## Statistics Foundations (Pre-ML, 2 Days)
+### Statistics Foundations (Pre-ML, 2 Days)
 
 ---
 
-### **Statistics Day 1: Descriptive Statistics & Data Distributions** 
+#### **Statistics Day 1: Descriptive Statistics & Data Distributions** 
 - Types of data: numerical (continuous, discrete) and categorical (nominal, ordinal)
 - Measures of central tendency: mean, median, mode — and when to use each
 - Measures of spread: range, variance, standard deviation (sd), IQR
@@ -266,7 +392,7 @@
 
 ---
 
-### **Statistics Day 2: Probability, Correlation & Hypothesis Testing**
+#### **Statistics Day 2: Probability, Correlation & Hypothesis Testing**
 - Basic probability: P(event) = favourable outcomes / total outcomes
 - Conditional probability: P(A | B) and real-world examples
 - Pearson correlation coefficient: strength and direction (−1 to +1)
@@ -280,15 +406,15 @@
 ---
 
 
-# 6-Week Machine Learning & Deep Learning Course Plan
+## 6-Week Machine Learning & Deep Learning Course Plan
 
 ---
 
-## Month 2 – Week 1: Introduction to Machine Learning & Regression
+### Month 2 – Week 1: Introduction to Machine Learning & Regression
 
 ---
 
-### [**Day 1: What is Machine Learning?**](#introduction-to-ml-basic-concepts) 
+#### [**Day 1: What is Machine Learning?**](#introduction-to-ml-basic-concepts) 
 **Topic:** Introduction to ML & Types of Learning
 - Introduction to ML and real-world applications
 - Types of ML: Supervised vs. Unsupervised vs. Reinforcement
@@ -296,7 +422,7 @@
 
 ---
 
-### [**Day 2: Supervised Learning Flow & Use Cases**](#introduction-to-ml-basic-concepts) 
+#### [**Day 2: Supervised Learning Flow & Use Cases**](#introduction-to-ml-basic-concepts) 
 **Topic:** Supervised Learning in Practice
 - Supervised learning definition and end-to-end workflow
 - Use cases of classification and regression
@@ -304,7 +430,7 @@
 
 ---
 
-### [**Day 3: Linear Regression**](#simple-linear-regression--beginner-notes) 
+#### [**Day 3: Linear Regression**](#simple-linear-regression--beginner-notes) 
 **Topic:** Simple & Multiple Linear Regression
 - Linear regression: line of best fit, cost function, gradient descent intuition
 - Evaluation metrics: MSE, RMSE, R2 score
@@ -312,7 +438,7 @@
 
 ---
 
-### [**Day 4: Multiple Linear Regression & Regularization**](#lasso--ridge-regression--beginner-notes) 
+#### [**Day 4: Multiple Linear Regression & Regularization**](#lasso--ridge-regression--beginner-notes) 
 **Topic:** Multiple Linear Regression, Lasso & Ridge
 - Multiple linear regression: multiple features and feature interpretation
 - Lasso regression: L1 penalty and feature sparsity
@@ -321,11 +447,11 @@
 
 ---
 
-## Month 2 – Week 2: Classification Algorithms
+### Month 2 – Week 2: Classification Algorithms
 
 ---
 
-### [**Day 1: Logistic Regression**](#logistic-regression--beginner-friendly-notes-with-analogies--python-example) 
+#### [**Day 1: Logistic Regression**](#logistic-regression--beginner-friendly-notes-with-analogies--python-example) 
 **Topic:** Binary Classification & Logistic Regression
 - Understanding classification problems vs regression problems
 - Logistic regression intuition and the sigmoid function
@@ -334,7 +460,7 @@
 
 ---
 
-### [**Day 2: K-Nearest Neighbors (KNN)**](#k-nearest-neighbors-knn--beginner-friendly-notes-with-analogies--python-example) 
+#### [**Day 2: K-Nearest Neighbors (KNN)**](#k-nearest-neighbors-knn--beginner-friendly-notes-with-analogies--python-example) 
 **Topic:** KNN & Classification Evaluation Metrics
 - How KNN works: distance, voting, and the role of K
 - Choosing the right K: underfitting vs overfitting
@@ -343,7 +469,7 @@
 
 ---
 
-### [**Day 3: Decision Trees – Fundamentals**](#decision-trees--beginner-friendly-notes-with-analogies--python-example) 
+#### [**Day 3: Decision Trees – Fundamentals**](#decision-trees--beginner-friendly-notes-with-analogies--python-example) 
 **Topic:** Decision Tree Structure & Splitting
 - How decision trees split data: Gini impurity vs entropy
 - Growing a tree: recursive splits and stopping criteria
@@ -352,7 +478,7 @@
 
 ---
 
-### **Day 4: Decision Trees – Tuning & Evaluation** 
+#### **Day 4: Decision Trees – Tuning & Evaluation** 
 **Topic:** Controlling Decision Tree Complexity
 - Controlling overfitting: `max_depth`, `min_samples_split`, `min_samples_leaf`
 - Feature importance: which features does the tree rely on most?
@@ -360,11 +486,11 @@
 
 ---
 
-## Month 2 – Week 3: Ensemble Methods
+### Month 2 – Week 3: Ensemble Methods
 
 ---
 
-### [**Day 1: Random Forest – Introduction**](#ensemble-learning-techniques--beginner-friendly-notes) 
+#### [**Day 1: Random Forest – Introduction**](#ensemble-learning-techniques--beginner-friendly-notes) 
 **Topic:** Ensemble Learning & Bagging
 - Why one model isn't always enough: the wisdom of the crowd
 - Bagging (Bootstrap Aggregating) explained with analogy
@@ -372,7 +498,7 @@
 
 ---
 
-### [**Day 2: Random Forest – Advanced Topics**](#deep-dive-into-ensemble-methods) 
+#### [**Day 2: Random Forest – Advanced Topics**](#deep-dive-into-ensemble-methods) 
 **Topic:** Random Forest in Practice
 - Feature importance in Random Forest
 - Bias-variance tradeoff: diagnosing underfitting and overfitting
@@ -380,7 +506,7 @@
 
 ---
 
-### **Day 3: Gradient Boosting** 
+#### **Day 3: Gradient Boosting** 
 **Topic:** Boosting Concept & Gradient Boosting Algorithm
 - Boosting vs bagging: the key conceptual difference
 - Gradient Boosting intuition: correcting errors sequentially
@@ -388,7 +514,7 @@
 
 ---
 
-### **Day 4: XGBoost & Ensemble Comparison** 
+#### **Day 4: XGBoost & Ensemble Comparison** 
 **Topic:** XGBoost & Choosing the Right Ensemble
 - XGBoost: how it builds on and improves Gradient Boosting
 - Hands-on: train and compare XGBoost vs Random Forest vs Decision Tree
@@ -396,11 +522,11 @@
 
 ---
 
-## Month 2 – Week 4: Unsupervised Learning & Dimensionality Reduction
+### Month 2 – Week 4: Unsupervised Learning & Dimensionality Reduction
 
 ---
 
-### [**Day 1: Introduction to Unsupervised Learning & K-Means**](#clustering-and-k-means-in-unsupervised-learning) 
+#### [**Day 1: Introduction to Unsupervised Learning & K-Means**](#clustering-and-k-means-in-unsupervised-learning) 
 **Topic:** Clustering & K-Means Algorithm
 - What is unsupervised learning? Real-world applications
 - K-Means: centroids, the algorithm step-by-step, choosing K
@@ -408,7 +534,7 @@
 
 ---
 
-### [**Day 2: Hierarchical Clustering**](#hierarchical-clustering-in-unsupervised-learning) 
+#### [**Day 2: Hierarchical Clustering**](#hierarchical-clustering-in-unsupervised-learning) 
 **Topic:** Hierarchical Clustering & Customer Segmentation
 - Understanding and reading dendrograms
 - Agglomerative vs Divisive clustering approaches
@@ -416,7 +542,7 @@
 
 ---
 
-### [**Day 3: Dimensionality Reduction – PCA**](#dimensionality-reduction) 
+#### [**Day 3: Dimensionality Reduction – PCA**](#dimensionality-reduction) 
 **Topic:** Principal Component Analysis
 - Curse of dimensionality: why too many features cause problems
 - PCA: reducing dimensions while preserving variance
@@ -425,7 +551,7 @@
 
 ---
 
-### **Day 4: t-SNE & Visualisation** 
+#### **Day 4: t-SNE & Visualisation** 
 **Topic:** t-SNE for High-Dimensional Visualisation
 - t-SNE: how it maps high-dimensional data to 2D/3D
 - PCA vs t-SNE: interpreting and choosing between them
@@ -433,11 +559,11 @@
 
 ---
 
-## Month 3 – Week 1: Model Evaluation & Feature Engineering
+### Month 3 – Week 1: Model Evaluation & Feature Engineering
 
 ---
 
-### [**Day 1: Model Evaluation & Cross-Validation**](#model-evaluation--validation-techniques) 
+#### [**Day 1: Model Evaluation & Cross-Validation**](#model-evaluation--validation-techniques) 
 **Topic:** Cross-Validation & Core Evaluation Metrics
 - Why a single train/test split isn't reliable enough
 - K-fold cross-validation: how it works and why it matters
@@ -445,7 +571,7 @@
 
 ---
 
-### **Day 2: Advanced Evaluation – ROC, AUC & Curves** 
+#### **Day 2: Advanced Evaluation – ROC, AUC & Curves** 
 **Topic:** ROC Curves, AUC & Diagnosing Fit Issues
 - ROC curves and AUC score: interpreting the trade-off
 - Precision-Recall curves and when to prefer them over ROC
@@ -453,7 +579,7 @@
 
 ---
 
-### [**Day 3: Feature Engineering & Data Preprocessing**](#feature-engineering--data-preprocessing) 
+#### [**Day 3: Feature Engineering & Data Preprocessing**](#feature-engineering--data-preprocessing) 
 **Topic:** Cleaning, Encoding & Scaling
 - Handling missing data: deletion vs imputation strategies
 - Encoding categorical variables: Label Encoding vs One-Hot Encoding
@@ -461,7 +587,7 @@
 
 ---
 
-### **Day 4: Feature Selection Techniques** 
+#### **Day 4: Feature Selection Techniques** 
 **Topic:** Selecting the Most Useful Features
 - Correlation-based feature selection: dropping redundant features
 - Chi-square test for categorical feature relevance
@@ -470,11 +596,11 @@
 
 ---
 
-## Month 3 – Week 2: Hyperparameter Tuning, Pipelines & Capstone
+### Month 3 – Week 2: Hyperparameter Tuning, Pipelines & Capstone
 
 ---
 
-### [**Day 1: Hyperparameter Tuning – Grid & Random Search**](#hyperparameter-tuning--introduction) 
+#### [**Day 1: Hyperparameter Tuning – Grid & Random Search**](#hyperparameter-tuning--introduction) 
 **Topic:** Grid Search & Randomised Search
 - Difference between model parameters and hyperparameters
 - Grid Search: exhaustive search over a defined parameter grid
@@ -483,7 +609,7 @@
 
 ---
 
-### **Day 2: Advanced Tuning & Bayesian Optimisation** 
+#### **Day 2: Advanced Tuning & Bayesian Optimisation** 
 **Topic:** Bayesian Optimisation with Optuna
 - Why random/grid search can be inefficient on large search spaces
 - Bayesian optimisation: using past results to pick the next trial
@@ -492,7 +618,7 @@
 
 ---
 
-### [**Day 3: Model Pipelines & Deployment Basics**](#model-pipelines-and-deployment-basics) 
+#### [**Day 3: Model Pipelines & Deployment Basics**](#model-pipelines-and-deployment-basics) 
 **Topic:** Building End-to-End Pipelines & Model Saving
 - Using `Pipeline` and `ColumnTransformer` from sklearn
 - Combining preprocessing and model steps into a single reusable object
@@ -500,7 +626,7 @@
 - Introduction to deployment: Streamlit / Flask APIs overview
 
 ---
-### Day 4: Real-World Deployment with Flask**](#real-world-deployment-with-flask)
+#### Day 4: Real-World Deployment with Flask**](#real-world-deployment-with-flask)
 **Topic:** Serving a Trained ML Model as a REST API
 - What is an API? The client-server model explained with analogy
 - Setting up a Flask application from scratch
@@ -510,7 +636,7 @@
 - Handling errors and edge cases in production
 - Deploying to the cloud: pushing to Render (free tier)
   
-### ** Capstone Project Work Session & Presentations** 
+#### ** Capstone Project Work Session & Presentations** 
 **Topic:** Full ML Pipeline – Project & Recap
 - Students select a dataset and frame a problem
 - Apply the full ML pipeline: EDA → preprocessing → modelling → evaluation → tuning
@@ -519,11 +645,11 @@
 - Tips for further learning: books, Kaggle, courses, real-world practice
 
 
-#  Week 1: Foundations of Deep Learning & ANN Basics
+##  Week 1: Foundations of Deep Learning & ANN Basics
 
 ---
 
-### [Day 1: Introduction to Deep Learning](#Introduction-to-Deep-Learning)
+#### [Day 1: Introduction to Deep Learning](#Introduction-to-Deep-Learning)
 **Topic:** What is Deep Learning? Understanding Neural Networks  
 **Summary:**
 - Difference between machine learning and deep learning
@@ -534,7 +660,7 @@
 
 ---
 
-### [Day 2: Building a Neural Network from Scratch](#Building-a-Neural-Network-from-Scratch)
+#### [Day 2: Building a Neural Network from Scratch](#Building-a-Neural-Network-from-Scratch)
 **Topic:** Feedforward Neural Networks  
 **Summary:**
 - Forward propagation in multi-layer networks
@@ -545,7 +671,7 @@
 
 ---
 
-### [Day 3: Deep Learning with TensorFlow/Keras](#Deep-Learning-with-TensorFlow/Keras)
+#### [Day 3: Deep Learning with TensorFlow/Keras](#Deep-Learning-with-TensorFlow/Keras)
 **Topic:** Implementing Neural Networks with Keras  
 **Summary:**
 - Introduction to TensorFlow and Keras
@@ -556,7 +682,7 @@
 
 ---
 
-### [Day 4: Improving Model Performance](#Improving-Model-Performance)
+#### [Day 4: Improving Model Performance](#Improving-Model-Performance)
 **Topic:** Regularization and Optimization  
 **Summary:**
 - Overfitting and underfitting in deep networks
@@ -566,11 +692,11 @@
 
 ---
 
-## Week 2: Deep Diving into ANNs
+### Week 2: Deep Diving into ANNs
 
 ---
 
-### [Day 1: Model Design – MLPs, Sequential vs Functional API](#Model-Design-MLPs,-Sequential-vs-Functional-API)
+#### [Day 1: Model Design – MLPs, Sequential vs Functional API](#Model-Design-MLPs,-Sequential-vs-Functional-API)
 **Topic:** Multi-layer Perceptrons (MLPs) and Keras APIs  
 **Summary:**
 - MLP architecture and the role of depth in networks
@@ -581,7 +707,7 @@
 
 ---
 
-### [Day 2: Handling Different Data Types](#Handling-Different-Data-Types)
+#### [Day 2: Handling Different Data Types](#Handling-Different-Data-Types)
 **Topic:** Image, Tabular, and Text Data with ANNs  
 **Summary:**
 - Preprocessing images for ANN (flattening, normalization)
@@ -591,7 +717,7 @@
 
 ---
 
-### [Day 3: Model Evaluation and Visualization](#Model-Evaluation-and-Visualization)
+#### [Day 3: Model Evaluation and Visualization](#Model-Evaluation-and-Visualization)
 **Topic:** Evaluating Deep Learning Models  
 **Summary:**
 - Accuracy, confusion matrix, precision, recall, F1 score
@@ -601,7 +727,7 @@
 
 ---
 
-### Day 4: Capstone 1 – ANN Mini Project
+#### Day 4: Capstone 1 – ANN Mini Project
 **Topic:** Project using ANN on real dataset  
 **Summary:**
 - Students use datasets (e.g., MNIST, tabular UCI data, sentiment classification)
@@ -611,11 +737,11 @@
 
 ---
 
-# Week 3: CNNs for Image Data
+## Week 3: CNNs for Image Data
 
 ---
 
-### [Day 1: Introduction to CNNs](#Introduction-to-CNNs)
+#### [Day 1: Introduction to CNNs](#Introduction-to-CNNs)
 **Topic:** Convolutional Neural Networks Basics  
 **Summary:**
 - Limitations of ANNs with image data
@@ -626,7 +752,7 @@
 
 ---
 
-### [Day 2: Building CNNs in Keras](#Building-CNNs-in-Keras)
+#### [Day 2: Building CNNs in Keras](#Building-CNNs-in-Keras)
 **Topic:** Hands-on with CNN for Image Classification  
 **Summary:**
 - Creating CNN layers with Conv2D, MaxPooling2D, Flatten, Dense
@@ -636,7 +762,7 @@
 
 ---
 
-### [Day 3: Transfer Learning](#Transfer-Learning)
+#### [Day 3: Transfer Learning](#Transfer-Learning)
 **Topic:** Pre-trained Models (VGG, ResNet, MobileNet)  
 **Summary:**
 - What is transfer learning and why it's useful  
@@ -647,7 +773,7 @@
 
 ---
 
-###  Day 4: Capstone 2 – CNN Project + Course Wrap-up
+####  Day 4: Capstone 2 – CNN Project + Course Wrap-up
 **Topic:** Final Project + Deep Learning Recap  
 **Summary:**
 - Students implement an image classifier using CNN or transfer learning
@@ -658,12 +784,12 @@
 
 
 ---
-# Introduction_to_ML_basic_concepts
-# Day 1: Introduction to Machine Learning & Supervised Learning
+## Introduction_to_ML_basic_concepts
+## Day 1: Introduction to Machine Learning & Supervised Learning
 
 ---
 
-## Lesson Summary
+### Lesson Summary
 
 - Understand **what Machine Learning is** and why it matters  
 - Learn about the **types of ML**: Supervised, Unsupervised, and Reinforcement Learning  
@@ -672,14 +798,14 @@
 
 ---
 
-## 1. What is Machine Learning?
+### 1. What is Machine Learning?
 
-### Definition (Simple Version):
+#### Definition (Simple Version):
 > Machine Learning (ML) is a way to **teach computers to learn from data**, without being **explicitly programmed**.
 
 ---
 
-### Analogy: Teaching a Child
+#### Analogy: Teaching a Child
 
 Imagine teaching a child how to recognize animals.
 
@@ -691,7 +817,7 @@ That’s Machine Learning in action! Instead of a child, we train a **computer**
 
 ---
 
-### Real-world Examples of ML
+#### Real-world Examples of ML
 
 | Example                            | Task Type     |
 |------------------------------------|---------------|
@@ -703,9 +829,9 @@ That’s Machine Learning in action! Instead of a child, we train a **computer**
 
 ---
 
-## 2. Types of Machine Learning
+### 2. Types of Machine Learning
 
-### There are 3 Main Types:
+#### There are 3 Main Types:
 
 | Type                  | Learns From      | Gets Labeled Data? | Example                          |
 |-----------------------|------------------|---------------------|----------------------------------|
@@ -715,7 +841,7 @@ That’s Machine Learning in action! Instead of a child, we train a **computer**
 
 ---
 
-### Analogy for Each
+#### Analogy for Each
 
 - **Supervised Learning**: Like a **student with a teacher**. The teacher gives both the **questions and answers**.
 - **Unsupervised Learning**: Like an **explorer without a map**, trying to find **patterns** on their own.
@@ -723,13 +849,13 @@ That’s Machine Learning in action! Instead of a child, we train a **computer**
 
 ---
 
-##  3. What is a Dataset?
+###  3. What is a Dataset?
 
 A **dataset** is a **collection of data** that you use to train and test your ML model.
 
 ---
 
-### Example: Predicting House Prices
+#### Example: Predicting House Prices
 
 | Size (sq ft) | Location | No. of Bedrooms | Price ($) |
 |--------------|----------|-----------------|-----------|
@@ -738,7 +864,7 @@ A **dataset** is a **collection of data** that you use to train and test your ML
 
 ---
 
-### Key Terms
+#### Key Terms
 
 | Term             | Meaning                   | Analogy                        |
 |------------------|---------------------------|--------------------------------|
@@ -749,7 +875,7 @@ A **dataset** is a **collection of data** that you use to train and test your ML
 
 ---
 
-### Example Breakdown
+#### Example Breakdown
 
 In the dataset above:
 - **Features** = Size, Location, Bedrooms
@@ -761,14 +887,14 @@ We split this data:
 
 ---
 
-## 4. What is Supervised Learning?
+### 4. What is Supervised Learning?
 
-### Definition:
+#### Definition:
 > Supervised Learning is a type of ML where we teach the model **using labeled data** (features + known outputs), and then use it to **predict labels** for new data.
 
 ---
 
-### The Supervised Learning Flow
+#### The Supervised Learning Flow
 
 1. **Collect Data** (e.g., past house prices)
 2. **Split Data** into Training and Testing sets
@@ -778,7 +904,7 @@ We split this data:
 
 ---
 
-### Analogy: Studying for a Test
+#### Analogy: Studying for a Test
 
 - You **study past exams** (training)
 - You take a **mock test** (prediction)
@@ -786,7 +912,7 @@ We split this data:
 
 ---
 
-## 5. Classification vs Regression (Use Cases)
+### 5. Classification vs Regression (Use Cases)
 
 | Type              | What It Predicts       | Example               | Output Type |
 |-------------------|------------------------|------------------------|-------------|
@@ -795,7 +921,7 @@ We split this data:
 
 ---
 
-### Classification Example: Email Spam Filter
+#### Classification Example: Email Spam Filter
 
 - **Features**: Keywords, sender address, message length
 - **Label**: "Spam" or "Not Spam"
@@ -803,7 +929,7 @@ We split this data:
 
 ---
 
-### Regression Example: Predicting House Prices
+#### Regression Example: Predicting House Prices
 
 - **Features**: Size, Location, Bedrooms
 - **Label**: Price (a number)
@@ -811,14 +937,14 @@ We split this data:
 
 ---
 
-### 🧠 Analogy for Classification vs Regression
+#### 🧠 Analogy for Classification vs Regression
 
 - **Classification**: Like **sorting mail** into boxes — spam, personal, work, etc.
 - **Regression**: Like **guessing someone’s age** from a photo — it’s a number, not a category.
 
 ---
 
-## Final Recap
+### Final Recap
 
 | Concept            | What to Remember                                  |
 |--------------------|----------------------------------------------------|
@@ -830,7 +956,7 @@ We split this data:
 
 ---
 
-### ✏️ Try It Yourself (Practice Ideas)
+#### ✏️ Try It Yourself (Practice Ideas)
 
 - Look at your phone’s photo album – can you imagine how a model learns to tell who’s in each photo?
 - Predict your phone battery life: What features could you use? (Brightness, time used, apps open)
@@ -839,21 +965,21 @@ We split this data:
 
 ---
 
-## Introduction to Linear Regression
+### Introduction to Linear Regression
 
-## 1. What is Linear Regression?
+### 1. What is Linear Regression?
 
 Linear Regression is like trying to **draw the best straight line** through a scatter of dots on a graph.
 
 It’s a way to **predict a value** (like someone’s weight) based on another known value (like their height), assuming there’s a **linear relationship** (i.e., as one increases, the other tends to increase or decrease in a straight-line fashion).
 
-### Analogy:
+#### Analogy:
 
 Imagine you're in a classroom with students of different heights and weights. If you plot their height vs weight on a graph, you might see a pattern — taller students generally weigh more. Linear regression finds **the best straight line** that fits through that cloud of points to help you **predict weight from height**.
 
 ---
 
-## 2. Types of Linear Regression
+### 2. Types of Linear Regression
 
 | Type                           | Description                                                                                                  |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------ |
@@ -864,9 +990,9 @@ Imagine you're in a classroom with students of different heights and weights. If
 
 ---
 
-## 3. Linear Regression Formula
+### 3. Linear Regression Formula
 
-### A. **Simple Linear Regression Equation**
+#### A. **Simple Linear Regression Equation**
 
 $$
 y = mx + b
@@ -885,7 +1011,7 @@ $$
 
 ---
 
-### B. Understanding the Formula with an Analogy
+#### B. Understanding the Formula with an Analogy
 
 Imagine you're paid a **base salary** of \$500 and get **\$50 per sale** you make.
 
@@ -912,11 +1038,11 @@ That’s Linear Regression in real life!
 
 ---
 
-## 4. Visualizing Simple Linear Regression
+### 4. Visualizing Simple Linear Regression
 
 Let’s visualize it:
 
-### Data Points (dots) and the Best Fit Line
+#### Data Points (dots) and the Best Fit Line
 
 ```
    |
@@ -956,39 +1082,39 @@ The line summarizes the trend: **as x increases, y also increases**.
 
 ---
 
-## 5. Applications of Linear Regression
+### 5. Applications of Linear Regression
 
 Linear Regression is **widely used** across industries to make **predictions**. Here are some examples:
 
-### Business:
+#### Business:
 
 * Predicting sales based on advertising budget.
 * Estimating profit based on number of customers.
 
-### Health:
+#### Health:
 
 * Predicting weight from height.
 * Estimating blood pressure from age and BMI.
 
-### Education:
+#### Education:
 
 * Predicting student performance from study hours.
 * Predicting college GPA from high school scores.
 
-### Agriculture:
+#### Agriculture:
 
 * Predicting crop yield based on rainfall, temperature, and fertilizer used.
 
 ---
 
-## 6. What Does Linear Regression Predict?
+### 6. What Does Linear Regression Predict?
 
 * **Continuous values**: It predicts **numeric outcomes** like prices, weights, scores, etc.
 * It does **not classify** (i.e., it doesn’t say "Yes" or "No") — that’s classification, not regression.
 
 ---
 
-## 7. Bonus: Interpreting the Slope and Intercept
+### 7. Bonus: Interpreting the Slope and Intercept
 
 Let’s say your regression equation is:
 
@@ -999,7 +1125,7 @@ $$
 * **Intercept (40)**: Even if you don’t study at all, you’ll likely score 40.
 * **Slope (5)**: Each extra hour of study adds 5 more points to your score.
 
-### Another Analogy:
+#### Another Analogy:
 
 Think of $y = mx + b$ as a recipe:
 
@@ -1009,7 +1135,7 @@ Think of $y = mx + b$ as a recipe:
 
 ---
 
-## 8. Key Takeaways
+### 8. Key Takeaways
 
 * Linear regression is about finding the **line that best fits data**.
 * It’s used for **predicting** continuous outcomes.
@@ -1020,21 +1146,21 @@ Think of $y = mx + b$ as a recipe:
 ---
 
 
-# Simple Linear Regression – Beginner Notes
+## Simple Linear Regression – Beginner Notes
 
 ---
 
-## 1. What is Simple Linear Regression?
+### 1. What is Simple Linear Regression?
 
 **Simple Linear Regression** is a way to **predict one outcome (y)** using **one input (x)**, assuming a straight-line (linear) relationship between the two.
 
-### Real-Life Analogy:
+#### Real-Life Analogy:
 
 Imagine you're trying to guess someone’s **weight** just by knowing their **height**. If generally, taller people weigh more, then drawing a straight line through a scatter plot of height and weight gives a way to **predict weight for new people**.
 
 ---
 
-## 2. The Formula of Simple Linear Regression
+### 2. The Formula of Simple Linear Regression
 
 The general equation is:
 
@@ -1051,7 +1177,7 @@ Where:
 
 ---
 
-### Example:
+#### Example:
 
 Let’s say your model is:
 
@@ -1065,7 +1191,7 @@ Then:
 
 ---
 
-## 3. Visual Intuition (ASCII Style)
+### 3. Visual Intuition (ASCII Style)
 
 ```
     Weight
@@ -1086,9 +1212,9 @@ The red line through the points is the **regression line** — the best fit thro
 
 ---
 
-## 4. Real Dataset Example: Student Study Hours vs Exam Scores
+### 4. Real Dataset Example: Student Study Hours vs Exam Scores
 
-### Dataset: [Kaggle - Student Scores](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
+#### Dataset: [Kaggle - Student Scores](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
 
 We use a version with:
 
@@ -1097,9 +1223,9 @@ We use a version with:
 
 ---
 
-## 5. Python Code Implementation
+### 5. Python Code Implementation
 
-### Step 1: Setup
+#### Step 1: Setup
 
 ```python
 import pandas as pd
@@ -1108,7 +1234,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 ```
 
-### Step 2: Data
+#### Step 2: Data
 
 ```python
 data = {
@@ -1118,7 +1244,7 @@ data = {
 df = pd.DataFrame(data)
 ```
 
-### Step 3: Visualize the Data
+#### Step 3: Visualize the Data
 
 ```python
 plt.scatter(df['Hours'], df['Scores'], color='blue')
@@ -1131,7 +1257,7 @@ plt.show()
 
 ---
 
-### Step 4: Fit the Model
+#### Step 4: Fit the Model
 
 ```python
 X = df[['Hours']]
@@ -1146,7 +1272,7 @@ print("Slope:", model.coef_[0])
 
 ---
 
-### Step 5: Predict and Plot
+#### Step 5: Predict and Plot
 
 ```python
 df['Predicted'] = model.predict(X)
@@ -1163,9 +1289,9 @@ plt.show()
 
 ---
 
-## 6. Understanding Errors & Model Performance
+### 6. Understanding Errors & Model Performance
 
-### A. **Residuals**
+#### A. **Residuals**
 
 $$
 \text{Residual} = \text{Actual} - \text{Predicted}
@@ -1179,7 +1305,7 @@ $$
 
 ---
 
-### B. **Sum of Squared Errors (SSE)**
+#### B. **Sum of Squared Errors (SSE)**
 
 $$
 \text{SSE} = \sum (y_i - \hat{y}_i)^2
@@ -1200,7 +1326,7 @@ Where:
 
 ---
 
-### C. **Mean Absolute Error (MAE)**
+#### C. **Mean Absolute Error (MAE)**
 
 $$
 \text{MAE} = \frac{1}{n} \sum |y_i - \hat{y}_i|
@@ -1209,14 +1335,14 @@ $$
 * It’s the **average size of the error**, ignoring whether it’s too high or too low.
 * Units are the same as the output.
 
-### Analogy:
+#### Analogy:
 
 If you predict delivery times and you’re off by 3, 5, and 2 minutes, your **MAE = (3 + 5 + 2)/3 = 3.33 mins**
 It’s like saying, **“On average, I’m 3.33 minutes wrong.”**
 
 ---
 
-### D. **Mean Squared Error (MSE)**
+#### D. **Mean Squared Error (MSE)**
 
 $$
 \text{MSE} = \frac{1}{n} \sum (y_i - \hat{y}_i)^2
@@ -1225,13 +1351,13 @@ $$
 * Like MAE, but squares the errors.
 * **Punishes big mistakes more**.
 
-### Analogy:
+#### Analogy:
 
 Like crash tests — big crashes hurt more. MSE makes big misses count extra.
 
 ---
 
-### E. **Root Mean Squared Error (RMSE)**
+#### E. **Root Mean Squared Error (RMSE)**
 
 $$
 \text{RMSE} = \sqrt{MSE}
@@ -1242,7 +1368,7 @@ $$
 
 ---
 
-### F. **R-squared (R²)**
+#### F. **R-squared (R²)**
 
 $$
 R^2 = 1 - \frac{\text{SSE}}{\text{SST}}
@@ -1254,7 +1380,7 @@ $$
 
 ---
 
-## 7. Evaluate the Model in Code
+### 7. Evaluate the Model in Code
 
 ```python
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
@@ -1273,7 +1399,7 @@ print("R-squared:", r2)
 
 ---
 
-## 8. Summary Table of Metrics
+### 8. Summary Table of Metrics
 
 | Metric       | Measures               | Interpretable? | Penalizes Big Errors? |
 | ------------ | ---------------------- | -------------- | --------------------- |
@@ -1287,7 +1413,7 @@ print("R-squared:", r2)
 ---
 
 
-## 9. Which Metrics Are Most Commonly Used and Why?
+### 9. Which Metrics Are Most Commonly Used and Why?
 
 | **Metric**         | **Why It's Commonly Used**                                                                                                              |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1299,7 +1425,7 @@ print("R-squared:", r2)
 
 ---
 
-## 10. Final Thoughts
+### 10. Final Thoughts
 
 * **Simple Linear Regression** is your first step into machine learning.
 * It’s perfect when there’s **one clear cause** and **one clear effect**.
@@ -1308,15 +1434,15 @@ print("R-squared:", r2)
 ---
 
 
-# Multiple Linear Regression – Beginner Notes
+## Multiple Linear Regression – Beginner Notes
 
 ---
 
-## 1. What is Multiple Linear Regression?
+### 1. What is Multiple Linear Regression?
 
 **Multiple Linear Regression** is a predictive technique used to model the relationship between **one dependent variable** and **two or more independent variables**.
 
-### Simple Analogy:
+#### Simple Analogy:
 
 Think of baking a cake:
 
@@ -1326,7 +1452,7 @@ Each ingredient contributes to the result. **Multiple Linear Regression** tries 
 
 ---
 
-## 2. The Formula
+### 2. The Formula
 
 $$
 y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n + \varepsilon
@@ -1342,7 +1468,7 @@ Where:
 
 ---
 
-### Example:
+#### Example:
 
 Predicting **House Price** based on:
 
@@ -1358,9 +1484,9 @@ Each coefficient tells you how much the price changes per unit change in that fe
 
 ---
 
-## 3. Ordinary Least Squares (OLS)
+### 3. Ordinary Least Squares (OLS)
 
-### What is OLS?
+#### What is OLS?
 
 OLS is the **method used to train the regression model**. It finds the best-fitting line (or hyperplane in higher dimensions) by minimizing the **sum of squared residuals** (differences between predicted and actual values).
 
@@ -1368,7 +1494,7 @@ $$
 \text{Minimize} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 $$
 
-### Why Use Squared Errors?
+#### Why Use Squared Errors?
 
 * Squaring avoids negatives canceling out positives.
 * Squaring **penalizes larger errors** more than smaller ones.
@@ -1377,32 +1503,32 @@ OLS gives the **best unbiased estimates** of the coefficients when its assumptio
 
 ---
 
-## 4. Understanding Coefficients
+### 4. Understanding Coefficients
 
 Each $\beta_i$ tells us:
 
 > “If $x_i$ increases by 1 and all other inputs remain the same, how much will $y$ change?”
 
-### Important:
+#### Important:
 
 * Interpretation assumes **other variables are constant**.
 * Coefficients can be **positive** (direct relationship) or **negative** (inverse relationship).
 
 ---
 
-## 5. Multicollinearity
+### 5. Multicollinearity
 
-### What is Multicollinearity?
+#### What is Multicollinearity?
 
 When **two or more independent variables are highly correlated**, they **“say the same thing”** to the model. This causes confusion.
 
-### Example:
+#### Example:
 
 * You include both **Weight in kg** and **Weight in pounds** in your model.
 * They’re almost perfectly correlated.
 * The model struggles to assign clear influence to each → unstable coefficients.
 
-### Effects:
+#### Effects:
 
 * Makes coefficients unreliable
 * Can lead to **overfitting** and **high variance**
@@ -1410,7 +1536,7 @@ When **two or more independent variables are highly correlated**, they **“say 
 
 ---
 
-### Detecting Multicollinearity
+#### Detecting Multicollinearity
 
 1. **Correlation Matrix**:
 
@@ -1425,7 +1551,7 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 ---
 
-## 6. Evaluation Metrics (Recap)
+### 6. Evaluation Metrics (Recap)
 
 | Metric   | Description                    | Good When...                          |
 | -------- | ------------------------------ | ------------------------------------- |
@@ -1436,11 +1562,11 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 ---
 
-## 7. Python Example
+### 7. Python Example
 
 Let’s use a **house price dataset** with 3 predictors: size, bedrooms, and distance.
 
-### Step 1: Import Libraries
+#### Step 1: Import Libraries
 
 ```python
 import pandas as pd
@@ -1451,7 +1577,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 ---
 
-### Step 2: Create Sample Data
+#### Step 2: Create Sample Data
 
 ```python
 data = {
@@ -1465,7 +1591,7 @@ df = pd.DataFrame(data)
 
 ---
 
-### Step 3: Build and Train the Model
+#### Step 3: Build and Train the Model
 
 ```python
 X = df[['Size', 'Bedrooms', 'Distance']]
@@ -1477,7 +1603,7 @@ model.fit(X, y)
 
 ---
 
-### Step 4: View Coefficients
+#### Step 4: View Coefficients
 
 ```python
 print("Intercept:", model.intercept_)
@@ -1486,7 +1612,7 @@ print("Coefficients:", model.coef_)
 
 ---
 
-### Step 5: Predict and Evaluate
+#### Step 5: Predict and Evaluate
 
 ```python
 y_pred = model.predict(X)
@@ -1499,7 +1625,7 @@ print("R² Score:", r2_score(y, y_pred))
 
 ---
 
-## 8. Assumptions of Multiple Linear Regression
+### 8. Assumptions of Multiple Linear Regression
 
 For OLS to work properly:
 
@@ -1513,7 +1639,7 @@ For OLS to work properly:
 
 ---
 
-## 9. Visualizing Residuals
+### 9. Visualizing Residuals
 
 ```python
 import matplotlib.pyplot as plt
@@ -1533,7 +1659,7 @@ If they form a pattern (curve, funnel shape), the model is **violating assumptio
 
 ---
 
-## 10. Summary Table
+### 10. Summary Table
 
 | Concept                 | Meaning                                                            |
 | ----------------------- | ------------------------------------------------------------------ |
@@ -1546,11 +1672,11 @@ If they form a pattern (curve, funnel shape), the model is **violating assumptio
 ---
 
 
-# Lasso & Ridge Regression – Beginner Notes
+## Lasso & Ridge Regression – Beginner Notes
 
 ---
 
-## 1. What Are Lasso and Ridge Regression?
+### 1. What Are Lasso and Ridge Regression?
 
 **Lasso and Ridge** are advanced versions of linear regression that apply a **penalty** to control the size of coefficients.
 
@@ -1562,7 +1688,7 @@ This technique is called **regularization** — it helps prevent:
 
 ---
 
-### Analogy:
+#### Analogy:
 
 > Imagine your model is a recipe book.
 > Without regularization, it keeps adding **too many spices** (features), some of which taste the same.
@@ -1571,7 +1697,7 @@ This technique is called **regularization** — it helps prevent:
 
 ---
 
-## 2. Why Do We Need Regularization?
+### 2. Why Do We Need Regularization?
 
 In real-world datasets:
 
@@ -1583,7 +1709,7 @@ Regularization adds a **constraint to the cost function**, encouraging the model
 
 ---
 
-## 3. Ordinary Linear Regression Cost Function (Recap)
+### 3. Ordinary Linear Regression Cost Function (Recap)
 
 $$
 \text{Loss} = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
@@ -1593,9 +1719,9 @@ This is the **Sum of Squared Errors (SSE)** — the main objective in **Ordinary
 
 ---
 
-## 4. Regularized Cost Functions
+### 4. Regularized Cost Functions
 
-### A. **Ridge Regression (L2 Regularization)**
+#### A. **Ridge Regression (L2 Regularization)**
 
 $$
 \text{Loss}_{ridge} = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^{p} \beta_j^2
@@ -1605,13 +1731,13 @@ $$
 * $\lambda$ controls how strongly the penalty is applied
 * **No coefficient becomes zero**, but all shrink
 
-#### Analogy:
+##### Analogy:
 
 > Like adding rubber bands to all features: they can stretch, but only so far. Everyone is **held in place**.
 
 ---
 
-### B. **Lasso Regression (L1 Regularization)**
+#### B. **Lasso Regression (L1 Regularization)**
 
 $$
 \text{Loss}_{lasso} = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^{p} |\beta_j|
@@ -1621,21 +1747,21 @@ $$
 * Some coefficients can become **exactly zero**
 * Automatically selects only the most important features
 
-#### Analogy:
+##### Analogy:
 
 > Like a reality show: only the strongest performers (most useful features) stay. The rest get eliminated.
 
 ---
 
-## 5. What is Multicollinearity?
+### 5. What is Multicollinearity?
 
-### Definition:
+#### Definition:
 
 Multicollinearity occurs when **two or more input features are highly correlated**, meaning they provide **duplicate information**.
 
 ---
 
-### Why It's a Problem:
+#### Why It's a Problem:
 
 * Confuses the model: it doesn't know **which feature to trust**
 * Makes coefficient estimates **unstable**
@@ -1643,14 +1769,14 @@ Multicollinearity occurs when **two or more input features are highly correlated
 
 ---
 
-### Analogy:
+#### Analogy:
 
 > Imagine you're hiring based on two test scores: one in kilograms, the other in pounds.
 > They measure the **same thing** — so the model ends up confused: "Which one really matters?"
 
 ---
 
-### How Lasso and Ridge Help
+#### How Lasso and Ridge Help
 
 | Problem               | Solution via Ridge           | Solution via Lasso           |
 | --------------------- | ---------------------------- | ---------------------------- |
@@ -1662,7 +1788,7 @@ Both help by reducing **model variance** and improving **generalization** to new
 
 ---
 
-## 6. Summary of Differences
+### 6. Summary of Differences
 
 | Feature              | Ridge                 | Lasso                    |          |        |
 | -------------------- | --------------------- | ------------------------ | -------- | ------ |
@@ -1673,20 +1799,20 @@ Both help by reducing **model variance** and improving **generalization** to new
 
 ---
 
-## 7. Visual Summary
+### 7. Visual Summary
 
-### Lasso:
+#### Lasso:
 
 > Like trimming a tree: cut off unnecessary branches (features).
 > You're left with a simple, clean structure.
 
-### Ridge:
+#### Ridge:
 
 > Like wrapping vines with a wire: you keep all of them, but they’re now **tight and controlled**.
 
 ---
 
-## 8. Python Example Using Boston Housing Dataset
+### 8. Python Example Using Boston Housing Dataset
 
 ```python
 from sklearn.linear_model import Ridge, Lasso
@@ -1720,7 +1846,7 @@ print("Lasso MSE:", mean_squared_error(y_test, lasso_pred))
 
 ---
 
-## 9. How Ridge & Lasso Handle Multicollinearity – Summary Table
+### 9. How Ridge & Lasso Handle Multicollinearity – Summary Table
 
 | Issue                 | Linear Regression | Ridge      | Lasso        |
 | --------------------- | ----------------- | ---------- | ------------ |
@@ -1730,7 +1856,7 @@ print("Lasso MSE:", mean_squared_error(y_test, lasso_pred))
 
 ---
 
-## 10. Final Recap
+### 10. Final Recap
 
 | Concept           | Ridge           | Lasso                 |
 | ----------------- | --------------- | --------------------- |
@@ -1742,12 +1868,12 @@ print("Lasso MSE:", mean_squared_error(y_test, lasso_pred))
 
 ---
 
-# Introduction to Classification  
-## Topic: Understanding Classification in Machine Learning
+## Introduction to Classification  
+### Topic: Understanding Classification in Machine Learning
 
 ---
 
-##  Summary
+###  Summary
 
 In this lesson, we will:
 - Understand what **classification** is in machine learning.
@@ -1760,7 +1886,7 @@ In this lesson, we will:
 
 ---
 
-## 1.  What is Classification?
+### 1.  What is Classification?
 
 > **Classification** is a type of **supervised learning** where the goal is to **predict categories or classes**.
 
@@ -1768,7 +1894,7 @@ You train a model using labeled examples (data + correct category), and it learn
 
 ---
 
-###  Real-Life Analogy
+####  Real-Life Analogy
 
 Think of classification like a **teacher grading essays** into “Pass” or “Fail”.
 
@@ -1777,7 +1903,7 @@ Think of classification like a **teacher grading essays** into “Pass” or “
 
 ---
 
-## 2.  Classification vs Regression
+### 2.  Classification vs Regression
 
 | Aspect           | Classification                          | Regression                          |
 |------------------|------------------------------------------|--------------------------------------|
@@ -1788,7 +1914,7 @@ Think of classification like a **teacher grading essays** into “Pass” or “
 
 ---
 
-## 3.  Types of Classification Problems
+### 3.  Types of Classification Problems
 
 | Type              | Description                                     | Example                         |
 |-------------------|--------------------------------------------------|----------------------------------|
@@ -1798,7 +1924,7 @@ Think of classification like a **teacher grading essays** into “Pass” or “
 
 ---
 
-## 4.  Real-World Applications of Classification
+### 4.  Real-World Applications of Classification
 
 | Field          | Application Example                             |
 |----------------|--------------------------------------------------|
@@ -1810,7 +1936,7 @@ Think of classification like a **teacher grading essays** into “Pass” or “
 
 ---
 
-## 5.  Common Classification Algorithms
+### 5.  Common Classification Algorithms
 
 | Algorithm               | Description                                                  |
 |-------------------------|--------------------------------------------------------------|
@@ -1823,9 +1949,9 @@ Think of classification like a **teacher grading essays** into “Pass” or “
 
 ---
 
-## 6.  Hands-On: Iris Flower Classification using Logistic Regression
+### 6.  Hands-On: Iris Flower Classification using Logistic Regression
 
-### A. Load the Dataset
+#### A. Load the Dataset
 
 ```python
 from sklearn.datasets import load_iris
@@ -1839,7 +1965,7 @@ df.head()
 
 ---
 
-### B. Split the Dataset
+#### B. Split the Dataset
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -1852,7 +1978,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 ---
 
-### C. Train a Classifier
+#### C. Train a Classifier
 
 ```python
 from sklearn.linear_model import LogisticRegression
@@ -1863,7 +1989,7 @@ model.fit(X_train, y_train)
 
 ---
 
-### D. Make Predictions and Evaluate
+#### D. Make Predictions and Evaluate
 
 ```python
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
@@ -1877,7 +2003,7 @@ print("Classification Report:\n", classification_report(y_test, y_pred))
 
 ---
 
-## 7.  Key Metrics for Evaluation
+### 7.  Key Metrics for Evaluation
 
 | Metric               | Meaning                                            |
 | -------------------- | -------------------------------------------------- |
@@ -1889,7 +2015,7 @@ print("Classification Report:\n", classification_report(y_test, y_pred))
 
 ---
 
-### Confusion Matrix Analogy
+#### Confusion Matrix Analogy
 
 Think of a **confusion matrix** as a **truth table**:
 
@@ -1900,7 +2026,7 @@ Think of a **confusion matrix** as a **truth table**:
 
 ---
 
-## 8.  Visual Summary Table
+### 8.  Visual Summary Table
 
 | Concept             | Analogy                             | Key Idea                        |
 | ------------------- | ----------------------------------- | ------------------------------- |
@@ -1912,7 +2038,7 @@ Think of a **confusion matrix** as a **truth table**:
 
 ---
 
-##  Final Thoughts
+###  Final Thoughts
 
 * Classification helps solve many **real-world decision-making problems**.
 * It’s the go-to method when your output is a **category or label**.
@@ -1921,15 +2047,15 @@ Think of a **confusion matrix** as a **truth table**:
 
 ---
 
-# Logistic Regression – Beginner-Friendly Notes with Analogies & Python Example
+## Logistic Regression – Beginner-Friendly Notes with Analogies & Python Example
 
 ---
 
-## 1. What is Logistic Regression?
+### 1. What is Logistic Regression?
 
 **Logistic Regression** is a **classification algorithm** used to predict **binary outcomes** (e.g., yes/no, spam/not spam, 0/1).
 
-### Analogy:
+#### Analogy:
 
 Imagine you're a doctor. A patient walks in, and you want to predict: "Does this person have diabetes?" You won’t get a perfect answer — instead, you’ll assign a **probability**, like 0.83 (83%). If the probability is high enough, you classify them as "Yes".
 
@@ -1937,7 +2063,7 @@ Logistic Regression turns these probabilities into decisions.
 
 ---
 
-## 2. Linear vs Logistic Regression
+### 2. Linear vs Logistic Regression
 
 | Feature        | Linear Regression  | Logistic Regression      |
 | -------------- | ------------------ | ------------------------ |
@@ -1947,7 +2073,7 @@ Logistic Regression turns these probabilities into decisions.
 
 ---
 
-## 3. The Sigmoid Function
+### 3. The Sigmoid Function
 
 Logistic regression uses the **sigmoid function** to convert a linear output to a probability:
 
@@ -1960,13 +2086,13 @@ Where:
 * `z` is the linear combination: `z = b0 + b1*x1 + b2*x2 + ... + bn*xn`
 * The output is always between **0 and 1**
 
-### Analogy:
+#### Analogy:
 
 Think of the sigmoid like a **dimmer switch** — it smoothly moves from dark (0) to bright (1), depending on input.
 
 ---
 
-## 4. Decision Boundary
+### 4. Decision Boundary
 
 After converting to probability, we apply a **threshold** (usually 0.5):
 
@@ -1977,14 +2103,14 @@ You can **adjust this threshold** to favor **recall** or **precision**, dependin
 
 ---
 
-## 5. Confusion Matrix (Truth Table)
+### 5. Confusion Matrix (Truth Table)
 
 |                     | Predicted Positive  | Predicted Negative  |
 | ------------------- | ------------------- | ------------------- |
 | **Actual Positive** | True Positive (TP)  | False Negative (FN) |
 | **Actual Negative** | False Positive (FP) | True Negative (TN)  |
 
-### Definitions:
+#### Definitions:
 
 * **TP**: Model correctly predicts Positive
 * **FP**: Model incorrectly predicts Positive
@@ -1993,9 +2119,9 @@ You can **adjust this threshold** to favor **recall** or **precision**, dependin
 
 ---
 
-## 6. Evaluation Metrics
+### 6. Evaluation Metrics
 
-### A. Accuracy
+#### A. Accuracy
 
 ```math
 \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
@@ -2003,7 +2129,7 @@ You can **adjust this threshold** to favor **recall** or **precision**, dependin
 
 > "What proportion did I get right overall?"
 
-### B. Precision
+#### B. Precision
 
 ```math
 \text{Precision} = \frac{TP}{TP + FP}
@@ -2011,7 +2137,7 @@ You can **adjust this threshold** to favor **recall** or **precision**, dependin
 
 > "Out of all the positives I predicted, how many were actually correct?"
 
-### C. Recall (Sensitivity)
+#### C. Recall (Sensitivity)
 
 ```math
 \text{Recall} = \frac{TP}{TP + FN}
@@ -2019,7 +2145,7 @@ You can **adjust this threshold** to favor **recall** or **precision**, dependin
 
 > "Out of all actual positives, how many did I find?"
 
-### D. F1 Score
+#### D. F1 Score
 
 ```math
 \text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
@@ -2027,26 +2153,26 @@ You can **adjust this threshold** to favor **recall** or **precision**, dependin
 
 > "A balance between precision and recall"
 
-### Analogy:
+#### Analogy:
 
 * **Precision**: Of all the fish you caught, how many were the right kind?
 * **Recall**: Of all the fish in the pond, how many did you catch?
 
 ---
 
-## 7. ROC Curve and AUC
+### 7. ROC Curve and AUC
 
-### ROC Curve (Receiver Operating Characteristic):
+#### ROC Curve (Receiver Operating Characteristic):
 
 * Plots **True Positive Rate** vs **False Positive Rate** at various thresholds.
 * Helps visualize how well the model distinguishes classes.
 
-### AUC (Area Under the Curve):
+#### AUC (Area Under the Curve):
 
 * **0.5** → no better than guessing
 * **1.0** → perfect prediction
 
-### Analogy:
+#### Analogy:
 
 Think of AUC like a **referee's ability to judge a match**:
 
@@ -2055,12 +2181,12 @@ Think of AUC like a **referee's ability to judge a match**:
 
 > Higher AUC = better model.
 
-### ROC Curve (Receiver Operating Characteristic):
+#### ROC Curve (Receiver Operating Characteristic):
 
 * Plots **True Positive Rate** vs **False Positive Rate** at various thresholds.
 * Helps visualize how well the model distinguishes classes.
 
-### AUC (Area Under the Curve):
+#### AUC (Area Under the Curve):
 
 * **0.5** → no better than guessing
 * **1.0** → perfect prediction
@@ -2069,7 +2195,7 @@ Think of AUC like a **referee's ability to judge a match**:
 
 ---
 
-## 8. Logistic Regression in Python – Example
+### 8. Logistic Regression in Python – Example
 
 ```python
 import pandas as pd
@@ -2101,7 +2227,7 @@ print("ROC AUC Score:", roc_auc_score(y_test, model.predict_proba(X_test)[:, 1])
 
 ---
 
-## 9. When to Use Logistic Regression
+### 9. When to Use Logistic Regression
 
 * Binary classification: Spam vs Not Spam
 * Medical diagnosis: Disease vs No Disease
@@ -2112,11 +2238,11 @@ print("ROC AUC Score:", roc_auc_score(y_test, model.predict_proba(X_test)[:, 1])
 ---
 
 
-# K-Nearest Neighbors (KNN) – Beginner-Friendly Notes with Analogies & Python Example
+## K-Nearest Neighbors (KNN) – Beginner-Friendly Notes with Analogies & Python Example
 
 ---
 
-## 1. What is KNN?
+### 1. What is KNN?
 
 **K-Nearest Neighbors (KNN)** is a **supervised learning algorithm** used for **classification and regression**.
 
@@ -2124,7 +2250,7 @@ But most commonly, it's used to classify things by asking:
 
 > "What are the labels of the closest items around this one?"
 
-### Analogy:
+#### Analogy:
 
 Imagine you move to a new neighborhood. You don’t know anyone. So you ask: “What do most of my neighbors do for a living?” If most are doctors, you assume people like you in this area are doctors. That’s KNN in action!
 
@@ -2132,7 +2258,7 @@ Another example: you’re trying to guess someone's favorite ice cream flavor. Y
 
 ---
 
-## 2. How KNN Works (Step-by-Step)
+### 2. How KNN Works (Step-by-Step)
 
 1. Pick a number `K` (e.g., 3, 5, 7)
 2. Calculate the **distance** from the new point to all other points
@@ -2142,17 +2268,17 @@ Another example: you’re trying to guess someone's favorite ice cream flavor. Y
 4. Look at their labels
 5. Use **majority vote** (for classification) or **average** (for regression)
 
-### Example:
+#### Example:
 
 You want to classify a fruit as an apple or orange based on sweetness and color. You measure distances to all other fruits in your dataset. The 3 nearest fruits are apples → So, your prediction is "apple."
 
 ---
 
-## 3. Distance Metrics in KNN
+### 3. Distance Metrics in KNN
 
 Distance metrics help us **quantify how close** two data points are.
 
-### A. Euclidean Distance (Most common)
+#### A. Euclidean Distance (Most common)
 
 ```math
 \text{distance} = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
@@ -2162,7 +2288,7 @@ This is the **straight-line distance** between two points in space.
 
 **Analogy**: It’s like drawing a straight line from your house to your friend’s house.
 
-### B. Manhattan Distance
+#### B. Manhattan Distance
 
 ```math
 \text{distance} = |x_1 - x_2| + |y_1 - y_2|
@@ -2172,7 +2298,7 @@ Also called **city block** distance.
 
 **Analogy**: Walking in a grid-like city (like New York) — you can’t cut diagonally.
 
-### C. Minkowski Distance
+#### C. Minkowski Distance
 
 A generalization of both Euclidean and Manhattan distances.
 
@@ -2189,14 +2315,14 @@ A generalization of both Euclidean and Manhattan distances.
 
 ---
 
-## 4. Choosing the Value of K
+### 4. Choosing the Value of K
 
-### Low K (e.g., K = 1 or 2):
+#### Low K (e.g., K = 1 or 2):
 
 * Very sensitive to noise
 * Might overfit
 
-### High K (e.g., K = 20 or 50):
+#### High K (e.g., K = 20 or 50):
 
 * Might overlook local patterns
 * Might underfit
@@ -2204,17 +2330,17 @@ A generalization of both Euclidean and Manhattan distances.
 > Usually, **odd values of K** are used to avoid ties
 > Use **cross-validation** to find the best K
 
-### Analogy:
+#### Analogy:
 
 * Choosing K is like asking 1 friend vs asking 20 people. One friend may be biased, but 20 might be too generic. Find a sweet spot!
 
 ---
 
-## 5. Decision Boundaries
+### 5. Decision Boundaries
 
 KNN creates **non-linear** decision boundaries. The boundaries change depending on how close a point is to its labeled neighbors.
 
-### Visual Analogy:
+#### Visual Analogy:
 
 Imagine pouring colored ink drops on a paper — blue for class 0 and red for class 1. As the drops spread, they form boundaries. When new points fall near blue, they get classified as blue, and vice versa.
 
@@ -2222,36 +2348,36 @@ These boundaries get **more wiggly** for smaller K and **smoother** for larger K
 
 ---
 
-## 6. Evaluation Metrics for KNN
+### 6. Evaluation Metrics for KNN
 
 To check how well your KNN model is doing:
 
-### Confusion Matrix
+#### Confusion Matrix
 
 |                 | Predicted Positive  | Predicted Negative  |
 | --------------- | ------------------- | ------------------- |
 | Actual Positive | True Positive (TP)  | False Negative (FN) |
 | Actual Negative | False Positive (FP) | True Negative (TN)  |
 
-### Accuracy
+#### Accuracy
 
 ```math
 \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
 ```
 
-### Precision
+#### Precision
 
 ```math
 \text{Precision} = \frac{TP}{TP + FP}
 ```
 
-### Recall
+#### Recall
 
 ```math
 \text{Recall} = \frac{TP}{TP + FN}
 ```
 
-### F1 Score
+#### F1 Score
 
 ```math
 \text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
@@ -2259,7 +2385,7 @@ To check how well your KNN model is doing:
 
 ---
 
-## 7. Python Code Example – KNN for Classification
+### 7. Python Code Example – KNN for Classification
 
 We'll use the **Iris dataset** for simplicity.
 
@@ -2298,7 +2424,7 @@ print(classification_report(y_test, y_pred))
 
 ---
 
-## 8. When to Use KNN
+### 8. When to Use KNN
 
 * Simple, intuitive algorithm for classification problems
 * Works well with small to medium-sized datasets
@@ -2308,7 +2434,7 @@ print(classification_report(y_test, y_pred))
   * Image recognition
   * Customer segmentation
 
-### Downside:
+#### Downside:
 
 * Slow on large datasets (lazy learner)
 * Needs **feature scaling**
@@ -2316,11 +2442,11 @@ print(classification_report(y_test, y_pred))
 
 ---
 
-#  Ensemble Learning Techniques – Beginner-Friendly Notes
+##  Ensemble Learning Techniques – Beginner-Friendly Notes
 
 ---
 
-## 1. What is Ensemble Learning?
+### 1. What is Ensemble Learning?
 
 **Ensemble Learning** combines multiple machine learning models to improve overall performance.
 
@@ -2334,54 +2460,54 @@ The three most popular ensemble techniques are:
 
 ---
 
-## 2. Bagging (Bootstrap Aggregating)
+### 2. Bagging (Bootstrap Aggregating)
 
 **Bagging** builds several models (usually the same type) using different **random subsets of data (with replacement)**.
 
-### How it works:
+#### How it works:
 
 * Draw random samples with replacement
 * Train a model on each subset
 * Combine predictions (e.g., majority vote or average)
 
-### Analogy:
+#### Analogy:
 
 Imagine giving several friends the same puzzle, but each with slightly different pieces. Each friend completes their puzzle, and then you take the best parts from all their answers.
 
-### Key Points:
+#### Key Points:
 
 * **Reduces variance** (helps with overfitting)
 * All models are trained independently
 * Best for high-variance, low-bias models (like decision trees)
 
-### Example Models:
+#### Example Models:
 
 * **Random Forests** (ensemble of decision trees)
 
 ---
 
-## 3. Boosting
+### 3. Boosting
 
 **Boosting** builds models **sequentially**, where each model tries to correct the errors of the previous one.
 
-### How it works:
+#### How it works:
 
 * Train a model
 * Increase focus on incorrectly predicted samples
 * Train next model on these "hard" examples
 * Combine all models (usually weighted sum)
 
-### Analogy:
+#### Analogy:
 
 Imagine a student who takes a test, gets feedback on their mistakes, studies those areas, and takes another test. They keep improving by learning from past errors.
 
-### Key Points:
+#### Key Points:
 
 * **Reduces bias** and variance
 * Often outperforms bagging
 * Models are trained **sequentially**
 
-### Example Models:
+#### Example Models:
 
 * **AdaBoost**
 * **Gradient Boosting Machines (GBM)**
@@ -2391,32 +2517,32 @@ Imagine a student who takes a test, gets feedback on their mistakes, studies tho
 
 ---
 
-## 4. Stacking
+### 4. Stacking
 
 **Stacking** trains **multiple different types of models** and combines them using a **meta-model** that learns how to best blend the outputs.
 
-### How it works:
+#### How it works:
 
 * Train base models (e.g., SVM, Decision Tree, Logistic Regression)
 * Use their predictions as input to another model (meta-learner)
 
-### Analogy:
+#### Analogy:
 
 It’s like having a doctor, an engineer, and a psychologist each give you advice. Then a wise old judge listens to all of them and makes the final decision.
 
-### Key Points:
+#### Key Points:
 
 * Leverages the strengths of different algorithms
 * Requires cross-validation to avoid overfitting
 
-### Example:
+#### Example:
 
 * Base models: Decision Tree, KNN, SVM
 * Meta model: Logistic Regression
 
 ---
 
-## 5. Summary Table
+### 5. Summary Table
 
 | Technique | Key Strategy                            | Main Purpose           | Common Models      |
 | --------- | --------------------------------------- | ---------------------- | ------------------ |
@@ -2427,13 +2553,13 @@ It’s like having a doctor, an engineer, and a psychologist each give you advic
 ---
 
 
-# Deep Dive into Ensemble Methods
+## Deep Dive into Ensemble Methods
 
 ---
 
-## Random Forests
+### Random Forests
 
-### 1. What is a Random Forest?
+#### 1. What is a Random Forest?
 
 A **Random Forest** is an ensemble machine learning model built from **many Decision Trees**.
 
@@ -2446,25 +2572,25 @@ It’s a type of **bagging ensemble**:
 
 ---
 
-### 2. Why Use a Random Forest?
+#### 2. Why Use a Random Forest?
 
-####  Pros:
+#####  Pros:
 
 - **Reduces overfitting** from individual trees  
 - **Handles missing values** and mixed types  
 - **Robust to noise and outliers**  
 - **Works well out-of-the-box**
 
-####  Cons:
+#####  Cons:
 
 - Less interpretable than a single tree  
 - Slower with large datasets and many trees  
 
 ---
 
-### 3. How Does It Work?
+#### 3. How Does It Work?
 
-#### Step-by-step:
+##### Step-by-step:
 
 1. Randomly select **data points** (with replacement) for each tree  
 2. For each split in the tree, only consider a **random subset of features**  
@@ -2478,7 +2604,7 @@ It’s a type of **bagging ensemble**:
 
 ---
 
-### 4. Evaluation Metrics
+#### 4. Evaluation Metrics
 
 Use these to assess your Random Forest model:
 
@@ -2490,7 +2616,7 @@ Use these to assess your Random Forest model:
 
 ---
 
-### 5. Python Code Example (Random Forest - Classification)
+#### 5. Python Code Example (Random Forest - Classification)
 
 ```python
 from sklearn.datasets import load_iris
@@ -2516,11 +2642,11 @@ print(classification_report(y_test, y_pred))
 
 ---
 
-## Boosting Algorithms
+### Boosting Algorithms
 
 ---
 
-### A. AdaBoost (Adaptive Boosting)
+#### A. AdaBoost (Adaptive Boosting)
 
 **AdaBoost** focuses on the mistakes made by previous models by adjusting weights.
 
@@ -2537,7 +2663,7 @@ print("AdaBoost Report:\n", classification_report(y_test, y_pred_ada))
 
 ---
 
-### B. Gradient Boosting
+#### B. Gradient Boosting
 
 **Gradient Boosting** improves models by minimizing errors using gradients (direction of steepest descent).
 
@@ -2554,7 +2680,7 @@ print("Gradient Boosting Report:\n", classification_report(y_test, y_pred_gbm))
 
 ---
 
-### C. XGBoost (Extreme Gradient Boosting)
+#### C. XGBoost (Extreme Gradient Boosting)
 
 **XGBoost** is an optimized version of gradient boosting — it is **faster**, more **efficient**, and includes **built-in regularization** to reduce overfitting.
 
@@ -2577,7 +2703,7 @@ print("XGBoost Report:\n", classification_report(y_test, y_pred_xgb))
 
 ---
 
-### D. Stacking Classifier
+#### D. Stacking Classifier
 
 **Stacking** combines predictions of multiple models and feeds them into a **meta-model** (usually simpler like Logistic Regression) to make the final prediction.
 
@@ -2615,7 +2741,7 @@ print("Stacking Classifier Report:\n", classification_report(y_test, y_pred_stac
 
 ---
 
-## Final Analogy Recap
+### Final Analogy Recap
 
 * **Forest of Scouts**: Each tree sees only part of the data, but together they form a complete picture
 * **Voting Council**: Like a council of experts voting on a decision
@@ -2626,11 +2752,11 @@ print("Stacking Classifier Report:\n", classification_report(y_test, y_pred_stac
 
 ---
 
-# Bias-Variance Tradeoff – Beginner-Friendly Notes (with Analogies)
+## Bias-Variance Tradeoff – Beginner-Friendly Notes (with Analogies)
 
 ---
 
-## 1. What is the Bias-Variance Tradeoff?
+### 1. What is the Bias-Variance Tradeoff?
 
 When training machine learning models, **Bias** and **Variance** are two types of errors that we must balance:
 
@@ -2649,7 +2775,7 @@ The **Bias-Variance Tradeoff** is the balance between these two:
 
 ---
 
-## 2. Visual Analogy – The Bullseye Diagram
+### 2. Visual Analogy – The Bullseye Diagram
 
 | Scenario         | Bias | Variance | Total Error | Description           |
 | ---------------- | ---- | -------- | ----------- | --------------------- |
@@ -2665,7 +2791,7 @@ The **Bias-Variance Tradeoff** is the balance between these two:
 
 ---
 
-## 3. Decomposing Prediction Error
+### 3. Decomposing Prediction Error
 
 Prediction error can be broken into three parts:
 
@@ -2679,21 +2805,21 @@ Total Error = Bias² + Variance + Irreducible Error
 
 ---
 
-## 4. Examples
+### 4. Examples
 
-### A. High Bias Example:
+#### A. High Bias Example:
 
 * Linear Regression on a complex, wavy dataset.
 * Model makes same mistakes no matter how much data you give.
 
-### B. High Variance Example:
+#### B. High Variance Example:
 
 * A very deep Decision Tree on a small dataset.
 * Model memorizes training data but fails on new data.
 
 ---
 
-## 5. The Tradeoff in Action
+### 5. The Tradeoff in Action
 
 | Model Complexity | Bias        | Variance | Total Error |
 | ---------------- | ----------- | -------- | ----------- |
@@ -2703,9 +2829,9 @@ Total Error = Bias² + Variance + Irreducible Error
 
 ---
 
-## 6. How to Manage the Tradeoff
+### 6. How to Manage the Tradeoff
 
-### Techniques:
+#### Techniques:
 
 * **Cross-validation**: Helps detect overfitting/underfitting.
 * **Regularization** (Ridge, Lasso): Adds penalty to prevent overfitting.
@@ -2715,7 +2841,7 @@ Total Error = Bias² + Variance + Irreducible Error
 
 ---
 
-## 7. Real World Analogy
+### 7. Real World Analogy
 
 > **Goldilocks Principle**:
 >
@@ -2731,7 +2857,7 @@ Total Error = Bias² + Variance + Irreducible Error
 
 ---
 
-## 8. Summary
+### 8. Summary
 
 | Concept    | Bias                     | Variance                    |
 | ---------- | ------------------------ | --------------------------- |
@@ -2744,15 +2870,15 @@ Total Error = Bias² + Variance + Irreducible Error
 ---
 
 
-#  Decision Trees – Beginner-Friendly Notes with Analogies & Python Example
+##  Decision Trees – Beginner-Friendly Notes with Analogies & Python Example
 
 ---
 
-## 1. What is a Decision Tree?
+### 1. What is a Decision Tree?
 
 **Decision Tree** is a supervised learning algorithm used for **classification** and **regression** tasks. It works by asking a series of **yes/no** questions (splits) to arrive at a decision.
 
-### Analogy:
+#### Analogy:
 
 Imagine you’re playing a 20-questions game:
 
@@ -2764,7 +2890,7 @@ Each answer helps narrow down the possibilities — this is exactly how a decisi
 
 ---
 
-## 2. How Does It Work?
+### 2. How Does It Work?
 
 At each step (or node), the algorithm picks a **feature** and a **threshold** that best separates the data.
 
@@ -2777,7 +2903,7 @@ Each **path** from the root to a leaf = one possible decision.
 
 ---
 
-## 3. Terminology Cheat Sheet
+### 3. Terminology Cheat Sheet
 
 | Term          | Meaning                             |
 | ------------- | ----------------------------------- |
@@ -2789,11 +2915,11 @@ Each **path** from the root to a leaf = one possible decision.
 
 ---
 
-## 4. Measuring Split Quality – Impurity Metrics
+### 4. Measuring Split Quality – Impurity Metrics
 
 To decide the best split, we measure how **pure** the resulting groups are.
 
-### A. Gini Impurity
+#### A. Gini Impurity
 
 ```math
 G = 1 - \sum p_i^2
@@ -2804,7 +2930,7 @@ Where `p_i` is the probability of a class in the node.
 * **0** means pure (only one class)
 * Higher values = more mixed
 
-### B. Entropy (used in ID3 algorithm)
+#### B. Entropy (used in ID3 algorithm)
 
 ```math
 E = -\sum p_i \log_2(p_i)
@@ -2812,7 +2938,7 @@ E = -\sum p_i \log_2(p_i)
 
 Like Gini, but uses logarithms. Measures the disorder or uncertainty.
 
-### Analogy:
+#### Analogy:
 
 * Think of impurity like mixing red and blue marbles.
 
@@ -2823,7 +2949,7 @@ The goal of the tree is to keep creating jars that are **as pure as possible**.
 
 ---
 
-## 4.1 Gini vs Entropy – Side-by-Side Comparison
+### 4.1 Gini vs Entropy – Side-by-Side Comparison
 
 | Aspect              | Gini Impurity                               | Entropy                                     |
 | ------------------- | ------------------------------------------- | ------------------------------------------- |
@@ -2833,7 +2959,7 @@ The goal of the tree is to keep creating jars that are **as pure as possible**.
 | Computation Speed   | Faster (no log calculation)                 | Slower (requires logarithms)                |
 | Decision Trees Used | CART algorithm                              | ID3 algorithm                               |
 
-### Analogy:
+#### Analogy:
 
 * **Gini**: Like asking, "What's the chance I randomly pick a wrong label?"
 * **Entropy**: Like asking, "How much surprise or uncertainty is left in this jar?"
@@ -2842,49 +2968,49 @@ In practice, **both produce similar trees**, and choice often depends on computa
 
 ---
 
-## 5. Overfitting and Underfitting in Decision Trees
+### 5. Overfitting and Underfitting in Decision Trees
 
-### Overfitting:
+#### Overfitting:
 
 * Tree is **too deep** and memorizes noise
 * Perfect on training data but bad on test data
 
-### Underfitting:
+#### Underfitting:
 
 * Tree is **too shallow** and oversimplifies the problem
 * Bad on both train and test data
 
-### Analogy:
+#### Analogy:
 
 * Overfitting: Like studying only past exam questions and failing a new test
 * Underfitting: Like skimming topics without depth, so you miss important ideas
 
 ---
 
-## 6. Pruning – How to Avoid Overfitting
+### 6. Pruning – How to Avoid Overfitting
 
 Pruning is the process of **cutting back** parts of the tree that don’t help much.
 
-### Two Types:
+#### Two Types:
 
 * **Pre-Pruning**: Set limits (max depth, min samples per leaf)
 * **Post-Pruning**: Grow full tree, then remove branches with little value
 
-### Analogy:
+#### Analogy:
 
 * Like trimming a bonsai tree: remove parts that don’t shape the final form well.
 
 ---
 
-## 7. Pros and Cons of Decision Trees
+### 7. Pros and Cons of Decision Trees
 
-### Advantages:
+#### Advantages:
 
 * Easy to understand and interpret
 * No need for feature scaling
 * Handles both numerical and categorical data
 
-###  Disadvantages:
+####  Disadvantages:
 
 * Can easily overfit
 * Unstable with small data changes
@@ -2892,7 +3018,7 @@ Pruning is the process of **cutting back** parts of the tree that don’t help m
 
 ---
 
-## 8. Python Code Example – Decision Tree Classifier
+### 8. Python Code Example – Decision Tree Classifier
 
 ```python
 from sklearn.datasets import load_iris
@@ -2926,7 +3052,7 @@ plt.show()
 
 ---
 
-## 9. When to Use Decision Trees
+### 9. When to Use Decision Trees
 
 * For interpretable models
 * When you want to visualize decisions
@@ -2938,21 +3064,21 @@ plt.show()
 
 
 
-#  Introduction to Unsupervised Learning
+##  Introduction to Unsupervised Learning
 
 ---
 
-## 1. What is Unsupervised Learning?
+### 1. What is Unsupervised Learning?
 
 Unsupervised learning is a type of **machine learning** where the model is **not given any labels**. Instead, it tries to **find patterns, structures, or relationships** in the input data **without any human supervision**.
 
-### Analogy:
+#### Analogy:
 
 > Imagine you walk into a library in a foreign country. You don't understand the language, and the books aren't labeled. But you start grouping books by cover color, size, or paper texture. That's unsupervised learning — you find patterns **without anyone telling you what each book is about**.
 
 ---
 
-## 2. Key Features of Unsupervised Learning
+### 2. Key Features of Unsupervised Learning
 
 * No labeled outputs.
 * The system **learns patterns** from raw data.
@@ -2960,42 +3086,42 @@ Unsupervised learning is a type of **machine learning** where the model is **not
 
 ---
 
-## 3. Main Types of Unsupervised Learning
+### 3. Main Types of Unsupervised Learning
 
-### a. Clustering
+#### a. Clustering
 
 Grouping data points into clusters based on similarity.
 
-### b. Dimensionality Reduction
+#### b. Dimensionality Reduction
 
 Reducing the number of input variables while preserving key information (e.g., PCA, t-SNE).
 
 ---
 
-## 4. Clustering – The Most Common Task
+### 4. Clustering – The Most Common Task
 
-###  What is Clustering?
+####  What is Clustering?
 
 Clustering is the process of **grouping similar data points** together such that:
 
 * Points in the same cluster are **very similar**.
 * Points in different clusters are **very different**.
 
-#### Analogy:
+##### Analogy:
 
 > Think of a **fruit market**. Without labels, you still group bananas together, oranges together, and apples together based on color, shape, and size — that's clustering.
 
 ---
 
-## 5. Common Clustering Algorithms
+### 5. Common Clustering Algorithms
 
-### 1. K-Means Clustering
+#### 1. K-Means Clustering
 
 * K: number of clusters to form
 * Algorithm tries to find **K centroids** (central points)
 * Assigns each data point to the **nearest centroid**
 
-#### Example:
+##### Example:
 
 Group people into **3 clusters** based on their income and spending habits:
 
@@ -3016,45 +3142,45 @@ print("Cluster centers:\n", kmeans.cluster_centers_)
 print("Labels:", kmeans.labels_)
 ```
 
-#### Analogy:
+##### Analogy:
 
 > Imagine you're organizing guests at a wedding into tables. You want guests with **similar interests** to sit together. You decide in advance how many tables (K) you want, then keep adjusting who sits where until everyone feels comfortable — that’s K-means!
 
 ---
 
-### 2. Hierarchical Clustering
+#### 2. Hierarchical Clustering
 
 * Doesn’t require you to specify the number of clusters
 * Creates a **tree of clusters (dendrogram)**
 * You can "cut" the tree at any level to decide how many clusters you want
 
-#### Example:
+##### Example:
 
 Grouping animals based on shared characteristics.
 
-#### Types:
+##### Types:
 
 * **Agglomerative (Bottom-Up)**: Start with individual points and merge them
 * **Divisive (Top-Down)**: Start with one cluster and split
 
-#### Analogy:
+##### Analogy:
 
 > Think of **family genealogy**. Starting from yourself (a single person), you connect to your siblings, then to your parents, then grandparents — forming a hierarchy.
 
 ---
 
-## 6. Dimensionality Reduction – Finding Simplicity in Complexity
+### 6. Dimensionality Reduction – Finding Simplicity in Complexity
 
-###  1. Principal Component Analysis (PCA)
+####  1. Principal Component Analysis (PCA)
 
 * Reduces many variables into **fewer** that still capture most of the information.
 * Helps visualize high-dimensional data in 2D or 3D.
 
-#### Analogy:
+##### Analogy:
 
 > Imagine having a thick book written in 5 languages. You want to summarize it in just 1 or 2 pages without losing much of the message. That’s what PCA does with data.
 
-#### Example:
+##### Example:
 
 ```python
 from sklearn.decomposition import PCA
@@ -3071,7 +3197,7 @@ print("Reduced shape:", reduced.shape)
 
 ---
 
-## 7. When to Use Unsupervised Learning?
+### 7. When to Use Unsupervised Learning?
 
 * You have **no labels** or **cannot label data** easily.
 * You want to **explore data** or **discover hidden patterns**.
@@ -3079,7 +3205,7 @@ print("Reduced shape:", reduced.shape)
 
 ---
 
-## 8. Real-World Applications
+### 8. Real-World Applications
 
 | Domain        | Use Case                        |
 | ------------- | ------------------------------- |
@@ -3092,15 +3218,15 @@ print("Reduced shape:", reduced.shape)
 
 ---
 
-## 9. Pros and Cons of Unsupervised Learning
+### 9. Pros and Cons of Unsupervised Learning
 
-### Pros
+#### Pros
 
 * Works without labels
 * Reveals hidden patterns
 * Good for exploratory analysis
 
-###  Cons
+####  Cons
 
 * Hard to evaluate accuracy
 * Might find patterns that **don’t make sense**
@@ -3108,11 +3234,11 @@ print("Reduced shape:", reduced.shape)
 
 ---
 
-## 10. How to Evaluate Unsupervised Models?
+### 10. How to Evaluate Unsupervised Models?
 
 Since there are **no labels**, evaluation is tricky.
 
-### For Clustering:
+#### For Clustering:
 
 * **Silhouette Score**: Measures how similar an object is to its own cluster vs others.
 * **Inertia** (K-Means): Sum of distances from points to cluster center (lower is better).
@@ -3120,7 +3246,7 @@ Since there are **no labels**, evaluation is tricky.
 
 ---
 
-## 11. Summary
+### 11. Summary
 
 | Concept                  | Explanation                                    |
 | ------------------------ | ---------------------------------------------- |
@@ -3132,7 +3258,7 @@ Since there are **no labels**, evaluation is tricky.
 
 ---
 
-## 12. Practice Exercise
+### 12. Practice Exercise
 
 >  Try clustering this dataset:
 
@@ -3160,7 +3286,7 @@ plt.show()
 
 ---
 
-## 13. Final Analogy Recap
+### 13. Final Analogy Recap
 
 | Analogy                      | Concept                           |
 | ---------------------------- | --------------------------------- |
@@ -3172,25 +3298,25 @@ plt.show()
 
 ---
 
-## 14. Applications of Unsupervised Learning
+### 14. Applications of Unsupervised Learning
 
 Unsupervised learning is widely used in real-world scenarios where **labeling data is expensive, time-consuming, or impossible**. Below is a comprehensive list of applications across various domains.
 
 ---
 
-### 1. **Customer Segmentation**
+#### 1. **Customer Segmentation**
 
-####  Used in:
+#####  Used in:
 
 * E-commerce
 * Retail
 * Banking
 
-####  Goal:
+#####  Goal:
 
 Group customers based on behavior, preferences, or purchase history.
 
-####  Example:
+#####  Example:
 
 Cluster customers into:
 
@@ -3200,168 +3326,168 @@ Cluster customers into:
 
 ---
 
-### 2. **Market Basket Analysis (Association Rules)**
+#### 2. **Market Basket Analysis (Association Rules)**
 
-####  Used in:
+#####  Used in:
 
 * Supermarkets
 * Online stores
 
-####  Goal:
+#####  Goal:
 
 Identify product combinations that frequently occur together.
 
-####  Example:
+#####  Example:
 
 * Customers who buy bread also tend to buy butter.
 * Drives product placement or bundle suggestions.
 
 ---
 
-### 3. **Anomaly Detection / Outlier Detection**
+#### 3. **Anomaly Detection / Outlier Detection**
 
-####  Used in:
+#####  Used in:
 
 * Fraud detection (banking, credit cards)
 * Network security
 * Industrial equipment monitoring
 
-####  Goal:
+#####  Goal:
 
 Detect rare or unusual behavior.
 
-####  Example:
+#####  Example:
 
 * Identifying a fraudulent transaction
 * Spotting a failing machine from sensor data
 
 ---
 
-### 4. **Topic Modeling in Natural Language Processing (NLP)**
+#### 4. **Topic Modeling in Natural Language Processing (NLP)**
 
-####  Used in:
+#####  Used in:
 
 * News aggregation
 * Research papers
 * Chatbots
 
-####  Goal:
+#####  Goal:
 
 Automatically discover topics in a collection of texts.
 
-#### 🔍 Example:
+##### 🔍 Example:
 
 * Grouping articles into topics like “sports,” “politics,” or “technology” using **Latent Dirichlet Allocation (LDA)**.
 
 ---
 
-### 5. **Image Compression and Reconstruction**
+#### 5. **Image Compression and Reconstruction**
 
-####  Used in:
+#####  Used in:
 
 * Photography
 * Storage optimization
 * Medical imaging
 
-####  Goal:
+#####  Goal:
 
 Reduce the size of image files by removing redundant data.
 
-####  Example:
+#####  Example:
 
 * PCA is often used to compress images while retaining essential details.
 
 ---
 
-### 6. **Recommendation Systems**
+#### 6. **Recommendation Systems**
 
-####  Used in:
+#####  Used in:
 
 * Netflix, YouTube, Spotify
 * E-commerce platforms
 
-####  Goal:
+#####  Goal:
 
 Group users/items into clusters for better recommendations.
 
-####  Example:
+#####  Example:
 
 * "Users who watch crime documentaries also tend to watch psychological thrillers."
 
 ---
 
-### 7. **Social Network Analysis**
+#### 7. **Social Network Analysis**
 
-####  Used in:
+#####  Used in:
 
 * Facebook
 * LinkedIn
 * Twitter (now X)
 
-####  Goal:
+#####  Goal:
 
 Detect communities or clusters of users with similar interaction patterns.
 
-####  Example:
+#####  Example:
 
 * Identifying groups of users who frequently interact — such as fans of a specific sports team or political party.
 
 ---
 
-### 8. **Biological Data Analysis**
+#### 8. **Biological Data Analysis**
 
-#### Used in:
+##### Used in:
 
 * Genomics
 * Proteomics
 * Neuroscience
 
-#### Goal:
+##### Goal:
 
 Understand complex biological data.
 
-#### Example:
+##### Example:
 
 * Clustering gene expression patterns to understand disease subtypes.
 
 ---
 
-### 9. **Search Engine Optimization (SEO)**
+#### 9. **Search Engine Optimization (SEO)**
 
-#### Used in:
+##### Used in:
 
 * Google
 * Bing
 
-#### Goal:
+##### Goal:
 
 Group similar search terms and rank content.
 
-#### Example:
+##### Example:
 
 * Clustering similar queries like “best laptop 2025” and “top laptops for students.”
 
 ---
 
-### 10. **Document Clustering**
+#### 10. **Document Clustering**
 
-#### Used in:
+##### Used in:
 
 * News organizations
 * Legal discovery
 * Research databases
 
-#### Goal:
+##### Goal:
 
 Organize large corpora into coherent categories.
 
-#### Example:
+##### Example:
 
 * Grouping research papers into fields such as “Machine Learning,” “Statistics,” or “Healthcare.”
 
 ---
 
-##  Summary Table of Applications
+###  Summary Table of Applications
 
 | Domain           | Application            | Algorithm Example             |
 | ---------------- | ---------------------- | ----------------------------- |
@@ -3378,11 +3504,11 @@ Organize large corpora into coherent categories.
 
 ---
 
-#  Clustering and K-Means in Unsupervised Learning
+##  Clustering and K-Means in Unsupervised Learning
 
 ---
 
-## 1. What is Clustering?
+### 1. What is Clustering?
 
 **Clustering** is an **unsupervised learning technique** that automatically finds **natural groupings** within data.
 
@@ -3393,13 +3519,13 @@ It groups data points such that:
 
 ---
 
-###  Analogy:
+####  Analogy:
 
 > Think of a **box of Lego pieces** all mixed together. You start sorting them by color or size. You’ve just clustered them — without any instructions or labels.
 
 ---
 
-## 2. Why is Clustering Important?
+### 2. Why is Clustering Important?
 
 Clustering helps:
 
@@ -3410,7 +3536,7 @@ Clustering helps:
 
 ---
 
-## 3. Common Clustering Algorithms
+### 3. Common Clustering Algorithms
 
 | Algorithm                     | Description                                        |
 | ----------------------------- | -------------------------------------------------- |
@@ -3421,21 +3547,21 @@ Clustering helps:
 
 ---
 
-## 4. K-Means Clustering – In Depth
+### 4. K-Means Clustering – In Depth
 
-### 4.1 What is K-Means?
+#### 4.1 What is K-Means?
 
 **K-Means** is a **centroid-based algorithm** that partitions data into **K clusters**, where each cluster is defined by its **centroid (center point)**.
 
 ---
 
-### 🔍 Analogy: City Water Tanks
+#### 🔍 Analogy: City Water Tanks
 
 > Imagine a city planning to install **K water tanks** to serve all neighborhoods. The goal is to place the tanks so that every house gets water from the nearest tank. K-Means finds the **optimal locations** (centroids) for the tanks.
 
 ---
 
-### 4.2 Steps of the K-Means Algorithm
+#### 4.2 Steps of the K-Means Algorithm
 
 1. **Choose K** (number of clusters)
 2. **Randomly initialize K centroids**
@@ -3445,11 +3571,11 @@ Clustering helps:
 
 ---
 
-## 5. Distance Metrics in K-Means
+### 5. Distance Metrics in K-Means
 
 Distance is how **"close"** or **"similar"** a data point is to a centroid. K-Means uses **distance to assign points to the nearest centroid**.
 
-###  1. Euclidean Distance (Default)
+####  1. Euclidean Distance (Default)
 
 $$
 d(p, q) = \sqrt{(p_1 - q_1)^2 + (p_2 - q_2)^2 + \dots + (p_n - q_n)^2}
@@ -3459,7 +3585,7 @@ $$
 
 ---
 
-###  2. Manhattan Distance (L1 norm)
+####  2. Manhattan Distance (L1 norm)
 
 $$
 d(p, q) = |p_1 - q_1| + |p_2 - q_2| + \dots + |p_n - q_n|
@@ -3469,7 +3595,7 @@ $$
 
 ---
 
-###  3. Cosine Distance (used in high-dimensional text)
+####  3. Cosine Distance (used in high-dimensional text)
 
 $$
 \text{Cosine Similarity} = \frac{A \cdot B}{\|A\| \|B\|}
@@ -3479,11 +3605,11 @@ $$
 
 ---
 
-## 6. How Are Centroids Computed?
+### 6. How Are Centroids Computed?
 
 Centroids are the **representative points** of clusters. In K-Means, they are usually computed as:
 
-### 1. **Mean (Arithmetic Average)** – *Used in standard K-Means*
+#### 1. **Mean (Arithmetic Average)** – *Used in standard K-Means*
 
 $$
 \text{Centroid} = \frac{1}{n} \sum_{i=1}^n x_i
@@ -3493,23 +3619,23 @@ $$
 
 ---
 
-###  2. **Median (for robustness)**
+####  2. **Median (for robustness)**
 
 * Some variants use the **median** to reduce the effect of outliers.
 
 ---
 
-###  3. **Medoid (used in K-Medoids algorithm)**
+####  3. **Medoid (used in K-Medoids algorithm)**
 
 * The **actual data point** in the cluster with the **minimum average distance** to all other points in that cluster.
 
 ---
 
-## 7. Elbow Method – Choosing the Best K
+### 7. Elbow Method – Choosing the Best K
 
 How do we know how many clusters (K) to choose?
 
-###  The Elbow Method
+####  The Elbow Method
 
 1. Run K-Means with a range of values for K (e.g., 1 to 10)
 2. For each K, compute **Inertia** (sum of squared distances to the nearest centroid)
@@ -3520,7 +3646,7 @@ How do we know how many clusters (K) to choose?
 
 ---
 
-###  Elbow Method Code Example
+####  Elbow Method Code Example
 
 ```python
 from sklearn.cluster import KMeans
@@ -3543,7 +3669,7 @@ plt.show()
 
 ---
 
-## 8. K-Means Code: Complete Example
+### 8. K-Means Code: Complete Example
 
 ```python
 import pandas as pd
@@ -3573,7 +3699,7 @@ plt.show()
 
 ---
 
-## 9. Variants of K-Means
+### 9. Variants of K-Means
 
 | Variant               | Description                                             |
 | --------------------- | ------------------------------------------------------- |
@@ -3584,15 +3710,15 @@ plt.show()
 
 ---
 
-## 10. Strengths and Weaknesses
+### 10. Strengths and Weaknesses
 
-###  Pros
+####  Pros
 
 * Simple and fast
 * Scales well to large datasets
 * Easy to implement
 
-###  Cons
+####  Cons
 
 * Must specify **K** in advance
 * Sensitive to **initialization**
@@ -3601,7 +3727,7 @@ plt.show()
 
 ---
 
-## 11. Use Cases
+### 11. Use Cases
 
 | Use Case                   | Description                              |
 | -------------------------- | ---------------------------------------- |
@@ -3613,7 +3739,7 @@ plt.show()
 
 ---
 
-## 12. Summary Table
+### 12. Summary Table
 
 | Topic                | Key Points                              |
 | -------------------- | --------------------------------------- |
@@ -3626,7 +3752,7 @@ plt.show()
 
 ---
 
-## 13. Final Analogy Recap
+### 13. Final Analogy Recap
 
 | Analogy                                | Concept               |
 | -------------------------------------- | --------------------- |
@@ -3637,7 +3763,7 @@ plt.show()
 
 ---
 
-##  Complete K-Means + Elbow + Evaluation Code
+###  Complete K-Means + Elbow + Evaluation Code
 
 ```python
 #  Import Libraries
@@ -3726,7 +3852,7 @@ print(data.sort_values(by='Cluster'))
 
 ---
 
-##  What This Code Covers
+###  What This Code Covers
 
 | Section                    | Purpose                                     |
 | -------------------------- | ------------------------------------------- |
@@ -3741,24 +3867,24 @@ print(data.sort_values(by='Cluster'))
 
 
 ---
-# Hierarchical Clustering in Unsupervised Learning
+## Hierarchical Clustering in Unsupervised Learning
 
 ---
 
-## 1. What is Hierarchical Clustering?
+### 1. What is Hierarchical Clustering?
 
 **Hierarchical Clustering** builds a **tree of clusters**. Instead of requiring you to specify the number of clusters (K) in advance like K-Means, it creates a hierarchy (nested grouping) of the data points, which you can cut at any level to form clusters.
 
 ---
 
-###  Analogy:
+####  Analogy:
 
 > Imagine a **family tree**. At the top is the common ancestor. As you go down the tree, it branches into families, individuals, and siblings.
 > In hierarchical clustering, data points are grouped into clusters that **split or merge**, forming a tree-like structure.
 
 ---
 
-## 2. Types of Hierarchical Clustering
+### 2. Types of Hierarchical Clustering
 
 | Type              | Description                                                                   |
 | ----------------- | ----------------------------------------------------------------------------- |
@@ -3767,7 +3893,7 @@ print(data.sort_values(by='Cluster'))
 
 ---
 
-###  Agglomerative Clustering (Most Used)
+####  Agglomerative Clustering (Most Used)
 
 1. Start with each data point as a **separate cluster**.
 2. Find the **two closest clusters**.
@@ -3776,7 +3902,7 @@ print(data.sort_values(by='Cluster'))
 
 ---
 
-## 3. Distance (Linkage) Methods
+### 3. Distance (Linkage) Methods
 
 When deciding which clusters to merge, hierarchical clustering uses **linkage criteria**:
 
@@ -3789,7 +3915,7 @@ When deciding which clusters to merge, hierarchical clustering uses **linkage cr
 
 ---
 
-###  Analogy for Linkage:
+####  Analogy for Linkage:
 
 > Imagine you're organizing social groups:
 
@@ -3800,18 +3926,18 @@ When deciding which clusters to merge, hierarchical clustering uses **linkage cr
 
 ---
 
-## 4. Dendrogram – Visualizing Hierarchical Clustering
+### 4. Dendrogram – Visualizing Hierarchical Clustering
 
 A **dendrogram** is a tree-like diagram that shows how data points were merged or split over time.
 
-###  Use it to:
+####  Use it to:
 
 * **Visualize** the clustering process
 * **Determine the number of clusters** by cutting the tree at a certain height
 
 ---
 
-###  Example: Dendrogram
+####  Example: Dendrogram
 
 ```python
 import matplotlib.pyplot as plt
@@ -3842,7 +3968,7 @@ plt.show()
 
 ---
 
-## 5. Performing Hierarchical Clustering
+### 5. Performing Hierarchical Clustering
 
 ```python
 from sklearn.cluster import AgglomerativeClustering
@@ -3861,7 +3987,7 @@ plt.show()
 
 ---
 
-## 6. Comparing Linkage Methods
+### 6. Comparing Linkage Methods
 
 Try different methods (`'single'`, `'complete'`, `'average'`, `'ward'`) in the `linkage()` and `AgglomerativeClustering()` to observe:
 
@@ -3871,7 +3997,7 @@ Try different methods (`'single'`, `'complete'`, `'average'`, `'ward'`) in the `
 
 ---
 
-## 7. Evaluation with Silhouette Score
+### 7. Evaluation with Silhouette Score
 
 ```python
 from sklearn.metrics import silhouette_score
@@ -3891,15 +4017,15 @@ print(f'Silhouette Score: {score:.4f}')
 
 ---
 
-## 8. Pros and Cons of Hierarchical Clustering
+### 8. Pros and Cons of Hierarchical Clustering
 
-###  Pros
+####  Pros
 
 * No need to pre-specify number of clusters
 * Produces dendrogram for rich visualization
 * Flexible linkage criteria
 
-###  Cons
+####  Cons
 
 * Computationally expensive on large datasets
 * Sensitive to noise and outliers
@@ -3907,7 +4033,7 @@ print(f'Silhouette Score: {score:.4f}')
 
 ---
 
-## 9. Use Cases of Hierarchical Clustering
+### 9. Use Cases of Hierarchical Clustering
 
 | Domain          | Use Case                 |
 | --------------- | ------------------------ |
@@ -3919,7 +4045,7 @@ print(f'Silhouette Score: {score:.4f}')
 
 ---
 
-## 10. Summary Table
+### 10. Summary Table
 
 | Feature         | Description                           |
 | --------------- | ------------------------------------- |
@@ -3933,7 +4059,7 @@ print(f'Silhouette Score: {score:.4f}')
 
 ---
 
-## 11. Final Analogy Recap
+### 11. Final Analogy Recap
 
 | Analogy         | Concept                                     |
 | --------------- | ------------------------------------------- |
@@ -3943,13 +4069,13 @@ print(f'Silhouette Score: {score:.4f}')
 
 ---
 
-#  Dimensionality Reduction
+##  Dimensionality Reduction
 
-### Topic: PCA and t-SNE
+#### Topic: PCA and t-SNE
 
 ---
 
-##  Summary
+###  Summary
 
 * Understand the **Curse of Dimensionality**
 * Apply **Principal Component Analysis (PCA)** to reduce dimensions while preserving variance
@@ -3958,20 +4084,20 @@ print(f'Silhouette Score: {score:.4f}')
 
 ---
 
-## 1. What is Dimensionality Reduction?
+### 1. What is Dimensionality Reduction?
 
 **Dimensionality Reduction** refers to techniques that transform data from a high-dimensional space into a lower-dimensional space **without losing important information**.
 
 ---
 
-###  Analogy: Packing for a Trip
+####  Analogy: Packing for a Trip
 
 > Imagine you’re going on a trip and have to fit everything into a small suitcase. You want to **carry the essentials**, but not the bulk.
 > Dimensionality reduction helps you **compress your dataset**, retaining just the “essentials.”
 
 ---
 
-## 2. Curse of Dimensionality
+### 2. Curse of Dimensionality
 
 As the number of features (dimensions) increases:
 
@@ -3983,35 +4109,35 @@ As the number of features (dimensions) increases:
 
 ---
 
-###  Analogy: Finding Friends in a City vs a Galaxy
+####  Analogy: Finding Friends in a City vs a Galaxy
 
 > In a **2D city map**, it's easy to find people close to you. But if people were floating in **100D space**, everyone seems far apart!
 > The more dimensions you have, the **less intuitive** relationships become.
 
 ---
 
-## 3. Principal Component Analysis (PCA)
+### 3. Principal Component Analysis (PCA)
 
-###  Goal:
+####  Goal:
 
 Reduce the number of features while preserving as much **variance** (information) as possible.
 
 ---
 
-###  Analogy 1: Compressing a Book
+####  Analogy 1: Compressing a Book
 
 > Turning a 500-page novel into a 2-page summary that **captures the core plot** — that’s PCA.
 
 ---
 
-###  Analogy 2: Shadows and Light
+####  Analogy 2: Shadows and Light
 
 > Imagine casting shadows of a 3D object onto a wall.
 > PCA finds the **most informative angle** from which to look at the data, and **projects it** onto a lower-dimensional surface.
 
 ---
 
-## 4. How PCA Works (Step-by-Step)
+### 4. How PCA Works (Step-by-Step)
 
 1. **Standardize** the dataset
 2. **Compute the covariance matrix**
@@ -4021,7 +4147,7 @@ Reduce the number of features while preserving as much **variance** (information
 
 ---
 
-## 5. Visual Example of PCA
+### 5. Visual Example of PCA
 
 ```plaintext
 Before PCA (2D space):
@@ -4035,7 +4161,7 @@ After PCA (projected to 1D):
 
 ---
 
-## 6. PCA in Python – Step-by-Step
+### 6. PCA in Python – Step-by-Step
 
 ```python
 from sklearn.decomposition import PCA
@@ -4068,7 +4194,7 @@ plt.show()
 
 ---
 
-## 7. Choosing the Number of Components
+### 7. Choosing the Number of Components
 
 Use the **explained variance ratio** to decide how many components to keep.
 
@@ -4085,7 +4211,7 @@ plt.show()
 
 ---
 
-## 8. Use Cases of PCA
+### 8. Use Cases of PCA
 
 | Use Case             | Why Use PCA                                    |
 | -------------------- | ---------------------------------------------- |
@@ -4097,9 +4223,9 @@ plt.show()
 
 ---
 
-## 9. t-SNE – Visualizing High-Dimensional Data
+### 9. t-SNE – Visualizing High-Dimensional Data
 
-###  What is t-SNE?
+####  What is t-SNE?
 
 * **t-distributed Stochastic Neighbor Embedding**
 * Unlike PCA (which captures variance), t-SNE captures **local relationships** between points
@@ -4107,7 +4233,7 @@ plt.show()
 
 ---
 
-### t-SNE vs PCA
+#### t-SNE vs PCA
 
 | Feature        | PCA                      | t-SNE                     |
 | -------------- | ------------------------ | ------------------------- |
@@ -4119,14 +4245,14 @@ plt.show()
 
 ---
 
-###  Analogy: Organizing a Library
+####  Analogy: Organizing a Library
 
 * **PCA** = Reorganizing the entire library so that books with similar topics are on the same shelves.
 * **t-SNE** = Creating a **map of the library** that shows **which books are closest**, regardless of their shelf.
 
 ---
 
-## 10. Bonus: Visualizing with t-SNE (Python Example)
+### 10. Bonus: Visualizing with t-SNE (Python Example)
 
 ```python
 from sklearn.manifold import TSNE
@@ -4146,15 +4272,15 @@ plt.show()
 
 ---
 
-## 11. Pros and Cons of PCA
+### 11. Pros and Cons of PCA
 
-###  Pros
+####  Pros
 
 * Simple and interpretable
 * Improves model speed and performance
 * Handles correlated features well
 
-###  Cons
+####  Cons
 
 * Sensitive to feature scaling
 * Components can be hard to interpret
@@ -4162,7 +4288,7 @@ plt.show()
 
 ---
 
-## 12. Final Analogy Recap
+### 12. Final Analogy Recap
 
 | Analogy                     | Concept                   |
 | --------------------------- | ------------------------- |
@@ -4174,13 +4300,13 @@ plt.show()
 
 ---
 
-# Model Evaluation & Validation Techniques
+## Model Evaluation & Validation Techniques
 
-### Topic: Cross-validation and Performance Metrics
+#### Topic: Cross-validation and Performance Metrics
 
 ---
 
-##  Summary
+###  Summary
 
 * Why **train/test split isn't enough**
 * Learn **K-Fold Cross-Validation** for more robust model evaluation
@@ -4190,11 +4316,11 @@ plt.show()
 
 ---
 
-## 1. Why Train/Test Split Isn’t Enough
+### 1. Why Train/Test Split Isn’t Enough
 
 Splitting your data into a **training set** and a **test set** is a common approach — but it has **limitations**:
 
-###  Problems with train/test split:
+####  Problems with train/test split:
 
 * High **variance** in performance depending on how the data was split
 * Risk of **overfitting to the test set** if tuned repeatedly
@@ -4202,7 +4328,7 @@ Splitting your data into a **training set** and a **test set** is a common appro
 
 ---
 
-###  Analogy: Studying for One Exam
+####  Analogy: Studying for One Exam
 
 > You study math all semester and then take **just one exam**.
 > What if that exam happened to have questions on your weakest topic? Your performance would look poor even if you're generally good at math.
@@ -4211,15 +4337,15 @@ Splitting your data into a **training set** and a **test set** is a common appro
 
 ---
 
-## 2. Cross-Validation (CV)
+### 2. Cross-Validation (CV)
 
-###  What is Cross-Validation?
+####  What is Cross-Validation?
 
 A technique to assess how your model will generalize to **unseen data** by training and testing it on **multiple subsets** of your dataset.
 
 ---
 
-###  K-Fold Cross-Validation
+####  K-Fold Cross-Validation
 
 1. Split data into **K equal parts** (folds)
 2. Train the model on **K-1 folds**
@@ -4229,13 +4355,13 @@ A technique to assess how your model will generalize to **unseen data** by train
 
 ---
 
-###  Analogy: Multiple Job Interviews
+####  Analogy: Multiple Job Interviews
 
 > Instead of evaluating a job candidate on one question, you ask them **5 different questions** in 5 interviews. This gives a **well-rounded** assessment.
 
 ---
 
-###  K-Fold CV Code (Classification)
+####  K-Fold CV Code (Classification)
 
 ```python
 from sklearn.model_selection import cross_val_score
@@ -4252,11 +4378,11 @@ print("Average Accuracy:", scores.mean())
 
 ---
 
-## 3. Evaluation Metrics Recap
+### 3. Evaluation Metrics Recap
 
 ---
 
-###  Classification Metrics
+####  Classification Metrics
 
 | Metric        | Description                                 | Use                             |
 | ------------- | ------------------------------------------- | ------------------------------- |
@@ -4268,7 +4394,7 @@ print("Average Accuracy:", scores.mean())
 
 ---
 
-#### Confusion Matrix
+##### Confusion Matrix
 
 |            | Predicted Yes  | Predicted No   |
 | ---------- | -------------- | -------------- |
@@ -4277,14 +4403,14 @@ print("Average Accuracy:", scores.mean())
 
 ---
 
-####  ROC and AUC
+#####  ROC and AUC
 
 * **ROC Curve**: Plots **True Positive Rate** vs **False Positive Rate**
 * **AUC** (Area Under Curve): The **bigger**, the **better** (closer to 1)
 
 ---
 
-####  ROC Code Example
+#####  ROC Code Example
 
 ```python
 from sklearn.metrics import roc_curve, roc_auc_score
@@ -4314,7 +4440,7 @@ plt.show()
 
 ---
 
-###  Regression Metrics
+####  Regression Metrics
 
 | Metric                                      | Description                                                                  |
 | ------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -4325,7 +4451,7 @@ plt.show()
 
 ---
 
-###  Regression Evaluation Code
+####  Regression Evaluation Code
 
 ```python
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
@@ -4349,7 +4475,7 @@ print("R2 Score:", r2_score(y_test, y_pred))
 
 ---
 
-## 4. Overfitting vs Underfitting
+### 4. Overfitting vs Underfitting
 
 | Term             | Meaning              | Symptom                       | Fix                               |
 | ---------------- | -------------------- | ----------------------------- | --------------------------------- |
@@ -4358,7 +4484,7 @@ print("R2 Score:", r2_score(y_test, y_pred))
 
 ---
 
-###  Analogy: Studying for Exams
+####  Analogy: Studying for Exams
 
 > **Underfitting**: Didn’t study enough — can’t even pass mock tests.
 > **Overfitting**: Memorized the practice exam — aces the mock, fails real one.
@@ -4366,7 +4492,7 @@ print("R2 Score:", r2_score(y_test, y_pred))
 
 ---
 
-## 5. Summary Table
+### 5. Summary Table
 
 | Topic            | Description                    |
 | ---------------- | ------------------------------ |
@@ -4379,7 +4505,7 @@ print("R2 Score:", r2_score(y_test, y_pred))
 
 ---
 
-## 6. Final Analogy Recap
+### 6. Final Analogy Recap
 
 | Analogy                    | Concept                          |
 | -------------------------- | -------------------------------- |
@@ -4390,13 +4516,13 @@ print("R2 Score:", r2_score(y_test, y_pred))
 
 ---
 
-#  Feature Engineering & Data Preprocessing
+##  Feature Engineering & Data Preprocessing
 
-### Topic: Cleaning, Encoding, Scaling, Feature Selection
+#### Topic: Cleaning, Encoding, Scaling, Feature Selection
 
 ---
 
-##  Summary
+###  Summary
 
 * How to handle **missing data**
 * Techniques for **encoding categorical variables**
@@ -4405,25 +4531,25 @@ print("R2 Score:", r2_score(y_test, y_pred))
 
 ---
 
-## 1. What is Feature Engineering?
+### 1. What is Feature Engineering?
 
 **Feature Engineering** is the process of **transforming raw data** into meaningful features that help a machine learning model learn better patterns.
 
 ---
 
-###  Analogy: Cooking a Meal
+####  Analogy: Cooking a Meal
 
 > Raw ingredients (raw data) aren’t enough — you need to **chop**, **boil**, and **season** them. Feature engineering is the process of preparing and transforming your ingredients (data) into a delicious dish (well-performing model).
 
 ---
 
-## 2. Handling Missing Data
+### 2. Handling Missing Data
 
 Real-world datasets often contain **NaN (Not a Number)** or missing values. These can **break models** or introduce bias.
 
 ---
 
-###  Techniques for Handling Missing Data
+####  Techniques for Handling Missing Data
 
 | Method                          | When to Use                                           |
 | ------------------------------- | ----------------------------------------------------- |
@@ -4434,7 +4560,7 @@ Real-world datasets often contain **NaN (Not a Number)** or missing values. Thes
 
 ---
 
-###  Code Example
+####  Code Example
 
 ```python
 import pandas as pd
@@ -4457,7 +4583,7 @@ df['Gender'] = df['Gender'].fillna(df['Gender'].mode()[0])
 
 ---
 
-###  Analogy: Filling a Survey
+####  Analogy: Filling a Survey
 
 > You receive a survey where some answers are missing.
 >
@@ -4468,13 +4594,13 @@ df['Gender'] = df['Gender'].fillna(df['Gender'].mode()[0])
 
 ---
 
-## 3. Encoding Categorical Variables
+### 3. Encoding Categorical Variables
 
 Models only understand **numbers**. Categorical values (like "Red", "Blue", "Green") must be converted to numerical format.
 
 ---
 
-###  Encoding Methods
+####  Encoding Methods
 
 | Method               | Description                               | Use When                                        |
 | -------------------- | ----------------------------------------- | ----------------------------------------------- |
@@ -4483,7 +4609,7 @@ Models only understand **numbers**. Categorical values (like "Red", "Blue", "Gre
 
 ---
 
-###  Code Example
+####  Code Example
 
 ```python
 from sklearn.preprocessing import LabelEncoder
@@ -4501,7 +4627,7 @@ df_onehot = pd.get_dummies(df['Size'], prefix='Size')
 
 ---
 
-### 🔍 Analogy: Making IDs
+#### 🔍 Analogy: Making IDs
 
 > Label Encoding is like giving each T-shirt size an **ID number**.
 > One-Hot Encoding is like using a **checkbox system**:
@@ -4509,13 +4635,13 @@ df_onehot = pd.get_dummies(df['Size'], prefix='Size')
 
 ---
 
-## 4. Feature Scaling
+### 4. Feature Scaling
 
 Many models (especially distance-based ones like KNN, SVM, K-Means) are sensitive to **the scale of features**.
 
 ---
 
-###  Scaling Techniques
+####  Scaling Techniques
 
 | Method                              | Description                              | Use Case                                        |
 | ----------------------------------- | ---------------------------------------- | ----------------------------------------------- |
@@ -4524,7 +4650,7 @@ Many models (especially distance-based ones like KNN, SVM, K-Means) are sensitiv
 
 ---
 
-###  Code Example
+####  Code Example
 
 ```python
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
@@ -4543,20 +4669,20 @@ data['Income_std'] = std.fit_transform(data[['Income']])
 
 ---
 
-###  Analogy: Comparing Weights & Heights
+####  Analogy: Comparing Weights & Heights
 
 > One person weighs 70kg and is 180cm tall. If you feed both into a model **unscaled**, the model might think **height is less important** because it has smaller numbers.
 > Scaling puts them **on the same footing** — like converting everything into the same currency.
 
 ---
 
-## 5. Feature Selection Techniques
+### 5. Feature Selection Techniques
 
 Not all features are useful — some may be **irrelevant**, **redundant**, or even **harmful**.
 
 ---
 
-###  Common Feature Selection Techniques
+####  Common Feature Selection Techniques
 
 | Method                                  | Description                                         | Best For                             |
 | --------------------------------------- | --------------------------------------------------- | ------------------------------------ |
@@ -4567,7 +4693,7 @@ Not all features are useful — some may be **irrelevant**, **redundant**, or ev
 
 ---
 
-###  Code: Correlation Matrix
+####  Code: Correlation Matrix
 
 ```python
 import seaborn as sns
@@ -4589,7 +4715,7 @@ plt.show()
 
 ---
 
-###  Code: Recursive Feature Elimination
+####  Code: Recursive Feature Elimination
 
 ```python
 from sklearn.linear_model import LogisticRegression
@@ -4606,7 +4732,7 @@ print("Selected Features:", selector.support_)
 
 ---
 
-###  Analogy: Packing for a Hiking Trip
+####  Analogy: Packing for a Hiking Trip
 
 > You have 20 items but your backpack can only carry 5.
 > You must pick the most **useful and lightweight** items.
@@ -4614,7 +4740,7 @@ print("Selected Features:", selector.support_)
 
 ---
 
-## 6. Summary Table
+### 6. Summary Table
 
 | Step                       | Purpose                       | Example Tool                       |
 | -------------------------- | ----------------------------- | ---------------------------------- |
@@ -4625,7 +4751,7 @@ print("Selected Features:", selector.support_)
 
 ---
 
-## 7. Final Analogy Recap
+### 7. Final Analogy Recap
 
 | Analogy              | Concept                    |
 | -------------------- | -------------------------- |
@@ -4637,13 +4763,13 @@ print("Selected Features:", selector.support_)
 
 ---
 
-# Hyperparameter Tuning
+## Hyperparameter Tuning
 
-### Topic: Grid Search, Random Search, and Bayesian Optimization
+#### Topic: Grid Search, Random Search, and Bayesian Optimization
 
 ---
 
-##  Summary
+###  Summary
 
 * Understand the **difference between parameters and hyperparameters**
 * Learn **Grid Search** and **Randomized Search** using `sklearn`
@@ -4652,7 +4778,7 @@ print("Selected Features:", selector.support_)
 
 ---
 
-## 1. Parameters vs Hyperparameters
+### 1. Parameters vs Hyperparameters
 
 | Type                 | Description                                                            | Set By         |
 | -------------------- | ---------------------------------------------------------------------- | -------------- |
@@ -4661,7 +4787,7 @@ print("Selected Features:", selector.support_)
 
 ---
 
-###  Analogy: Baking a Cake
+####  Analogy: Baking a Cake
 
 > * **Ingredients like sugar, flour, eggs** are **hyperparameters** — you choose them **before** baking.
 > * **How the cake rises, texture, and taste** are like model parameters — these emerge **during baking**.
@@ -4670,7 +4796,7 @@ If the hyperparameters are wrong (e.g., too much flour), the cake won’t rise w
 
 ---
 
-## 2. Why Hyperparameter Tuning Matters
+### 2. Why Hyperparameter Tuning Matters
 
 Hyperparameters control how well your model:
 
@@ -4680,7 +4806,7 @@ Hyperparameters control how well your model:
 
 ---
 
-## 3. Grid Search (Exhaustive)
+### 3. Grid Search (Exhaustive)
 
 **Grid Search** tries every possible combination of hyperparameters from a predefined set.
 
@@ -4711,14 +4837,14 @@ print("Best Score:", grid_search.best_score_)
 
 ---
 
-###  Analogy: Grid Search = Trying Every Pizza
+####  Analogy: Grid Search = Trying Every Pizza
 
 > You want to find your favorite pizza by trying **every combination** of crust, toppings, and cheese.
 > It’s thorough but **takes time** (especially when you have many options).
 
 ---
 
-## 4. Randomized Search
+### 4. Randomized Search
 
 **Randomized Search** randomly samples from the hyperparameter space. It doesn't test all combinations, but it's **faster** and often **just as good**.
 
@@ -4747,18 +4873,18 @@ print("Best Score:", random_search.best_score_)
 
 ---
 
-###  Analogy: Randomized Search = Taste Testing Samples
+####  Analogy: Randomized Search = Taste Testing Samples
 
 > Instead of eating every pizza, you try **10 random ones**.
 > You may not find the best **ever**, but you’ll find a **very good one** with much less effort.
 
 ---
 
-## 5. Bayesian Optimization (with Optuna)
+### 5. Bayesian Optimization (with Optuna)
 
 Unlike Grid or Random Search, **Bayesian Optimization** uses **previous results** to decide what to try next. It’s **smarter** and **more efficient**.
 
-###  How It Works:
+####  How It Works:
 
 1. Start with a few random samples
 2. Fit a probabilistic model to the results
@@ -4767,7 +4893,7 @@ Unlike Grid or Random Search, **Bayesian Optimization** uses **previous results*
 
 ---
 
-###  Using Optuna
+####  Using Optuna
 
 ```python
 import optuna
@@ -4794,14 +4920,14 @@ print("Best Score:", study.best_value)
 
 ---
 
-###  Analogy: Smart Chef Tuning Recipes
+####  Analogy: Smart Chef Tuning Recipes
 
 > The chef tries a recipe, adjusts based on taste, and learns **what changes to make next**.
 > This is smarter than randomly guessing (Random Search) or exhaustively trying everything (Grid Search).
 
 ---
 
-## 6. Tuning XGBoost (Real-World Example)
+### 6. Tuning XGBoost (Real-World Example)
 
 ```python
 import xgboost as xgb
@@ -4830,7 +4956,7 @@ print("Best Accuracy:", search.best_score_)
 
 ---
 
-## 7. When to Use What?
+### 7. When to Use What?
 
 | Method                         | Use When                                                       |
 | ------------------------------ | -------------------------------------------------------------- |
@@ -4840,7 +4966,7 @@ print("Best Accuracy:", search.best_score_)
 
 ---
 
-## 8. Final Analogy Recap
+### 8. Final Analogy Recap
 
 | Analogy          | Concept                |
 | ---------------- | ---------------------- |
@@ -4850,7 +4976,7 @@ print("Best Accuracy:", search.best_score_)
 
 ---
 
-## 9. Summary Table
+### 9. Summary Table
 
 | Topic                         | Tool/Concept           | Use                    |
 | ----------------------------- | ---------------------- | ---------------------- |
@@ -4862,19 +4988,19 @@ print("Best Accuracy:", search.best_score_)
 
 ---
 
-#  Hyperparameter Tuning – Deep Dive
+##  Hyperparameter Tuning – Deep Dive
 
-### Focus: Grid Search CV vs Randomized Search CV
+#### Focus: Grid Search CV vs Randomized Search CV
 
 ---
 
-##  1. What is Grid Search CV?
+###  1. What is Grid Search CV?
 
 `GridSearchCV` is an **exhaustive search** technique that **tests all possible combinations** of hyperparameters from a defined grid and evaluates them using **cross-validation**.
 
 ---
 
-###  Analogy: Menu Combinations
+####  Analogy: Menu Combinations
 
 > Imagine you’re choosing a combo meal with:
 >
@@ -4887,7 +5013,7 @@ print("Best Accuracy:", search.best_score_)
 
 ---
 
-###  How It Works
+####  How It Works
 
 1. You specify a set of hyperparameter values to try.
 2. It builds a **cartesian product** (all combinations).
@@ -4899,21 +5025,21 @@ print("Best Accuracy:", search.best_score_)
 
 ---
 
-###  Advantages
+####  Advantages
 
 * **Thorough** and guaranteed to find the best model *in the grid*
 * Works well with **small search spaces**
 
 ---
 
-###  Disadvantages
+####  Disadvantages
 
 * **Time-consuming** for large grids
 * Can waste time testing **irrelevant combinations**
 
 ---
 
-###  Code Example: GridSearchCV
+####  Code Example: GridSearchCV
 
 ```python
 from sklearn.model_selection import GridSearchCV
@@ -4940,20 +5066,20 @@ print("Best Score:", grid_search.best_score_)
 
 ---
 
-##  2. What is Randomized Search CV?
+###  2. What is Randomized Search CV?
 
 `RandomizedSearchCV` is a **stochastic optimization technique** that randomly selects a **subset of combinations** from the hyperparameter space and evaluates each one.
 
 ---
 
-###  Analogy: Lucky Dip in a Hat
+####  Analogy: Lucky Dip in a Hat
 
 > You put 100 balls (hyperparameter combos) in a hat.
 > Instead of trying them all (like Grid Search), you randomly **pick 10**, hoping one of them is a winner.
 
 ---
 
-###  How It Works
+####  How It Works
 
 1. You define **ranges/distributions** for each hyperparameter.
 2. You set the **number of iterations** (combinations to try).
@@ -4962,14 +5088,14 @@ print("Best Score:", grid_search.best_score_)
 
 ---
 
-###  Advantages
+####  Advantages
 
 * **Much faster** with large hyperparameter spaces
 * Can **discover better solutions** when you don’t know which ranges are ideal
 
 ---
 
-###  Disadvantages
+####  Disadvantages
 
 * Results can vary based on **random seed**
 * No guarantee of finding the best combo
@@ -4977,7 +5103,7 @@ print("Best Score:", grid_search.best_score_)
 
 ---
 
-###  Code Example: RandomizedSearchCV
+####  Code Example: RandomizedSearchCV
 
 ```python
 from sklearn.model_selection import RandomizedSearchCV
@@ -5008,7 +5134,7 @@ print("Best Score:", random_search.best_score_)
 
 ---
 
-##  3. When Should You Use Each?
+###  3. When Should You Use Each?
 
 | Scenario                                                     | Use Grid Search If… | Use Randomized Search If… |
 | ------------------------------------------------------------ | ------------------- | ------------------------- |
@@ -5022,7 +5148,7 @@ print("Best Score:", random_search.best_score_)
 
 ---
 
-## 🧾 4. Comparison Table: Grid Search CV vs Randomized Search CV
+### 🧾 4. Comparison Table: Grid Search CV vs Randomized Search CV
 
 | Feature                         | Grid Search CV          | Randomized Search CV    |
 | ------------------------------- | ----------------------- | ----------------------- |
@@ -5037,7 +5163,7 @@ print("Best Score:", random_search.best_score_)
 
 ---
 
-##  5. Final Analogy Recap
+###  5. Final Analogy Recap
 
 | Analogy                       | Concept                             |
 | ----------------------------- | ----------------------------------- |
@@ -5047,7 +5173,7 @@ print("Best Score:", random_search.best_score_)
 
 ---
 
-##  Bonus Tips
+###  Bonus Tips
 
 * Use **GridSearchCV** when you’re refining or benchmarking models
 * Use **RandomizedSearchCV** early to **explore quickly**
@@ -5057,13 +5183,13 @@ print("Best Score:", random_search.best_score_)
 ---
 
 
-#  Model Pipelines and Deployment Basics
+##  Model Pipelines and Deployment Basics
 
-### Topic: Building End-to-End Pipelines
+#### Topic: Building End-to-End Pipelines
 
 ---
 
-##  Summary
+###  Summary
 
 * Use **`Pipeline`** and **`ColumnTransformer`** from `sklearn` to streamline ML workflows
 * Chain together **preprocessing** and **model training** steps
@@ -5072,7 +5198,7 @@ print("Best Score:", random_search.best_score_)
 
 ---
 
-## 1. Why Use Pipelines?
+### 1. Why Use Pipelines?
 
 In machine learning, it's easy to create a mess:
 
@@ -5088,7 +5214,7 @@ This approach **breaks easily**, especially when:
 
 ---
 
-###  Analogy: Assembly Line in a Factory
+####  Analogy: Assembly Line in a Factory
 
 > Imagine building a car.
 > You wouldn’t ask a worker to install the engine, then send the car across the street for painting, and back again for wheels.
@@ -5098,11 +5224,11 @@ This approach **breaks easily**, especially when:
 
 ---
 
-## 2. The `Pipeline` Class – Clean Workflow
+### 2. The `Pipeline` Class – Clean Workflow
 
 A **Pipeline** allows you to chain **preprocessing + modeling** into a single object.
 
-###  Example: Scaling + Logistic Regression
+####  Example: Scaling + Logistic Regression
 
 ```python
 from sklearn.pipeline import Pipeline
@@ -5130,7 +5256,7 @@ y_pred = pipe.predict(X_test)
 
 ---
 
-###  Why Use a Pipeline?
+####  Why Use a Pipeline?
 
 * Keeps your code **modular and clean**
 * Avoids **data leakage** (fit only on training data)
@@ -5138,7 +5264,7 @@ y_pred = pipe.predict(X_test)
 
 ---
 
-## 3. ColumnTransformer – Handling Mixed Data Types
+### 3. ColumnTransformer – Handling Mixed Data Types
 
 Most real-world data has a mix of:
 
@@ -5152,14 +5278,14 @@ You want to apply:
 
 ---
 
-###  Analogy: Different Washing Machines for Clothes
+####  Analogy: Different Washing Machines for Clothes
 
 > You don’t wash jeans and silk in the same way.
 > ColumnTransformer lets you **process each type of feature** using a **different machine** — but all in **one laundry room**.
 
 ---
 
-###  Code Example: ColumnTransformer + Pipeline
+####  Code Example: ColumnTransformer + Pipeline
 
 ```python
 import pandas as pd
@@ -5208,20 +5334,20 @@ y_pred = pipe.predict(X_test)
 
 ---
 
-## 4. Saving and Loading Models (joblib / pickle)
+### 4. Saving and Loading Models (joblib / pickle)
 
 When your model is trained and ready, you’ll want to **save it** and **reload** it later (for use in APIs or batch predictions).
 
 ---
 
-###  Analogy: Freezing Food
+####  Analogy: Freezing Food
 
 > After cooking (training), you can’t repeat everything from scratch every time.
 > You **freeze** your model and reheat it when needed.
 
 ---
 
-###  Code: Save with `joblib`
+####  Code: Save with `joblib`
 
 ```python
 import joblib
@@ -5238,7 +5364,7 @@ model_loaded.predict(X_test)
 
 ---
 
-###  `joblib` vs `pickle`
+####  `joblib` vs `pickle`
 
 | Tool     | Use Case                                 | Notes                                    |
 | -------- | ---------------------------------------- | ---------------------------------------- |
@@ -5247,13 +5373,13 @@ model_loaded.predict(X_test)
 
 ---
 
-## 5. Intro to Deployment
+### 5. Intro to Deployment
 
 Once your model is saved, the next step is **making it accessible** — turning it into an API or web app.
 
 ---
 
-###  Deployment Options
+####  Deployment Options
 
 | Tool          | Description                         | Use Case                     |
 | ------------- | ----------------------------------- | ---------------------------- |
@@ -5264,13 +5390,13 @@ Once your model is saved, the next step is **making it accessible** — turning 
 
 ---
 
-###  Analogy: Opening a Restaurant
+####  Analogy: Opening a Restaurant
 
 > You cooked a great dish (trained model), froze it (saved it), now you want to **serve it** to customers through a **window (API)** or in a **restaurant (UI app)**.
 
 ---
 
-###  Code: Minimal Flask App to Serve a Model
+####  Code: Minimal Flask App to Serve a Model
 
 ```python
 from flask import Flask, request, jsonify
@@ -5293,7 +5419,7 @@ if __name__ == '__main__':
 
 ---
 
-###  Code: Streamlit App
+####  Code: Streamlit App
 
 ```python
 import streamlit as st
@@ -5321,7 +5447,7 @@ if st.button("Predict"):
 
 ---
 
-## 6. Summary Table
+### 6. Summary Table
 
 | Task                    | Tool                      | Purpose                                       |
 | ----------------------- | ------------------------- | --------------------------------------------- |
@@ -5332,7 +5458,7 @@ if st.button("Predict"):
 
 ---
 
-## 7. Final Analogy Recap
+### 7. Final Analogy Recap
 
 | Analogy                    | Concept                      |
 | -------------------------- | ---------------------------- |
@@ -5343,13 +5469,13 @@ if st.button("Predict"):
 
 ---
 
-# Introduction to Deep Learning
+## Introduction to Deep Learning
 
-### Topic: What is Deep Learning? Understanding Neural Networks
+#### Topic: What is Deep Learning? Understanding Neural Networks
 
 ---
 
-## Summary
+### Summary
 
 * Understand the **difference between machine learning and deep learning**
 * Explore the structure of **biological vs. artificial neurons**
@@ -5359,20 +5485,20 @@ if st.button("Predict"):
 
 ---
 
-## 1. What is Deep Learning?
+### 1. What is Deep Learning?
 
 **Deep Learning** is a subfield of **Machine Learning (ML)** that uses **neural networks with many layers** to learn complex patterns in data.
 
 ---
 
-###  Analogy: Brain vs. Spreadsheet
+####  Analogy: Brain vs. Spreadsheet
 
 > Traditional ML is like using **formulas in a spreadsheet**: you carefully design rules or extract features manually.
 > Deep Learning is like using a **brain simulator**: it automatically learns the features and patterns from raw data, just like how our brain learns to recognize faces or voices.
 
 ---
 
-###  Machine Learning vs Deep Learning
+####  Machine Learning vs Deep Learning
 
 | Feature            | Machine Learning               | Deep Learning                              |
 | ------------------ | ------------------------------ | ------------------------------------------ |
@@ -5383,13 +5509,13 @@ if st.button("Predict"):
 
 ---
 
-## 2. Biological vs Artificial Neuron
+### 2. Biological vs Artificial Neuron
 
 A **neuron** is the basic building block of a neural network — inspired by the **neurons in our brain**.
 
 ---
 
-###  Biological Neuron
+####  Biological Neuron
 
 * **Dendrites** receive input signals
 * **Cell body** processes the input
@@ -5398,7 +5524,7 @@ A **neuron** is the basic building block of a neural network — inspired by the
 
 ---
 
-###  Artificial Neuron (Perceptron)
+####  Artificial Neuron (Perceptron)
 
 * **Inputs (features)** → \[x₁, x₂, x₃, …]
 * Each input has a **weight** \[w₁, w₂, w₃, …]
@@ -5411,20 +5537,20 @@ A **neuron** is the basic building block of a neural network — inspired by the
 
 ---
 
-###  Analogy: Voting System
+####  Analogy: Voting System
 
 > Imagine several advisors (inputs) giving advice (values). Each advisor has a level of trust (weight).
 > You tally up their advice, give it a little boost or penalty (bias), and make a decision based on the final score.
 
 ---
 
-## 3. Anatomy of a Neural Network
+### 3. Anatomy of a Neural Network
 
 A neural network is built from layers of artificial neurons connected together.
 
 ---
 
-###  Components
+####  Components
 
 | Component         | Role                                       |
 | ----------------- | ------------------------------------------ |
@@ -5436,7 +5562,7 @@ A neural network is built from layers of artificial neurons connected together.
 
 ---
 
-###  Analogy: Bakery Assembly Line
+####  Analogy: Bakery Assembly Line
 
 > Think of baking a cake:
 >
@@ -5448,7 +5574,7 @@ A neural network is built from layers of artificial neurons connected together.
 
 ---
 
-###  Simple Neural Network Architecture
+####  Simple Neural Network Architecture
 
 ```
 Input Layer  →  Hidden Layer(s)  →  Output Layer
@@ -5459,10 +5585,10 @@ Each layer connects to the next via **weights** and outputs via **activation fun
 
 ---
 
-## 4. Activation Functions
+### 4. Activation Functions
 
 
-##  What is an Activation Function?
+###  What is an Activation Function?
 
 An **activation function** is a **mathematical gate** inside a neural network that decides:
 
@@ -5472,13 +5598,13 @@ An **activation function** is a **mathematical gate** inside a neural network th
 
 ---
 
-###  Why Do We Need Activation Functions?
+####  Why Do We Need Activation Functions?
 
 Without activation functions, a neural network becomes **just a linear equation**, no matter how many layers it has. That means it **can’t learn complex patterns**, like images, speech, or language.
 
 ---
 
-###  Example (Without Activation):
+####  Example (Without Activation):
 
 Let’s say:
 
@@ -5492,7 +5618,7 @@ If every layer just applies this equation (without an activation), you're **stac
 
 ---
 
-###  With Activation:
+####  With Activation:
 
 $$
 a = \text{activation}(z)
@@ -5505,7 +5631,7 @@ Now, your model can model **non-linear relationships**, like:
 
 ---
 
-###  Analogy: Light Dimmer Switch
+####  Analogy: Light Dimmer Switch
 
 > A neuron is like a light bulb.
 >
@@ -5515,29 +5641,29 @@ Now, your model can model **non-linear relationships**, like:
 
 ---
 
-##  Types of Activation Functions
+###  Types of Activation Functions
 
 Let’s go through the **most common activation functions** in detail:
 
 ---
 
-## 1. Sigmoid (Logistic Function)
+### 1. Sigmoid (Logistic Function)
 
-### Formula:
+#### Formula:
 
 $$
 \sigma(z) = \frac{1}{1 + e^{-z}}
 $$
 
-###  Output Range:
+####  Output Range:
 
 * Between **0 and 1**
 
-###  Use Case:
+####  Use Case:
 
 * Binary classification (outputting probabilities)
 
-###  Intuition:
+####  Intuition:
 
 * Large positive input → Output near 1
 * Large negative input → Output near 0
@@ -5545,7 +5671,7 @@ $$
 
 ---
 
-###  Analogy: Confidence Gauge
+####  Analogy: Confidence Gauge
 
 > Like a **yes/no decision** with uncertainty.
 >
@@ -5555,32 +5681,32 @@ $$
 
 ---
 
-###  Downsides:
+####  Downsides:
 
 * **Vanishing gradients**: for large or small `z`, gradient becomes close to zero → slows down training
 * Not zero-centered (can cause oscillations)
 
 ---
 
-## 2. Tanh (Hyperbolic Tangent)
+### 2. Tanh (Hyperbolic Tangent)
 
-###  Formula:
+####  Formula:
 
 $$
 \tanh(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}}
 $$
 
-### Output Range:
+#### Output Range:
 
 * Between **-1 and 1**
 
-###  Use Case:
+####  Use Case:
 
 * When you want **centered outputs** (good for optimization)
 
 ---
 
-###  Analogy: Mood Scale
+####  Analogy: Mood Scale
 
 > * -1 = "Very Sad"
 > * 0 = "Neutral"
@@ -5590,43 +5716,43 @@ Like a **sentiment dial** that gives both **positive and negative** feedback.
 
 ---
 
-### Advantages:
+#### Advantages:
 
 * Zero-centered → helps optimization
 * Stronger gradients than sigmoid
 
-###  Downsides:
+####  Downsides:
 
 * Still suffers from **vanishing gradients** at extreme ends
 
 ---
 
-## 3. ReLU (Rectified Linear Unit)
+### 3. ReLU (Rectified Linear Unit)
 
-###  Formula:
+####  Formula:
 
 $$
 f(z) = \max(0, z)
 $$
 
-###  Output Range:
+####  Output Range:
 
 * From **0 to ∞**
 
-###  Use Case:
+####  Use Case:
 
 * Hidden layers of deep networks
 
 ---
 
-###  Intuition:
+####  Intuition:
 
 * If input is **positive**, pass it through
 * If input is **negative**, output **0**
 
 ---
 
-### Analogy: One-Way Gate
+#### Analogy: One-Way Gate
 
 > Think of ReLU like a **one-way valve**:
 >
@@ -5635,21 +5761,21 @@ $$
 
 ---
 
-###  Advantages:
+####  Advantages:
 
 * Computationally efficient (just max)
 * Helps with **sparse activation** (some neurons off → efficient)
 * No vanishing gradient for z > 0
 
-###  Downsides:
+####  Downsides:
 
 * **Dying ReLU Problem**: Some neurons can get stuck and never activate again (always output 0)
 
 ---
 
-## 4. Leaky ReLU
+### 4. Leaky ReLU
 
-###  Formula:
+####  Formula:
 
 $$
 f(z) = \begin{cases}
@@ -5660,44 +5786,44 @@ $$
 
 Where `α` is a small number (e.g. 0.01)
 
-### Use Case:
+#### Use Case:
 
 * Prevents dying ReLU by allowing **a small negative slope**
 
 ---
 
-###  Analogy: Emergency Exit
+####  Analogy: Emergency Exit
 
 > Think of it like a ReLU, but with a **small escape door** — if input is negative, a small signal still gets through.
 
 ---
 
-## 5. Softmax (for Multiclass Classification)
+### 5. Softmax (for Multiclass Classification)
 
-### Formula:
+#### Formula:
 
 $$
 \text{softmax}(z_i) = \frac{e^{z_i}}{\sum_j e^{z_j}}
 $$
 
-###  Output:
+####  Output:
 
 * Converts raw scores into **probabilities that sum to 1**
 
-###  Use Case:
+####  Use Case:
 
 * Final layer in **multiclass classification** (e.g., digit recognition 0–9)
 
 ---
 
-###  Analogy: Election Votes
+####  Analogy: Election Votes
 
 > Each class gets some **"votes"** (exponentiated score), and softmax distributes them into **probabilities**.
 > The class with the **most votes** wins, but you also see how close the others were.
 
 ---
 
-## 🔬 Visualization of Functions
+### 🔬 Visualization of Functions
 
 ```python
 import numpy as np
@@ -5722,7 +5848,7 @@ plt.show()
 
 ---
 
-##  Comparison Table
+###  Comparison Table
 
 | Function   | Output Range    | Pros                      | Cons                | Use Case                 |
 | ---------- | --------------- | ------------------------- | ------------------- | ------------------------ |
@@ -5734,7 +5860,7 @@ plt.show()
 
 ---
 
-##  Final Takeaways
+###  Final Takeaways
 
 * Use **ReLU** in hidden layers (fast, simple, works well)
 * Use **Sigmoid** or **Softmax** in output layers (depending on the task)
@@ -5744,13 +5870,13 @@ plt.show()
 
 
 
-## 5. Forward Pass Intuition
+### 5. Forward Pass Intuition
 
 The **forward pass** is how data moves through a neural network during prediction.
 
 ---
 
-###  Step-by-Step
+####  Step-by-Step
 
 1. Input features are **passed to the first layer**
 2. Each neuron **computes a weighted sum**
@@ -5760,7 +5886,7 @@ The **forward pass** is how data moves through a neural network during predictio
 
 ---
 
-###  Analogy: Multi-step Filter System
+####  Analogy: Multi-step Filter System
 
 > Think of coffee brewing:
 >
@@ -5771,7 +5897,7 @@ The **forward pass** is how data moves through a neural network during predictio
 
 ---
 
-###  Example: One-Layer Network
+####  Example: One-Layer Network
 
 ```python
 import numpy as np
@@ -5794,7 +5920,7 @@ print("Output:", output)
 
 ---
 
-## 6. Summary Table
+### 6. Summary Table
 
 | Concept                           | Analogy                  | Key Takeaway                                  |
 | --------------------------------- | ------------------------ | --------------------------------------------- |
@@ -5806,13 +5932,13 @@ print("Output:", output)
 
 ---
 
-# Building a Neural Network from Scratch
+## Building a Neural Network from Scratch
 
-## Topic: Feedforward Neural Networks (FNNs)
+### Topic: Feedforward Neural Networks (FNNs)
 
 ---
 
-### Summary:
+#### Summary:
 
 * Understanding **Forward Propagation** in multi-layer networks
 * Exploring **Loss Functions** (MSE, Cross-Entropy)
@@ -5822,25 +5948,25 @@ print("Output:", output)
 
 ---
 
-## 1. What is a Feedforward Neural Network?
+### 1. What is a Feedforward Neural Network?
 
 A **Feedforward Neural Network** (FNN) is the simplest form of a neural network where information moves in only **one direction** — **forward** from input to output.
 
-###  Analogy: Water Flowing Through Pipes
+####  Analogy: Water Flowing Through Pipes
 
 > Imagine a system of pipes. Water flows from the top (input) through valves (neurons) and exits at the bottom (output). It **never flows backward** — that's feedforward.
 
 ---
 
-## 2. Forward Propagation in Multi-layer Networks
+### 2. Forward Propagation in Multi-layer Networks
 
-### Structure:
+#### Structure:
 
 * **Input Layer:** Receives raw features (e.g., pixels, text embeddings)
 * **Hidden Layers:** Learn representations
 * **Output Layer:** Makes predictions
 
-### Forward Pass:
+#### Forward Pass:
 
 1. Each neuron computes a weighted sum:
    $z = w_1x_1 + w_2x_2 + \ldots + b$
@@ -5848,55 +5974,55 @@ A **Feedforward Neural Network** (FNN) is the simplest form of a neural network 
    $a = \text{activation}(z)$
 3. Passes the result to the next layer
 
-###  Analogy: Assembly Line
+####  Analogy: Assembly Line
 
 > Think of an assembly line where raw materials (inputs) are processed at each station (layer), transformed, and passed to the next station until the final product (prediction) is ready.
 
 ---
 
-## 3. Loss Functions
+### 3. Loss Functions
 
 Loss functions measure how far the model's predictions are from the actual values.
 
-### 3.1 Mean Squared Error (MSE)
+#### 3.1 Mean Squared Error (MSE)
 
 Used in **regression tasks**.
 
 $L = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2$
 
-###  Analogy:
+####  Analogy:
 
 > Imagine throwing darts at a bullseye. MSE is the **average squared distance** of all your darts from the center. The closer they are, the lower the loss.
 
-### 3.2 Cross-Entropy Loss
+#### 3.2 Cross-Entropy Loss
 
 Used in **classification tasks**.
 
 $L = -\sum y \log(\hat{y})$
 
-###  Analogy:
+####  Analogy:
 
 > Think of it like a **lie detector**: it punishes the model more when it's confidently wrong than when it's unsure.
 
 ---
 
-## 4. Backpropagation (Intuition Only)
+### 4. Backpropagation (Intuition Only)
 
 Backpropagation is the process of updating weights by **propagating the error backwards** from the output to each neuron.
 
-### Steps:
+#### Steps:
 
 1. Compute loss
 2. Calculate gradient (how change in weight affects loss)
 3. Update weights using gradient descent
 
-###  Analogy: Cooking Feedback Loop
+####  Analogy: Cooking Feedback Loop
 
 > Imagine you're cooking a dish. If it tastes too salty, you reduce salt next time. You trace back the mistake to the **ingredient (weight)** that caused the bad result (loss).
 
 ---
 
-## 5. Gradient Descent (Basic Intuition)
+### 5. Gradient Descent (Basic Intuition)
 
 It’s an optimization algorithm that helps us **minimize the loss**.
 
@@ -5907,13 +6033,13 @@ Where:
 * $\alpha$ = learning rate
 * $\nabla L$ = gradient of loss
 
-### Analogy: Mountain Descent
+#### Analogy: Mountain Descent
 
 > You’re standing in fog on a hill. You take small steps **downhill** (in the direction of steepest descent) until you reach the lowest point (minimum loss).
 
 ---
 
-## 6. Training Loop Overview
+### 6. Training Loop Overview
 
 A training loop typically looks like this:
 
@@ -5923,13 +6049,13 @@ A training loop typically looks like this:
 4. Update weights
 5. Repeat for many epochs
 
-###  Analogy:
+####  Analogy:
 
 > Like teaching a child. You show an example, they guess, you correct them, they improve — over many repetitions (epochs).
 
 ---
 
-## 7. Implementing a Simple Neural Network in TensorFlow
+### 7. Implementing a Simple Neural Network in TensorFlow
 
 We'll use the **Fashion MNIST** dataset — classifying items like shirts, shoes, bags, etc.
 
@@ -5965,7 +6091,7 @@ loss, accuracy = model.evaluate(x_test, y_test)
 print(f"Test Accuracy: {accuracy:.2f}")
 ```
 
-### Explanation:
+#### Explanation:
 
 * `Flatten`: Converts 28x28 image into a 1D array
 * `Dense`: Fully connected layer
@@ -5975,7 +6101,7 @@ print(f"Test Accuracy: {accuracy:.2f}")
 
 ---
 
-## 8. Applications of Feedforward Neural Networks
+### 8. Applications of Feedforward Neural Networks
 
 | Domain    | Use Case                              |
 | --------- | ------------------------------------- |
@@ -5986,51 +6112,51 @@ print(f"Test Accuracy: {accuracy:.2f}")
 
 ---
 
-## 9. Real-World Applications of Deep Learning
+### 9. Real-World Applications of Deep Learning
 
-### Healthcare
+#### Healthcare
 
 * Disease diagnosis from X-rays and MRIs
 * Predicting patient deterioration in hospitals
 * Drug discovery and genomics
 
-### Finance
+#### Finance
 
 * Credit scoring and risk assessment
 * Fraud detection in real-time
 * Algorithmic trading and portfolio optimization
 
-### Transportation
+#### Transportation
 
 * Autonomous vehicles (e.g., Tesla Autopilot)
 * Traffic prediction and route optimization
 * Predictive maintenance for vehicles
 
-### Retail & E-commerce
+#### Retail & E-commerce
 
 * Personalized product recommendations (e.g., Amazon)
 * Dynamic pricing models
 * Visual search (e.g., find clothes based on a picture)
 
-### Entertainment
+#### Entertainment
 
 * Content recommendation (Netflix, Spotify)
 * Deepfake generation and detection
 * Auto-captioning and video summarization
 
-### Agriculture
+#### Agriculture
 
 * Disease detection in crops via image classification
 * Monitoring soil conditions with sensor data
 * Yield prediction
 
-### Cybersecurity
+#### Cybersecurity
 
 * Detecting anomalies in network traffic
 * Classifying malware using byte-level data
 * Real-time phishing detection
 
-### Legal & Document Processing
+#### Legal & Document Processing
 
 * Automating contract review
 * Classifying and extracting entities from legal text
@@ -6038,7 +6164,7 @@ print(f"Test Accuracy: {accuracy:.2f}")
 
 ---
 
-##  Final Analogy Recap
+###  Final Analogy Recap
 
 | Concept          | Analogy                        |
 | ---------------- | ------------------------------ |
@@ -6051,13 +6177,13 @@ print(f"Test Accuracy: {accuracy:.2f}")
 ---
 
 
-#  Deep Learning with TensorFlow/Keras
+##  Deep Learning with TensorFlow/Keras
 
-### Topic: Implementing Neural Networks with Keras
+#### Topic: Implementing Neural Networks with Keras
 
 ---
 
-##  Summary
+###  Summary
 
 * Introduction to **TensorFlow** and its high-level API **Keras**
 * Building and training a neural network using Keras
@@ -6067,9 +6193,9 @@ print(f"Test Accuracy: {accuracy:.2f}")
 
 ---
 
-## 1. What is TensorFlow and Keras?
+### 1. What is TensorFlow and Keras?
 
-###  TensorFlow:
+####  TensorFlow:
 
 An **open-source deep learning library** developed by Google. It powers systems like:
 
@@ -6077,26 +6203,26 @@ An **open-source deep learning library** developed by Google. It powers systems 
 * Smart compose in Gmail
 * YouTube video recommendations
 
-###  Keras:
+####  Keras:
 
 Keras is a **high-level API** that runs on top of TensorFlow. It makes model building easy, readable, and modular.
 
 ---
 
-###  Analogy: TensorFlow vs Keras
+####  Analogy: TensorFlow vs Keras
 
 > Think of **TensorFlow** as a car engine and **Keras** as the steering wheel and dashboard.
 > Keras lets you **drive the power of TensorFlow** without touching the internals of the engine.
 
 ---
 
-## 2. Building a Neural Network in Keras
+### 2. Building a Neural Network in Keras
 
 We’ll use the **Fashion MNIST** dataset — images of shoes, shirts, and bags (28x28 grayscale pixels).
 
 ---
 
-###  Load Data
+####  Load Data
 
 ```python
 import tensorflow as tf
@@ -6111,7 +6237,7 @@ x_train, x_test = x_train / 255.0, x_test / 255.0
 
 ---
 
-###  Define Model
+####  Define Model
 
 ```python
 from tensorflow.keras.models import Sequential
@@ -6126,7 +6252,7 @@ model = Sequential([
 
 ---
 
-###  Analogy: Making a Sandwich
+####  Analogy: Making a Sandwich
 
 > * `Flatten` = Flatten the ingredients
 > * `Dense` = Stack each layer of the sandwich (hidden layer)
@@ -6134,7 +6260,7 @@ model = Sequential([
 
 ---
 
-## 3. Compiling the Model
+### 3. Compiling the Model
 
 Before training, we **compile** the model by specifying:
 
@@ -6152,7 +6278,7 @@ model.compile(
 
 ---
 
-###  Analogy: Cooking Instructions
+####  Analogy: Cooking Instructions
 
 > * Loss = How bad the meal tastes (used to adjust the recipe)
 > * Optimizer = The chef who adjusts seasoning
@@ -6160,13 +6286,13 @@ model.compile(
 
 ---
 
-## 4. Fitting the Model (Training)
+### 4. Fitting the Model (Training)
 
 ```python
 model.fit(x_train, y_train, epochs=10, batch_size=32, validation_split=0.2)
 ```
 
-###  Key Terms:
+####  Key Terms:
 
 | Term                 | Meaning                                             |
 | -------------------- | --------------------------------------------------- |
@@ -6176,7 +6302,7 @@ model.fit(x_train, y_train, epochs=10, batch_size=32, validation_split=0.2)
 
 ---
 
-###  Analogy: Studying for a Test
+####  Analogy: Studying for a Test
 
 > * **Epoch** = How many times you review all your notes
 > * **Batch size** = How many pages you study at a time
@@ -6184,7 +6310,7 @@ model.fit(x_train, y_train, epochs=10, batch_size=32, validation_split=0.2)
 
 ---
 
-## 5. Evaluating the Model
+### 5. Evaluating the Model
 
 ```python
 test_loss, test_acc = model.evaluate(x_test, y_test)
@@ -6193,13 +6319,13 @@ print("Test Accuracy:", test_acc)
 
 ---
 
-###  Analogy: Final Exam
+####  Analogy: Final Exam
 
 > After studying (training), evaluation is the **final exam** to test how much the model really learned — using **data it hasn’t seen before**.
 
 ---
 
-## 6. Making Predictions
+### 6. Making Predictions
 
 ```python
 predictions = model.predict(x_test)
@@ -6211,13 +6337,13 @@ np.argmax(predictions[0])
 
 ---
 
-###  Analogy: Guessing from Experience
+####  Analogy: Guessing from Experience
 
 > After training, the model can **guess what it sees** based on the patterns it’s learned — like a student identifying animal pictures after studying biology.
 
 ---
 
-##  Summary Table
+###  Summary Table
 
 | Concept    | Explanation           | Analogy                 |
 | ---------- | --------------------- | ----------------------- |
@@ -6232,7 +6358,7 @@ np.argmax(predictions[0])
 
 ---
 
-##  Final Code (All-in-One)
+###  Final Code (All-in-One)
 
 ```python
 import tensorflow as tf
@@ -6269,13 +6395,13 @@ predictions = model.predict(x_test)
 
 ---
 
-# Improving Model Performance
+## Improving Model Performance
 
-## Topic: Regularization and Optimization
+### Topic: Regularization and Optimization
 
 ---
 
-### Summary:
+#### Summary:
 
 * Overfitting and underfitting in deep networks
 * Regularization techniques: Dropout, L1/L2 penalties
@@ -6284,27 +6410,27 @@ predictions = model.predict(x_test)
 
 ---
 
-## 1. Overfitting and Underfitting in Deep Networks
+### 1. Overfitting and Underfitting in Deep Networks
 
-### Overfitting:
+#### Overfitting:
 
 * Model performs well on training data but poorly on unseen data
 * It "memorizes" instead of learning patterns
 
-### Underfitting:
+#### Underfitting:
 
 * Model fails to capture the underlying trend in the data
 * Both training and test accuracy are low
 
-###  Analogy:
+####  Analogy:
 
 > Overfitting is like a student who memorizes past exam questions but fails on new ones. Underfitting is a student who barely studies and guesses on all questions.
 
 ---
 
-## 2. Regularization Techniques
+### 2. Regularization Techniques
 
-### 2.1 Dropout
+#### 2.1 Dropout
 
 * Randomly turns off a percentage of neurons during training
 * Prevents the network from becoming overly reliant on specific neurons
@@ -6322,13 +6448,13 @@ model = tf.keras.Sequential([
 ])
 ```
 
-###  Analogy:
+####  Analogy:
 
 > Dropout is like forming a study group where random members take breaks. This forces others to contribute more and builds group resilience.
 
 ---
 
-### 2.2 L1 and L2 Regularization
+#### 2.2 L1 and L2 Regularization
 
 * **L1 (Lasso):** Adds absolute value of weights to loss (can shrink some weights to zero)
 * **L2 (Ridge):** Adds squared value of weights to loss (discourages large weights)
@@ -6339,25 +6465,25 @@ from tensorflow.keras import regularizers
 Dense(128, activation='relu', kernel_regularizer=regularizers.l2(0.001))
 ```
 
-###  Analogy:
+####  Analogy:
 
 > Regularization is like applying weight penalties to avoid over-packing a suitcase — it forces you to prioritize essentials (important features).
 
 ---
 
-## 3. Optimizers
+### 3. Optimizers
 
-### 3.1 SGD (Stochastic Gradient Descent)
+#### 3.1 SGD (Stochastic Gradient Descent)
 
 * Basic optimizer that updates weights gradually using mini-batches
 * May converge slowly and stuck in local minima
 
-### 3.2 Adam (Adaptive Moment Estimation)
+#### 3.2 Adam (Adaptive Moment Estimation)
 
 * Combines RMSprop and momentum
 * Fast convergence, adapts learning rate for each parameter
 
-### 3.3 RMSprop
+#### 3.3 RMSprop
 
 * Adapts learning rate for each parameter
 * Works well for recurrent neural networks
@@ -6368,15 +6494,15 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 ```
 
-###  Analogy:
+####  Analogy:
 
 > SGD is like a walker who takes even steps no matter the terrain. Adam is like a smart traveler who adjusts their pace based on road conditions and past experience.
 
 ---
 
-## 4. Hands-on: Tuning with Callbacks
+### 4. Hands-on: Tuning with Callbacks
 
-### 4.1 Early Stopping
+#### 4.1 Early Stopping
 
 * Stops training when validation loss doesn't improve
 * Prevents overfitting
@@ -6393,13 +6519,13 @@ model.fit(x_train, y_train,
           callbacks=[early_stop])
 ```
 
-###  Analogy:
+####  Analogy:
 
 > Early stopping is like a teacher ending a lesson when students already understand — no need to repeat more.
 
 ---
 
-### 4.2 Model Checkpointing
+#### 4.2 Model Checkpointing
 
 * Saves the best model during training
 
@@ -6411,7 +6537,7 @@ checkpoint = ModelCheckpoint('best_model.h5', save_best_only=True)
 
 ---
 
-## 5. Putting It All Together — Improved Model
+### 5. Putting It All Together — Improved Model
 
 ```python
 from tensorflow.keras.models import Sequential
@@ -6445,7 +6571,7 @@ model.fit(x_train, y_train,
 
 ---
 
-##  Final Summary Table
+###  Final Summary Table
 
 | Concept       | Purpose                                   | Analogy                                 |
 | ------------- | ----------------------------------------- | --------------------------------------- |
@@ -6456,9 +6582,9 @@ model.fit(x_train, y_train,
 
 ---
 
-# Model Design – MLPs, Sequential vs Functional API
+## Model Design – MLPs, Sequential vs Functional API
 
-## Summary
+### Summary
 
 In this lesson, we will:
 - Understand **Multi-layer Perceptrons (MLPs)** and their role in deep learning.
@@ -6469,7 +6595,7 @@ In this lesson, we will:
 
 ---
 
-## 1. What is a Multi-layer Perceptron (MLP)?
+### 1. What is a Multi-layer Perceptron (MLP)?
 
 An **MLP (Multi-layer Perceptron)** is a type of **feedforward artificial neural network**.
 
@@ -6480,7 +6606,7 @@ It consists of:
 
 ---
 
-### Real-world Analogy
+#### Real-world Analogy
 
 Think of an MLP like a **team of doctors** diagnosing a patient:
 
@@ -6490,7 +6616,7 @@ Think of an MLP like a **team of doctors** diagnosing a patient:
 
 ---
 
-### Role of Depth
+#### Role of Depth
 
 The more **hidden layers**, the **deeper** the model.
 - **Shallow MLP**: Can solve simple problems but struggles with complex patterns.
@@ -6498,7 +6624,7 @@ The more **hidden layers**, the **deeper** the model.
 
 ---
 
-###  Architecture
+####  Architecture
 
 ```
 
@@ -6508,28 +6634,28 @@ Input → Dense → Activation → Dense → Activation → ... → Output
 
 ---
 
-## 2. Keras APIs: Sequential vs Functional
+### 2. Keras APIs: Sequential vs Functional
 
 ---
 
-### A. Sequential API – Stack-like modeling
+#### A. Sequential API – Stack-like modeling
 
 **Analogy:** Like building with **Lego blocks** in a straight line.
 
 > Great for **simple, linear** architectures – one layer after another.
 
-####  Pros
+#####  Pros
 - Easy to write
 - Great for beginners
 - Works for models with **one input** and **one output**
 
-####  Cons
+#####  Cons
 - Cannot handle **multiple inputs/outputs**
 - Cannot add **skip connections** or **shared layers**
 
 ---
 
-###  Example – MLP using Sequential API
+####  Example – MLP using Sequential API
 
 We'll use the **Breast Cancer Wisconsin dataset** (binary classification).
 
@@ -6570,7 +6696,7 @@ print(f"Test Accuracy: {acc:.4f}")
 
 ---
 
-### Real-World Use of Sequential API
+#### Real-World Use of Sequential API
 
 * Digit recognition (MNIST)
 * Sentiment analysis
@@ -6579,26 +6705,26 @@ print(f"Test Accuracy: {acc:.4f}")
 
 ---
 
-###  B. Functional API – Flexible, non-linear modeling
+####  B. Functional API – Flexible, non-linear modeling
 
 **Analogy:** Like designing a **custom car**—you choose how parts connect.
 
 > Best for **non-linear**, **multi-input/output**, or **advanced architectures**.
 
-####  Pros
+#####  Pros
 
 * Full control over layer connections
 * Can share layers
 * Can have branching and merging
 * Multiple inputs/outputs
 
-####  Cons
+#####  Cons
 
 * Slightly more complex syntax
 
 ---
 
-### Example – Same MLP using Functional API
+#### Example – Same MLP using Functional API
 
 ```python
 from tensorflow.keras.models import Model
@@ -6626,7 +6752,7 @@ print(f"Test Accuracy (Functional API): {acc:.4f}")
 
 ---
 
-##  3. Comparison Table
+###  3. Comparison Table
 
 | Feature                 | Sequential API    | Functional API        |
 | ----------------------- | ----------------- | --------------------- |
@@ -6639,7 +6765,7 @@ print(f"Test Accuracy (Functional API): {acc:.4f}")
 
 ---
 
-## Real-World Applications of MLPs
+### Real-World Applications of MLPs
 
 | Field         | Application                                 |
 | ------------- | ------------------------------------------- |
@@ -6651,7 +6777,7 @@ print(f"Test Accuracy (Functional API): {acc:.4f}")
 
 ---
 
-## Bonus: Use Case for Functional API – Shared Layers
+### Bonus: Use Case for Functional API – Shared Layers
 
 Imagine you're building a system that takes **images + metadata** as input.
 
@@ -6678,7 +6804,7 @@ multi_input_model = Model(inputs=[image_input, meta_input], outputs=output)
 
 ---
 
-## Final Thoughts
+### Final Thoughts
 
 * **Start with Sequential** when your model is linear and simple.
 * **Use Functional API** when your architecture gets complex or customized.
@@ -6688,10 +6814,10 @@ multi_input_model = Model(inputs=[image_input, meta_input], outputs=output)
 
 
 
-# Handling Different Data Types  
-## Topic: Image, Tabular, and Text Data with ANNs  
+## Handling Different Data Types  
+### Topic: Image, Tabular, and Text Data with ANNs  
 
-##  Summary
+###  Summary
 
 In this lesson, we will:
 - Learn how to **preprocess different types of data** (images, tabular, and text) for use with **Artificial Neural Networks (ANNs)**.
@@ -6702,13 +6828,13 @@ In this lesson, we will:
 
 ---
 
-## 1.  Why Data Type Matters in Neural Networks
+### 1.  Why Data Type Matters in Neural Networks
 
 Different data types come in **different shapes and meanings**. Before feeding them into a neural network, we need to **make them digestible**—like preparing food before serving it.
 
 ---
 
-###  Real-world Analogy
+####  Real-world Analogy
 
 Think of a neural network like a **multilingual receptionist**:
 - You can feed it **pictures (images)**, **numbers (tabular)**, or **sentences (text)**.
@@ -6716,17 +6842,17 @@ Think of a neural network like a **multilingual receptionist**:
 
 ---
 
-## 2.  Handling Image Data
+### 2.  Handling Image Data
 
 Neural networks don’t inherently "see" images. They only see numbers!
 
-###  Steps:
+####  Steps:
 - **Flatten** the image: convert 2D pixels into 1D array.
 - **Normalize**: scale pixel values to be between 0 and 1 (helps in faster and stable training).
 
 ---
 
-###  Example – Preprocessing and Classifying Digits (MNIST)
+####  Example – Preprocessing and Classifying Digits (MNIST)
 
 ```python
 from tensorflow.keras.datasets import mnist
@@ -6763,7 +6889,7 @@ print(f"Image Classification Accuracy: {acc:.4f}")
 
 ---
 
-###  Real-World Applications
+####  Real-World Applications
 
 * Classifying handwritten forms
 * Detecting digits on bank cheques
@@ -6771,7 +6897,7 @@ print(f"Image Classification Accuracy: {acc:.4f}")
 
 ---
 
-## 3.  Handling Tabular Data (Categorical + Numerical)
+### 3.  Handling Tabular Data (Categorical + Numerical)
 
 Tabular data is **structured like a spreadsheet**.
 
@@ -6779,19 +6905,19 @@ Tabular data is **structured like a spreadsheet**.
 
 ---
 
-###  Key Preprocessing Steps
+####  Key Preprocessing Steps
 
-#### A. For **Numerical** Features:
+##### A. For **Numerical** Features:
 
 * **Standardize** or **normalize** them (e.g., using `StandardScaler` or `MinMaxScaler`).
 
-#### B. For **Categorical** Features:
+##### B. For **Categorical** Features:
 
 * **Encode** them (e.g., One-Hot Encoding or Embedding)
 
 ---
 
-###  Example – Predicting Survival on Titanic Dataset
+####  Example – Predicting Survival on Titanic Dataset
 
 ```python
 import pandas as pd
@@ -6845,7 +6971,7 @@ print(f"Tabular Model Accuracy: {acc:.4f}")
 
 ---
 
-###  Real-World Applications
+####  Real-World Applications
 
 * Predicting loan defaults
 * Insurance claim predictions
@@ -6853,13 +6979,13 @@ print(f"Tabular Model Accuracy: {acc:.4f}")
 
 ---
 
-## 4.  Handling Text Data
+### 4.  Handling Text Data
 
 Text is **unstructured** and needs special treatment.
 
 ---
 
-###  Key Preprocessing Steps
+####  Key Preprocessing Steps
 
 1. **Tokenization**: Break sentences into words or tokens.
 2. **Vectorization**: Convert tokens into numbers.
@@ -6867,13 +6993,13 @@ Text is **unstructured** and needs special treatment.
 
 ---
 
-### Analogy
+#### Analogy
 
 If words are **books**, embedding is like putting them into a **library system** where similar books are stored on nearby shelves.
 
 ---
 
-### This topic is covered in-depth in the NLP section. Here’s a quick teaser:
+#### This topic is covered in-depth in the NLP section. Here’s a quick teaser:
 
 ```python
 from tensorflow.keras.preprocessing.text import Tokenizer
@@ -6894,7 +7020,7 @@ print(X_pad)
 
 ---
 
-##  Summary Comparison Table
+###  Summary Comparison Table
 
 | Data Type | Preprocessing Required | ANN-ready Shape         | Real-world Uses                          |
 | --------- | ---------------------- | ----------------------- | ---------------------------------------- |
@@ -6904,7 +7030,7 @@ print(X_pad)
 
 ---
 
-##  Final Thoughts
+###  Final Thoughts
 
 * **Images**, **tables**, and **text** are all usable in ANNs, but each needs a different **preparation process**.
 * Always **convert your data into numerical vectors** and normalize/standardize them.
@@ -6912,10 +7038,10 @@ print(X_pad)
 
 ---
 
-#  Model Evaluation and Visualization  
-## Topic: Evaluating Deep Learning Models  
+##  Model Evaluation and Visualization  
+### Topic: Evaluating Deep Learning Models  
 
-##  Summary
+###  Summary
 
 In this lesson, we will:
 - Understand how to **evaluate deep learning models** using core metrics like **accuracy**, **precision**, **recall**, **F1 score**, and the **confusion matrix**.
@@ -6925,13 +7051,13 @@ In this lesson, we will:
 
 ---
 
-## 1.  Why Model Evaluation Matters
+### 1.  Why Model Evaluation Matters
 
 > Training a model is only **half the battle** — knowing how well it performs in the real world is key.
 
 ---
 
-###  Real-world Analogy
+####  Real-world Analogy
 
 Imagine you're training a dog to detect drugs at the airport:
 - **Accuracy**: How often it gets it right overall.
@@ -6941,9 +7067,9 @@ Imagine you're training a dog to detect drugs at the airport:
 
 ---
 
-## 2.  Core Evaluation Metrics
+### 2.  Core Evaluation Metrics
 
-### A. **Accuracy**
+#### A. **Accuracy**
 > Proportion of total predictions that were correct.
 
 ```python
@@ -6951,7 +7077,7 @@ from sklearn.metrics import accuracy_score
 accuracy_score(y_true, y_pred)
 ````
 
-### B. **Confusion Matrix**
+#### B. **Confusion Matrix**
 
 > A table showing true vs. predicted values.
 
@@ -6965,17 +7091,17 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_true, y_pred)
 ```
 
-### C. **Precision**
+#### C. **Precision**
 
 > How many predicted positives are actually correct?
 > Formula: `TP / (TP + FP)`
 
-### D. **Recall (Sensitivity)**
+#### D. **Recall (Sensitivity)**
 
 > How many actual positives were detected?
 > Formula: `TP / (TP + FN)`
 
-### E. **F1 Score**
+#### E. **F1 Score**
 
 > Harmonic mean of precision and recall.
 
@@ -6988,7 +7114,7 @@ f1_score(y_true, y_pred)
 
 ---
 
-###  Example – Evaluate Breast Cancer Model (from earlier)
+####  Example – Evaluate Breast Cancer Model (from earlier)
 
 ```python
 from sklearn.metrics import confusion_matrix, classification_report
@@ -7003,16 +7129,16 @@ print(classification_report(y_test, y_pred))
 
 ---
 
-## 3.  ROC Curve and AUC
+### 3.  ROC Curve and AUC
 
-### ROC (Receiver Operating Characteristic)
+#### ROC (Receiver Operating Characteristic)
 
 > Plots **True Positive Rate** vs **False Positive Rate** at various thresholds.
 
 * Shows trade-off between **sensitivity** and **specificity**.
 * Ideal model curves toward the top-left.
 
-### AUC (Area Under the Curve)
+#### AUC (Area Under the Curve)
 
 * Ranges from 0.5 (random) to 1.0 (perfect).
 * Measures the **overall ability** to distinguish classes.
@@ -7035,7 +7161,7 @@ plt.show()
 
 ---
 
-## 4.  Visualizing Training Performance
+### 4.  Visualizing Training Performance
 
 > Helps spot overfitting/underfitting early.
 
@@ -7067,7 +7193,7 @@ plt.show()
 
 ---
 
-###  Real-World Analogy
+####  Real-World Analogy
 
 Imagine you're coaching a student:
 
@@ -7076,13 +7202,13 @@ Imagine you're coaching a student:
 
 ---
 
-## 5.  Model Interpretability (Preview)
+### 5.  Model Interpretability (Preview)
 
 We want to know **why** the model made a decision.
 
 ---
 
-### A. Grad-CAM (for CNNs)
+#### A. Grad-CAM (for CNNs)
 
 > Highlights which parts of an image influenced a decision.
 
@@ -7091,7 +7217,7 @@ We want to know **why** the model made a decision.
 
 ---
 
-### B. Attention Maps (for NLP)
+#### B. Attention Maps (for NLP)
 
 > Shows which **words** were "focused on" during text prediction.
 
@@ -7100,7 +7226,7 @@ We want to know **why** the model made a decision.
 
 ---
 
-##  Summary Table
+###  Summary Table
 
 | Metric/Tool         | What it Does                         | Use Case Example                      |
 | ------------------- | ------------------------------------ | ------------------------------------- |
@@ -7115,7 +7241,7 @@ We want to know **why** the model made a decision.
 
 ---
 
-##  Final Thoughts
+###  Final Thoughts
 
 * Don’t rely on **just accuracy**, especially with **imbalanced data**.
 * Use **confusion matrix**, **precision/recall**, and **ROC-AUC** for deeper insights.
@@ -7124,10 +7250,10 @@ We want to know **why** the model made a decision.
 
 ---
 
-# Introduction to CNNs  
-## Topic: Convolutional Neural Networks Basics  
+## Introduction to CNNs  
+### Topic: Convolutional Neural Networks Basics  
 
-##  Summary
+###  Summary
 
 In this lesson, we will:
 - Understand the **limitations of traditional ANNs** for handling image data.
@@ -7138,58 +7264,58 @@ In this lesson, we will:
 
 ---
 
-## 1.  Why ANNs Struggle with Images
+### 1.  Why ANNs Struggle with Images
 
 Traditional **Artificial Neural Networks (ANNs)** work well for structured data or flattened images. But they run into trouble with real-world image tasks.
 
-###  Analogy
+####  Analogy
 Imagine looking at a picture by reading every pixel **one by one in a long line**—you lose the sense of shape, edges, and patterns.
 
-###  Limitations:
+####  Limitations:
 - Require **flattened images** (destroying spatial structure)
 - Too many parameters (imagine 1024×1024 pixels = 1M inputs!)
 - Can't **detect spatial patterns** like edges or textures
 
 ---
 
-## 2.  What is a Convolution?
+### 2.  What is a Convolution?
 
 > A **convolution** is a mathematical operation where we **slide a small filter** (or kernel) over an image to extract features like **edges**, **textures**, or **shapes**.
 
 ---
 
-###  Analogy
+####  Analogy
 
 Think of convolution as **shining a flashlight over an image**, scanning one region at a time and noting **what’s important** (like edges or corners).
 
 ---
 
-###  Key Concepts
+####  Key Concepts
 
-#### A. **Filters / Kernels**
+##### A. **Filters / Kernels**
 - Small matrices (e.g., 3×3, 5×5) that detect patterns (vertical edges, horizontal edges, etc.)
 - Learnable during training
 
-#### B. **Stride**
+##### B. **Stride**
 - How far the filter moves each time (like walking in small or big steps)
 
-#### C. **Padding**
+##### C. **Padding**
 - Adds extra border pixels so filters don’t shrink the image too much
   - `"valid"`: no padding
   - `"same"`: keeps output the same size as input
 
 ---
 
-## 3.  Feature Maps and Pooling
+### 3.  Feature Maps and Pooling
 
-### A. **Feature Map**
+#### A. **Feature Map**
 - The output of a convolution
 - Shows which areas of the image **"activate"** the filter
 
-### B. **Max Pooling**
+#### B. **Max Pooling**
 > Downsamples the feature map by keeping only the **most important values** in a region.
 
-####  Analogy
+#####  Analogy
 Max pooling is like **summarizing a paragraph** by keeping the **most important sentence**—less info, same meaning.
 
 ```python
@@ -7202,7 +7328,7 @@ MaxPooling2D(pool_size=(2, 2))
 
 ---
 
-## 4.  CNN Architecture Overview
+### 4.  CNN Architecture Overview
 
 A typical CNN looks like this:
 
@@ -7210,7 +7336,7 @@ A typical CNN looks like this:
 Input Image → [Conv → ReLU → Pool] → [Conv → ReLU → Pool] → Flatten → Dense → Output
 ```
 
-###  Layer Breakdown:
+####  Layer Breakdown:
 
 * **Convolution Layer**: Detects patterns
 * **ReLU**: Adds non-linearity
@@ -7220,7 +7346,7 @@ Input Image → [Conv → ReLU → Pool] → [Conv → ReLU → Pool] → Flatte
 
 ---
 
-## 5.  CNN vs ANN
+### 5.  CNN vs ANN
 
 | Feature               | ANN                          | CNN                           |
 | --------------------- | ---------------------------- | ----------------------------- |
@@ -7232,7 +7358,7 @@ Input Image → [Conv → ReLU → Pool] → [Conv → ReLU → Pool] → Flatte
 
 ---
 
-## 6.  Example – Simple CNN on MNIST
+### 6.  Example – Simple CNN on MNIST
 
 ```python
 from tensorflow.keras.datasets import mnist
@@ -7272,7 +7398,7 @@ print(f"Test Accuracy: {acc:.4f}")
 
 ---
 
-##  Real-World Applications of CNNs
+###  Real-World Applications of CNNs
 
 | Field       | Application                                  |
 | ----------- | -------------------------------------------- |
@@ -7285,7 +7411,7 @@ print(f"Test Accuracy: {acc:.4f}")
 
 ---
 
-##  Final Thoughts
+###  Final Thoughts
 
 * CNNs are **the gold standard for image-based tasks**.
 * They **preserve spatial structure**, **use fewer parameters**, and **learn features automatically**.
@@ -7294,12 +7420,12 @@ print(f"Test Accuracy: {acc:.4f}")
 ---
 
 
-#  Building CNNs in Keras  
-## Topic: Hands-on with CNN for Image Classification  
+##  Building CNNs in Keras  
+### Topic: Hands-on with CNN for Image Classification  
 
 ---
 
-## Summary
+### Summary
 
 In this lesson, we will:
 - Understand the **purpose of each CNN layer**: `Conv2D`, `MaxPooling2D`, `Flatten`, `Dense`, `Dropout`.
@@ -7309,7 +7435,7 @@ In this lesson, we will:
 
 ---
 
-## 1. Building Blocks of a CNN – Deep Dive
+### 1. Building Blocks of a CNN – Deep Dive
 
 A **Convolutional Neural Network (CNN)** processes image data by mimicking the human visual system. It breaks down the image step-by-step to learn **what parts of the image matter most**.
 
@@ -7322,20 +7448,20 @@ CNNs do this through layers. Let’s break each one down.
 
 ---
 
-###  1.1 Conv2D – The Feature Detector
+####  1.1 Conv2D – The Feature Detector
 
-####  What it does:
+#####  What it does:
 - It slides a **filter (kernel)** over the image.
 - Each filter **detects a specific pattern**, like vertical edges, corners, or colors.
 - Filters are **learned during training**.
 
-####  Parameters:
+#####  Parameters:
 - `filters`: Number of filters (e.g., 32 means 32 features will be detected)
 - `kernel_size`: Size of the filter (e.g., (3,3) = 3×3 window)
 - `activation`: Typically ReLU (removes negative values)
 - `padding`: Keeps the output size same ("same") or shrinks it ("valid")
 
-#### Analogy:
+##### Analogy:
 Imagine running your fingers across a fabric to feel its texture. Each filter is like a different way of feeling for specific patterns (roughness, smoothness, etc.).
 
 ```python
@@ -7344,14 +7470,14 @@ Conv2D(32, (3,3), activation='relu', padding='same')
 
 ---
 
-###  1.2 MaxPooling2D – The Compressor
+####  1.2 MaxPooling2D – The Compressor
 
-#### What it does:
+##### What it does:
 
 * Takes a small region (e.g., 2×2) and **keeps only the highest value**.
 * It reduces image size while **keeping the most important features**.
 
-####  Analogy:
+#####  Analogy:
 
 It’s like summarizing a paragraph by keeping only the most important sentence.
 
@@ -7361,13 +7487,13 @@ MaxPooling2D(pool_size=(2,2))
 
 ---
 
-###  1.3 Flatten – Shape Transformer
+####  1.3 Flatten – Shape Transformer
 
-####  What it does:
+#####  What it does:
 
 * Converts the 2D feature maps into a **1D vector** so it can be passed to fully connected layers.
 
-####  Analogy:
+#####  Analogy:
 
 Imagine converting a grid of LEGO bricks into a straight line of bricks so you can now run calculations on it.
 
@@ -7377,14 +7503,14 @@ Flatten()
 
 ---
 
-###  1.4 Dense – Decision Maker
+####  1.4 Dense – Decision Maker
 
-#### What it does:
+##### What it does:
 
 * Fully connected layers that **combine all learned features** to make predictions.
 * Final layer uses `softmax` for multi-class classification (probabilities).
 
-####  Analogy:
+#####  Analogy:
 
 This is like a panel of experts (neurons) each casting a vote on what they think the image is.
 
@@ -7395,14 +7521,14 @@ Dense(10, activation='softmax')  # For 10 classes
 
 ---
 
-###  1.5 Dropout – The Guard Against Overconfidence
+####  1.5 Dropout – The Guard Against Overconfidence
 
-#### What it does:
+##### What it does:
 
 * Randomly "drops out" some neurons during training.
 * Prevents overfitting by making the model **less reliant on any one neuron**.
 
-####  Analogy:
+#####  Analogy:
 
 Like asking different team members to sit out occasionally during practice to ensure everyone gets skilled.
 
@@ -7412,7 +7538,7 @@ Dropout(0.5)
 
 ---
 
-## 2.  Example: Full CNN Model for MNIST
+### 2.  Example: Full CNN Model for MNIST
 
 ```python
 from tensorflow.keras.datasets import mnist
@@ -7452,16 +7578,16 @@ print(f"Test Accuracy: {acc:.4f}")
 
 ---
 
-## 3. Data Augmentation – Teaching the Model to Generalize
+### 3. Data Augmentation – Teaching the Model to Generalize
 
 > Data augmentation generates **new images** by slightly modifying existing ones.
 > This helps the model **see more variety**, **avoid overfitting**, and **learn better**.
 
-### Techniques:
+#### Techniques:
 
 * Rotate, flip, shift, zoom, shear
 
-####  Analogy:
+#####  Analogy:
 
 It’s like training a student with **photos taken under different lighting, angles, and backgrounds**—so they recognize a dog even when it’s muddy or upside-down.
 
@@ -7486,17 +7612,17 @@ model.fit(datagen.flow(X_train, y_train, batch_size=64),
 
 ---
 
-## 4.  Regularization – Keeping the Model in Check
+### 4.  Regularization – Keeping the Model in Check
 
 If a model becomes **too confident**, it overfits and fails on unseen data.
 
-### Techniques:
+#### Techniques:
 
-#### A. **Dropout**
+##### A. **Dropout**
 
 * Explained above—turns off neurons during training.
 
-#### B. **L2 Regularization (Weight Decay)**
+##### B. **L2 Regularization (Weight Decay)**
 
 > Penalizes large weight values to prevent overfitting.
 
@@ -7505,13 +7631,13 @@ from tensorflow.keras.regularizers import l2
 Dense(128, activation='relu', kernel_regularizer=l2(0.001))
 ```
 
-####  Analogy:
+#####  Analogy:
 
 Imagine giving a penalty to students who write unnecessarily long answers to encourage concise, general thinking.
 
 ---
 
-##  Real-World Applications (CNN in Practice)
+###  Real-World Applications (CNN in Practice)
 
 | Field          | Task                                   | Explanation                                         |
 | -------------- | -------------------------------------- | --------------------------------------------------- |
@@ -7523,7 +7649,7 @@ Imagine giving a penalty to students who write unnecessarily long answers to enc
 
 ---
 
-##  Summary Table
+###  Summary Table
 
 | Layer/Tool           | Role in Model                       | Analogy                        |
 | -------------------- | ----------------------------------- | ------------------------------ |
@@ -7537,7 +7663,7 @@ Imagine giving a penalty to students who write unnecessarily long answers to enc
 
 ---
 
-## Final Thoughts
+### Final Thoughts
 
 * Building CNNs is about **breaking the image down into layers of understanding**—edges, shapes, then objects.
 * Using `Conv2D`, `Pooling`, `Dropout`, and `Augmentation` makes your model more **powerful**, **robust**, and **ready for the real world**.
@@ -7546,12 +7672,12 @@ Imagine giving a penalty to students who write unnecessarily long answers to enc
 ---
 
 
-# Transfer Learning  
-## Topic: Pre-trained Models (VGG, ResNet, MobileNet)  
+## Transfer Learning  
+### Topic: Pre-trained Models (VGG, ResNet, MobileNet)  
 
 ---
 
-##  Summary
+###  Summary
 
 In this lesson, we will:
 - Understand **what transfer learning is** and why it's a **game changer** in deep learning.
@@ -7562,19 +7688,19 @@ In this lesson, we will:
 
 ---
 
-## 1.  What is Transfer Learning?
+### 1.  What is Transfer Learning?
 
 > Transfer learning is the process of taking a **model trained on a large dataset** (like ImageNet with 14M+ images) and **reusing it** for a **new, smaller task**.
 
 ---
 
-###  Analogy
+####  Analogy
 
 Imagine a **doctor who trained in general medicine** for years. You only need them to **learn one specialization** (e.g., skin diseases). Instead of training from scratch, they just **fine-tune their knowledge**.
 
 ---
 
-###  Why Use Transfer Learning?
+####  Why Use Transfer Learning?
 
 | Problem                          | Transfer Learning Solves It By:                     |
 |----------------------------------|-----------------------------------------------------|
@@ -7585,25 +7711,25 @@ Imagine a **doctor who trained in general medicine** for years. You only need th
 
 ---
 
-## 2.  Two Main Strategies
+### 2.  Two Main Strategies
 
-### A. Feature Extraction (Freezing Base)
+#### A. Feature Extraction (Freezing Base)
 
 > Freeze all the layers of the pre-trained model and only **train new classifier layers** on top.
 
-####  Analogy:
+#####  Analogy:
 It’s like using a camera’s built-in lens (pretrained features) but swapping the **memory card** (your classifier).
 
-### B. Fine-tuning (Unfreezing Some)
+#### B. Fine-tuning (Unfreezing Some)
 
 > Unfreeze a few of the **top convolutional layers** to let the model **adjust its features** to the new dataset.
 
-#### Analogy:
+##### Analogy:
 Let the doctor **retrain in your environment**—he still knows medicine but now customizes to local diseases.
 
 ---
 
-## 3. Popular Pre-trained Models in Keras
+### 3. Popular Pre-trained Models in Keras
 
 | Model       | Strength                         | Weakness                    |
 |-------------|----------------------------------|-----------------------------|
@@ -7613,9 +7739,9 @@ Let the doctor **retrain in your environment**—he still knows medicine but now
 
 ---
 
-## 4.  Loading Pre-trained Models in Keras
+### 4.  Loading Pre-trained Models in Keras
 
-### Load Pretrained Model
+#### Load Pretrained Model
 
 ```python
 from tensorflow.keras.applications import MobileNetV2
@@ -7628,7 +7754,7 @@ base_model.trainable = False  # Freeze weights
 
 ---
 
-## 5. Customizing the Top Layers
+### 5. Customizing the Top Layers
 
 > You add your own **fully connected layers** on top of the frozen base to create a **custom classifier**.
 
@@ -7651,9 +7777,9 @@ model.compile(optimizer=Adam(learning_rate=0.001),
 
 ---
 
-## 6.  Hands-On: Image Classification with MobileNetV2
+### 6.  Hands-On: Image Classification with MobileNetV2
 
-### A. Dataset
+#### A. Dataset
 
 Use a small dataset (e.g., 3 classes of animals, or flowers). We'll simulate using `ImageDataGenerator` for simplicity.
 
@@ -7681,7 +7807,7 @@ val_gen = datagen.flow_from_directory(
 
 ---
 
-### B. Train the Model
+#### B. Train the Model
 
 ```python
 model.fit(train_gen, validation_data=val_gen, epochs=5)
@@ -7689,7 +7815,7 @@ model.fit(train_gen, validation_data=val_gen, epochs=5)
 
 ---
 
-## 7.  Fine-Tuning for More Accuracy
+### 7.  Fine-Tuning for More Accuracy
 
 Once top layers are trained, you can **unfreeze part of the base model** to refine features:
 
@@ -7711,7 +7837,7 @@ model.fit(train_gen, validation_data=val_gen, epochs=5)
 
 ---
 
-##  Feature Extraction vs Fine-Tuning
+###  Feature Extraction vs Fine-Tuning
 
 | Strategy        | When to Use                                 | Pros                        | Cons                         |
 | --------------- | ------------------------------------------- | --------------------------- | ---------------------------- |
@@ -7720,7 +7846,7 @@ model.fit(train_gen, validation_data=val_gen, epochs=5)
 
 ---
 
-##  Real-World Applications of Transfer Learning
+###  Real-World Applications of Transfer Learning
 
 | Domain        | Application                                     |
 | ------------- | ----------------------------------------------- |
@@ -7732,7 +7858,7 @@ model.fit(train_gen, validation_data=val_gen, epochs=5)
 
 ---
 
-## Summary Table
+### Summary Table
 
 | Concept            | Purpose                        | Analogy                          |
 | ------------------ | ------------------------------ | -------------------------------- |
@@ -7745,7 +7871,7 @@ model.fit(train_gen, validation_data=val_gen, epochs=5)
 
 ---
 
-##  Final Thoughts
+###  Final Thoughts
 
 * **Transfer Learning = Fast + Accurate + Practical**
 * Choose **Feature Extraction** for small, similar datasets.
@@ -7755,3 +7881,651 @@ model.fit(train_gen, validation_data=val_gen, epochs=5)
 ---
 
 
+---
+
+
+## Power BI DAX Practice Bank
+
+**Source file:** `PowerBi_Questions.md`  
+**Role in guide:** Applied DAX practice questions for mathematical, filter, logical, text, and time-intelligence functions using the Kenya Crops dataset.
+
+
+## Practice Questions – Power BI DAX (Crops Dataset)
+
+### 1. Math & Statistical Functions
+
+1. Write a DAX measure to calculate the **Total Revenue** from the `Revenue (KES)` column.
+
+2. Using `SUMX()`, calculate the **Total Fertilizer Cost** by multiplying `Yield (Kg)` with `Fertilizer Cost (KES/Kg)`.
+
+3. Create a measure that finds the **Average Market Price** of crops.
+
+4. Use `AVERAGEX()` to calculate the **Average Profit per crop** = (Yield × Price – Cost of Production).
+
+5. Write a measure to return the **Median Yield** of all crops.
+
+### 2. Filter Functions
+
+1. Use `FILTER()` inside `CALCULATE()` to get the **Total Revenue** for crops with Revenue > 5,000 KES.
+
+2. Write a DAX measure with `CALCULATE()` to find **Total Revenue** for crops grown in the "West" region.
+
+3. Create a measure with `HASONEVALUE()` to check if only one Crop Type is selected in a slicer.
+
+4. Using `ALL()`, calculate the overall revenue ignoring all filters.
+
+5. Use `ALLEXCEPT()` to calculate Revenue by Region, ignoring all other filters.
+
+6. With `REMOVEFILTERS()`, calculate Total Revenue ignoring Region filter only.
+
+### 3. Logical Functions
+
+1. Write a DAX formula with `IF()` to return "High" if Profit Margin > 0.2, else "Low".
+
+2. Using `AND()`, calculate revenue only when Revenue > 5000 and Profit Margin > 0.2.
+
+3. With `OR()`, return TRUE if either Revenue > 5000 or Profit Margin > 0.2.
+
+4. Write a nested `IF()` that classifies Revenue into "High", "Medium", or "Low".
+
+5. Use `SWITCH()` to return "Western Region", "Eastern Region", "Central Region", or "Unknown Region" based on Region.
+
+6. Write a measure using `IFERROR()` that divides Revenue by Quantity but returns 0 if there's an error.
+
+### 4. Text Functions
+
+1. Use `EXACT()` to check if a Crop Type is exactly "Potatoes".
+
+2. Use `FIND()` to find the position of "John" in the Farmer Name column.
+
+3. Format the Total Revenue as currency using `FORMAT()`.
+
+4. Extract the first 3 characters of Crop Type with `LEFT()`.
+
+5. Extract the last 5 characters of Farmer Name with `RIGHT()`.
+
+6. Use `LEN()` to find the length of each Farmer Name.
+
+7. Convert Crop Type to lowercase with `LOWER()` and uppercase with `UPPER()`.
+
+8. Use `TRIM()` to remove spaces in Crop Type.
+
+9. Create a column that concatenates Crop Type and Farmer Name with a space in between.
+
+### 5. Date & Time Intelligence
+
+1. Create a Date Table for 2023 using `CALENDAR()`.
+
+2. Use `DATEDIFF()` to calculate the number of days between Planting Date and `Today()`.
+
+3. Extract the Month number and Year from the Planting Date using `MONTH()` and `YEAR()`.
+
+4. Write a measure to calculate **YTD Revenue** using `TOTALYTD()`.
+
+5. Using `SAMEPERIODLASTYEAR()`, calculate the Revenue Last Year for comparison.
+
+6. Write a measure with `DATEADD()` to calculate Revenue 3 Months Ago.
+
+7. Use `DATESBETWEEN()` to calculate Revenue only between July 1, 2022 and Sept 30, 2022.
+
+
+---
+
+
+## DAX Text Functions Drill
+
+**Source file:** `text_functions.md`  
+**Role in guide:** Focused text-function practice for EXACT, FIND, FORMAT, LEFT, RIGHT, LEN, LOWER, UPPER, TRIM, and CONCATENATE.
+
+
+## Practice Questions: DAX Text Functions
+### Kenya Crops Dataset
+
+**Dataset Fields:**
+- Farmer Name
+- Crop Type
+- County
+- Market
+- Revenue (KES)
+- Yield (Kg)
+- Planting Date
+
+---
+
+### Section A: EXACT Function
+
+1. Create a measure that checks if the Crop Type is exactly "Maize" (case-sensitive).
+2. Create a measure that verifies whether the Farmer Name is exactly "Mary Wanjiku".
+3. Create a column that returns TRUE if County is exactly "Nakuru" and FALSE otherwise.
+
+---
+
+### Section B: FIND Function
+
+1. Create a calculated column that finds the position of the word "Pot" in Crop Type.
+2. Write a DAX formula that searches for the word "John" in Farmer Name and returns 0 if not found.
+3. Find the position of the substring "Market" inside the Market column.
+
+---
+
+### Section C: FORMAT Function
+
+1. Create a measure that formats total revenue as currency.
+2. Format the Planting Date column to display in the format: `March 10, 2023`
+3. Create a column that formats Yield (Kg) to two decimal places.
+
+---
+
+### Section D: LEFT Function
+
+1. Create a column that extracts the first 3 letters of Crop Type.
+2. Extract the first 4 characters from the County name.
+3. Extract the first 5 characters from Farmer Name.
+
+---
+
+### Section E: RIGHT Function
+
+1. Extract the last 3 letters from Crop Type.
+2. Extract the last 4 characters from the Market name.
+3. Extract the last 6 characters from Farmer Name.
+
+---
+
+### Section F: LEN Function
+
+1. Create a column that calculates the length of the Crop Type name.
+2. Find the number of characters in each Farmer Name.
+3. Determine the length of the County name.
+
+---
+
+### Section G: LOWER Function
+
+1. Convert Crop Type into lowercase.
+2. Convert Farmer Name into lowercase.
+3. Convert County names into lowercase.
+
+---
+
+### Section H: UPPER Function
+
+1. Convert Crop Type into uppercase.
+2. Convert Farmer Name into uppercase.
+3. Convert Market names into uppercase.
+
+---
+
+### Section I: TRIM Function
+
+1. Create a column that removes extra spaces in Crop Type.
+2. Remove leading or trailing spaces in Farmer Name.
+3. Clean the County column by removing extra spaces.
+
+---
+
+### Section J: CONCATENATE Function
+
+1. Combine Crop Type and Farmer Name into one column.
+2. Combine County and Market into one text field.
+3. Create a column that combines Farmer Name + Crop Type.
+
+   **Example Output:** `Mary Wanjiku - Potatoes`
+
+---
+
+### Bonus Practice (Real Analysis)
+
+1. Create a column showing First 3 letters of Crop Type + County.
+
+   **Example:** `MAI - Nakuru`
+
+2. Create a column combining Farmer Name + Planting Date.
+
+   **Example:** `John Kamau planted on March 10, 2023`
+
+3. Convert all Farmer Names to uppercase and remove extra spaces.
+```
+
+
+---
+
+
+## RAG In-Class Activity
+
+**Source file:** `in_class_activity.md`  
+**Role in guide:** Retrieval-augmented generation activity using policy documents, PDF extraction, chunking, embeddings, ChromaDB, and evaluation.
+
+
+## In-Class Activity: Policy Document RAG System Using ChromaDB
+
+### Objective
+
+Build a working RAG system that answers questions from Kenyan policy documents using ChromaDB.
+
+---
+
+### 1. Data Requirement
+
+**Choose one category:**
+
+- Kenya Constitution
+- Finance Bills
+- Economic Surveys
+- County Development Plans
+- Parliamentary Acts
+
+**Minimum requirements:**
+
+- At least 1 PDF
+- At least 50 total pages
+
+---
+
+### 2. Implementation Tasks
+
+#### Step 1 — Extract Text
+
+**Use:** `pypdf`
+
+Create a function to extract text from PDFs.
+
+**Explain:**
+
+- Why PDFs must be converted to text
+- Challenges in text extraction
+
+---
+
+#### Step 2 — Chunking
+
+**Use:** `RecursiveCharacterTextSplitter`
+
+**Parameters:**
+
+- `chunk_size`: 800–1000
+- `chunk_overlap`: 150–200
+
+**Explain:**
+
+- Why chunking is necessary
+- Why overlap improves retrieval
+
+---
+
+#### Step 3 — Embeddings
+
+**Use:** `BAAI/bge-small-en-v1.5`
+
+Generate normalized embeddings for all chunks.
+
+**Explain:**
+
+- What embeddings represent
+- Why semantic search is better than keyword search
+
+---
+
+#### Step 4 — Store in ChromaDB
+
+Create a persistent collection.
+
+**Store:**
+
+- `ids`
+- `documents`
+- `embeddings`
+- `metadata` (source filename)
+
+**Explain:**
+
+- Why metadata is important
+- What happens if embeddings are not stored
+
+---
+
+#### Step 5 — Query & Retrieval
+
+- Embed user query
+- Retrieve top 3 results
+- Display retrieved text and similarity score
+
+**Explain:**
+
+- What similarity score means
+- Why lower cosine distance = better match
+
+---
+
+### 3. Evaluation (100 Marks)
+
+| Component           | Marks |
+|---------------------|-------|
+| Extraction          | 15    |
+| Chunking            | 20    |
+| Embeddings          | 20    |
+| ChromaDB Storage    | 20    |
+| Query & Retrieval   | 15    |
+| Explanations        | 10    |
+| **Total**           | **100** |
+
+---
+
+> **Submission:** Working code + written explanations.
+
+
+---
+
+
+## Adaptive Learning Capstone
+
+**Source file:** `CHO5-PROJECT.md`  
+**Role in guide:** Full-stack AI capstone using Groq, Aiven PostgreSQL, FastAPI, SQL analytics, and adaptive feedback loops.
+
+
+## AI-Powered Adaptive Learning System
+#### A Beginner-Friendly Project Guide | Groq + Aiven PostgreSQL + FastAPI
+
+---
+
+### 1. Project Overview
+
+You are going to build a learning platform that adjusts to each student. The system will remember what a student got wrong, ask an AI to help explain it, and store everything in a real cloud database.
+
+Before writing any code, think about these questions:
+
+- What information do you need to store about a student?
+- What should happen the moment a student submits a wrong answer?
+- How would a teacher know which student needs help?
+
+---
+
+### 2. Technology Stack
+
+You will use four tools. Research each one before you start.
+
+| Layer | Tool | What to find out |
+|---|---|---|
+| Backend | FastAPI | How do you create a route that accepts data? |
+| AI | Groq API | How do you send a prompt and read the response? |
+| Database | Aiven PostgreSQL | How do you connect using a connection string? |
+| Analytics | SQL | What does GROUP BY and HAVING do? |
+
+---
+
+### 3. Database Design
+
+You need to design tables before writing any code. Think about what data each table should hold.
+
+#### Table 1: Students
+
+Think about what basic information identifies a student. Every table needs a way to tell rows apart from each other. What column makes each student unique?
+
+Hint: think about id, name, email, and when they joined.
+
+#### Table 2: Quiz Results
+
+Every time a student answers a question, you want to save that moment. What details matter about that moment?
+
+Hint: think about which student, which topic, what they answered, whether it was right, how long it took, and what the AI said back.
+
+#### Table 3: Performance History
+
+This table is a summary. It does not store individual answers. It stores a rolled-up picture of how a student is doing over time.
+
+Hint: think about averages and totals per topic per student.
+
+---
+
+### 4. Setting Up Your Project
+
+#### Folder Structure
+
+Before writing code, plan your files. A good structure separates concerns: one file for database, one for AI, one for routes.
+
+Hint: think about what belongs together. Database connection code should not live in the same file as your AI calls.
+
+#### Environment Variables
+
+You should never put passwords or API keys directly in your code. Use a separate file to store secrets.
+
+Hint: look up what a `.env` file is and how `python-dotenv` reads it. Your database URL and Groq key go here.
+
+#### Packages to Install
+
+You need four packages. Think about what each one does before installing it.
+
+Hint: one for your web server, one for your database connection, one for Groq, one for reading your `.env` file.
+
+---
+
+### 5. Building the Backend
+
+#### Connecting to Aiven PostgreSQL
+
+Your database connection needs the URL from your Aiven dashboard. The URL contains your host, port, username, password, and database name all in one string.
+
+Hint: look up how `asyncpg.connect()` works. Think about what happens if the connection fails.
+
+#### Endpoint 1: Submit an Answer
+
+This is the most important endpoint. When a student submits an answer, several things need to happen in the right order.
+
+Think about the order:
+
+1. Check if the answer is correct
+2. Ask the AI for feedback
+3. Save everything to the database
+4. Return the result to the student
+
+Hint: the endpoint receives data from the student. What shape should that data be? Look up Pydantic `BaseModel`.
+
+#### Endpoint 2: Student Progress
+
+A teacher or student should be able to see how a student is performing across all topics.
+
+Hint: this endpoint reads from the database, not writes. Think about which SQL keywords group results by topic and calculate averages.
+
+---
+
+### 6. Connecting Groq AI
+
+#### How Groq Works
+
+Groq takes a text prompt and returns a text response. Your job is to write a good prompt that gives Groq enough context to respond helpfully.
+
+Hint: think about what information Groq needs. It cannot see your database. You have to pass the topic, the question, the student's answer, and the correct answer inside the prompt text.
+
+#### Writing Two Different Prompts
+
+The feedback should be different depending on whether the student got it right or wrong.
+
+For a wrong answer, think about what a good teacher would do:
+- Would they just say "wrong"?
+- Or would they explain, show an example, and give another chance?
+
+For a correct answer, think about what keeps a student motivated and challenged.
+
+Hint: use an if/else to build different prompts for each case.
+
+#### Generating New Questions
+
+You also want Groq to generate quiz questions on any topic at any difficulty level.
+
+Hint: think about what information you need to pass in, and what format you want Groq to respond in. You may want to tell Groq exactly how to structure its response.
+
+---
+
+### 7. SQL Analytics
+
+This is where your system becomes useful for teachers. You will write queries that summarize student performance.
+
+#### Query 1: Find Struggling Students
+
+You want to find students whose average score is below a certain threshold.
+
+Hint: you need to join two tables, group by student, calculate an average, and then filter groups using a keyword that filters after grouping (not WHERE).
+
+#### Query 2: Find the Hardest Topic
+
+You want to find which topic has the lowest average score across all students.
+
+Hint: group by topic, calculate the average score, and sort the results so the lowest comes first.
+
+#### Query 3: Individual Student Report
+
+A student wants to see their own performance broken down by topic.
+
+Hint: filter by student, group by topic, and show the average score and average time taken.
+
+#### Exposing Analytics as an Endpoint
+
+Once your queries work, wrap them in a FastAPI endpoint so teachers can access the data through the API.
+
+Hint: think about what a teacher would want to pass in as a parameter. Maybe a score threshold? Maybe a student id?
+
+---
+
+### 8. Real-Time Feedback Flow
+
+This is the full loop. When it all works together, the sequence looks like this:
+
+```
+Student submits answer
+        |
+        v
+Backend checks: correct or incorrect?
+        |
+        v
+Build a prompt using the context
+        |
+        v
+Send prompt to Groq
+        |
+        v
+Groq returns feedback
+        |
+        v
+Save result + feedback to PostgreSQL
+        |
+        v
+Return feedback to student instantly
+```
+
+Think about what could go wrong at each step. What happens if Groq is slow? What happens if the database save fails? Good code handles these cases.
+
+---
+
+### 9. Project Phases
+
+Work through this one phase at a time. Do not move to the next phase until the current one works.
+
+| Phase | Focus | You know it works when... |
+|---|---|---|
+| 1 | Database + API | You can submit an answer and see it saved in Aiven |
+| 2 | Groq Integration | Wrong answers return a helpful AI explanation |
+| 3 | Analytics | You can query which students are struggling |
+| 4 | Real-Time Feedback | All steps happen in one request, end to end |
+
+---
+
+### 10. Questions to Guide Your Thinking
+
+Use these questions as checkpoints as you build:
+
+- Why do we store ai_feedback in the database instead of just showing it once?
+- What would happen if two students submit answers at the exact same time?
+- How would you change the system to support multiple teachers?
+- What SQL query would tell you which student has improved the most over time?
+- Why should secrets like API keys never be committed to GitHub?
+
+---
+
+### 11. Running Your Application
+
+Once your code is written, you need to start the server and test it.
+
+Hint: FastAPI uses a command-line tool called `uvicorn` to run. Look up the basic command. FastAPI also automatically creates a page where you can test your endpoints in the browser without writing any extra code.
+
+Think about: how would you test your `/submit-answer` endpoint before building a frontend?
+
+---
+
+*Build it phase by phase. Test each piece before moving forward. The goal is not perfect code — it is a working system you understand.*
+
+
+---
+
+
+## Japan Car Import Advisory Capstone
+
+**Source file:** `CapstoneProject - japan-car-price-prediction-project.md`  
+**Role in guide:** End-to-end data science product capstone for car price prediction, advisory recommendations, and deployment.
+
+
+#### **Project: Japan Car Import Advisory Platform**
+
+Build a data engineering and machine learning platform that helps Kenyan car buyers compare the cost of importing cars from Japan with buying cars locally.
+
+Extract car listing data for vehicles manufactured from **2018 onwards** from platforms such as:
+
+- **SBT Japan** — `www.sbtjapan.com`
+- **Car From Japan** — `carfromjapan.com`
+- **AAAJapan** — `aaajapan.com`
+- **JapaneseCarTrade / JCT** — `www.japanesecartrade.com`
+- **BE FORWARD** — `www.beforward.jp`
+
+Store the extracted data in a database of your choice, clean it, and prepare it for analysis.
+
+Using the cleaned data, build a platform that allows users to estimate the full cost of importing a car into Kenya, including:
+
+- Purchase price
+- Shipping cost
+- KRA taxes
+- Port charges
+- Clearing fees
+- Registration costs
+- Any other relevant import charges
+
+The system should also compare the estimated import cost with local market prices and show the potential savings from importing.
+
+Additionally, build a machine learning model that predicts car prices in Japan based on features such as:
+
+- Make
+- Model
+- Year of manufacture
+- Mileage
+- Engine size
+- Fuel type
+- Transmission type
+- Body type
+- Source platform
+
+The final solution should include:
+
+- A database
+- Cleaned dataset
+- Data extraction scripts
+- Import cost calculator
+- Machine learning model
+- Dashboard or web application
+- Clear project documentation
+- Final presentation
+
+
+---
+
+
+
+## Appendix: Curation Checklist
+
+Use this checklist before delivering the guide to a cohort:
+
+- [ ] Confirm the cohort calendar and decide whether the program will run for 6 months or extend toward 9 months.
+- [ ] Verify that all learners can open Excel, Power BI Desktop, a SQL environment, Python, Git, and a code editor.
+- [ ] Assign the Kenya Crops dataset early and reuse it across tools to reinforce transfer learning.
+- [ ] Require every major artifact to include a problem statement, assumptions, cleaning notes, findings, and next steps.
+- [ ] Review dashboards for visual hierarchy, readable labels, correct aggregation, and responsible use of filters.
+- [ ] Review notebooks for reproducibility, clear section headings, controlled random seeds where appropriate, and meaningful evaluation.
+- [ ] Review AI/RAG projects for retrieval quality, source attribution, metadata, failure cases, and responsible limitations.
+- [ ] Require a final portfolio walkthrough that connects technical work to business or social impact.
