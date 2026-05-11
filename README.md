@@ -101,22 +101,9 @@ The goal is to help learners move from tool literacy to practical data science e
 
 ---
 
-
 ### **Core Curriculum.**
-
-**Role in guide:** The complete six-month learning path covering Excel, Power BI, SQL, Python, statistics, machine learning, deep learning, NLP, deployment, and production-minded project work.
-
-
-### **LuxDevHQ Data Science and Analytics Curriculum (6 MONTHS PROGRAM).**
-
-**Mode of Delivery:**  Physical and Online (Live Sessions and Hands-on Projects)
-
-> Please note that this program is scheduled to take place over a period of 6 months, but depending on the students' pace, it can run for up to 9 months.
-
-> Regardless of how long the program takes, the fees remain unchanged. The fees will not be affected. At some point, students may request an additional week or two for projects or for certain concepts to be explained more thoroughly.
----
  
-### Month 1 - Week 1: Microsoft Excel for Data Analysis
+### **Month 1 - Week 1: Microsoft Excel for Data Analysis.**
  
 #### **Day 1: Excel Basics & Navigation**
 - What is Excel and why it's important
