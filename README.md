@@ -152,7 +152,7 @@ The goal is to help learners move from tool literacy to practical data science e
 ### Month 1 - Week 2: Power BI for Data Visualization
 ---
  
-### **Day 1: Introduction to Power BI and Power Query Editor (Data Transformation)**
+### **Week 2 - Day 1: Introduction to Power BI and Power Query Editor (Data Transformation)**
  
 #### Overview & Setup
 - What is Power BI? (Comparison with Excel & Tableau)
@@ -178,7 +178,7 @@ The goal is to help learners move from tool literacy to practical data science e
  
 ---
  
-### **Day 2: DAX Basics – Measures, Calculated Columns & Aggregations**
+### **Week 2 - Day 2: DAX Basics – Measures, Calculated Columns & Aggregations**
  
 #### Introduction to DAX
 - What is DAX (Data Analysis Expressions)?
@@ -202,7 +202,7 @@ The goal is to help learners move from tool literacy to practical data science e
  
 ---
  
-### **Day 3: Data Modeling, Relationships & Joins**
+### **Week 2 - Day 3: Data Modeling, Relationships & Joins**
  
 #### Data Modeling Concepts
 - What is a Data Model?
@@ -226,7 +226,7 @@ The goal is to help learners move from tool literacy to practical data science e
  
 ---
  
-### **Day 4: Visualizations, Charts & Dashboards**
+### **Week 2 - Day 4: Visualizations, Charts & Dashboards**
  
 #### Basic Visuals
 - Bar Chart, Column Chart, Line Chart
@@ -261,7 +261,7 @@ The goal is to help learners move from tool literacy to practical data science e
  
 ###  Month 1 - Week 3: SQL for Data Analysis
  
-#### **Day 1   Introduction to SQL, Table creation and manipulation and SQL KEY words.**
+#### **Week 3 - Day 1   Introduction to SQL, Table creation and manipulation and SQL KEY words.**
 - What is SQL, relational databases, and DBMS
 - CREATE, DROP, ALTER TABLE
 - INSERT, UPDATE, DELETE data
@@ -270,7 +270,7 @@ The goal is to help learners move from tool literacy to practical data science e
 - LIMIT and OFFSET
 - GROUP BY and HAVING
  
-#### **Day 2  Aggregations and operators**
+#### **Week 3 - Day 2  Aggregations and operators**
 - Comparison Operators : =, <>, >, <, BETWEEN, IN, LIKE
 - Aggregates: COUNT(), SUM(), AVG(), MIN(), MAX()
 - String Functions: CONCAT(), LENGTH(), SUBSTRING(), UPPER(), LOWER(), REPLACE()
@@ -282,7 +282,7 @@ The goal is to help learners move from tool literacy to practical data science e
   - LEAD(), LAG()
 - CASE WHEN THEN ELSE END
  
-#### **Day 3: SQL Joins and Relationships**
+#### **Week 3 - Day 3: SQL Joins and Relationships**
 - Primary and foreign keys
 - INNER JOIN
 - LEFT JOIN
@@ -294,7 +294,7 @@ The goal is to help learners move from tool literacy to practical data science e
 - Practice: build reports using joins from multiple tables
  
  
-#### **Day 4: Advanced SQL (CTEs, Subqueries, Stored Procedures)**
+#### **Week 3 - Day 4: Advanced SQL (CTEs, Subqueries, Stored Procedures)**
 - Subqueries: scalar, correlated, IN/EXISTS
 - Common Table Expressions (CTEs)
 - Stored Procedures and parameters (Intro)
@@ -304,7 +304,7 @@ The goal is to help learners move from tool literacy to practical data science e
  
 ###  Month 1 - Week 4: Python for Data Analysis
  
-#### **Day 1: Python Basics**
+#### **Week 4 - Day 1: Python Basics**
 - What is Python and its use in data
 - Setting up Python (Jupyter, Colab, VSCode)
 - Variables and data types (int, float, string, bool)
@@ -314,7 +314,7 @@ The goal is to help learners move from tool literacy to practical data science e
 - Loops: for, while
 - Functions and basic I/O
  
-#### **Day 2: Working with Data using Pandas**
+#### **Week 4 - Day 2: Working with Data using Pandas**
 - Importing data: CSV, Excel
 - DataFrames and Series
 - Inspecting data: head(), tail(), info(), describe()
@@ -323,7 +323,7 @@ The goal is to help learners move from tool literacy to practical data science e
 - Sorting, renaming columns
 - Adding, deleting columns
  
-#### **Day 3: Data Cleaning and Analysis**
+#### **Week 4 - Day 3: Data Cleaning and Analysis**
 - Handling missing data: isnull(), fillna(), dropna()
 - Duplicates: duplicated(), drop_duplicates()
 - Changing data types
@@ -332,7 +332,7 @@ The goal is to help learners move from tool literacy to practical data science e
 - Pivot tables with pandas
 - Basic visualizations: matplotlib, seaborn
  
-#### **Day 4: Projects and Automation with Python**
+#### **Week 4 - Day 4: Projects and Automation with Python**
 - Real-world mini project (sales data, HR data, etc.)
 - Creating summary reports
 - Exporting cleaned data to Excel/CSV
@@ -342,9 +342,8 @@ The goal is to help learners move from tool literacy to practical data science e
  
 ---
 
----
 
-### Statistics Foundations (Pre-ML, 2 Days)
+### Statistics Foundations (Pre-ML, 4 Days)
 
 ---
 
