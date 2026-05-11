@@ -99,43 +99,15 @@ The goal is to help learners move from tool literacy to practical data science e
 | Peer review | 10% | Code readability, dashboard usability, and explanation quality |
 | Final capstone | 30% | Business framing, technical implementation, evaluation, deployment readiness, and presentation |
 
-## Capstone Portfolio Sequence
-
-1. **Analytics Capstone:** Power BI dashboard using the Kenya Crops dataset.
-2. **Machine Learning Capstone:** Prediction or classification pipeline with feature engineering and model comparison.
-3. **RAG Capstone:** Policy document assistant using PDF extraction, chunking, embeddings, ChromaDB, retrieval, and answer evaluation.
-4. **AI Product Capstone:** Adaptive learning platform using FastAPI, PostgreSQL, Groq-powered feedback, and SQL analytics.
-5. **Industry Capstone:** Japan car import advisory platform with prediction, business recommendations, explainability, and deployment.
-
-## Dataset Inventory
-
-| Dataset/File | Use Case | Notes |
-|---|---|---|
-| `Kenya_Crops_Dataset.csv` | Excel, Power BI, DAX, SQL-style analysis, and Python cleaning | Includes farmer, crop, revenue, cost, profit, dates, soil, irrigation, and data-quality issues such as blanks or `Error` values. |
-
-## Facilitator Notes
-
-- Keep every session anchored in a problem statement, not just a tool feature.
-- Ask learners to maintain a portfolio repository from week one.
-- Require a short reflection after each project: what changed in the data, why the method was chosen, what could go wrong, and what decision the result supports.
-- Normalize iteration: a first notebook, dashboard, or model is a draft, not the final product.
-- Encourage learners to compare multiple approaches before selecting a final method.
-
 ---
 
-## Merged Source Content
 
-The sections below preserve and reorganize the repository's existing Markdown content under one unified guide. Each source file is identified before its content so future maintainers can trace where a lesson, exercise, or project brief came from.
+### **Core Curriculum.**
 
-
-
-## Core Curriculum
-
-**Source file:** `README.md`  
 **Role in guide:** The complete six-month learning path covering Excel, Power BI, SQL, Python, statistics, machine learning, deep learning, NLP, deployment, and production-minded project work.
 
 
-## LuxDevHQ Data Science and Analytics Curriculum (6 MONTHS PROGRAM)
+### **LuxDevHQ Data Science and Analytics Curriculum (6 MONTHS PROGRAM).**
 
 **Mode of Delivery:**  Physical and Online (Live Sessions and Hands-on Projects)
 
