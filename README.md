@@ -352,7 +352,9 @@ The goal is to help learners move from tool literacy to practical data science e
 - Measures of central tendency: mean, median, mode — and when to use each
 - Measures of spread: range, variance, standard deviation (sd), IQR
 - Understanding outliers and their effect on statistics
-- What is a distribution? Normal distribution (bell curve) and the 68-95-99.7 rule
+- What is a distribution?
+- Overview of types of distribution  
+-  Normal distribution (bell curve) and the 68-95-99.7 rule.  
 - Skewness: right-skewed vs left-skewed distributions
 - Visualising distributions in Python: histograms and box plots
 
@@ -366,6 +368,10 @@ The goal is to help learners move from tool literacy to practical data science e
 - Creating and reading a correlation heatmap in Python
 - Hypothesis testing: H0 (null) vs H1 (alternative hypothesis)
 - The p-value: what it means and the alpha = 0.05 threshold
+- Conducting one sample t-test and two sample t-test
+- Conducting one sample z-test and two sample z-test  
+- Types of Chi-Square tests and how to conduct a chi-square test.
+- Type-I and Type-II errors 
 - Running a basic t-test in Python using `scipy.stats`
 - Connecting statistics to ML: where each concept shows up in algorithms
 
@@ -621,7 +627,7 @@ The goal is to help learners move from tool literacy to practical data science e
 - Difference between machine learning and deep learning
 - Structure of a biological vs. artificial neuron
 - Anatomy of a neural network (layers, nodes, weights, biases)
-- Activation functions (ReLU, sigmoid, tanh)
+- Activation functions (ReLU, Leaky ReLU, sigmoid, softmax, tanh)
 - Forward pass intuition
 
 ---
@@ -747,6 +753,9 @@ The goal is to help learners move from tool literacy to practical data science e
 - Project presentations and peer feedback
 - Recap of ANN vs CNN, deployment tips, future learning paths (e.g., RNNs, Transformers)
 
+#### Further Study:
+- Recurrent Neural Networks(RNN)
+- Reinforcement Learning
 
 
 ---
