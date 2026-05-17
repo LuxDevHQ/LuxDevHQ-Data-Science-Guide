@@ -352,8 +352,7 @@ The goal is to help learners move from tool literacy to practical data science e
 - Measures of central tendency: mean, median, mode — and when to use each
 - Measures of spread: range, variance, standard deviation (sd), IQR
 - Understanding outliers and their effect on statistics
-- What is a distribution?
-- Overview of types of distribution  
+- What is a distribution? Types of distribution overview
 -  Normal distribution (bell curve) and the 68-95-99.7 rule.  
 - Skewness: right-skewed vs left-skewed distributions
 - Visualising distributions in Python: histograms and box plots
