@@ -1,7 +1,4 @@
-### **Introduction to Databases and SQL - Part 1**
-
-> **Converted from:** `Introduction to Databases and SQL part 1(2).pdf`  
-> **Purpose:** Beginner-friendly training notes for introducing databases, SQL, data types, constraints, and basic table creation in PostgreSQL.
+### **Introduction to Databases and SQL**
 
 ---
 
