@@ -30,7 +30,9 @@
 
 Databases and SQL form one of the most important foundations in data, analytics, software development, and modern technology.
 
-Almost every system used in daily life depends on a database. Examples include:
+Almost every system used in daily life depends on a database. 
+
+Examples include:
 
 - Banks
 - Hospitals
