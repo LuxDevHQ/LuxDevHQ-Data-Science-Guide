@@ -262,6 +262,9 @@ The goal is to help learners move from tool literacy to practical data science e
 ###  Month 1 - Week 3: SQL for Data Analysis
  
 #### **Week 3 - Day 1   Introduction to SQL, Table creation and manipulation and SQL KEY words.**
+
+[Introduction to SQL](https://github.com/LuxDevHQ/LuxDevHQ-Data-Science-Guide/blob/main/notes/SQL_Introduction_Part_1_Training_Guide.md)
+
 - What is SQL, relational databases, and DBMS
 - CREATE, DROP, ALTER TABLE
 - INSERT, UPDATE, DELETE data
