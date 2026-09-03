@@ -1,0 +1,13 @@
+﻿Branch_ID,Branch_Name,County,Town,Manager,Opening_Date,Monthly_Rent_KES
+BR001,Nairobi CBD,Nairobi,Nairobi CBD,James Mwangi,2020-02-03,420000
+BR002,Westlands,Nairobi,Westlands,Grace Wanjiku,2021-06-14,390000
+BR003,Kasarani,Nairobi,Kasarani,Peter Kamau,2022-01-10,240000
+BR004,Kiambu Town,Kiambu,Kiambu,Ann Njeri,2022-08-01,180000
+BR005,Thika,Kiambu,Thika,David Karanja,2021-11-08,210000
+BR006,Nakuru CBD,Nakuru,Nakuru,Faith Chebet,2020-10-19,250000
+BR007,Mombasa Nyali,Mombasa,Nyali,Ali Hassan,2021-03-22,280000
+BR008,Kisumu CBD,Kisumu,Kisumu,Brian Otieno,2020-07-06,230000
+BR009,Eldoret,Uasin Gishu,Eldoret,Mercy Jepkoech,2021-09-13,220000
+BR010,Machakos,Machakos,Machakos,Samuel Mutua,2022-04-04,160000
+BR011,Kitengela,Kajiado,Kitengela,Lucy Wambui,2023-02-06,190000
+BR012,Kakamega,Kakamega,Kakamega,Kevin Wafula,2023-07-17,150000

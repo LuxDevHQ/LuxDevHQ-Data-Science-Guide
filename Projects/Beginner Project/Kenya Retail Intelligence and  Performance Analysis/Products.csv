@@ -1,0 +1,121 @@
+﻿Product_ID,Product_Name,Category,Brand,Supplier_ID,Cost_Price_KES,Selling_Price_KES,Reorder_Level
+PROD001,Jogoo Maize Flour 2KG,Food,Jogoo,SUP025,145.14,210,15
+PROD002,Coca-Cola Soda 2L,Beverages,Coca-Cola,SUP012,123.61,190,25
+PROD003,Sunlight Washing Powder 1KG,Household,Sunlight,SUP009,173.67,230,75
+PROD004,Nivea Body Lotion 400ML,Personal Care,Nivea,SUP017,333.06,570,10
+PROD005,Oraimo Bluetooth Speaker,Electronics,Oraimo,SUP036,2008.31,3280,15
+PROD006,Double A A4 Printing Paper,Stationery,Double A,SUP015,343.32,520,75
+PROD007,Savannah Wear Plain T-Shirt,Clothing,Savannah Wear,SUP003,498.49,900,40
+PROD008,Pannar Maize Seed 2KG,Agricultural Supplies,Pannar,SUP012,380.43,505,75
+PROD009,Daawat Rice 2KG,Food,Daawat,SUP035,170.52,310,30
+PROD010,Kericho Gold Tea 500G,Beverages,Kericho Gold,SUP002,211.04,310,50
+PROD011,Velvex Toilet Tissue 10 Pack,Household,Velvex,SUP013,278.98,505,20
+PROD012,Colgate Toothpaste 150ML,Personal Care,Colgate,SUP017,127.35,185,50
+PROD013,Anker Power Bank 10000mAh,Electronics,Anker,SUP035,1426.18,2180,15
+PROD014,Kasuku Notebook A5,Stationery,Kasuku,SUP009,79.13,110,25
+PROD015,Savannah Wear Polo Shirt,Clothing,Savannah Wear,SUP030,738.28,1145,15
+PROD016,Unga Farm Care Animal Feed 10KG,Agricultural Supplies,Unga Farm Care,SUP004,371.28,650,25
+PROD017,Elianto Cooking Oil 3L,Food,Elianto,SUP008,473.28,635,50
+PROD018,Minute Maid Juice 1L,Beverages,Minute Maid,SUP034,184.63,245,20
+PROD019,Sunlight Bar Soap 800G,Household,Sunlight,SUP031,162.51,230,25
+PROD020,Kotex Sanitary Pads 10 Pack,Personal Care,Kotex,SUP007,180.51,240,50
+PROD021,Tecno Wireless Earbuds,Electronics,Tecno,SUP034,3084.79,5000,50
+PROD022,Bic Ball Pens 10 Pack,Stationery,Bic,SUP033,103.21,180,40
+PROD023,Nairobi Basics Hoodie,Clothing,Nairobi Basics,SUP006,1009.12,1490,25
+PROD024,Bata Gumboots,Agricultural Supplies,Bata,SUP004,509.85,820,30
+PROD025,KCC Milk 500ML,Food,KCC,SUP007,41.43,55,15
+PROD026,Dasani Water 1L,Beverages,Dasani,SUP030,62.8,90,10
+PROD027,Jik Bleach 1L,Household,Jik,SUP015,121.19,220,30
+PROD028,Nivea Deodorant 150ML,Personal Care,Nivea,SUP025,228.15,405,75
+PROD029,Samsung USB-C Charger,Electronics,Samsung,SUP022,1487.12,2060,20
+PROD030,Artline Permanent Marker,Stationery,Artline,SUP009,60.12,95,15
+PROD031,Generic Baseball Cap,Clothing,Generic,SUP010,453.74,680,10
+PROD032,Generic Hand Sprayer 5L,Agricultural Supplies,Generic,SUP015,1690.79,2235,75
+PROD033,Jogoo Maize Flour 2KG,Food,Jogoo,SUP030,117.31,160,15
+PROD034,Fanta Soda 2L,Beverages,Fanta,SUP027,93.85,135,40
+PROD035,Omo Washing Powder 1KG,Household,Omo,SUP011,259.57,400,20
+PROD036,Vaseline Body Lotion 400ML,Personal Care,Vaseline,SUP009,432.49,570,10
+PROD037,JBL Bluetooth Speaker,Electronics,JBL,SUP013,2590.63,4170,15
+PROD038,Typek A4 Printing Paper,Stationery,Typek,SUP034,367.65,520,50
+PROD039,Savannah Wear Plain T-Shirt,Clothing,Savannah Wear,SUP020,632.89,845,50
+PROD040,Pannar Maize Seed 2KG,Agricultural Supplies,Pannar,SUP028,295.05,400,30
+PROD041,Pishori Rice 2KG,Food,Pishori,SUP036,229.63,300,10
+PROD042,Ketepa Tea 500G,Beverages,Ketepa,SUP028,166.51,245,75
+PROD043,Velvex Toilet Tissue 10 Pack,Household,Velvex,SUP012,203.24,315,40
+PROD044,Colgate Toothpaste 150ML,Personal Care,Colgate,SUP036,213.47,330,15
+PROD045,Oraimo Power Bank 10000mAh,Electronics,Oraimo,SUP035,822.2,1235,20
+PROD046,Kartasi Notebook A5,Stationery,Kartasi,SUP036,66.1,100,15
+PROD047,Savannah Wear Polo Shirt,Clothing,Savannah Wear,SUP018,359.86,605,30
+PROD048,Pembe Feeds Animal Feed 10KG,Agricultural Supplies,Pembe Feeds,SUP014,474.8,765,15
+PROD049,Elianto Cooking Oil 3L,Food,Elianto,SUP027,313.36,545,25
+PROD050,Del Monte Juice 1L,Beverages,Del Monte,SUP019,102.26,140,15
+PROD051,Sunlight Bar Soap 800G,Household,Sunlight,SUP001,168.36,220,20
+PROD052,Kotex Sanitary Pads 10 Pack,Personal Care,Kotex,SUP031,87.44,130,30
+PROD053,Oraimo Wireless Earbuds,Electronics,Oraimo,SUP014,2728.23,4270,50
+PROD054,Pelikan Ball Pens 10 Pack,Stationery,Pelikan,SUP007,153.2,225,40
+PROD055,Urban KE Hoodie,Clothing,Urban KE,SUP025,1184.67,1575,30
+PROD056,Generic Gumboots,Agricultural Supplies,Generic,SUP023,857.69,1130,75
+PROD057,KCC Milk 500ML,Food,KCC,SUP017,37.53,60,25
+PROD058,Keringet Water 1L,Beverages,Keringet,SUP026,53.7,85,25
+PROD059,Jik Bleach 1L,Household,Jik,SUP024,163.5,240,10
+PROD060,Rexona Deodorant 150ML,Personal Care,Rexona,SUP027,316.38,410,75
+PROD061,Samsung USB-C Charger,Electronics,Samsung,SUP003,1472.74,2145,75
+PROD062,Artline Permanent Marker,Stationery,Artline,SUP030,81.24,105,75
+PROD063,Generic Baseball Cap,Clothing,Generic,SUP023,283.21,475,50
+PROD064,Generic Hand Sprayer 5L,Agricultural Supplies,Generic,SUP012,1027.71,1485,10
+PROD065,Pembe Maize Flour 2KG,Food,Pembe,SUP026,104.79,150,20
+PROD066,Fanta Soda 2L,Beverages,Fanta,SUP008,113.14,200,20
+PROD067,Omo Washing Powder 1KG,Household,Omo,SUP026,134.42,190,25
+PROD068,Nivea Body Lotion 400ML,Personal Care,Nivea,SUP004,440.05,575,25
+PROD069,Oraimo Bluetooth Speaker,Electronics,Oraimo,SUP027,2508.19,3555,20
+PROD070,Paperline A4 Printing Paper,Stationery,Paperline,SUP014,366.58,500,75
+PROD071,Urban KE Plain T-Shirt,Clothing,Urban KE,SUP006,691.41,910,30
+PROD072,Pannar Maize Seed 2KG,Agricultural Supplies,Pannar,SUP030,384.22,605,50
+PROD073,Daawat Rice 2KG,Food,Daawat,SUP010,206.27,310,25
+PROD074,Kericho Gold Tea 500G,Beverages,Kericho Gold,SUP025,201.04,300,10
+PROD075,Hanan Toilet Tissue 10 Pack,Household,Hanan,SUP006,184.43,325,75
+PROD076,Aquafresh Toothpaste 150ML,Personal Care,Aquafresh,SUP027,181.21,310,30
+PROD077,Oraimo Power Bank 10000mAh,Electronics,Oraimo,SUP020,1405.7,1965,20
+PROD078,Kartasi Notebook A5,Stationery,Kartasi,SUP020,92.11,125,10
+PROD079,Urban KE Polo Shirt,Clothing,Urban KE,SUP032,891.34,1155,15
+PROD080,Unga Farm Care Animal Feed 10KG,Agricultural Supplies,Unga Farm Care,SUP009,675.49,955,10
+PROD081,Fresh Fri Cooking Oil 3L,Food,Fresh Fri,SUP008,580.07,900,20
+PROD082,Del Monte Juice 1L,Beverages,Del Monte,SUP008,144.45,220,50
+PROD083,Menengai Bar Soap 800G,Household,Menengai,SUP001,93.13,160,30
+PROD084,Always Sanitary Pads 10 Pack,Personal Care,Always,SUP021,56.26,100,40
+PROD085,Tecno Wireless Earbuds,Electronics,Tecno,SUP018,1327.33,2095,10
+PROD086,Bic Ball Pens 10 Pack,Stationery,Bic,SUP022,167.48,250,25
+PROD087,Urban KE Hoodie,Clothing,Urban KE,SUP016,1658.2,2325,25
+PROD088,Generic Gumboots,Agricultural Supplies,Generic,SUP034,793.74,1255,15
+PROD089,KCC Milk 500ML,Food,KCC,SUP009,49.97,90,75
+PROD090,Keringet Water 1L,Beverages,Keringet,SUP019,27.67,50,30
+PROD091,Jik Bleach 1L,Household,Jik,SUP014,201.46,265,75
+PROD092,Rexona Deodorant 150ML,Personal Care,Rexona,SUP028,160.52,290,25
+PROD093,Anker USB-C Charger,Electronics,Anker,SUP012,616.39,920,15
+PROD094,Bic Permanent Marker,Stationery,Bic,SUP025,47.32,70,25
+PROD095,Nairobi Basics Baseball Cap,Clothing,Nairobi Basics,SUP003,171.15,280,40
+PROD096,Jacto Hand Sprayer 5L,Agricultural Supplies,Jacto,SUP018,1219.92,2085,40
+PROD097,Pembe Maize Flour 2KG,Food,Pembe,SUP002,77.63,125,40
+PROD098,Coca-Cola Soda 2L,Beverages,Coca-Cola,SUP008,89.13,150,20
+PROD099,Omo Washing Powder 1KG,Household,Omo,SUP005,245.07,340,10
+PROD100,Vaseline Body Lotion 400ML,Personal Care,Vaseline,SUP026,450.92,615,40
+PROD101,Oraimo Bluetooth Speaker,Electronics,Oraimo,SUP020,2202.69,2880,20
+PROD102,Paperline A4 Printing Paper,Stationery,Paperline,SUP008,345.58,495,25
+PROD103,Savannah Wear Plain T-Shirt,Clothing,Savannah Wear,SUP005,412.53,565,15
+PROD104,Pannar Maize Seed 2KG,Agricultural Supplies,Pannar,SUP009,628.15,865,20
+PROD105,Daawat Rice 2KG,Food,Daawat,SUP024,218.14,335,40
+PROD106,Ketepa Tea 500G,Beverages,Ketepa,SUP013,221.41,300,30
+PROD107,Hanan Toilet Tissue 10 Pack,Household,Hanan,SUP034,264.59,480,40
+PROD108,Aquafresh Toothpaste 150ML,Personal Care,Aquafresh,SUP015,102.93,165,30
+PROD109,Oraimo Power Bank 10000mAh,Electronics,Oraimo,SUP009,1624.21,2240,30
+PROD110,Kasuku Notebook A5,Stationery,Kasuku,SUP030,40.18,70,50
+PROD111,Savannah Wear Polo Shirt,Clothing,Savannah Wear,SUP014,367.51,605,15
+PROD112,Unga Farm Care Animal Feed 10KG,Agricultural Supplies,Unga Farm Care,SUP003,622.22,955,20
+PROD113,Fresh Fri Cooking Oil 3L,Food,Fresh Fri,SUP020,398.66,710,10
+PROD114,Del Monte Juice 1L,Beverages,Del Monte,SUP023,159.11,210,25
+PROD115,Sunlight Bar Soap 800G,Household,Sunlight,SUP007,115.18,170,50
+PROD116,Always Sanitary Pads 10 Pack,Personal Care,Always,SUP030,172.55,230,20
+PROD117,Tecno Wireless Earbuds,Electronics,Tecno,SUP017,1401.39,2450,25
+PROD118,Bic Ball Pens 10 Pack,Stationery,Bic,SUP019,202.06,285,50
+PROD119,Urban KE Hoodie,Clothing,Urban KE,SUP034,1598.73,2545,10
+PROD120,Generic Gumboots,Agricultural Supplies,Generic,SUP032,693.44,1015,75

@@ -1,0 +1,37 @@
+﻿Supplier_ID,Supplier_Name,County,Payment_Terms,Supplier_Status
+SUP001,Savannah Distributors,Machakos,45 Days,Active
+SUP002,Rift Valley Supplies,Kiambu,14 Days,Active
+SUP003,Coastal Wholesalers,Nakuru,14 Days,Active
+SUP004,Mt Kenya Traders,Nakuru,14 Days,On Review
+SUP005,Lake Region Distributors,Uasin Gishu,7 Days,Active
+SUP006,Nairobi Consumer Goods,Uasin Gishu,14 Days,Active
+SUP007,Eastern Merchants,Nairobi,30 Days,Active
+SUP008,Highlands Supply Co,Nakuru,7 Days,Active
+SUP009,Jambo Electronics,Nakuru,14 Days,Active
+SUP010,Afya Personal Care,Machakos,30 Days,Active
+SUP011,Mara Household Supplies,Uasin Gishu,45 Days,On Review
+SUP012,Tana Foods,Nairobi,30 Days,Active
+SUP013,Savannah Distributors 2,Mombasa,14 Days,Active
+SUP014,Rift Valley Supplies 2,Kiambu,30 Days,Active
+SUP015,Coastal Wholesalers 2,Kisumu,7 Days,Active
+SUP016,Mt Kenya Traders 2,Mombasa,14 Days,Active
+SUP017,Lake Region Distributors 2,Mombasa,45 Days,Active
+SUP018,Nairobi Consumer Goods 2,Kiambu,14 Days,Active
+SUP019,Eastern Merchants 2,Kisumu,7 Days,On Review
+SUP020,Highlands Supply Co 2,Uasin Gishu,14 Days,Active
+SUP021,Jambo Electronics 2,Nakuru,14 Days,Active
+SUP022,Afya Personal Care 2,Kiambu,45 Days,Active
+SUP023,Mara Household Supplies 2,Nairobi,45 Days,On Review
+SUP024,Tana Foods 2,Machakos,30 Days,Active
+SUP025,Savannah Distributors 3,Kiambu,14 Days,Active
+SUP026,Rift Valley Supplies 3,Nairobi,45 Days,Active
+SUP027,Coastal Wholesalers 3,Machakos,7 Days,On Review
+SUP028,Mt Kenya Traders 3,Kiambu,30 Days,Active
+SUP029,Lake Region Distributors 3,Nairobi,7 Days,Active
+SUP030,Nairobi Consumer Goods 3,Nairobi,7 Days,Active
+SUP031,Eastern Merchants 3,Nakuru,30 Days,On Review
+SUP032,Highlands Supply Co 3,Kisumu,7 Days,Active
+SUP033,Jambo Electronics 3,Kiambu,7 Days,Active
+SUP034,Afya Personal Care 3,Nakuru,45 Days,Active
+SUP035,Mara Household Supplies 3,Nakuru,45 Days,Active
+SUP036,Tana Foods 3,Nairobi,45 Days,Active

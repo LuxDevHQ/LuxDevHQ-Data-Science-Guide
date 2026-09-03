@@ -1,0 +1,19 @@
+﻿Table,Column,Description,Data_Type,Example
+Branches,Branch_ID,Primary key for branch master,Text,BR001
+Customers,Customer_ID,Primary key for customer master,Text,CUST00001
+Customers,Customer_Segment,Retail/Loyal/Wholesale/SME/Corporate,Text,Retail
+Products,Product_ID,Primary key for product master,Text,PROD001
+Products,Supplier_ID,Foreign key to Suppliers,Text,SUP001
+Products,Cost_Price_KES,Approximate product acquisition cost,Currency,145.00
+Products,Selling_Price_KES,Standard product selling price,Currency,190.00
+Sales_Transactions_Raw,Branch_ID,Foreign key to Branches,Text,BR001
+Sales_Transactions_Raw,Customer_ID,Foreign key to Customers,Text,CUST00001
+Sales_Transactions_Raw,Product_ID,Foreign key to Products,Text,PROD001
+Sales_Transactions_Raw,Discount_Percent,Discount as decimal,Percentage,0.05
+Sales_Transactions_Raw,VAT_Percent,VAT rate used in exercise,Percentage,0.16
+Sales_Transactions_Raw,Payment_Method,M-Pesa/Card/Cash/Bank Transfer,Text,M-Pesa
+Sales_Transactions_Raw,Salesperson_ID,Foreign key to Salespeople,Text,EMP001
+Inventory,Units_Sold,Completed sales quantity aggregated by month/product/branch,Integer,42
+Inventory,Closing_Stock,Opening + Received - Sold - Damaged,Integer,118
+Expenses,Amount_KES,Branch operating expense amount,Currency,42500
+Data_Quality_Practice,Various,Contains intentional errors for cleaning practice,Mixed,Nbi

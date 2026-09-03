@@ -1,0 +1,61 @@
+﻿Salesperson_ID,Salesperson_Name,Branch_ID,Role,Hire_Date
+EMP001,Mary Atieno,BR001,Sales Associate,2021-07-08
+EMP002,Dennis Mwangi,BR002,Sales Associate,2022-02-02
+EMP003,David Muthoni,BR003,Sales Associate,2020-01-03
+EMP004,John Mutua,BR004,Cashier,2024-10-06
+EMP005,Hassan Atieno,BR005,Cashier,2023-08-31
+EMP006,Kevin Ochieng,BR006,Cashier,2024-03-20
+EMP007,John Wekesa,BR007,Cashier,2024-08-15
+EMP008,David Otieno,BR008,Cashier,2024-10-09
+EMP009,John Atieno,BR009,Sales Associate,2024-11-29
+EMP010,Peter Akinyi,BR010,Senior Sales Associate,2024-04-23
+EMP011,Irene Wafula,BR011,Cashier,2022-12-03
+EMP012,Mary Atieno,BR012,Sales Associate,2020-08-26
+EMP013,James Otieno,BR001,Sales Associate,2020-09-13
+EMP014,Jane Maina,BR002,Sales Associate,2023-04-28
+EMP015,John Kariuki,BR003,Cashier,2023-04-17
+EMP016,Samuel Odhiambo,BR004,Sales Associate,2021-11-03
+EMP017,Kevin Kiprotich,BR005,Sales Associate,2022-03-21
+EMP018,Grace Mutua,BR006,Sales Associate,2021-11-17
+EMP019,Victor Wambua,BR007,Senior Sales Associate,2024-08-31
+EMP020,James Jepkoech,BR008,Senior Sales Associate,2022-07-26
+EMP021,George Jepkoech,BR009,Sales Associate,2021-03-25
+EMP022,Sharon Wafula,BR010,Senior Sales Associate,2022-06-15
+EMP023,Mary Wanjiku,BR011,Cashier,2021-01-29
+EMP024,Diana Karanja,BR012,Sales Associate,2021-05-26
+EMP025,Fatma Hassan,BR001,Senior Sales Associate,2022-06-18
+EMP026,Mary Mwangi,BR002,Sales Associate,2020-08-14
+EMP027,Mercy Kamau,BR003,Sales Associate,2022-12-26
+EMP028,Joseph Wekesa,BR004,Cashier,2020-12-29
+EMP029,Caroline Chebet,BR005,Cashier,2024-10-09
+EMP030,Beatrice Akinyi,BR006,Senior Sales Associate,2023-03-20
+EMP031,Irene Mbugua,BR007,Sales Associate,2021-06-11
+EMP032,David Mbugua,BR008,Senior Sales Associate,2021-01-13
+EMP033,Dennis Jepkoech,BR009,Sales Associate,2021-07-22
+EMP034,Kevin Chebet,BR010,Cashier,2024-08-31
+EMP035,James Akinyi,BR011,Sales Associate,2022-07-24
+EMP036,Ann Chebet,BR012,Senior Sales Associate,2020-11-09
+EMP037,Kevin Mutua,BR001,Senior Sales Associate,2023-03-19
+EMP038,Ali Kariuki,BR002,Sales Associate,2024-02-18
+EMP039,Sharon Barasa,BR003,Cashier,2024-03-15
+EMP040,Dennis Odhiambo,BR004,Sales Associate,2020-01-12
+EMP041,Peter Kiptoo,BR005,Senior Sales Associate,2020-12-16
+EMP042,Beatrice Musyoka,BR006,Cashier,2024-10-07
+EMP043,Diana Kamau,BR007,Senior Sales Associate,2022-04-22
+EMP044,Jane Karanja,BR008,Senior Sales Associate,2021-06-19
+EMP045,Diana Barasa,BR009,Cashier,2020-06-02
+EMP046,Kevin Akinyi,BR010,Sales Associate,2021-08-08
+EMP047,Aisha Musyoka,BR011,Cashier,2023-12-10
+EMP048,Jane Wanjiku,BR012,Senior Sales Associate,2024-02-08
+EMP049,Sharon Chebet,BR001,Cashier,2022-01-18
+EMP050,Hassan Musyoka,BR002,Cashier,2022-06-24
+EMP051,Brian Maina,BR003,Cashier,2020-08-27
+EMP052,Joy Barasa,BR004,Cashier,2020-09-04
+EMP053,Hassan Akinyi,BR005,Sales Associate,2020-05-07
+EMP054,Mercy Barasa,BR006,Cashier,2022-09-08
+EMP055,Ali Ochieng,BR007,Sales Associate,2024-05-16
+EMP056,Joy Hassan,BR008,Cashier,2022-06-21
+EMP057,Faith Kamau,BR009,Cashier,2022-09-02
+EMP058,Cynthia Ochieng,BR010,Sales Associate,2022-01-26
+EMP059,Victor Wambua,BR011,Cashier,2023-09-26
+EMP060,Caroline Mwangi,BR012,Cashier,2023-01-15
